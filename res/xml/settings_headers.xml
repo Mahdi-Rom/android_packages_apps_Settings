@@ -68,6 +68,13 @@
         android:icon="@drawable/ic_settings_home"
         android:fragment="com.android.settings.HomeSettings"
         android:title="@string/home_settings" />
+    
+    <!-- Customization -->
+    <header
+        android:id="@+id/customization_settings"
+        android:fragment="com.android.settings.mahdi.CustomizationSettings"
+        android:title="@string/customization_settings_title"
+        android:icon="@drawable/ic_settings_mahdi" />
 
     <!-- Sound -->
     <header
@@ -167,6 +174,13 @@
         android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"
         android:icon="@drawable/ic_settings_language"
         android:title="@string/language_settings" />
+        
+    <!-- Print -->
+    <header
+        android:id="@+id/print_settings"
+        android:fragment="com.android.settings.print.PrintSettingsFragment"
+        android:icon="@*android:drawable/ic_print"
+        android:title="@string/print_settings" />
 
     <!-- Backup and reset -->
     <header
@@ -205,20 +219,6 @@
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         android:icon="@drawable/ic_settings_accessibility"
         android:title="@string/accessibility_settings" />
-
-    <!-- Print -->
-    <header
-        android:id="@+id/print_settings"
-        android:fragment="com.android.settings.print.PrintSettingsFragment"
-        android:icon="@*android:drawable/ic_print"
-        android:title="@string/print_settings" />
-
-    <!-- Customization -->
-    <header
-        android:id="@+id/customization_settings"
-        android:fragment="com.android.settings.mahdi.CustomizationSettings"
-        android:title="@string/customization_settings_title"
-        android:icon="@drawable/ic_settings_mahdi" />
 
     <!-- SuperSU -->
     <header
