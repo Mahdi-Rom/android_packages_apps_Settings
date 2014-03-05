@@ -1186,7 +1186,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">Der Zugangspunkt wird gelöscht.</string>
 
-    <!-- HALO -->
+    <!-- Halo -->
     <string name="halo_settings_title">HALO</string>
     <string name="halo_settings_summary">Ein alternatives Benachrichtigungssystem</string>
     <string name="halo_behavior_title">Verhalten von HALO</string>
