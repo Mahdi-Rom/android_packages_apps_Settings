@@ -736,7 +736,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="shortcut_action_ime">Eingabemethode wählen</string>
     <string name="shortcut_action_immersive_mode">Erweiterter Desktop</string>
     <string name="shortcut_action_kill">App beenden</string>
-    <string name="shortcut_action_power">Bildschrim aus</string>
+    <string name="shortcut_action_power">Bildschirm aus</string>
     <string name="shortcut_action_notifications">Benachrichtigungen</string>
     <string name="shortcut_action_menu_big">Menü</string>
     <string name="shortcut_action_qs">Schnelleinstellungen</string>
@@ -858,7 +858,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Navigations-Optionen</string>
     <string name="navigation_settings_category_title">Navigationsleiste</string>
-    <string name="navigation_settings_title">Bildschirm Navigationsleiste</string>
+    <string name="navigation_settings_title">Bildschirm-Navigationsleiste</string>
     <string name="navigation_settings_summary">Konfiguration der Navigationsleisten-Einstellungen</string>
 
     <!-- Navigation bar -->
@@ -1068,7 +1068,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="wake_on_notification_summary">Bei neuen Benachrichtigungen wird der Bildschirm eingeschaltet</string>
     <string name="notifications_height">Anzahl</string>
     <string name="notifications_height_summary">Anzahl der Benachrichtigungen die auf einmal angezeigt werden sollen</string>
-    <string name="offset_top">Abstand zur Bildschrmoberseite:</string>
+    <string name="offset_top">Abstand zur Bildschirmoberseite:</string>
     <string name="privacy_mode">Datenschutz</string>
     <string name="privacy_mode_summary">Benachrichtigungen werden nur als Icon angezeigt und können nicht verworfen werden</string>
     <string name="dynamic_width">Dynamische Breite</string>
