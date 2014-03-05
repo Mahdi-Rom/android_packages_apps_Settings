@@ -41,7 +41,7 @@
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">LED-Einstellungen</string>
-    <string name="notification_light_title">BenachrichtigungsSehr niedrigBei eingeschaltetem Bildschirm aktiv-LED</string>
+    <string name="notification_light_title">Benachrichtigung-LED</string>
     <string name="notification_light_general_title">Allgemein</string>
     <string name="notification_light_applist_title">Apps</string>
     <string name="notification_light_phonelist_title">Telefon</string>
@@ -50,7 +50,7 @@
     <string name="notification_light_voicemail_title">Sprachnachricht</string>
     <string name="notification_light_choose_app">Anwendung auswählen</string>
     <string name="notification_light_add">Hinzufügen</string>
-    <string name="notification_light_screenon_title"></string>
+    <string name="notification_light_screenon_title">Bei eingeschaltetem Bildschirm aktiv</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Farbeinstellungen ändern</string>
@@ -366,7 +366,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     </string>
 
 	<string name="auto_brightness_sensitivity_title">Regelungsträgheit</string>
-    <string name="auto_brightness_sensitivity_verylow"></string>
+    <string name="auto_brightness_sensitivity_verylow">Sehr niedrig</string>
     <string name="auto_brightness_sensitivity_low">Niedrig</string>
     <string name="auto_brightness_sensitivity_medium">Mittel</string>
     <string name="auto_brightness_sensitivity_high">Flink</string>
@@ -1187,52 +1187,52 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="confirm_delete_apn">Der Zugangspunkt wird gelöscht.</string>
 
     <!-- HALO -->
-    <string name="HALO_settings_title">HALO</string>
-    <string name="HALO_settings_summary">Ein alternatives Benachrichtigungssystem</string>
-    <string name="HALO_behavior_title">Verhalten von HALO</string>
-    <string name="HALO_enabled_title">HALO aktivieren</string>
-    <string name="HALO_enabled_summary">HALO an- oder abschalten</string>
-    <string name="HALO_hide_title">Verstecke HALO nach Aktiviät</string>
-    <string name="HALO_hide_summary">HALO erscheint bei anstehenden Aufgaben und verschwindet danach nach kurzer Zeit wieder</string>
-    <string name="HALO_reversed_title">HALO umstellen</string>
-    <string name="HALO_reversed_summary">Aufgabenwechsel und Bewegungssteuerung</string>
-    <string name="HALO_state_title">HALO Grundregel</string>
-    <string name="HALO_state_summary">Ermöglicht Benachrichtigungen in schwarze und weisse Listen zu katergorisieren</string>
-    <string name="HALO_state_black">Schwarze Liste</string>
-    <string name="HALO_state_white">Weiße Liste</string>
-    <string name="HALO_pause_title">Pausieren der aktiven Anwendung</string>
-    <string name="HALO_pause_summary">Wird eine App mit HALO geöffnet wird die darunterliegende App pausiert</string>
-    <string name="HALO_ninja_title">Ninja-Modus</string>
-    <string name="HALO_ninja_summary">HALO verschwindet komplett wenn keine weiteren Aufgaben anstehen</string>
-    <string name="HALO_notification_msgbox_title">Nachrichten Pop-Up aktivieren</string>
-    <string name="HALO_notification_msgbox_summary">Zeige eine Nachrichtenbox für eingehende Benachrichtigungen</string>
-    <string name="HALO_unlock_ping_title">Ping beim Entsperren</string>
-    <string name="HALO_unlock_ping_summary">HALO sucht beim Entsperren des Geräts nach neuen Benachrichtigungen</string>
+    <string name="halo_settings_title">HALO</string>
+    <string name="halo_settings_summary">Ein alternatives Benachrichtigungssystem</string>
+    <string name="halo_behavior_title">Verhalten von HALO</string>
+    <string name="halo_enabled_title">HALO aktivieren</string>
+    <string name="halo_enabled_summary">HALO an- oder abschalten</string>
+    <string name="halo_hide_title">Verstecke HALO nach Aktiviät</string>
+    <string name="halo_hide_summary">HALO erscheint bei anstehenden Aufgaben und verschwindet danach nach kurzer Zeit wieder</string>
+    <string name="halo_reversed_title">HALO umstellen</string>
+    <string name="halo_reversed_summary">Aufgabenwechsel und Bewegungssteuerung</string>
+    <string name="halo_state_title">HALO Grundregel</string>
+    <string name="halo_state_summary">Ermöglicht Benachrichtigungen in schwarze und weisse Listen zu katergorisieren</string>
+    <string name="halo_state_black">Schwarze Liste</string>
+    <string name="halo_state_white">Weiße Liste</string>
+    <string name="halo_pause_title">Pausieren der aktiven Anwendung</string>
+    <string name="halo_pause_summary">Wird eine App mit HALO geöffnet wird die darunterliegende App pausiert</string>
+    <string name="halo_ninja_title">Ninja-Modus</string>
+    <string name="halo_ninja_summary">HALO verschwindet komplett wenn keine weiteren Aufgaben anstehen</string>
+    <string name="halo_notification_msgbox_title">Nachrichten Pop-Up aktivieren</string>
+    <string name="halo_notification_msgbox_summary">Zeige eine Nachrichtenbox für eingehende Benachrichtigungen</string>
+    <string name="halo_unlock_ping_title">Ping beim Entsperren</string>
+    <string name="halo_unlock_ping_summary">HALO sucht beim Entsperren des Geräts nach neuen Benachrichtigungen</string>
 
-    <string name="HALO_size_title">HALO-Grösse</string>
-    <string name="HALO_size_summary">Definiert wie gross HALO dargestellt wird</string>
-    <string name="HALO_size_miniscule">Minimalistisch</string>
-    <string name="HALO_size_small">Klein</string>
-    <string name="HALO_size_default">Normal (Standard)</string>
-    <string name="HALO_size_large">Groß</string>
-    <string name="HALO_size_gigantic">Gigantisch</string>
-    <string name="HALO_size_monster">Monströs</string>
+    <string name="halo_size_title">HALO-Grösse</string>
+    <string name="halo_size_summary">Definiert wie gross HALO dargestellt wird</string>
+    <string name="halo_size_miniscule">Minimalistisch</string>
+    <string name="halo_size_small">Klein</string>
+    <string name="halo_size_default">Normal (Standard)</string>
+    <string name="halo_size_large">Groß</string>
+    <string name="halo_size_gigantic">Gigantisch</string>
+    <string name="halo_size_monster">Monströs</string>
 
-    <string name="HALO_notification_count_title">Benachrichtigungszähler</string>
-    <string name="HALO_notification_count_summary">Aktiviert einen Benachrichtigungszähler für HALO</string>
-    <string name="HALO_notification_count_none">Aus</string>
-    <string name="HALO_notification_count_total">Total</string>
-    <string name="HALO_notification_count_individual">Per App</string>
-    <string name="HALO_notification_count_both">Beides</string>
+    <string name="halo_notification_count_title">Benachrichtigungszähler</string>
+    <string name="halo_notification_count_summary">Aktiviert einen Benachrichtigungszähler für HALO</string>
+    <string name="halo_notification_count_none">Aus</string>
+    <string name="halo_notification_count_total">Total</string>
+    <string name="halo_notification_count_individual">Per App</string>
+    <string name="halo_notification_count_both">Beides</string>
 
-    <string name="HALO_msgbox_animation_title">Nachrichtenbox-Animation</string>
-    <string name="HALO_msgbox_animation_summary">HALO-Nachrichtenbox-Animation bei eingehenden Benachrichtigungen</string>
-    <string name="HALO_msgbox_animation_none">Aus</string>
-    <string name="HALO_msgbox_animation_flip">Drehen</string>
+    <string name="halo_msgbox_animation_title">Nachrichtenbox-Animation</string>
+    <string name="halo_msgbox_animation_summary">HALO-Nachrichtenbox-Animation bei eingehenden Benachrichtigungen</string>
+    <string name="halo_msgbox_animation_none">Aus</string>
+    <string name="halo_msgbox_animation_flip">Drehen</string>
 
-    <!-- Label for are-HALO-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
-    <string name="app_HALO_label_black">Schwarze Liste von HALO</string>
-    <string name="app_HALO_label_white">Weiße Liste von HALO</string>
+    <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+    <string name="app_halo_label_black">Schwarze Liste von HALO</string>
+    <string name="app_halo_label_white">Weiße Liste von HALO</string>
 
     <!--- Lock clock -->
     <string name="lock_clock_title">Uhren-Widget</string>
