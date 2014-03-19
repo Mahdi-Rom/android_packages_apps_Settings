@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012-2013 The Mahdi-Rom Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-          http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings -->
     <string name="custom_settings_category">Individualisierung</string>
 
-    <!-- Customization Interface settings  -->
+    <!-- Customization Interface settings -->
     <string name="customization_settings_title">Mehr...</string>
 
-    <!-- About phone screen,  Mod Version -->
+    <!-- About phone screen, Mod Version -->
     <string name="mod_version">Mahdi Rom Version</string>
     <string name="mod_version_default">Unbekannt</string>
     <!-- About phone screen, Build date of ROM -->
@@ -30,7 +30,7 @@
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Speicher</string>
-    <!-- About phone screen, status item label --> 
+    <!-- About phone screen, status item label -->
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -38,8 +38,8 @@
     <string name="attention">Achtung</string>
     <string name="default_string">Voreinstellung</string>
     <string name="enabled">Aktiviert</string>
-	<string name="disabled">Deaktiviert</string>
-    <string name="add">Hinzufügen</string>  
+    <string name="disabled">Deaktiviert</string>
+    <string name="add">Hinzufügen</string>
     <string name="reset_message">Auf Standardeinstellungen zurücksetzen?</string>
     <string name="style_title">Optik</string>
 
@@ -90,7 +90,7 @@
     <string name="battery_light_full_color_title">Aufgeladen</string>
 
     <!-- Power menu enable disable -->
-    <string name="power_menu_title">Ein/Aus-Taste</string> 
+    <string name="power_menu_title">Ein/Aus-Taste</string>
     <string name="power_menu_summary">Konfiguration des Ein/Aus-Tastenmenüs</string>
     <string name="power_menu_reboot_title">Neustart-Menü</string>
     <string name="power_menu_screenshot_title">Bildschirmfoto</string>
@@ -100,13 +100,13 @@
     <string name="power_menu_profiles_lock">Bei Display-Sperre deaktiviert</string>
     <string name="power_menu_profiles_all">Immer an</string>
     <string name="power_menu_airplane_title">Flugmodus</string>
-    <string name="power_menu_silent_title">Lautlos</string> 
+    <string name="power_menu_silent_title">Lautlos</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Erweitertes Neustartmenü</string>
     <string name="advanced_reboot_summary">Bei entsperrtem Bildschirm dem Neustartmenü Optionen für Neustart in Recovery und Bootloader hinzufügen.</string>
 
-    <!-- Profiles settings  -->
+    <!-- Profiles settings -->
     <string name="profiles_settings_title">Profile</string>
     <string name="profiles_general_title">Allgemein</string>
     <string name="profiles_add">Hinzufügen</string>
@@ -122,7 +122,7 @@
     <string name="menu_new_profile_summary">Hinzufügen und konfigurieren eines neuen Profils</string>
     <string name="new_profile_name">&lt;Neues Profil&gt;</string>
 
-    <!-- Rename Dialog  -->
+    <!-- Rename Dialog -->
     <string name="rename_dialog_title">Umbenennen</string>
     <string name="rename_dialog_message">Neuen Namen eingeben</string>
     <string name="duplicate_profile_name">Profil-Name bereits vorhanden!</string>
@@ -247,7 +247,7 @@
     <string name="ring_mode_mute">Lautlos</string>
 
     <!-- button settings -->
-    <string name="button_volume_keys_title">Lautstärke-Taste</string> 
+    <string name="button_volume_keys_title">Lautstärke-Taste</string>
     <string name="button_volume_wake_title">Aufwecken mit der Lautstärke-Taste</string>
     <string name="button_volume_wake_summary">Drücken der Lautstärke-Taste aktiviert den Bildschirm</string>
 
@@ -308,7 +308,7 @@
     <string name="safe_headset_volume_title">Lautstärkenbegrenzung</string>
     <string name="safe_headset_volume_summary">Schützt vor zu hoher Lautstärke wenn Kopfhöhrer eingesteckt werden</string>
     <string name="safe_headset_volume_warning_dialog_text">Zu hohe Lautstärke kann das Gehöhr schädigen, Abschalten wird nicht empfohlen.</string>
-   <!-- Volume button default -->
+    <!-- Volume button default -->
     <string name="button_volume_default_none">Keine Funktion</string>
     <string name="button_volume_default_ringer">Klingelton</string>
     <string name="button_volume_default_media">Medien</string>
@@ -319,7 +319,7 @@
     <string name="volume_panel_timeout_summary">Anzeigedauer des Lautstärke-Reglers festlegen</string>
     <!-- Launch music app on connect -->
     <string name="headset_category_title">Kopfhörer</string>
-    <string name="headset_connect_player_title">Starte die Musik-App beim Einstecken</string>   
+    <string name="headset_connect_player_title">Starte die Musik-App beim Einstecken</string>
    
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Automatische Helligkeit</string>
@@ -372,14 +372,14 @@ erlaubt die Duplizierung einer Zeile in eine zweite Zeile, um zusätzliche Stüt
 Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverlauf entfernt werden.
     </string>
 
-	<string name="auto_brightness_sensitivity_title">Regelungsträgheit</string>
+    <string name="auto_brightness_sensitivity_title">Regelungsträgheit</string>
     <string name="auto_brightness_sensitivity_verylow">Sehr niedrig</string>
     <string name="auto_brightness_sensitivity_low">Niedrig</string>
     <string name="auto_brightness_sensitivity_medium">Mittel</string>
     <string name="auto_brightness_sensitivity_high">Flink</string>
     <string name="auto_brightness_sensitivity_veryhigh">Sehr flink</string>
 
-    <!-- Screen security - Screen security   -->
+    <!-- Screen security - Screen security -->
     <string name="screen_security_category">Bildschirm-Sicherheit</string>
     <string name="screen_security_title">Display-Sperre</string>
     <string name="screen_security_summary">Konfigurieren der Display-Sperre</string>
@@ -389,7 +389,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="lock_before_unlock_title">Wischen vor sicherer Display-Sperre</string>
     <string name="lock_before_unlock_summary">Entsperren mit Wischzielen vor der sicheren Display-Sperre</string>
 
-    <!-- Quick settings panel  -->
+    <!-- Quick settings panel -->
     <string name="quick_settings_panel_title">Schnelleinstellungen</string>
     <string name="quick_settings_summary">Konfiguration der Schnelleinstellungen, Anzahl der Kacheln und Reihenfolge ändern</string>
     <string name="title_static_tiles">Statische Kacheln</string>
@@ -477,7 +477,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="custom_tile_long_press">Langer Druck:</string>
     <string name="custom_tile_null_warning">Zuerst muss eine Aktion festgelegt werden</string>
 
-	<string name="pref_network_mode_title">Netzwerkmodi</string>
+    <string name="pref_network_mode_title">Netzwerkmodi</string>
     <string name="pref_screentimeout_mode_title">Bildschirm-Timeout</string>
     <string name="pref_ring_mode_title">Klingelmodi</string>	
     <string name="pref_music_mode_title">Musikmodi</string>
@@ -521,7 +521,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- Reset tiles -->
     <string name="tiles_reset_title">Zurücksetzen</string>
-    <string name="tiles_reset_message">Auf Standard zurücksetzen?</string>            
+    <string name="tiles_reset_message">Auf Standard zurücksetzen?</string>
 
     <!-- USB Mass Storage -->
     <string name="usb_mass_storage_title">Massenspeicher</string>
@@ -643,7 +643,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="adb_notify">USB-Debugging-Info</string>
     <string name="adb_notify_summary">Eine Benachrichtigung zeigen, wenn USB-Debugging verbunden ist</string>
 
-    <!-- Advanced, Device specific (DeviceParts) settings  -->
+    <!-- Advanced, Device specific (DeviceParts) settings -->
     <string name="advanced_settings_title">Erweitert</string>
 
     <!-- Hardware keys -->
@@ -699,17 +699,17 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="battery_prefs_title">Optionen</string>
     <string name="battery_stats_title">Statistik</string>
 
-    <!-- Display : Rotation  -->
+    <!-- Display : Rotation -->
     <string name="display_rotation_title">Drehung</string>
     <string name="display_rotation_enabled">Aktiviert</string>
     <string name="display_rotation_disabled">Deaktiviert</string>
-    <string name="display_rotation_unit">Grad</string>    
+    <string name="display_rotation_unit">Grad</string>
     <string name="display_lockscreen_rotation_title">Einschließlich Sperrbildschirm</string>
     <string name="display_rotation_category_title">Drehungsmodus</string>
     <string name="display_rotation_0_title">0 Grad</string>
     <string name="display_rotation_90_title">90 Grad</string>
     <string name="display_rotation_180_title">180 Grad</string>
-    <string name="display_rotation_270_title">270 Grad</string> 
+    <string name="display_rotation_270_title">270 Grad</string>
 
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB über Netzwerk</string>
@@ -724,7 +724,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="shortcut_action_recent">Anwendungsverlauf</string>
     <string name="shortcut_action_lastapp">Letzte App</string>
     <string name="shortcut_action_search">Suche</string>
-	<string name="shortcut_action_search">In App-Suche</string>
+    <string name="shortcut_action_search">In App-Suche</string>
     <string name="shortcut_action_voice_search">Sprachsuche</string>	
     <string name="shortcut_action_screenshot">Bildschirmfoto</string>
     <string name="shortcut_action_menu">Menü</string>
@@ -741,7 +741,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="shortcut_action_ring_silent">Ton/Stumm</string>
     <string name="shortcut_action_ring_vib_silent">Ton/Vibration/Stumm</string>
     <string name="shortcut_action_torch">Taschenlampe</string>
-	<string name="shortcut_action_theme_switch">Design-Umschalter</string>
+    <string name="shortcut_action_theme_switch">Design-Umschalter</string>
     <string name="shortcut_action_omniswitch">OmniSwitch</string>
     <string name="shortcut_action_longpress">Lange drücken:</string>
     <string name="shortcut_action_select_action_longpress">Aktion bei lange drücken:</string>
@@ -831,11 +831,12 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="icon_color_mode_system_custom_icons">System- and Benutzersymbole</string>
     <string name="group_applications">Anwendungen</string>
     <string name="select_custom_app_title">Anwendung auswählen</string>
+    <string name="shortcuts_text_color_title">Textfarbe</string>
     <string name="shortcuts_color_title">Symbolfarbe</string>
     <string name="shortcuts_color_mode_title">Symbolfarbmodus</string>
     <string name="shortcuts_color_mode_summary">Ändert den Farbmodus der Verküpfung</string>
 
-    <!-- Notification drawer settings  -->
+    <!-- Notification drawer settings -->
     <string name="notification_drawer_title">Benachrichtigungsanzeige</string>
     <string name="notification_drawer_summary">Konfiguration der Benachrichtigungsanzeige, Verknüpfungen und der Schnellzugriffsleiste</string>
     <string name="notification_shortcuts_settings_title">App-Verküpfungen</string>
@@ -1039,7 +1040,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="lockscreen_use_widget_container_carousel_summary">Zeigt im Portraitmodus eine Animation beim Wechsel der Widgets</string>
 
     <!-- Lockscreen Notifications -->
-    <!-- Categories --> 
+    <!-- Categories -->
     <string name="general">Allgemein</string>
     <string name="layout">Layout</string>
     <string name="privacy">Datenschutz</string>
@@ -1197,7 +1198,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="unlock_menu_unlock_title">Mit Menü entsperren</string>
     <string name="unlock_menu_unlock_summary">Entsperren durch Drücken der Menü-Taste</string>
 
-    <!--  development shortcut -->
+    <!-- development shortcut -->
     <string name="development_shortcut_title">Entwickler-Verküpfung</string>
     <string name="development_shortcut_summary">Aktiviert \'wipe data\' und \'force close\' Optionen in den Benachrichtigungen und im Anwendungsverlauf</string>
 
@@ -1223,7 +1224,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Achtung!</string>
-    <string name="custom_runtime_warning_message">ART wird von Mahdi-Rom nicht unterstützt. Diese Einstellung ist nur für experimentelle Versuche und kann zu Datenverlust bis zur Funktionsuntüchtigkeit des Geräts führen. Besuche &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; für weiter Informationen.&lt;br/&gt;&lt;br/&gt;Bitte keine Fehlerberichte bei aktivierter ART Runtime.&lt;br/&gt;&lt;br/&gt; Willst du ganz sicher die Runtime von <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> zu <xliff:g id="new" example="libart.so">%2$s</xliff:g> wechseln?</string> 
+    <string name="custom_runtime_warning_message">ART wird von Mahdi-Rom nicht unterstützt. Diese Einstellung ist nur für experimentelle Versuche und kann zu Datenverlust bis zur Funktionsuntüchtigkeit des Geräts führen. Besuche &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; für weiter Informationen.&lt;br/&gt;&lt;br/&gt;Bitte keine Fehlerberichte bei aktivierter ART Runtime.&lt;br/&gt;&lt;br/&gt; Willst du ganz sicher die Runtime von <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> zu <xliff:g id="new" example="libart.so">%2$s</xliff:g> wechseln?</string>
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Benachrichtigungen</string>
@@ -1245,7 +1246,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Hostname setting -->
     <string name="device_hostname">Hostname des Geräts</string>
 
-    <!-- Keyboard and Input methods  -->
+    <!-- Keyboard and Input methods -->
     <string name="title_keyboard_input">Erweiterte Optionen</string>
     <string name="disable_fullscreen_keyboard_title">Vollbild-Tastatur deaktivieren</string>
     <string name="disable_fullscreen_keyboard_summary">Tastatur wird nicht mehr den gesamten Bildschirm verdecken</string>
@@ -1256,18 +1257,18 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="keyboard_rotation_toggle_summary">Erzwingt die Autorotation wenn die Tasttatur angezeigt wird</string>
     <string name="keyboard_rotation_timeout_title">Autorotations-Timeout</string>
     <string name="keyboard_rotation_timeout_summary">Deaktiviert den Rotationssensor nach <xliff:g id="rotate_timeout">%1$s</xliff:g> Sekunden</string>
-    <string name="keyboard_rotation_dialog">Erzwingt die temporäre Autorotation solange die Tastatur aktiv ist.  Ohne Funktion wenn die Autorotation bereits aktiviert ist.</string>
+    <string name="keyboard_rotation_dialog">Erzwingt die temporäre Autorotation solange die Tastatur aktiv ist. Ohne Funktion wenn die Autorotation bereits aktiviert ist.</string>
     <string name="show_enter_key_title">Zeige Eingabe</string>
     <string name="show_enter_key_summary">Zeige Eingabe statt Emoticons</string>
     <string name="ime_switcher_notify">Auswahlbenachrichtigung</string>
     <string name="ime_switcher_notify_summary">Benachrichtigung zur Auswahl der Eingabemethode in der Statusleiste anzeigen</string>
 
-    <!-- Themes settings  -->
-    <string name="themes_settings_title">Design</string>
-    <string name="themes_settings_summary">T-Mobile Theme Engine</string>
+    <!-- Themes settings -->
+    <string name="themes_settings_title">Themen Auswahl</string>
+    <string name="themes_settings_summary">Änderungen der Benutzeroberfläche durch CM11 kompatible Themen</string>
 
     <!-- Notification drawer background -->
-    <string name="notification_style_title">Aussehen</string>    
+    <string name="notification_style_title">Aussehen</string>
     <string name="notification_background_title">Hintergrund</string>
     <string name="notification_background_summary">Hintergrund der Benachrichtigungsanzeige ändern</string>
     <string name="notification_wallpaper_title">Hintergrund</string>
@@ -1290,7 +1291,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Contextual notification panel header -->
     <string name="notification_drawer_category_title">Benachrichtigungsanzeige</string>
     <string name="custom_statusbar_header_title">Kontextuelle Benachrichtigungsanzeige</string>
-    <string name="custom_statusbar_header_summary">Kopfzeilenhintergrund der Benachrichtigungsanzeige mit einem Bild basierend auf Datum und Zeit</string>    
+    <string name="custom_statusbar_header_summary">Kopfzeilenhintergrund der Benachrichtigungsanzeige mit einem Bild basierend auf Datum und Zeit</string>
 
     <!-- Minimum Vibration Duration -->
     <string name="minimum_vibration_duration">Kürzeste Vibrationsdauer</string>
@@ -1326,105 +1327,121 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="emulate_menu_key_title">Hardware-Menütaste emulieren</string>
     <string name="emulate_menu_key_summary">Drücken der Menütaste in der Navigationsleiste emuliert eine Hardware-Menütaste</string>
 
-    <!-- App ops -->
+   <!-- App ops -->
+    <string name="app_ops_summaries_coarse_location">Ungefäher Standort</string>
+    <string name="app_ops_summaries_fine_location">Genauer Standort</string>
+    <string name="app_ops_summaries_gps">GPS</string>
+    <string name="app_ops_summaries_vibrate">Vibration</string>	
+    <string name="app_ops_summaries_read_contacts">Kontakte lesen</string>
+    <string name="app_ops_summaries_modify_contacts">Kontakte ändern</string>
+    <string name="app_ops_summaries_read_call_log">Anrufliste lesen</string>
+    <string name="app_ops_summaries_modify_call_log">Anrufliste ändern</string>
+    <string name="app_ops_summaries_read_calendar">Kalender lesen</string>
+    <string name="app_ops_summaries_modify_calendar">Kalender ändern</string>
+    <string name="app_ops_summaries_wifi_scan">WLAN-Scan</string>
+    <string name="app_ops_summaries_notification">Benachrichtigung</string>
+    <string name="app_ops_summaries_cell_scan">Mobilfunknetz-Scan</string>
+    <string name="app_ops_summaries_call_phone">Telefonieren</string>	
+    <string name="app_ops_summaries_read_sms">SMS lesen</string>	
+    <string name="app_ops_summaries_write_sms">SMS schreiben</string>
+    <string name="app_ops_summaries_receive_sms">SMS empfangen</string>
+    <string name="app_ops_summaries_receive_emergency_sms">Notfall-SMS empfangen</string>
+    <string name="app_ops_summaries_receive_mms">MMS empfangen</string>
+    <string name="app_ops_summaries_receive_wap_push">WAP-Push-Nachricht empfangen</string>
+    <string name="app_ops_summaries_send_sms">SMS senden</string>
+    <string name="app_ops_summaries_read_icc_sms">ICC-SMS lesen</string>
+    <string name="app_ops_summaries_write_icc_sms">ICC-SMS schreiben</string>
+    <string name="app_ops_summaries_modify_settings">Einstellungen ändern</string>
+    <string name="app_ops_summaries_draw_on_top">An oberste Position ziehen</string>
+    <string name="app_ops_summaries_access_notifications">Auf Benachrichtigungen zugreifen</string>
+    <string name="app_ops_summaries_camera">Kamera</string>
+    <string name="app_ops_summaries_record_audio">Audio aufnehmen</string>
+    <string name="app_ops_summaries_play_audio">Audio wiedergeben</string>
+    <string name="app_ops_summaries_read_clipboard">Zwischenablage lesen</string>
+    <string name="app_ops_summaries_modify_clipboard">Zwischenablage ändern</string>
+    <string name="app_ops_summaries_media_buttons">Medienschaltflächen</string>
+    <string name="app_ops_summaries_audio_focus">Audiofokus</string>
+    <string name="app_ops_summaries_master_volume">Gesamtlautstärke</string>
+    <string name="app_ops_summaries_voice_volume">Sprachlautstärke</string>
+    <string name="app_ops_summaries_ring_volume">Klingeltonlautstärke</string>
+    <string name="app_ops_summaries_media_volume">Medienlautstärke</string>
+    <string name="app_ops_summaries_alarm_volume">Weckerlautstärke</string>	
+    <string name="app_ops_summaries_notification_volume">Benachrichtigungslautstärke</string>	
+    <string name="app_ops_summaries_bluetooth_volume">Bluetooth-Lautstärke</string>	
+    <string name="app_ops_summaries_keep_awake">Aktiv lassen</string>
+    <string name="app_ops_summaries_monitor_location">Standort überwachen</string>
+    <string name="app_ops_summaries_monitor_high_power_location">Standort mit hohem Energieverbrauch überwachen</string>
     <string name="app_ops_summaries_wifi_change">WLAN ändern</string>
-    <string name="app_ops_labels_wifi_change">WLAN ändern</string>
     <string name="app_ops_summaries_bluetooth_change">Bluetooth ändern</string>
-    <string name="app_ops_labels_bluetooth_change">Bluetooth ändern</string>
-    <string name="app_ops_summaries_data_change">mobile Daten ändern</string>
-    <string name="app_ops_labels_data_change">Mobile Daten ändern</string>
+    <string name="app_ops_summaries_data_change">Mobile Daten ändern</string>
     <string name="app_ops_summaries_alarm_wakeup">Ruhezustand ändern</string>
+    <string name="app_ops_summaries_send_mms">MMS senden</string>   
+    <string name="app_ops_summaries_read_mms">MMS schreiben</string>
+    <string name="app_ops_summaries_write_mms">MMS schreiben</string>
+    <string name="app_ops_summaries_auto_start">Autostart</string>
+
+    <string name="app_ops_labels_location">Standort</string>
+    <string name="app_ops_labels_vibrate">Vibration</string>
+    <string name="app_ops_labels_read_contacts">Kontakte lesen</string>
+    <string name="app_ops_labels_modify_contacts">Kontakte ändern</string>
+    <string name="app_ops_labels_read_call_log">Anrufliste lesen</string>
+    <string name="app_ops_labels_modify_call_log">Anrufliste ändern</string>	
+    <string name="app_ops_labels_read_calendar">Kalender lesen</string>   
+    <string name="app_ops_labels_modify_calendar">Kalender ändern</string>   
+    <string name="app_ops_labels_notification_toast">Benachrichtigung posten</string>  
+    <string name="app_ops_labels_call_phone">Telefonieren</string>
+    <string name="app_ops_labels_read_sms_db">SMS/MMS DB lesen</string>
+    <string name="app_ops_labels_write_sms_db">SMS/MMS DB schreiben</string>
+    <string name="app_ops_labels_receive_sms">SMS empfangen</string>
+    <string name="app_ops_labels_receive_mms">MMS empfangen</string>
+    <string name="app_ops_labels_send_sms">SMS schreiben</string>
+    <string name="app_ops_labels_modify_settings">Einstellungen ändern</string>
+    <string name="app_ops_labels_draw_on_top">An oberste Position ziehen</string>	
+    <string name="app_ops_labels_access_notifications">Auf Benachrichtigungen zugreifen</string>	
+    <string name="app_ops_labels_camera">Kamera</string>	
+    <string name="app_ops_labels_record_audio">Audio aufnehmen</string>	
+    <string name="app_ops_labels_play_audio">Audio wiedergeben</string>	
+    <string name="app_ops_labels_read_clipboard">Zwischenablage lesen</string>	
+    <string name="app_ops_labels_modify_clipboard">Zwischenablage ändern</string>
+    <string name="app_ops_labels_media_buttons">Medienschaltflächen</string>
+    <string name="app_ops_labels_audio_focus">Audio-Fokus</string>
+    <string name="app_ops_labels_master_volume">Gesamtlautstärke</string>
+    <string name="app_ops_labels_voice_volume">Sprachlautstärke</string>
+    <string name="app_ops_labels_ring_volume">Klingeltonlautstärke</string>
+    <string name="app_ops_labels_media_volume">Medienlautstärke</string>
+    <string name="app_ops_labels_alarm_volume">Weckerlautstärke</string>
+    <string name="app_ops_labels_notification_volume">Benachrichtigungslautstärke</string>	
+    <string name="app_ops_labels_bluetooth_volume">Bluetooth-lautstärke</string>
+    <string name="app_ops_labels_keep_awake">Aktiv lassen</string>
+    <string name="app_ops_labels_wifi_change">WLAN ändern</string>
+    <string name="app_ops_labels_bluetooth_change">Bluetooth ändern</string>
+    <string name="app_ops_labels_data_change">Mobile Daten ändern</string>
     <string name="app_ops_labels_alarm_wakeup">Ruhezustand ändern</string>
-    <string name="app_ops_summaries_auto_start">automatisch starten</string>
+    <string name="app_ops_labels_send_mms">MMS senden</string>
+    <string name="app_ops_labels_read_mms">MMS lesen</string>
+    <string name="app_ops_labels_write_mms">MMS schreiben</string>
     <string name="app_ops_labels_auto_start">Autostart</string>
+	
+    <!-- App ops categories -->
+    <string name="app_ops_categories_location">Standort</string>
+    <string name="app_ops_categories_personal">Persönlich</string>	
+    <string name="app_ops_categories_messaging">Nachrichten</string>
+    <string name="app_ops_categories_media">Medien</string>
+    <string name="app_ops_categories_device">Gerät/string>
     <string name="app_ops_categories_bootup">Systemstart</string>
+ 
+    <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> verwendet)</string>
     <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> erlaubt</string>
     <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g> verweigert</string>
     <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g> erlaubt, <xliff:g id="count">%2$s</xliff:g> verweigert</string>
+
+    <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Installierte Apps anzeigen</string>
     <string name="app_ops_show_system_apps">Integrierte Apps anzeigen</string>
     <string name="app_ops_reset_counters">Erlaubt/Verweigert-Zähler zurücksetzen</string>
     <string name="app_ops_reset_confirm_title">Zurücksetzen bestätigen</string>
-    <string name="app_ops_reset_confirm_mesg">Sollen die Zähler zurückgesetzt werden?</string>
-    <string name="app_ops_summaries_access_notifications">Auf Benachrichtigungen zugreifen</string>
-    <string name="app_ops_summaries_alarm_volume">Weckerlautstärke</string>
-    <string name="app_ops_summaries_audio_focus">Audiofokus</string>
-    <string name="app_ops_summaries_bluetooth_volume">Bluetooth-Lautstärke</string>
-    <string name="app_ops_summaries_call_phone">Telefonieren</string>
-    <string name="app_ops_summaries_camera">Kamera</string>
-    <string name="app_ops_summaries_cell_scan">Mobilfunknetz-Scan</string>
-    <string name="app_ops_summaries_coarse_location">Ungefährer Standort</string>
-    <string name="app_ops_summaries_draw_on_top">An oberste Position ziehen</string>
-    <string name="app_ops_summaries_fine_location">Genauer Standort</string>
-    <string name="app_ops_summaries_gps">GPS</string>
-    <string name="app_ops_summaries_keep_awake">aktiv lassen</string>
-    <string name="app_ops_summaries_master_volume">Gesamtlautstärke</string>
-    <string name="app_ops_summaries_media_buttons">Medienschaltflächen</string>
-    <string name="app_ops_summaries_media_volume">Medienlautstärke"</string>
-    <string name="app_ops_summaries_modify_calendar">Kalender ändern</string>
-    <string name="app_ops_summaries_modify_call_log">Anrufliste ändern</string>
-    <string name="app_ops_summaries_modify_clipboard">Zwischenablage ändern</string>
-    <string name="app_ops_summaries_modify_contacts">Kontakte ändern</string>
-    <string name="app_ops_summaries_modify_settings">Einstellungen ändern</string>
-    <string name="app_ops_summaries_monitor_high_power_location">Orte mit hohem Stromverbrauch überwachen</string>
-    <string name="app_ops_summaries_monitor_location">Standort beobachten</string>
-    <string name="app_ops_summaries_notification">Benachrichtigung</string>
-    <string name="app_ops_summaries_notification_volume">Benachrichtigungslautstärke</string>
-    <string name="app_ops_summaries_play_audio">Audio wiedergeben</string>
-    <string name="app_ops_summaries_read_calendar">Kalender lesen</string>
-    <string name="app_ops_summaries_read_call_log">Anrufliste lesen</string>
-    <string name="app_ops_summaries_read_clipboard">Zwischenablage lesen</string>
-    <string name="app_ops_summaries_read_contacts">Kontakte lesen</string>
-    <string name="app_ops_summaries_read_icc_sms">ICC-SMS lesen</string>
-    <string name="app_ops_summaries_read_sms">SMS lesen</string>
-    <string name="app_ops_summaries_receive_emergency_sms">Notfall-SMS empfangen</string>
-    <string name="app_ops_summaries_receive_mms">MMS empfangen</string>
-    <string name="app_ops_summaries_receive_sms">SMS empfangen</string>
-    <string name="app_ops_summaries_receive_wap_push">WAP-Push-Nachricht empfangen</string>
-    <string name="app_ops_summaries_record_audio">Audio aufnehmen</string>
-    <string name="app_ops_summaries_ring_volume">Klingeltonlautstärke</string>
-    <string name="app_ops_summaries_send_sms">SMS senden</string>
-    <string name="app_ops_summaries_vibrate">Vibration</string>
-    <string name="app_ops_summaries_voice_volume">Sprachlautstärke</string>
-    <string name="app_ops_summaries_wifi_scan">WLAN-Scan</string>
-    <string name="app_ops_summaries_write_icc_sms">ICC-SMS schreiben</string>
-    <string name="app_ops_summaries_write_sms">SMS schreiben</string>
-
-    <string name="app_ops_labels_access_notifications">Auf Benachrichtigungen zugreifen</string>
-    <string name="app_ops_labels_alarm_volume">Audiofokus</string>
-    <string name="app_ops_labels_bluetooth_volume">Sprachlautstärke</string>
-    <string name="app_ops_labels_call_phone">Telefonieren</string>
-    <string name="app_ops_labels_camera">Kamera</string>
-    <string name="app_ops_labels_draw_on_top">An oberste Position ziehen</string>
-    <string name="app_ops_labels_keep_awake">Klingeltonlautstärke</string>
-    <string name="app_ops_labels_location">Weckerlautstärke</string>
-    <string name="app_ops_labels_media_buttons">Medienschaltflächen</string>
-    <string name="app_ops_labels_modify_calendar">Kalender ändern</string>
-    <string name="app_ops_labels_modify_call_log">Anrufliste ändern</string>
-    <string name="app_ops_labels_modify_clipboard">Zwischenablage ändern</string>
-    <string name="app_ops_labels_modify_contacts">Kontakte ändern</string>
-    <string name="app_ops_labels_modify_settings">Einstellungen ändern</string>
-    <string name="app_ops_labels_notification_toast">Benachrichtigung posten</string>
-    <string name="app_ops_labels_notification_volume">Gesamtlautstärke</string>
-    <string name="app_ops_labels_play_audio">Audio wiedergeben</string>
-    <string name="app_ops_labels_read_calendar">Kalender lesen</string>
-    <string name="app_ops_labels_read_call_log">Anrufliste lesen</string>
-    <string name="app_ops_labels_read_clipboard">Zwischenablage lesen</string>
-    <string name="app_ops_labels_read_contacts">Kontakte lesen</string>
-    <string name="app_ops_labels_read_sms_db">SMS/MMS lesen</string>
-    <string name="app_ops_labels_receive_mms">SMS/MMS empfangen</string>
-    <string name="app_ops_labels_receive_sms">SMS/MMS lesen</string>
-    <string name="app_ops_labels_record_audio">Audio aufnehmen</string>
-    <string name="app_ops_labels_send_sms">SMS/MMS schreiben</string>
-    <string name="app_ops_labels_vibrate">Vibration</string>
-    <string name="app_ops_labels_write_sms_db">SMS/MMS schreiben</string>
-
-    <string name="app_ops_categories_device">Gerät</string>
-    <string name="app_ops_categories_location">Standort</string>
-    <string name="app_ops_categories_media">Medien</string>
-    <string name="app_ops_categories_messaging">SMS/MMS</string>
-    <string name="app_ops_categories_personal">Persönlich</string>
+    <string name="app_ops_reset_confirm_mesg">Sollen die AppOps-Zähler wirklich zurückgesetzt werden?</string>
 
     <!-- Screen off animation options -->
     <string name="system_power_crt_mode_title">CRT-Animation </string>
@@ -1611,7 +1628,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="network_1x">1x</string>
     <string name="network_global">Global</string>
     <string name="battery_saver_action_undefined">Undefiniert</string>
-    <string name="battery_saver_title">Sparmodus</string>
+    <string name="battery_saver_title">Energiesparmodus</string>
     <string name="battery_saver_summary">Energiesparmodus für Mobilfunkdaten- und WiFi-Verbindungen</string>
     <string name="pref_battery_saver_enable_title">Akku sparern</string>
     <string name="pref_battery_saver_enable_summary">Automatisches Umschalten zwischen benutzerdefiniertem Energiespar- und Standardmodus durch Mobilfunkdaten- und WLAN-Verbindungsstatus</string>
@@ -1656,7 +1673,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- Lockscreen system bar visibility -->
     <string name="system_bar_visibility">Deaktiviert bei aktivierter Display-Sperre</string>
-    <string name="system_bar_visibility_summary">Anzeige der Systemleisten bei aktivierter Display-Sperrem im erweiterten Desktop-Modus</string>
+    <string name="system_bar_visibility_summary">Anzeige der Systemleisten bei aktivierter Display-Sperre im erweiterten Desktop-Modus</string>
 
     <!-- Notification Reminders -->
     <string name="noti_reminder_category">Benachrichtigungserinnerung</string>
