@@ -985,8 +985,8 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="show_activity_indicators_on_status_bar_summary">Darstellung der Netzwerkaktivität im Empfangs- bzw. WLAN-Symbol in der Statusleiste</string>
 
     <!-- Screen recorder -->
-    <string name="screen_recorder_title">Bildschirm Rekorder</string>
-    <string name="screen_recorder_summary">Bildschirm Rekorder Einstellungen</string>
+    <string name="screen_recorder_title">Bildschirmrekorder</string>
+    <string name="screen_recorder_summary">Bildschirmrekorder Einstellungen</string>
     <string name="screen_recorder_video_dimensions_title">Auflösung</string>
     <string name="screen_recorder_video_bitrate_title">Bitrate</string>
     <string name="screen_recorder_record_audio_title">Ton aufnehmen</string>
@@ -1223,7 +1223,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- New Recents Screen -->
     <string name="new_recents_category">Alternativer Anwendungsverlauf</string>
-    <string name="new_recents_screen_title">Alternativen Anwendungsverlauf der SlimRom benutzen</string>
+    <string name="new_recents_screen_title">Slim Anwendungsverlauf aktivieren</string>
     <string name="new_recents_screen_summary">Ersetzt den Bildschirm des Anwendungsverlaufs mit einer auf Grundlage der neuen Google-Karten-Optik basierenden Alternative.</string>
     <string name="recent_panel_scale_title">Platzbedarf</string>
     <string name="recent_panel_scale_summary">Feldgröße in Prozent.</string>
@@ -1650,7 +1650,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="pref_battery_saver_screen_off_title">Bei ausgeschaltetem Bildschirm</string>
     <string name="pref_battery_saver_screen_off_summary">Aktiviert den Energiesparmodus bei ausgeschaltetem Bildschirm</string>
     <string name="pref_battery_saver_ignore_locked_title">Ignorieren wenn gesperrt</string>
-    <string name="pref_battery_saver_ignore_locked_summary">Beim Einschalten des Bildschirms den Energiespar-Modus erst nach dem Entsperren der Display-Sperre deaktivieren</string>
+    <string name="pref_battery_saver_ignore_locked_summary">Beim Einschalten des Bildschirms den Energiesparmodus erst nach dem Entsperren der Display-Sperre deaktivieren</string>
     <string name="pref_battery_saver_mode_change_delay_title">Umschaltverzögerung</string>
     <string name="pref_battery_saver_mode_change_delay_summary">Verzögerung des Umschaltens in Sekunden</string>
     <string name="pref_battery_saver_battery_title">Bei schwachem Akku</string>
@@ -1712,7 +1712,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="blur_radius_summary">Radius des Unschärfe-Effekts festlegen</string>
     <!-- Lockscreen background -->
     <string name="lockscreen_background">Hintergrund</string>
-    <string name="lockscreen_background_style_title">Benutzerdefiniertes Hintergrundbild festlegen</string>
+    <string name="lockscreen_background_style_title">Hintergrundbild festlegen</string>
     <string name="background_color_fill_title">Farbe</string>
     <string name="background_default">Standard Hintergrundbild</string>
     <string name="background_color_fill">Farbfüllung</string>
@@ -1729,7 +1729,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="lockscreen_colorize_handle_summary">Anpassen des ausgewählten Entsperrsysmbols</string>
     <string name="lockscreen_style_title">Optik-Einstellungen</string>
     <string name="lockscreen_style_summary">Konfiguration von Hintergrund, Entsperrsymbol und mehr</string>
-    <string name="lockscreen_theme_title">Aussehen</string>
+    <string name="lockscreen_theme_title">Optik</string>
     <string name="lockscreen_frame_color_title">Rahmenfarbe</string>
     <string name="lockscreen_frame_color_summary">Farbe des Widgets und des Entsperrrahmens</string>
     <string name="lockscreen_lock_color_title">Verschlussfarbe</string>
