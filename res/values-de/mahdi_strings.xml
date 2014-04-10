@@ -39,7 +39,8 @@ limitations under the License.
     <string name="add">Hinzufügen</string>
     <string name="reset_message">Auf Standardeinstellungen zurücksetzen?</string>
     <string name="style_title">Optik</string>
-
+    <string name="more_title">Mehr...</string>
+	
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">LED-Einstellungen</string>
     <string name="notification_light_title">Benachrichtigungs-LED</string>
@@ -283,7 +284,7 @@ limitations under the License.
     <string name="select_contact">Kontakt auswählen</string>
 
     <!-- Performance Control -->
-    <string name="performance_settings">Leistungsverhalten</string>
+    <string name="performance_settings">Kerneleinstellungen</string>
 
     <!-- Sound settings -->
     <string name="volume_category">Lautstärke</string>
@@ -886,8 +887,11 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="navbar_can_move">Position im Querformat</string>
     <string name="navbar_can_move_summary">Anzeige der Navigationsleiste am unteren Rand des Bildschirms statt an der Seite</string>
     <string name="navbar_style_dimen_title">Abmessungen</string>
+	<string name="navbar_style_dimen_summary">Konfiguration der Navigationsleistengröße</string>
     <string name="navbar_button_title">Tasten</string>
+	<string name="navigation_button_summary">Konfiguration der Navigationsleisteneinstellungen</string>
     <string name="navbar_targets_title">Schnellstart-Verknüpfungen</string>
+    <string name="navbar_targets_summary">Konfiguration der Schnellstart-Verknüpfungseinstellungen</string>
     <string name="navbar_cat">Navigationsleiste</string>
     <string name="navbar_dimensions_reset_message">Alle Abmessungen auf Standard zurücksetzen?</string>
 
@@ -1273,8 +1277,16 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- Themes settings -->
     <string name="themes_settings_title">Themen Auswahl</string>
-    <string name="themes_settings_summary">Änderungen der Benutzeroberfläche durch CM11 kompatible Themen</string>
+    <string name="themes_settings_summary">Konfiguration der Benutzeroberfläche und des Erscheinungsbilds</string>
+    <string name="themes_engine_summary">Änderung der Benutzeroberfläche und des Erscheinungsbilds durch CM11 kompatible Themen</string>
 
+    <!-- DarkUI -->
+    <string name="theme_auto_mode_title">Dunkles UI</string>
+    <string name="theme_auto_mode_off">Manuell</string>
+    <string name="theme_auto_mode_lightsensor">Bei Änderung der Lichtverhältnisse</string>
+    <string name="theme_auto_mode_twilight">Tageszeitabhängig</string>
+    <string name="theme_auto_switch_mode_error">Automatischer Änderungsmodus durch Lichtverhältnisse aktiviert. Manuelles Umschalten nicht möglich.</string>
+	
     <!-- Notification drawer background -->
     <string name="notification_style_title">Aussehen</string>
     <string name="notification_background_title">Hintergrund</string>
@@ -1623,10 +1635,8 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="wakelock_blocker_warning_title">Bitte Vorsicht</string>
     <string name="wakelock_blocker_warning">Das Blocken von Wakelocks kann zu Instabilität, Abstürzen oder Datenverlust führen.</string>
 
-    <!-- Toggle switch title for enabling battery saver connections. [CHAR LIMIT=32] -->
-    <string name="data_usage_enable_batterysaver">Energiesparmodus</string>
-
     <!-- Battery saver mode -->
+	<string name="unit_sec">Sek</string>
     <string name="network_lte">LTE (empfohlen)</string>
     <string name="network_4G">4G (empfohlen)</string>
     <string name="network_3G_only">3G</string>
@@ -1640,6 +1650,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="battery_saver_summary">Energiesparmodus für Mobilfunkdaten- und WiFi-Verbindungen</string>
     <string name="pref_battery_saver_enable_title">Akku sparern</string>
     <string name="pref_battery_saver_enable_summary">Automatisches Umschalten zwischen benutzerdefiniertem Energiespar- und Standardmodus durch Mobilfunkdaten- und WLAN-Verbindungsstatus</string>
+    <string name="pref_battery_saver_enable_no_mobiledata_summary">Automatisches benutzerdefiniertes Energiesparmanagement</string>
     <string name="pref_battery_saver_normal_mode_title">Standard Netzwerk-Modus</string>
     <string name="pref_battery_saver_power_saving_mode_title">Energiespar Netzwerk-Modus</string>
     <string name="pref_battery_saver_screen_off_title">Bei ausgeschaltetem Bildschirm</string>
@@ -1652,15 +1663,41 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="pref_battery_saver_battery_summary">Aktivieren des Energiesparmodus bei schwachem Akku</string>
     <string name="pref_battery_saver_mode_battery_level_title">Akkuladung</string>
     <string name="pref_battery_saver_mode_battery_level_summary">Aktivieren des Energiesparmodus bei: </string>
+    <string name="pref_battery_saver_bluetooth_title">Bluetooth deaktivieren</string>
+    <string name="pref_battery_saver_bluetooth_summary">Deaktivieren von Bluetooth bei aktiviertem Energiesparmodus</string>
     <string name="pref_battery_saver_data_title">Mobilfunkdaten deaktivieren</string>
-    <string name="pref_battery_saver_data_summary">Deaktivieren der Mobilfunkdaten bei aktivierem Energiesparmodus</string>
-    <string name="pref_battery_saver_enable_no_mobiledata_summary">Dies wird den Akkuverbrauch des Geräts automatisch benutzerdefiniert verwalten</string>
+    <string name="pref_battery_saver_data_summary">Deaktivieren der Mobilfunkdaten bei aktiviertem Energiesparmodus</string>
+	<string name="pref_battery_saver_location_title">GPS deaktivieren</string>
+    <string name="pref_battery_saver_location_summary">Deaktivieren von GPS bei aktiviertem Energiesparmodus</string>
     <string name="pref_battery_saver_wifi_title">WLAN deaktivieren</string>
-    <string name="pref_battery_saver_wifi_summary">Deaktivieren von WLAN bei aktivierem Energiesparmodus</string>
+    <string name="pref_battery_saver_wifi_summary">Deaktivieren von WLAN bei aktiviertem Energiesparmodus</string>
+    <string name="pref_battery_saver_led_title">Deaktivieren der Benachrichtigungs-LED</string>
+    <string name="pref_battery_saver_led_summary">Deaktivieren der Benachrichtigungs-LED bei aktiviertem Energiesparmodus</string>
+    <string name="pref_battery_saver_vibrate_title">Vibration deaktivieren</string>
+    <string name="pref_battery_saver_vibrate_summary">Deaktivieren der Vibration bei aktiviertem Energiesparmodus</string>
+    <string name="pref_battery_saver_brightness_title">Helligkeitsmodus</string>
+    <string name="pref_battery_saver_brightness_summary">Aktiviert Änderungen der Displayhelligkeit bei schwachem Akku</string>
+    <string name="pref_battery_saver_mode_brightness_level_title">Helligkeitsstufe</string>
+    <string name="pref_battery_saver_mode_brightness_level_summary">Änderung der Helligkeitsstuffe aktiviertem Energiesparmodus</string>
+    <string name="pref_battery_saver_cpu_title">CPU Energiesparmodus</string>
+    <string name="pref_battery_saver_cpu_summary">Automatisches benutzerdefiniertes CPU-Energiesparmanagement</string>
+    <string name="battery_saver_mode_current_speed">Aktuelle Frequenz</string>
+    <string name="battery_saver_mode_current_max">Maximale Frequenz: </string>
+    <string name="battery_saver_mode_cpu_info_list_header">Kern-Status</string>
+    <string name="battery_saver_mode_cpu_speed_header">Kern-Limits</string>
+    <string name="battery_saver_mode_core_offline">Ausgeschaltet</string>
+    <string name="battery_saver_mode_core">Kern</string>
+    <string name="battery_saver_cpu_mode_title">Aktiviere CPU Energiesparmodus</string>
+    <string name="pref_battery_saver_cpu_warning_title">Achtung:</string>
+    <string name="pref_battery_saver_cpu_warning_summary">Hierfür können wir keine Funktionsgarantie geben!</string>
     <string name="pref_battery_saver_network_title">Inteligenter Netzwerkwechsel</string>
     <string name="pref_battery_saver_network_summary">Ändern des Netzwerks in den normalen Modus nach dem Ausschalten des Bildschirms und der Energiesparmodus aktiviert ist</string>
     <string name="pref_battery_saver_nosignal_title">Inteligentes Funksignal</string>
     <string name="pref_battery_saver_nosignal_summary">Aktiviert den Flugmodus wenn nach 5 Minuten kein Mobilfunknetzsignal vorliegt</string>
+    <string name="pref_battery_saver_sync_title">Syncronisation deaktivieren</string>
+    <string name="pref_battery_saver_sync_summary">Deaktivieren der Syncronisation bei aktiviertem Energiesparmodus</string>
+    <string name="pref_battery_saver_killall_title">Alle Tasks beenden</string>
+    <string name="pref_battery_saver_killall_summary">Beenden aller aktiven Tasks bei aktiviertem Energiesparmodus</string>
     <string name="pref_battery_saver_toast_title">Toasts anzeigen</string>
     <string name="pref_battery_saver_toast_summary">Anzeige von Toast-Benachrichtigungen wenn die Gerätekonfiguration durch den Energiesparmodus geändert wird</string>
     <string name="battery_saver_battery_title">Akku-Optionen</string>
@@ -1669,7 +1706,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="battery_saver_network_gsm_title">GSM Netzwerk</string>
     <string name="battery_saver_network_cdma_title">CDMA Netzwerk</string>
     <string name="battery_saver_system_title">System-Optionen</string>
-
     <string name="ad_redisplay_never">Nie</string>
     <string name="ad_redisplay_1m">1 Minute</string>
     <string name="ad_redisplay_5m">5 Minuten</string>
@@ -1716,14 +1752,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="lockscreen_lock_color_summary">Farbe des Entsperrmechanismus</string>
     <string name="lockscreen_dots_color_title">Punktefarbe</string>
     <string name="lockscreen_dots_color_summary">Farbe der Punkte des Glow-Pads</string>
- 
-    <!-- Themes -->
-    <string name="theme_settings_title_slim">Design</string>
-    <string name="theme_auto_mode_title">Dunkles UI</string>
-    <string name="theme_auto_mode_off">Manuell</string>
-    <string name="theme_auto_mode_lightsensor">Bei Änderung der Lichtverhältnisse</string>
-    <string name="theme_auto_mode_twilight">Tageszeitabhängig</string>
-    <string name="theme_auto_switch_mode_error">Automatischer Änderungsmodus durch Lichtverhältnisse aktiviert. Manuelles Umschalten nicht möglich.</string>
 
     <!-- Lockscreen Wallpaper -->
     <string name="lockscreen_wallpaper_title">Sperrbildschirmhintergrund</string>
@@ -1766,13 +1794,13 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="swap_volume_buttons_summary">Vertauschen der Lautstärke-Tasten wenn der Bildschirm gedreht wird</string>
 
     <!-- Recents Ram Bar -->
-    <string name="ram_bar_title">Anwendungsverlauf-RAM-Leiste</string>
+    <string name="ram_bar_title">RAM-Leiste</string>
     <string name="ram_bar_summary">Konfiguartion der RAM-Leiste</string>
     <string name="ram_bar_note_title">Hinweis</string>
-    <string name="ram_bar_note_summary">Die RAM-Leiste zeigt die aktuelle Android-Speicherauslastung (RAM). Bitte beachten, dass die zwischengespeicherten Apps viel schneller geöffnet werden können. Weitere Erklärungen, wie das Android RAM Management funktioniert, finden sich Hilfe-Menü.</string>
+    <string name="ram_bar_note_summary">Die RAM-Leiste zeigt die aktuelle Android-Speicherauslastung (RAM). Bitte beachten, dass die zwischengespeicherten Apps viel schneller geöffnet werden können. Weitere Erklärungen, wie das Android RAM Management funktioniert, finden sich im Hilfe-Menü.</string>
     <string name="ram_bar_mode_title">Modus</string>
-    <string name="ram_bar_mode_dialog_title">Anzeige der RAM-Leiste</string>
-    <string name="ram_bar_none">Nichts</string>
+    <string name="ram_bar_mode_dialog_title">Modus der RAM-Leiste</string>
+    <string name="ram_bar_none">Deaktiviert</string>
     <string name="ram_bar_apps">Anwendungen</string>
     <string name="ram_bar_cache">Anwendungen und Cache</string>
     <string name="ram_bar_other">Anwendungen, Cache und Sonstiges</string>
@@ -1794,5 +1822,99 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">Helligkeitsregler</string>
     <string name="brightness_slider_summary">Anzeigen eines Helligkeitsreglers in der Benachrichtigungsanzeige</string>
-</resources>
 
+    <!-- Voice+ -->
+    <string name="voice_plus_title">Voice+</string>
+    <string name="voice_plus_summary">Ermöglicht es aus allen Apps SMS-Nachrichten über Google Voice zu senden</string>
+
+    <!-- Voice Wakeup -->
+    <string name="voice_wakeup_settings_title">Voice-Wakeup</string>
+    <string name="voice_wakeup_retrain_title">Stimme trainieren</string>
+    <string name="voice_wakeup_activity_title">Aktionen starten</string>
+    <string name="voice_wakeup_default_activity">Google Now</string>
+
+    <!-- Driving mode -->
+    <!-- require add space in the end of string -->
+    <string name="voice_tts_new_call">Eingehender Anruf von </string>
+    <!-- require add space in the end of string -->
+    <string name="voice_tts_new_sms">Neue Textnachricht von </string>
+    <!-- require add space in the end of string -->
+    <string name="voice_tts_new_notif">Neue Benachrichtigung von </string>
+    <string name="voice_tts_title">Fahrmodus</string>
+    <string name="voice_tts_summary">Aktivieren des Fahrmodus und auswählen was während der Fahrt gesagt werden soll</string>
+    <string name="tts_settings_reset_message">Alle Einstellungen zurücksetzen?</string>
+    <string name="voice_tts_notification_title">Fahrmodus</string>
+    <string name="voice_tts_notification_summary_on">Fahrmodus aktivieren</string>
+    <string name="voice_tts_notification_summary_off">Fahrmodus deaktivieren</string>
+    <string name="voice_tts_volume_title">Lautstärke</string>
+    <string name="voice_tts_volume_summary">Sprachlautstärke einstellen</string>
+    <string name="voice_tts_call_title">Eingehende Anruf</string>
+    <string name="voice_tts_call_summary">Aktiviren/Deaktivieren der Sprache für eingehende Anrufe</string>
+    <string name="voice_tts_sms_title">Neue Nachricht</string>
+    <string name="voice_tts_sms_summary">Aktiviren/Deaktivieren der Sprache für neue Nachrichten</string>
+    <string name="voice_tts_sms_read_title">Neue Nachricht lesen</string>
+    <string name="voice_tts_sms_read_summary">Aktiviren/Deaktivieren der Sprache für das Lesen von neuen Nachrichten</string>
+    <string name="voice_tts_charge_full_title">Akku voll geladen</string>
+    <string name="voice_tts_charge_full_summary">Aktiviren/Deaktivieren der Sprache für vollgeladenen Akku</string>
+    <string name="voice_tts_charge_on_title">Ladegerät eingesteckt</string>
+    <string name="voice_tts_charge_on_summary">Aktiviren/Deaktivieren der Sprache für eingesteckte Ladegeräte</string>
+    <string name="voice_tts_charge_off_title">Ladegerät abgezogen</string>
+    <string name="voice_tts_charge_off_summary">Aktiviren/Deaktivieren der Sprache für abgezogene Ladegeräte</string>
+    <string name="voice_tts_clock_title">Uhrzeit</string>
+    <string name="voice_tts_clock_summary">Aktiviren/Deaktivieren der Sprache für die Uhrzeit nach dem Einschalten des Displays</string>
+    <string name="voice_tts_date_title">Datum</string>
+    <string name="voice_tts_date_summary">Aktiviren/Deaktivieren der Sprache für das Datum nach dem Einschalten des Displays</string>
+    <string name="voice_tts_notif_title">Benachrichtigungen</string>
+    <string name="voice_tts_notif_summary">Aktiviren/Deaktivieren der Sprache für neue Benachrichtigungen</string>
+    <string name="voice_tts_notif_read_title">Lesen von neuen Benachrichtigungen</string>
+    <string name="voice_tts_notif_read_summary">Aktiviren/Deaktivieren der Sprache für das Lesen von neuen Benachrichtigungen</string>
+    <string name="voice_tts_whitelist_title">Erlaubte Applikationen</string>
+    <string name="voice_tts_whitelist_summary">Welche Apps dürfen neue Benachrichtigungen sprechen</string>
+    <string name="voice_tts_music_title">Musikstück</string>
+    <string name="voice_tts_music_summary">Aktiviren/Deaktivieren der Sprache für Musikstücke</string>
+    <string name="voice_tts_annoy_notif_title">Häufigkeit der Sprachbenachrichtigungen</string>
+    <string name="voice_tts_annoy_notif_summary">Begrenzung der Sprachbenachrichtigung der Apps auf eine Ausgabe innerhalb des eingestellten Zeitraums</string>
+    <string name="voice_tts_annoy_notif_default">Standardverhalten</string>
+    <string name="voice_tts_annoy_notif_3s">3 Sekunden</string>
+    <string name="voice_tts_annoy_notif_5s">5 Sekunden</string>
+    <string name="voice_tts_annoy_notif_10s">10 Sekunden</string>
+    <string name="voice_tts_annoy_notif_15s">15 Sekunden</string>
+    <string name="voice_tts_annoy_notif_30s">30 Sekunden</string>
+    <string name="voice_tts_annoy_notif_45s">45 Sekunden</string>
+    <string name="voice_tts_annoy_notif_1m">1 Minute</string>
+    <string name="voice_tts_annoy_notif_2m">2 Minuten</string>
+    <string name="voice_tts_annoy_notif_5m">5 Minuten</string>
+    <string name="voice_tts_charge_full">Akku voll geladen</string>
+    <string name="voice_tts_charge_on">Laden gestartet</string>
+    <string name="voice_tts_charge_off">Laden beendet</string>
+    <string name="voice_tts_time">Die Uhrzeit lautet</string>
+    <string name="voice_tts_date">Das Datum lautet</string>
+    <string name="voice_tts_music">Wiedergabe von</string>
+    <string name="voice_tts_engine_started">Fahrmodus aktiv</string>
+    <string name="unknown_tts">Unbekannt</string>
+    <string name="unknown_number_tts">Unbekannte Nummer</string>
+    <string name="time_one">Eins</string>
+    <string name="time_two">Zwei</string>
+    <string name="time_three">Drei</string>
+    <string name="time_four">Vier</string>
+    <string name="time_five">Fünf</string>
+    <string name="time_six">Sechs</string>
+    <string name="time_seven">Sieben</string>
+    <string name="time_eight">Acht</string>
+    <string name="time_nine">Neun</string>
+    <string name="time_ten">Zehn</string>
+    <string name="time_eleven">Elf</string>
+    <string name="time_twelve">Zwölf</string>
+    <string name="time_oclock">Uhr</string>
+    <string name="time_five_past">Fünf nach</string>
+    <string name="time_ten_past">Zehn nach</string>
+    <string name="time_quarter_past">Vietel nach</string>
+    <string name="time_twenty_past">Zwanzig nach</string>
+    <string name="time_twenty_five_past">Fünfundzwanzig nach</string>
+    <string name="time_half_past">halb</string>
+    <string name="time_twenty_five_to">Fünfundzwanzig vor</string>
+    <string name="time_twenty_to">Zwanzig vor</string>
+    <string name="time_quarter_to">Viertel vor</string>
+    <string name="time_ten_to">Zehn vor</string>
+    <string name="time_five_to">Fünf vor</string>
+</resources>
