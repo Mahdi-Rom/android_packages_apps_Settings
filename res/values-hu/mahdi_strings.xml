@@ -250,9 +250,9 @@
     <string name="button_volume_wake_summary">Hangerő gomb megnyomására feléled a készülék</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info">CPU infó mutatása</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">Mutatja a képernyőn az aktuális CPU infókat</string>
 
     <string name="app_security_title">App security</string>
 
@@ -629,8 +629,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_around_lockscreen_ring_summary">Bejelölve a zárképernyő gyűrű fogja az akksi szintet jelezni</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">USB debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+    <string name="adb_notify">USB hibakeresési értesítés</string>
+    <string name="adb_notify_summary">Értesítés ha az USB hibakeresés csatlakozva</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="advanced_settings_title">Advanced</string>
@@ -699,13 +699,15 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="display_rotation_90_title">90 fok</string>
     <string name="display_rotation_180_title">180 fok</string>
     <string name="display_rotation_270_title">270 fok</string>
- 
 
     <!-- Android debugging over WiFi -->
-    <string name="adb_over_network">ADB over network</string>
-    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
+    <string name="adb_over_network">ADB hálózaton keresztül</string>
+    <string name="adb_over_network_summary">Engedélyezi a  TCP/IP hibakeresést hálózati felületeken át (Wi-Fi, USB hálózatok).
+    Újraindítás után alaphelyzetbe áll</string>
+
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+    <string name="adb_over_network_warning">FIGYELEM: Ha az ADB hálózat enegdélyezve van, a telefon védtelen a hálózati behatolások ellen, beleértve a GSM hálózatot is!
+    \n\nCsak akkor használd, ha biztonságos hálózatra csatlakozol.\n\nBiztos engedélyezed ezt a funkciót?</string>
 
     <!-- Button shorcut actions -->
     <string name="shortcut_action_app">Custom app</string>
@@ -1068,6 +1070,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_target_info">Húzd a csúszkát az elemhez az alkalmazás hozzárendeléséhez</string>
     <string name="lockscreen_target_title">Csúszka elemek</string>
     <string name="lockscreen_target_summary">Megtekinted vagy változtathatod az egyéni zárképernyő elemeket</string>
+    <string name="lockscreen_eight_targets_title">8 csúszkás elemek</string>
+    <string name="lockscreen_eight_targets_summary">Engedélyez 8 zárképernyő elemet.</string>
+    <string name="lockscreen_enable_eight_targets_dialog">Kiválasztva ezt lehetőséget a zárképernyő elemek alaphelyzetbe kerülnek.</string>
+    <string name="lockscreen_enable_eight_targets_enabled_dialog">\n\n8 zárképernyő elemet engedélyezve nem tudod használni a mostani elemeket egyidőben.</string>
     <string name="lockscreen_target_reset">Zárképernyő elemek alaphelyzetbe állnak</string>
     <string name="lockscreen_target_reset_title">Alaphelyzet</string>
     <string name="lockscreen_target_reset_message">Törlöd az összes létre hozott elemet és visszaállsz alaphelyzetbe?</string>
@@ -1076,6 +1082,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_target_edit_msg">Válaszd vagy módosítsd a kivánt alkalmazást vagy elemet és ikont</string>
     <string name="lockscreen_glowpad_torch_title">Fogantyú zseblámpa</string>
     <string name="lockscreen_glowpad_torch_summary">Duplán érint és tartva használhatod a zseblámpát</string>
+
+    <!-- Lockscreen Shortcuts -->
+    <string name="lockscreen_shortcuts_title">Parancsikonok</string>
+    <string name="lockscreen_shortcuts_summary">Nézd meg vagy módosítsd a zárképernyő parancsikonokat</string>
+    <string name="lockscreen_shorcuts_longpress_title">Parancsikon hosszan nyomva</string>
+    <string name="lockscreen_shorcuts_longpress_summary">Nyísd meg az egyéni zárképernyő parancsikonhoz a hosszan nyomásra</string>
 
     <!-- Lock screen shortcuts -->
     <string name="picker_activities">Aktivitások</string>
@@ -1188,8 +1200,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="unlock_menu_unlock_summary">Pressing the menu button unlocks the device</string>
 
     <!--  development shortcut -->
-    <string name="development_shortcut_title">Development shortcut</string>
-    <string name="development_shortcut_summary">Enable \'wipe data\' and \'force close\' options in notification area and recent apps list</string>
+    <string name="development_shortcut_title">Fejlesztői parancsikonok</string>
+    <string name="development_shortcut_summary">Engedélyezi a \'wipe data\' és \'force close\' opciókat az értesítési területen és a legutóbbiak alkalmazás listán</string>
 
     <!-- Recents panel menu -->
     <string name="recents_panel_settings_title">Legutóbbiak panel</string>
@@ -1221,6 +1233,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="recent_panel_100">100% (alapértelmezett)</string>
     <string name="recent_panel_85">85%</string>
     <string name="recent_panel_70">70%</string>
+    <string name="recent_panel_expanded_mode_title">Bővített mód</string>
+    <string name="recent_panel_expanded_mode_summary">Legutóbbi feladatok bővített nézete</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (alapértelmezett)</string>
+    <string name="recent_panel_expanded_mode_always">Mindig</string>
+    <string name="recent_panel_expanded_mode_never">Soha</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mutassa a bal szélen</string>
@@ -1534,8 +1551,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="animation_random">Random</string>
 
     <!-- Scrolling Animation Controls -->
-    <string name="scrolling_title">Scrolling</string>
-    <string name="scrolling_summary">View or change scrolling animations</string>
+    <string name="scrolling_title">Görgetés</string>
+    <string name="scrolling_summary">Nézd vagy szerkeszd a Görgetés animációkat</string>
     <string name="animation_fling_velocity_title">Fling Velocity</string>
     <string name="animation_scroll_friction_title">Scroll Friction</string>
     <string name="animation_overscroll_distance_title">Overscroll Distance</string>
@@ -1546,37 +1563,37 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="animation_no_scroll_summary_off">Disabled</string>
 
     <!-- IME Animation Controls -->
-    <string name="ime_animation_title">Keyboard</string>
-    <string name="ime_animation_summary">View or change keyboard animations</string>
-    <string name="ime_animation_test_title">Test IME Animation Here</string>
-    <string name="ime_enter_animation_title">Enter Animation</string>
-    <string name="ime_exit_animation_title">Exit Animation</string>
+    <string name="ime_animation_title">Billentyűzet</string>
+    <string name="ime_animation_summary">Nézd vagy szerkeszd a Billentyűzet animációkat</string>
+    <string name="ime_animation_test_title">Teszteld az animációt itt</string>
+    <string name="ime_enter_animation_title">Nyító animáció</string>
+    <string name="ime_exit_animation_title">Kilépő animáció</string>
     <string name="ime_interpolator_title">Interpolator</string>
-    <string name="ime_duration_title">IME Duration</string>
+    <string name="ime_duration_title">Billentyűzet ideje</string>
 
     <!-- Smooth ProgressBar -->
-    <string name="progressbar_title">Progress bars</string>
-    <string name="progressbar_summary">View or change progress bar animations and color</string>
-    <string name="progressbar_mirror_title">Mirror Mode</string>
-    <string name="progressbar_reverse_title">Reversed</string>
-    <string name="progressbar_speed_title">Speed</string>
-    <string name="progressbar_width_title">Stroke Width</string>
-    <string name="progressbar_length_title">Separator length</string>
-    <string name="progressbar_count_title">Sections Count</string>
-    <string name="progressbar_color_1_title">Color1</string>
-    <string name="progressbar_color_2_title">Color2</string>
-    <string name="progressbar_color_3_title">Color3</string>
-    <string name="progressbar_color_4_title">Color4</string>
-    <string name="sample_progressbar_text">ProgressBar : Preview</string>
-    <string name="progressbar_interpolator">Interpolator</string>
-    <string name="progressbar_none">None</string>
-    <string name="progressbar_acclerate">Accelerate</string>
-    <string name="progressbar_linear">Linear</string>
-    <string name="progressbar_acceleratedecelerate">AccelerateDecelerate</string>
-    <string name="progressbar_decelerate">Decelerate</string>
-    <string name="progressbar_reset_message">Reset progress bar style to default?</string>
-    <string name="ram_bar_button_reset">Reset colors</string>
-    <string name="ram_bar_reset">Reset</string>
+    <string name="progressbar_title">Folyamat sávok</string>
+    <string name="progressbar_summary">Nézd vagy szerkeszd a Folyamat sáv animációkat</string>
+    <string name="progressbar_mirror_title">Tükör mód</string>
+    <string name="progressbar_reverse_title">Fordított</string>
+    <string name="progressbar_speed_title">Sebesség</string>
+    <string name="progressbar_width_title">Csapás szélessége</string>
+    <string name="progressbar_length_title">Elválasztó hossza</string>
+    <string name="progressbar_count_title">Szakaszok száma</string>
+    <string name="progressbar_color_1_title">Szín1</string>
+    <string name="progressbar_color_2_title">Szín2</string>
+    <string name="progressbar_color_3_title">Szín3</string>
+    <string name="progressbar_color_4_title">Szín4</string>
+    <string name="sample_progressbar_text">FolyamatSáv : Előnézet</string>
+    <string name="progressbar_interpolator">Interpoláció</string>
+    <string name="progressbar_none">Nincs</string>
+    <string name="progressbar_acclerate">Gyorsítás</string>
+    <string name="progressbar_linear">Lineáris</string>
+    <string name="progressbar_acceleratedecelerate">GyorsításLassítás</string>
+    <string name="progressbar_decelerate">Lassítás</string>
+    <string name="progressbar_reset_message">Visszaállítod alaphelyzetbe a folyamat sávot?</string>
+    <string name="ram_bar_button_reset">Színek alaphelyzetbe</string>
+    <string name="ram_bar_reset">Alaphelyzet</string>
 
     <!-- Toast Animation -->
     <string name="toast_animation_title">Felírat Animáció</string>
@@ -1606,14 +1623,14 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker">Wakelock Blocker</string>
-    <string name="wakelock_blocker_title">Enable</string>
-    <string name="wakelock_blocker_summary">Activate blocking for checked wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
-    <string name="wakelock_list_header">Available Wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with Caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss.</string>
+    <string name="wakelock_blocker">Ébrenlét blokkoló</string>
+    <string name="wakelock_blocker_title">Engedélyezi</string>
+    <string name="wakelock_blocker_summary">Aktívan blokkolja a bejelölt ébrenléteket</string>
+    <string name="wakelock_blocker_save">Mentés</string>
+    <string name="wakelock_list_header">Elérhető ébrenlétek</string>
+    <string name="wakelock_blocker_reload">Újratöltés</string>
+    <string name="wakelock_blocker_warning_title">Használd óvatosan</string>
+    <string name="wakelock_blocker_warning">A blokkolt ébrenlétek potenciálisan instabilitást, összeomlást és adatvesztést okozhatnak.</string>
 
     <!-- Toggle switch title for enabling battery saver connections. [CHAR LIMIT=32] -->
     <string name="data_usage_enable_batterysaver">Akkumulátor kimélő</string>
@@ -1708,6 +1725,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_lock_color_summary">Zár fogantyú színe</string>
     <string name="lockscreen_dots_color_title">Pontok színe</string>
     <string name="lockscreen_dots_color_summary">Glowpad pontok színe</string>
+    <string name="lockscreen_targets_color_title">Elemek színei</string>
+    <string name="lockscreen_targets_color_summary">Hívó elemek színei</string>
+    <string name="lockscreen_misc_color_title">Egyéb szín</string>
+    <string name="lockscreen_misc_color_summary">A többi elem színei</string>
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Témák</string>
@@ -1936,4 +1957,22 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">Műveletek</string> 
+
+    <!-- Lockscreen background -->
+    <string name="lockscreen_background">Háttér</string>
+    <string name="lockscreen_background_style_title">Zárképernyő háttér</string>
+    <string name="background_default">Alapértelmezett háttér</string>
+    <string name="background_wallpaper">Egyéni háttér</string>
+    <string name="background_result_successful">Háttér megváltoztatva</string>
+    <string name="background_result_not_successful">Háttér nem változott</string>
+    <string name="setting_lockscreen_background">Háttér alkalmazása</string>
+    <!-- Custom lockscreen -->
+    <string name="lockscreen_enable_modlock_title">Egyéni zárképernyő</string>
+
+    <!-- Bluetooth accept all file types -->
+    <string name="bluetooth_accept_all_files">Összes fájl típus elfogadása</string>
+
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">Minta</string>
 </resources>
