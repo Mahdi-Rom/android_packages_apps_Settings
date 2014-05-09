@@ -509,7 +509,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="pref_ring_mode_title">Modalità suoneria</string>
     <string name="pref_ring_mode_summary">Vedi o cambia le modalità del pulsante suoneria</string>
     <string name="cm_sound_mode_silent">Silenzioso</string>
-    <string name="cm_sound_mode_vibrate">Vibrazionr</string>
+    <string name="cm_sound_mode_vibrate">Vibrazione</string>
     <string name="cm_sound_mode_sound">Suono</string>
     <string name="cm_sound_mode_soundVibrate">Suono + Vibrazione</string>
 
@@ -1059,7 +1059,7 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="show_always_summary">Accendi sempre lo schermo quando tirato fuori dalla tasca, anche quando non ci sono notifiche </string>
     <string name="hide_low_priority">Nascondi bassa priorità </string>
     <string name="hide_low_priority_summary">Nascondi le notifiche di bassa priorità come il meteo di Google Now </string>
-    <string name="hide_non_clearable">Mostra le non toglibili </string>
+    <string name="hide_non_clearable">Nascondi le non toglibili </string>
     <string name="hide_non_clearable_summary">Nascondi tutte le notifiche che non si possono togliere </string>
     <string name="dismiss_all">Permetti di togliere tutte le notifiche </string>
     <string name="dismiss_all_summary">Permetti di togliere anche le notifiche non toglibili. Naturalmente, saranno nascoste dalla lockscreen ma rimarranno nel pannello di notifica .</string>
@@ -1317,7 +1317,7 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
 
     <!-- Contextual notification panel header -->
     <string name="notification_drawer_category_title">Drawer Notifiche </string>
-    <string name="custom_statusbar_header_title">Testato del pannello contestuale </string>
+    <string name="custom_statusbar_header_title">Testata del pannello contestuale </string>
     <string name="custom_statusbar_header_summary">Imposta come testata del Drawer notifiche un immagine a seconda della data e dell\'ora </string>    
 
     <!-- Minimum Vibration Duration -->
