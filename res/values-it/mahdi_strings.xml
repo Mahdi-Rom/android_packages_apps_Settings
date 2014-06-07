@@ -1111,7 +1111,7 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="description_target_unlock">Sblocca</string>
 
     <!-- Lockscreen Shortcuts -->
-    <string name="lockscreen_shortcuts_title">Scorciatouie</string>
+    <string name="lockscreen_shortcuts_title">Scorciatoie</string>
     <string name="lockscreen_shortcuts_summary">Vedi o cambia scorciatoie personalizzate lockscreen</string>
     <string name="lockscreen_shorcuts_longpress_title">Scorciatoie tieni premuto</string>
     <string name="lockscreen_shorcuts_longpress_summary">Apre azione personalizzata se si tiene premuto</string>
