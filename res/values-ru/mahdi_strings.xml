@@ -680,6 +680,10 @@
     <string name="clock_date_format_custom">Свой формат Java</string>
     <string name="status_bar_clock_style_reset_message">Сбросить цвета часов?</string>
 
+    <!-- Statusbar Second Clock -->
+    <string name="clock_use_second">Секунды</string>
+    <string name="clock_use_second_summary">Показывать секунды</string>
+
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Стиль индикатора батареи</string>
     <string name="status_bar_style_icon_portrait">Вертикальная иконка</string>
@@ -796,8 +800,9 @@
     <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключённых сетей!\n\nИспользуйте эту функцию только тогда, когда вы подключены к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
 
     <!-- Button shorcut actions -->
+    <string name="shortcut_action_keyguard_camera">Камера экрана блокировки</string>
     <string name="shortcut_action_navbar">Панель навигации</string>
-    <string name="shortcut_action_pie">Управление pie</string>
+    <string name="shortcut_action_pie">Pie навигация</string>
     <string name="shortcut_action_app">Заданное приложение</string>
     <string name="shortcut_action_home">Домой</string>
     <string name="shortcut_action_back">Назад</string>
@@ -1343,17 +1348,17 @@
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Темы</string>
-    <string name="title_cm_themes">Выбор темы</string>
+    <string name="title_cm_themes">Настройки темы</string>
 
     <!-- The following are entries under the themes menu -->
-    <string name="themepacks_settings_title">Theme Packs</string>
+    <string name="themepacks_settings_title">Наборы тем</string>
     <string name="styles_settings_title">Стили</string>
     <string name="icons_settings_title">Значки</string>
     <string name="fonts_settings_title">Шрифты</string>
     <string name="wallpaper_settings_title">Обои</string>
     <string name="lockscreen_wallpaper_settings_title">Обои экрана блокировки</string>
     <string name="bootanim_settings_title">Анимация загрузки</string>
-    <string name="soundpack_settings_title">Звуковые пакеты</string>
+    <string name="soundpack_settings_title">Наборы звуков</string>
 
     <!-- DarkUI -->
     <string name="theme_settings_title_slim">Темы</string>
@@ -1655,8 +1660,8 @@
     <string name="progressbar_summary">Посмотреть или изменить настройки индикатора прогресса</string>
     <string name="progressbar_mirror_title">Зеркальный режим</string>
     <string name="progressbar_reverse_title">Обратный</string>
-    <string name="progressbar_speed_title">Ускоренный</string>
-    <string name="progressbar_width_title">Ширина штриха</string>
+    <string name="progressbar_speed_title">Скорость</string>
+    <string name="progressbar_width_title">Толщина штриха</string>
     <string name="progressbar_length_title">Длина разделителя</string>
     <string name="progressbar_count_title">Количество секций</string>
     <string name="progressbar_color_1_title">Цвет1</string>
@@ -1698,8 +1703,8 @@
     <string name="chamber_toast">Тайная комната снова открыта</string>
 
     <!-- EdgeGesture service -->
-    <string name="edge_gesture_service_title">Block gesture touch events</string>
-    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
+    <string name="edge_gesture_service_title">Подавлять события жестов</string>
+    <string name="edge_gesture_service_summary">Не передавать приложениям жесты показа строки состояния и панели навигации</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker">Блокировка wakelock-ов</string>
@@ -1723,16 +1728,16 @@
     <string name="network_global">Глобально</string>
     <string name="battery_saver_action_undefined">Не определено</string>
     <string name="battery_saver_title">Режим \"Энергосбережения\"</string>
-    <string name="battery_saver_summary">Выберите энергосберегающие режимы для передачи данных и WiFi соединений</string>
+    <string name="battery_saver_summary">Выберите энергосберегающие режимы для передачи данных и Wi-Fi соединений</string>
     <string name="pref_battery_saver_enable_title">Экономия батареи</string>
     <string name="pref_battery_saver_enable_summary">Эта настройка будет автоматически управлять вашими соединениями для лучшего энергосбережения</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">Эта настройка будет автоматически управлять потреблением заряда по пользовательским установкам</string>
     <string name="pref_battery_saver_normal_mode_title">Нормальный режим сети</string>
     <string name="pref_battery_saver_power_saving_mode_title">Энергосберегающий режим сети</string>
-    <string name="pref_battery_saver_screen_off_title">Когда экран выключается</string>
-    <string name="pref_battery_saver_screen_off_summary">Активировать режим \"Энергосбережения\", когда экран выключается</string>
+    <string name="pref_battery_saver_screen_off_title">Активировать во время блокировки</string>
+    <string name="pref_battery_saver_screen_off_summary">Активировать режим \"Энергосбережения\", при выключении экрана</string>
     <string name="pref_battery_saver_ignore_locked_title">Игнорировать во время блокировки</string>
-    <string name="pref_battery_saver_ignore_locked_summary">При выключении экрана, режим энергосбережения не будет отключен</string>
+    <string name="pref_battery_saver_ignore_locked_summary">При выключении экрана, режим \"Энергосбережения\" не будет отключен</string>
     <string name="pref_battery_saver_mode_change_delay_title">Изменение задержки смены режимов</string>
     <string name="pref_battery_saver_mode_change_delay_summary">Позволяет изменить величину задержки при смене режимов</string>
     <string name="pref_battery_saver_battery_title">Когда батарея разряжена</string>
@@ -1742,11 +1747,11 @@
     <string name="pref_battery_saver_data_title">Отключить передачу данных</string>
     <string name="pref_battery_saver_data_summary">Отключить передачу данных, когда активирован режим \"Энергосбережения\"</string>
     <string name="pref_battery_saver_wifi_title">Отключить Wi-Fi</string>
-    <string name="pref_battery_saver_wifi_summary">Отключить gps, когда активирован режим \"Энергосбережения\"</string>
+    <string name="pref_battery_saver_wifi_summary">Отключить Wi-Fi, когда активирован режим \"Энергосбережения\"</string>
     <string name="pref_battery_saver_led_title">Отключить LED</string>
     <string name="pref_battery_saver_led_summary">Отключить LED, когда активирован режим \"Энергосбережения\"</string>
-    <string name="pref_battery_saver_vibrate_title">Отключить vibrate</string>
-    <string name="pref_battery_saver_vibrate_summary">Отключить LED, когда активирован режим \"Энергосбережения\"</string>
+    <string name="pref_battery_saver_vibrate_title">Отключить вибрацию</string>
+    <string name="pref_battery_saver_vibrate_summary">Отключить вибрацию, когда активирован режим \"Энергосбережения\"</string>
     <string name="pref_battery_saver_brightness_title">Уровень яркости при низком заряде батареи</string>
     <string name="pref_battery_saver_brightness_summary">Изменить уровень яркости при низком заряде батареи</string>
     <string name="pref_battery_saver_mode_brightness_level_title">Уровень яркости</string>
@@ -2023,6 +2028,7 @@
     <string name="notification_peek_title">Peek-уведомления</string>
     <string name="notification_peek_summary">Показать последние уведомление после поднятия устройства</string>
     <string name="peek_pickup_timeout_title">Тайм-аут срабатывания</string>
+    <string name="peek_wake_timeout_title">Тайм-аут пробуждения</string>
     <string name="peek_pickup_15seconds">15 секунд (по умолчанию)</string>
     <string name="peek_pickup_30seconds">30 секунд</string>
     <string name="peek_pickup_45seconds">45 секунд</string>
