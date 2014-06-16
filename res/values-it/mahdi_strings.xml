@@ -219,14 +219,14 @@
     <string name="toggleData">Dati Mobili</string>
     <string name="toggleSync">Sincronizzazione Dati</string>
     <string name="toggle2g3g">2G/3G</string>
-    <string name="toggleSound">Modalità Suoneria</string>
-    <string name="toggleNotificationSound">Suono Notifica</string>
+    <string name="toggleSound">Modalità suoneria</string>
+    <string name="toggleNotificationSound">Suono notifica</string>
     <string name="toggleBrightness">Luminosità</string>
     <string name="toggleAutoRotate">Orientamento</string>
-    <string name="toggleScreenTimeout">Timeout Schermo</string>
-    <string name="toggleAirplane">Modalità Aereo</string>
+    <string name="toggleScreenTimeout">Timeout schermo</string>
+    <string name="toggleAirplane">Modalità aereo</string>
     <string name="toggleFlashlight">Torcia</string>
-    <string name="toggleLockScreen">Blocca Schermo</string>
+    <string name="toggleLockScreen">Blocca schermo</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
 
@@ -497,6 +497,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="title_tile_bluetooth">Bluetooth</string>
     <string name="title_tile_brightness">Luminosità</string>
     <string name="title_tile_camera">Fotocamera</string>
+    <string name="title_tile_compass">Bussola</string>
     <string name="title_tile_power">Spegni</string>
     <string name="title_tile_location">GPS</string>
     <string name="title_tile_torch">Torcia</string>
@@ -506,6 +507,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="title_tile_profile">Profilo</string>
     <string name="title_tile_autorotate">Rotazione</string>
     <string name="title_tile_settings">Impostazioni</string>
+    <string name="title_tile_shake">Opzioni scuotimento</string>
     <string name="title_tile_sound">Modalità suoneria</string>
     <string name="title_tile_sync">Sincronizzazione</string>
     <string name="title_tile_wifiap">Hotspot Wi-Fi</string>
@@ -529,18 +531,21 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="custom_tile_dialog_extra_text">Advanced tile detected. Your tile will now change states when adjusted from anywhere. You may optionally input an icon and label for the toggle to switch to if it doesn\'t recognize the state it\'s in.</string>
     <string name="custom_toggle_extras">Extra del tile personalizzato</string>
     <string name="custom_toggle_collapse_check">Chiudi dopo aver premuto</string>
-    <string name="custom_toggle_match_state_check">Click action matches icon</string>
+    <string name="custom_toggle_match_state_check">Il click unisce le icone</string>
+    <string name="custom_toggle_double_click_check">Doppio tocco per tornare all\'azione precedente</string>
     <string name="custom_tile_long_press">Tieni premuto:</string>
     <string name="custom_tile_null_warning">Deve essere prima selezionata un\'azione</string>
     <string name="custom_tile_resolve_name">Sconosciuto</string>
     <string name="title_tile_theme">Cambia tema</string>
-
+    <string name="title_tile_batterysaver">Modalità salva batteria</string>
+    
     <string name="title_dynamic_tiles">Tile dinamici</string>
     <string name="dynamic_tiles_note_title">Nota</string>
     <string name="dynamic_tiles_note_summary">I tile dinamici non sono sempre visibili e sono attivati da eventi di sistema</string>
     <string name="title_dynamic_alarm">Sveglia</string>
     <string name="title_dynamic_bugreport">Riporta bug</string>
     <string name="title_dynamic_dock_battery">In carica</string>
+    <string name="title_dynamic_equalizer">Equalizzatore</string>
     <string name="title_dynamic_ime">Cambia tastiera</string>
     <string name="title_dynamic_usbtether">Tethering USB</string>
     <string name="title_dynamic_wifi">Schermo Wi-Fi</string>
@@ -562,6 +567,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="smart_pulldown_off">Spento</string>
     <string name="smart_pulldown_dismissable">Rimovibili</string>
     <string name="smart_pulldown_persistent">Non rimovibili</string>
+    <string name="smart_pulldown_all">Rimovibili o non rimovibili</string>
 
     <!-- QuickSettings: Custom Tile -->
     <string name="custom_tile_dialog_text">Ogni azione aggiungerà un nuovo stato al tile. Ogni click cambia al prossimo stato. Tieni premuto per aggiungere un\'opzione tieni premuto. Se non c\'é un\'opzione per il click sarà usata quella per il tieni premuto. Questo ti permette di tenere premuto per passare al prossimo stato.</string>
@@ -592,6 +598,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="tiles_per_row_title">Tile per riga</string>
     <string name="tiles_per_row_duplicate_landscape_title">Aumenta la quantità in orizzontale</string>
     <string name="tiles_per_row_duplicate_landscape_summary">In modalità orizzontale si vedono il doppio dei tile per riga</string>
+    <string name="quick_tiles_color_title">Attiva colori personalizzati</string>
+    <string name="quick_tiles_color_summary">Attivare quest\'opzione sovracriverà i temi</string>
     <string name="quick_tiles_bg_color_title">Colore di sfondo dei tile</string>
     <string name="quick_tiles_bg_pressed_color_title">Colore di sfondo tile premuto</string>
     <string name="quick_tiles_text_color_title">Colore testo dei tile</string>
@@ -612,8 +620,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="pref_ring_mode_summary">Vedi o cambia le modalità del pulsante suoneria</string>
     <string name="cm_sound_mode_silent">Silenzioso</string>
     <string name="cm_sound_mode_vibrate">Vibrazione</string>
-    <string name="cm_sound_mode_sound">Suono</string>
-    <string name="cm_sound_mode_soundVibrate">Suono + Vibrazione</string>
+    <string name="cm_sound_mode_sound">Suoneria</string>
+    <string name="cm_sound_mode_soundVibrate">Suoneria + Vibrazione</string>
 
     <!-- Reset tiles -->
     <string name="tiles_reset_title">Ripristina</string>
@@ -626,7 +634,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="storage_rescan_media_complete">Scan Completo</string>
 
     <!-- Category title for power sound notification specific Settings -->
-    <string name="power_notifications_category_title">Suono Power</string>
+    <string name="power_notifications_category_title">Suono power</string>
     <!-- Sound settings, power notifications enable/disable, setting check box label -->
     <string name="power_notifications_enable_title">Attiva</string>
     <!-- Sound settings, power notifications vibrate enable/disable, setting check box label -->
@@ -661,7 +669,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Status bar | Clock -->
     <string name="status_bar_title">Barra di notifica</string>
-    <string name="status_bar_summary">Altre opzioni per la barra di notifica</string>
     <string name="status_bar_style_title">Stile</string>
 
     <string name="status_bar_clock">Orologio e data</string>
@@ -670,8 +677,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="clock_title_enable">Allineamento</string>
     <string name="clock_enabled">Attivato</string>
     <string name="clock_disabled">Disattivato</string>
-    <string name="clock_color_title">Colore</string>
-    <string name="status_bar_clock_style_reset">Ripristina colore</string>
     <string name="status_bar_show_clock_title">Mostra data e ora</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">L\'ora a 24 ore è attivata</string>
@@ -695,8 +700,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="clock_date_style_normal">Normale</string>
     <string name="clock_date_style_lowercase">Minuscolo</string>
     <string name="clock_date_style_uppercase">Maiuscolo</string>
-    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format_custom">Formattazione personalizzata java</string>
     <string name="status_bar_clock_style_reset_message">Ripristinare colore orologio?</string>
+    
+    <!-- Statusbar Second Clock -->
+    <string name="clock_use_second">Second</string>
+    <string name="clock_use_second_summary">Show seconds in the clock</string>
 
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Stile batteria</string>
@@ -789,8 +798,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="pref_low_battery_warning_policy_dialog_title">Indica livello batteria basso con</string>
     <string name="low_battery_warning_policy_popup_sound">Popup e suono</string>
     <string name="low_battery_warning_policy_notif_sound">Notifica e suono</string>
-    <string name="low_battery_warning_policy_popup">Solo Popup</string>
-    <string name="low_battery_warning_policy_notif">Solo Notifica</string>
+    <string name="low_battery_warning_policy_popup">Solo popup</string>
+    <string name="low_battery_warning_policy_notif">Solo notifica</string>
     <string name="low_battery_warning_policy_sound">Solo suono</string>
     <string name="battery_prefs_title">Opzioni</string>
     <string name="battery_stats_title">Statistiche</string>
@@ -814,13 +823,14 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="adb_over_network_warning">ATTENZIONE: Quando ADB via rete è attivo, il tuo telefono è aperto all\'intrusione da qualsiasi rete, inclusa la rete GSM!\n\nUsa questa feature solo con reti sicure.\n\nVuoi veramente arrivare quest\'opzione?</string>
 
     <!-- Button shorcut actions -->
+    <string name="shortcut_action_keyguard_camera">Keyguard fotocamera</string>
     <string name="shortcut_action_navbar">Navigation bar</string>
     <string name="shortcut_action_pie">Pie control</string>
     <string name="shortcut_action_app">Applicazione</string>
     <string name="shortcut_action_home">Home</string>
     <string name="shortcut_action_back">Indietro</string>
     <string name="shortcut_action_recent">App recenti</string>
-    <string name="shortcut_action_lastapp">Ultima App</string>
+    <string name="shortcut_action_lastapp">Ultima app</string>
     <string name="shortcut_action_assist">Cerca</string>
     <string name="shortcut_action_search">Cerca nell\'app</string>
     <string name="shortcut_action_voice_search">Ricerca vocale</string>
@@ -832,7 +842,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_power">Spegni schermo</string>
     <string name="shortcut_action_notifications">Notifiche</string>
     <string name="shortcut_action_menu_big">Menu</string>
-    <string name="shortcut_action_qs">Quick Settings</string>
+    <string name="shortcut_action_qs">Quick settings</string>
+    <string name="shortcut_action_smart">Quick settings intelligenti</string>
     <string name="shortcut_action_none">Niente</string>
     <string name="shortcut_action_power_menu">Menù Power</string>
     <string name="shortcut_action_ring_vib">Suoneria/Vibrazione</string>
@@ -844,7 +855,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_longpress">Tieni premuto:</string>
     <string name="shortcut_action_select_action_longpress">Scegli l\'azione tieni premuto:</string>
     <string name="shortcut_action_select_action">Scegli azione:</string>
-    <string name="shortcut_action_select_action_newbutton">Scegli nuovo bottone:</string>
+    <string name="shortcut_action_select_action_newbutton">Scegli nuovo pulsante:</string>
     <string name="shortcut_action_reset">Ripristina</string>
     <string name="shortcut_action_add">Aggiungi</string>
     <string name="shortcut_action_reset_message">Ripristinare tutte le impostazioni di default?</string>
@@ -852,20 +863,17 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_warning">Attenzione</string>
     <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultimo carattere</string>
     <string name="shortcut_action_disable_message">Disattivato\nAggiungi un\'opzione per abilitare questa feature</string>
-    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha dato immagini o non accetta il cambio immagine. Usa un\'altra app</string>
-    <string name="shortcut_duplicate_entry">L\'applicazione scelta non può essere aggiunta due volte</string>
+    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha dato immagini o non accetta il cambio icona. Usa un\'altra app</string>
+    <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
     <string name="shortcut_action_help_shortcut">scorciatoia</string>
-    <string name="shortcut_action_help_button">bottone</string>
-    <string name="shortcut_action_help_icon">, Per aggiungere un icona cliccare</string>
+    <string name="shortcut_action_help_button">pulsante</string>
+    <string name="shortcut_action_help_app">app</string>
+    <string name="shortcut_action_help_icon">, mentre si seleziona l\'icona apparirà il menu di personalizzazione</string>
     <string name="shortcut_action_help_main">Per aggiungere una %1$s, selezionare l\'icona aggiungi. Una volte che l\' %1$s è aggiunta, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right.  Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the Reset icon.</string>
     <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
     <string name="shortcut_action_help">Aiuto</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
 
-    <string name="icon_picker_type">Seleziona tipo icona:</string>
-    <string name="icon_default">Predefinita</string>
-    <string name="icon_presets">Icone di sistema</string>
-    <string name="icon_custom">Galleria</string>
     <string name="shortcuts_icon_picker_alarm">Allarme</string>
     <string name="shortcuts_icon_picker_andy">Andy</string>
     <string name="shortcuts_icon_picker_battery">Batteria</string>
@@ -879,12 +887,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcuts_icon_picker_drive">Drive</string>
     <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
     <string name="shortcuts_icon_picker_email">Email</string>
-    <string name="shortcuts_icon_picker_email2">Email Alternativa</string>
+    <string name="shortcuts_icon_picker_email2">Email alternativa</string>
     <string name="shortcuts_icon_picker_evernote">Evernote</string>
     <string name="shortcuts_icon_picker_facebook">Facebook</string>
     <string name="shortcuts_icon_picker_favorite">Favorito</string>
-    <string name="shortcuts_icon_picker_file_browser">File Browser</string>
-    <string name="shortcuts_icon_picker_file_browser2">File Browser Alternativo</string>
+    <string name="shortcuts_icon_picker_file_browser">Gestore file</string>
+    <string name="shortcuts_icon_picker_file_browser2">Gestore file alternativo</string>
     <string name="shortcuts_icon_picker_fitness">Fitness</string>
     <string name="shortcuts_icon_picker_gallery">Galleria</string>
     <string name="shortcuts_icon_picker_gears">Gears</string>
@@ -907,7 +915,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
     <string name="shortcuts_icon_picker_play">Play</string>
     <string name="shortcuts_icon_picker_pocket">Pocket</string>
-    <string name="shortcuts_icon_picker_quicksettings">Quick Settings</string>
+    <string name="shortcuts_icon_picker_quicksettings">Quick settings</string>
     <string name="shortcuts_icon_picker_rss">RSS Feed</string>
     <string name="shortcuts_icon_picker_sdcard">SDCard</string>
     <string name="shortcuts_icon_picker_search">Cerca</string>
@@ -951,9 +959,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Opzioni di navigazione</string>
-    <string name="navigation_settings_category_title">Navigation bar</string>
+    <string name="navigation_settings_category_title">Pulsanti</string>
     <string name="navigation_settings_title">Navigation bar</string>
-    <string name="navigation_settings_summary">Altre opzioni per la navigation bar</string>
 
     <!-- Navigation bar -->
     <string name="navigation_bar_size_42_dp_default">42 dp (predefinito)</string>
@@ -987,7 +994,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="navigation_bar_height_landscape_summary">Altezza della navigation bar in orizzontale</string>
     <string name="navigation_bar_width_title">Spessore navigation bar</string>
     <string name="navigation_bar_width_summary">Altezza navigation bar in modalità orizzontale</string>
-    <string name="navbar_can_move">Mostra orizzontale </string>
+    <string name="navbar_can_move">Mostra orizzontale</string>
     <string name="navbar_can_move_summary">Mostra navigation bar in basso in modalità orizzontale </string>
     <string name="navbar_style_dimen_title">Dimensioni</string>
     <string name="navbar_style_dimen_summary">Vedi o cambia le dimensioni della navigation bar</string>
