@@ -240,9 +240,9 @@
     <string name="profile_write_success">Tag scritto con successo</string>
     <string name="profile_write_failed">Scrittura del tag fallita!</string>
     <string name="profile_selected">Profilo selezionato: %1$s</string>
-    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
+    <string name="profile_nfc_text">Scrivere un profilo su un tag NFC ti permette di selezionare il profilo toccando il tag. Un secondo tocco selezionerà il profilo precedente.</string>
     <string name="profile_unknown_nfc_tag">Profilo sconosciuto </string>
-    <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
+    <string name="profile_add_nfc_text">Questo tag si riferisce a un profilo inesistente.</string>
     <string name="profile_select">Seleziona profilo </string>
 
     <string name="ring_mode_title">Modalità suoneria</string>
@@ -1022,7 +1022,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_title">Ore di quiete </string>
     <string name="quiet_hours_summary">Configura gli orari in cui il dispositivo deve essere silenzioso </string>
     <string name="quiet_hours_enabled">Attiva ore di quiete </string>
-    <string name="quiet_hours_enabled_on">Le ore di quiete saranno enforced</string>
+    <string name="quiet_hours_enabled_on">Le ore di quiete saranno forzate</string>
     <string name="quiet_hours_enabled_off">Le notifiche funzioneranno normalmente </string>
     <string name="quiet_hours_auto_title">Segui la modalità suoneria </string>
     <string name="quiet_hours_auto_silent">Le ore di quiete si attiveranno quando la suoneria è impostata a zero </string>
@@ -1043,6 +1043,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_dim">Disattiva LED di notifica </string>
     <string name="quiet_hours_dim_on">Il LED di notifica non sarà attivo </string>
     <string name="quiet_hours_dim_off">Il LED di notifica funzionerà normalmente </string>
+    <string name="quiet_hours_system">Disattiva suoni di sistema</string>
+    <string name="quiet_hours_system_on">I suoni di sistema funzioneranno</string>
+    <string name="quiet_hours_system_off">I suoni di sistema non funzioneranno</string>
     <string name="quiet_hours_haptic">Disattiva feedback aptico </string>
     <string name="quiet_hours_haptic_on">Il feedback aptico sarà disattivato </string>
     <string name="quiet_hours_haptic_off">Il feedback aptico funzionerà normalmente </string>
@@ -1050,10 +1053,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_active_to">alle</string>
     <string name="quiet_hours_auto_sms_group">Risposta automatica </string>
     <string name="quiet_hours_auto_sms_title">Testo dei messaggi in arrivo </string>
-    <string
-name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
+    <string name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="quiet_hours_auto_string_title">Risposta da inviare </string>
-    <string name="quiet_hours_auto_string_explain">Questo messaggio sarà inviato a chiunque tenti di contattarti durante le ore di quiete </string>
+    <string name="quiet_hours_auto_string_explain">Questo messaggio sarà inviato a chiunque tenti di contattarti durante
+            le ore di quiete </string>
     <string name="quiet_hours_auto_sms_null">[Messaggio Automatico] Ti richiamo appena posso.</string>
     <string name="quiet_hours_auto_disabled">Disattivato </string>
     <string name="quiet_hours_auto_enabled">Tutti i numeri </string>
@@ -1063,13 +1066,14 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="quiet_hours_sms_code_null">[Allarme]</string>
     <string name="quiet_hours_sms_bypass_title">Testo messaggio bypass </string>
     <string name="quiet_hours_sms_code_title">Parola chiave del messaggio </string>
-    <string name="quiet_hours_sms_code_explain">Se un messaggio conterrà questo testo il telefono suonerà </string>
+    <string name="quiet_hours_sms_code_explain">Se un messaggio conterrà questo testo
+            il telefono suonerà </string>
     <string name="quiet_hours_call_bypass_title">Bypass chiamate in arrivo </string>
     <string name="quiet_hours_calls_required_title">Numero di chiamate in 30 minuti </string>
-    <string name="quiet_hours_calls_required_summary">" calls to bypass quiet hours"</string>
+    <string name="quiet_hours_calls_required_summary">" chiamate per il bypass"</string>
     <string name="quiet_hours_bypass_ringtone_title">Suoneria </string>
-    <string name="quiet_hours_bypass_ringtone_loop_title">Loop suoneria </string>
-    <string name="quiet_hours_bypass_ringtone_loop_summary_on">Ringtone will loop until dismissed</string>
+    <string name="quiet_hours_bypass_ringtone_loop_title">Comportamento suoneria </string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_on">La suoneria squillerà fino al rifiuto</string>
     <string name="quiet_hours_bypass_ringtone_loop_summary_off">La suoneria ci sarà una volta sola </string>
     <string name="quiet_hours_alarm_dismiss">Rifiuta allarmi</string>
     <string name="quiet_hours_alarm_and">" e "</string>
@@ -1148,6 +1152,9 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <!-- Lockscreen widget settings -->
     <string name="title_widgets">Widget</string>
     <string name="lockscreen_widgets_title">Widget</string>
+    <string name="lockscreen_allow_all_title">Permetti tutti i widget</string>
+    <string name="lockscreen_allow_all_summary">Permetti il funzionamento di widget che non supportano nativamente la lockscreen</string>
+    <string name="lockscreen_allow_all_warning">Alcuni widget potrebbero avere un comportamento strano nella lockscreen.  Altri potrebbero dare i tuoi dati personali.  Presta attenzione prima continuare</string>
     <string name="lockscreen_camera_widget_title">Attiva widget fotocamera </string>
     <string name="lockscreen_camera_widget_summary">Mostra il widget della fotocamera sulla lockscreen </string>
     <string name="lockscreen_maximize_widgets_title">Inizia massimizzato </string>
@@ -1256,10 +1263,6 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="icon_picker_gallery_title">Galleria </string>
     <string name="icon_picker_pack_title">Icon pack</string>
 
-    <!--Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Sblocco veloce </string>
-    <string name="unlock_quick_unlock_control_summary">Sblocco istantaneo quando è inserito il corretto PIN/Password </string>
-
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Opzioni di risveglio </string>
 
@@ -1267,90 +1270,6 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="wakeup_when_plugged_unplugged_title">Risveglio al collegamento </string>
     <string name="wakeup_when_plugged_unplugged_summary">Lo schermo si accende quando il telefono viene collegato/scollegato al caricabatterie </string>
 
-    <!-- Lockscreen pin shuffle -->
-    <string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
-    <string name="lock_numpad_random_dialog_title">PIN pad random order</string>
-    <string name="lock_numpad_random_off">Disattivato </string>
-    <string name="lock_numpad_random_always">Sempre </string>
-    <string name="lock_numpad_random_on_request">Su richiesta </string>
-
-    <!-- Sizes for pattern lockscreen -->
-    <string name="lock_pattern_size_3">3x3</string>
-    <string name="lock_pattern_size_4">4x4</string>
-    <string name="lock_pattern_size_5">5x5</string>
-    <string name="lock_pattern_size_6">6x6</string>
-
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Mostra errore </string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Mostra puntini </string>
-
-    <!-- Lock screen vibrate settings -->
-    <string name="lockscreen_vibrate_enabled_title">Vibra</string>
-    <string name="lockscreen_vibrate_enabled_head">Vibra allo sblocco </string>
-
-    <!-- security settings menu unlock -->
-    <string name="unlock_menu_unlock_title">Sblocco Menù </string>
-    <string name="unlock_menu_unlock_summary">Premere il pulsante menù sblocca il dispositivo </string>
-    <!-- security settings home unlock -->
-    <string name="unlock_home_unlock_title">Sblocco Home</string>
-    <string name="unlock_home_unlock_summary">Premere il pulsante home sblocca il dispositivo </string>
-    <!--Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Sblocco Veloce </string>
-    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando è inserito il PIN/Password correttamente </string>
-
-    <!-- Slide lock delay -->
-    <string name="delay_and_timeout_title">Ritardo di blocco </string>
-    <string name="slide_lock_delay_title">Ritardo blocco schermo </string>
-    <string name="slide_lock_timeout_delay_title">Ritardo dopo timeout </string>
-    <string name="slide_lock_screenoff_delay_title">Ritardo dopo lo spegnimento dello schermo </string>
-    <string name="slide_lock_delay_none">Nessuno </string>
-    <string name="slide_lock_delay_1s">1 secondo</string>
-    <string name="slide_lock_delay_5s">5 secondi</string>
-    <string name="slide_lock_delay_10s">10 secondi</string>
-    <string name="slide_lock_delay_15s">15 secondi</string>
-    <string name="slide_lock_delay_30s">30 secondi</string>
-    <string name="slide_lock_delay_1m">1 minuto</string>
-    <string name="slide_lock_delay_5m">5 minuti</string>
-    <string name="slide_lock_delay_10m">10 minuti</string>
-    <string name="slide_lock_delay_30m">30 minuti</string>
-
-    <!-- Lock Gesture settings -->
-    <string name="lockgesture_change_lock_pattern_label">Cambio gesture di sblocco</string>
-    <string name="lockgesture_change_lock_pin_label">Cambia PIN di sblocco</string>
-    <string name="lockgesture_need_to_unlock">Conferma gesture</string>
-    <string name="lockgesture_need_to_unlock_wrong">Prova di nuovo:</string>
-    <string name="lockgesture_recording_intro_header">Disegna una gesture di sblocco:</string>
-    <string name="lockgesture_recording_intro_footer">Premi menu per aiuto.</string>
-    <string name="lockgesture_recording_inprogress">Togli il dito quando hai fatto.</string>
-    <string name="lockgesture_pattern_entered_header">Gesture salvata.</string>
-    <string name="lockgesture_need_to_confirm">Disegna di nuovo la gesture per confermare:</string>
-    <string name="lockgesture_pattern_confirmed_header">La tua nuova gesture di sblocco:</string>
-    <string name="lockgesture_confirm_button_text">Conferma</string>
-    <string name="lockgesture_restart_button_text">Riprova</string>
-    <string name="lockgesture_retry_button_text">Indietro</string>
-    <string name="lockgesture_continue_button_text">Continua</string>
-    <string name="lockgesture_settings_title">Gesture di sblocco</string>
-    <string name="lockgesture_settings_enable_title">Require gesture</string>
-    <string name="lockgesture_settings_enable_summary">Must draw gesture to unlock screen</string>
-    <string name="lockgesture_settings_enable_visible_pattern_title">Make gesture visible</string>
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">Power button instantly locks</string>
-    <string name="lockgesture_settings_choose_lock_pattern">Set unlock gesture</string>
-    <string name="lockgesture_settings_change_lock_pattern">Change unlock gesture</string>
-    <string name="lockgesture_settings_help_how_to_record">How to draw an unlock gesture</string>
-    <string name="lockgesture_too_many_failed_confirmation_attempts_header">Too many incorrect attempts!</string>
-    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
-    <string name="lockpassword_gesture_set_toast">Gesture has been set</string>
-    <string name="lockpassword_confirm_your_gesture_header">Confirm your gesture</string>
-    <string name="lockpassword_choose_your_gesture_header">Draw your gesture</string>
-    <string name="unlock_set_unlock_gesture_title">Gesture</string>
-    <string name="unlock_set_unlock_gesture_summary">Low security, experimental</string>
-    <string name="unlock_set_unlock_mode_gesture">Gesture</string>
-    <!-- Do not translate. -->
-    <string name="lockgesture_need_to_unlock_footer" />    
-    <!-- Do not translate. -->
-    <string name="lockgesture_need_to_unlock_wrong_footer" />
-    
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">L\'APN sarà eliminato </string>
 
@@ -1426,7 +1345,7 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
     <string name="debug_LAN_category">Impostazioni LAN</string>
     <!-- Hostname setting -->
-    <string name="device_hostname">Hostname Dispositivo </string>
+    <string name="device_hostname">Hostname dispositivo </string>
 
     <!-- Keyboard and Input methods  -->
     <string name="title_keyboard_input">Opzioni avanzate </string>
@@ -1447,19 +1366,20 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Temi</string>
+    <string name="title_cm_themes">Theme engine</string>
 
     <!-- The following are entries under the themes menu -->
     <string name="themepacks_settings_title">Temi</string>
     <string name="styles_settings_title">Stile</string>
     <string name="icons_settings_title">Icone</string>
-    <string name="fonts_settings_title">Font</string>
+    <string name="fonts_settings_title">Caratteri</string>
     <string name="wallpaper_settings_title">Sfondi</string>
     <string name="lockscreen_wallpaper_settings_title">Sfondo lockscreen</string>
-    <string name="bootanim_settings_title">Bootanimation</string>
+    <string name="bootanim_settings_title">Animazioni di avvio</string>
     <string name="soundpack_settings_title">Pacchetti suoni</string>
 
     <!-- DarkUI -->
-    <string name="theme_auto_mode_title">UI-Dark</string>
+    <string name="theme_auto_mode_title">Dark-UI</string>
     <string name="theme_auto_mode_off">Manuale </string>
     <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce </string>
     <string name="theme_auto_mode_twilight">A seconda dell\'orario </string>
@@ -1475,7 +1395,7 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="notification_background_custom_image">Immagine personalizzata </string>
     <string name="notification_background_default_wallpaper">Sfondo predefinito </string>
     <string name="notification_drawer_custom_background_dialog_title">Scegli colore </string>
-    <string name="notif_wallpaper_alpha_title">Trasparenza Sfondo </string>
+    <string name="notif_wallpaper_alpha_title">Trasparenza sfondo </string>
     <string name="notif_alpha_title">Trasparenza notifiche </string>
 
     <!-- Title for PreferenceScreen to change encryption password [CHAR LIMIT=22] -->
@@ -1485,11 +1405,6 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
 
     <!-- Header on first screen of choose encryption password [CHAR LIMIT=30] -->
     <string name="encryptionpassword_choose_your_password_header">Imposta password di criptazione </string>
-
-    <!-- Contextual notification panel header -->
-    <string name="notification_drawer_category_title">Drawer Notifiche </string>
-    <string name="custom_statusbar_header_title">Testata del pannello contestuale </string>
-    <string name="custom_statusbar_header_summary">Imposta come testata del drawer notifiche un immagine a seconda della data e dell\'ora </string>    
 
     <!-- Minimum Vibration Duration -->
     <string name="minimum_vibration_duration">Durata minima vibrazione </string>
@@ -1896,8 +1811,9 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <!-- Lockscreen style settings -->
     <string name="lockscreen_style_reset_message">Ripristinare tutti i colori della lockscreen?</string>
     <string name="lockscreen_icon_title">Icona lucchetto </string>
-    <string name="lockscreen_lock_icon_custom">Icona personalizzato </string>
-    <string name="lockscreen_lock_icon_default">Icona di default </string>
+    <string name="lockscreen_lock_icon_custom">Icona personalizzata</string>
+    <string name="lockscreen_lock_icon_mahdi">Icona Mahdi</string>
+    <string name="lockscreen_lock_icon_default">Icona predefinita</string>
     <string name="lockscreen_colorize_handle_title">Colore personalizzato </string>
     <string name="lockscreen_colorize_handle_summary">Il colore sarà impostato come sfondo per la tua lockscreen </string>
     <string name="lockscreen_style_title">Altre impostazioni </string>
@@ -1912,10 +1828,14 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="lockscreen_targets_color_summary">Colore dell\'obiettivo scelto</string>
     <string name="lockscreen_misc_color_title">Colori vari</string>
     <string name="lockscreen_misc_color_summary">Colore degli elementi rimanenti</string>
-
-    <!-- Lockscreen Wallpaper -->
-    <string name="lockscreen_wallpaper_title">Sfondo lockscreen </string>
-    <string name="lockscreen_wallpaper_summary">Puoi scegliere uno sfondo differente per la tua lockscreen </string>
+    
+    <!-- Themes -->
+    <string name="theme_settings_title_slim">Themes</string>
+    <string name="theme_auto_mode_title">Dark UI</string>
+    <string name="theme_auto_mode_off">Manual</string>
+    <string name="theme_auto_mode_lightsensor">On light condition change</string>
+    <string name="theme_auto_mode_twilight">On daytime</string>
+    <string name="theme_auto_switch_mode_error">Automatic light condition change mode is enabled. Manual switching is not possible.</string>
 
     <!-- Double-tap to sleep -->
     <string name="double_tap_sleep_title">Doppio tocco per spegnere lo schermo </string>
@@ -2124,7 +2044,8 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="pie_style_reset_message">Ripristinare i valori di default? </string>
     <string name="pie_disable_ime_triggers_title">Riduci grandezza con la tastiera</string>
     <string name="pie_disable_ime_triggers_summary">Riduci gli inneschi da destra e sinistra se c\'è la tastiera </string>    
- <!-- Shortcuts -->
+   
+    <!-- Shortcuts -->
     <string name="shortcut_picker">Azioni</string>
 
     <!-- Lockscreen background -->
@@ -2136,18 +2057,14 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="background_result_not_successful">Sfondo non cambiato</string>
     <string name="setting_lockscreen_background">Applicazione sfondo</string>
     <!-- Custom lockscreen -->
-    <string name="lockscreen_enable_modlock_title">Lockscreen Personalizzata</string>
+    <string name="lockscreen_enable_modlock_title">Lockscreen personalizzata</string>
 
     <!-- Bluetooth accept all file types -->
-    <string name="bluetooth_accept_all_files">Accetta tutti i tipe di file</string>
+    <string name="bluetooth_accept_all_files">Accetta tutti i tipi di file</string>
 
     <!-- Font size sample text. This needs to be a very short string, as it is shown in
     multiple font sizes in a limited amount of space. -->
     <string name="font_size_sample">Esempio</string>
-
-    <!-- vibrate during phone calls -->
-    <string name="notification_vibrate_during_calls_title">Vibra durante la chiamata</string>
-    <string name="notification_vibrate_during_calls_summary">Le notifiche in arrivo vibreranno</string>
 
     <!--Notification category-->
     <string name="notification_category">Notifiche</string>
@@ -2155,14 +2072,14 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="notification_peek_title">Notifiche peek</string>
     <string name="notification_peek_summary">Mostra l\'ultima notifica quando si prende il telefono</string>
     <string name="peek_pickup_timeout_title">Sensori peek attivi per...</string>
-    <string name="peek_wake_timeout_title">Timeout peek acceso</string>
-    <string name="peek_pickup_15seconds">15 secondi (consigliato)</string>
+    <string name="peek_wake_timeout_title">Schermo peek accesa per...</string>
+    <string name="peek_pickup_15seconds">15 secondi(consigliato)</string>
     <string name="peek_pickup_30seconds">30 secondi</string>
     <string name="peek_pickup_45seconds">45 secondi</string>
     <string name="peek_pickup_60seconds">1 minuto</string>
     <string name="peek_pickup_120seconds">2 minuti</string>
-    <string name="peek_wake_4seconds">4 secondi</string>
-    <string name="peek_wake_7seconds">7 secondi (consigliato)</string>
+    <string name="peek_wake_4seconds">4 secondi(consigliato)</string>
+    <string name="peek_wake_7seconds">7 secondi</string>
     <string name="peek_wake_10seconds">10 secondi</string>
     <string name="peek_wake_20seconds">20 secondi</string>
     <string name="peek_wake_30seconds">30 secondi</string>
@@ -2181,6 +2098,7 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Numero livelli volume</string>
+    <string name="volume_steps_summary">Scegli il numero di livelli tra il minimo e il massimo</string>
     <string name="volume_steps_60">60</string>
     <string name="volume_steps_45">45</string>
     <string name="volume_steps_30">30</string>
@@ -2212,8 +2130,12 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <!-- Shake sensitivity -->
     <string name="shake_sensitivity_title">Sensibilità scuotimento</string>
     <string name="shake_sensitivity_summary">Sensibilità del sensore</string>
-    <string name="shake_sensitivity_less_sensitive">Meno sensibile</string>
+    <string name="shake_sensitivity_even_less_sensitive">Sensibilità bassissima</string>
+    <string name="shake_sensitivity_less_sensitive">Poco sensibile</string>
     <string name="shake_sensitivity_more_sensitive">Più sensibile</string>
+    <string name="shake_sensitivity_very_sensitive">Molto sensibile</string>
+    <string name="shake_sensitivity_super_sensitive">Super sensibile</string>
+    <string name="shake_sensitivity_ultra_sensitive">Ultra sensibile</string>
 
     <!-- Data Usage -->
     <!-- Subtitle of dialog for editing data usage cycle reset date. [CHAR LIMIT=32] -->
@@ -2237,5 +2159,17 @@ name="quiet_hours_auto_sms_call_title">Chiamate in arrivo </string>
     <string name="headset_plug_actions_front">Muovi in avanti</string>
     <string name="headset_plug_actions_kill">Chiudi app</string>
     <string name="headset_plug_force_actions_title">Rimozione forzata</string>
-    <string name="headset_plug_force_actions_summary">Non aprire scorciatoia solo se già aperta</string>
+    <string name="headset_plug_force_actions_summary">Non aprire scorciatoia anche se già aperta</string>
+    
+    <!--Blacklist-->
+    <string name="blacklist_button_title">Blacklist</string>
+    <string name="peek_blacklist_label">Blacklist di Peek</string>
+    <string name="floating_blacklist_label">Blacklist della Modalità floating</string>
+    <string name="hover_blacklist_label">Blacklist di Hover</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Ripristina</string>
+    <string name="menu_hidden_apps_reset_lock">Ripristina modello di sblocco</string>
+    <string name="protected_apps">Applicazioni protette</string>
+    <string name="saving_protected_components">Salvataggio dei componenti di stato</string>
 </resources>
