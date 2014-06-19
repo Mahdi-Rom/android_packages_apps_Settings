@@ -741,7 +741,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="privacy_guard_advanced_settings_title">Avanzato</string>
 
     <!-- Battery status on lock ring -->
-    <string name="battery_around_lockscreen_ring">Livello batteria intorno al lucchetto di sblocco</string>
+    <string name="battery_around_lockscreen_ring">Batteria intorno al lucchetto</string>
     <string name="battery_around_lockscreen_ring_summary">Se attivo l\'anello intorno alla lockscreen mostrerà il livello batteria.</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
