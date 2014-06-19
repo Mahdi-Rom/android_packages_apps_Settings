@@ -97,7 +97,7 @@
     <string name="power_menu_title">Pulsante spegnimento</string> 
     <string name="power_menu_summary">Vedi o cambia le azioni del pulsante spegnimento</string>
     <string name="lockscreen_enable_power_menu_title">Attiva menu pulsante spegnimento nella lockscreen</string>
-    <string name="power_menu_reboot_title">Menù riavvio</string>
+    <string name="power_menu_reboot_title">Menu riavvio</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
     <string name="power_menu_profiles_title">Selettore profilo</string>
@@ -399,7 +399,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shake_all">Scuoti in ogni direzione</string>
     <string name="shake_horizontal">Scuoti orizzontalmente</string>
     <string name="shake_vertical">Scuoti verticalmente</string>
-    <string name="shake_back_forth">Scuoti avanti-e-indietro</string>
+    <string name="shake_back_forth">Scuoti indietro-e-avanti</string>
     <string name="shake_secure_timeout_disabled">Mai automaticamente</string>
     <string name="shake_secure_timeout_1min">1 minuto dopo che lo schermo si spegne</string>
     <string name="shake_secure_timeout_5min">5 minuti dopo che lo schermo si spegne</string>
@@ -845,7 +845,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_qs">Quick settings</string>
     <string name="shortcut_action_smart">Quick settings intelligenti</string>
     <string name="shortcut_action_none">Niente</string>
-    <string name="shortcut_action_power_menu">Menù power</string>
+    <string name="shortcut_action_power_menu">Menu power</string>
     <string name="shortcut_action_ring_vib">Suoneria/Vibrazione</string>
     <string name="shortcut_action_ring_silent">Suoneria/Silenzioso</string>
     <string name="shortcut_action_ring_vib_silent">Suoneria/Vibrazione/Silenzioso</string>
@@ -1214,7 +1214,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockscreen_enable_eight_targets_dialog">Cambiare questa opzione ripristinerà le tue azioni predfinite</string>
     <string name="lockscreen_enable_eight_targets_enabled_dialog">\n\nCon otto opzioni non puoi usare allo stesso tempo le scorciatoie nella lockscreen</string>
     <string name="lockscreen_glowpad_torch_title">Torcia</string>
-    <string name="lockscreen_glowpad_torch_summary">Doppio tocco e tieni premuto</string>
+    <string name="lockscreen_glowpad_torch_summary">Doppio tocco e tieni premuto per attivare la torcia</string>
     <string name="lockscreen_target_reset">Azioni slider predefinite ripristinate</string>
     <string name="lockscreen_target_reset_message">Eliminare tutte le azioni create?</string>
     <string name="lockscreen_target_empty">Niente</string>
@@ -1240,7 +1240,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="icon_picker_calendar">Calendario</string>
     <string name="icon_picker_camera">Fotocamera</string>
     <string name="icon_picker_email">Email</string>
-    <string name="icon_picker_email2">Email Holo</string>
+    <string name="icon_picker_email2">Email holo</string>
     <string name="icon_picker_facebook">Facebook</string>
     <string name="icon_picker_gallery">Galleria</string>
     <string name="icon_picker_google_small">Google (piccolo)</string>
@@ -1274,7 +1274,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="confirm_delete_apn">L\'APN sarà eliminato </string>
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">Widget Orologio </string>
+    <string name="lock_clock_title">Widget orologio </string>
     <string name="lock_clock_summary">Vedi o cambia come il widget \'cLock\' si mostra sulla home e nella lockscreen </string>
 
     <!-- AOSP dummy strings -->
@@ -1282,12 +1282,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="experimental_webview_summary"></string>
 
     <!-- security settings menu unlock -->
-    <string name="unlock_menu_unlock_title">Sblocco Menù </string>
-    <string name="unlock_menu_unlock_summary">Premere il pulsante menù sbloccherà il dispositivo </string>
+    <string name="unlock_menu_unlock_title">Sblocco menu </string>
+    <string name="unlock_menu_unlock_summary">Premere il pulsante menu sbloccherà il dispositivo </string>
 
     <!--  development shortcut -->
     <string name="development_shortcut_title">Scorciatoie sviluppatore </string>
-    <string name="development_shortcut_summary">Attiva \'Cancella dati \' e \'Chiusura Forzata \' nella lista delle applicazioni recenti </string>
+    <string name="development_shortcut_summary">Attiva \'cancella dati \' e \'chiusura forzata \' nella lista delle applicazioni recenti </string>
 
     <!-- Recents panel menu -->
     <string name="recents_panel_settings_title">Applicazioni recenti </string>
@@ -1324,8 +1324,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="recent_panel_lefty_mode_summary">Mostra il pannello applicazioni recenti a sinistra </string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
-    <string name="custom_runtime_warning_title">ATTENZIONE:</string>
-    <string name="custom_runtime_warning_message">ART non è supportato dalla Mahdi ROM. Questa impostazione è inclusa soltanto per la sperimentazione e può causare instabilità e crash. Visita \u003Ca href=\"http://source.android.com/devices/tech/dalvik/art.html\"\u003EIntroducing ART\u003C/a\u003E per maggiori informazioni .\u003Cbr/\u003E\u003Cbr/\u003E Non riportare bug se hai attivato ART.\u003Cbr/\u003E\u003Cbr/\u003E Sei sicuro che vuoi riavviare per cambiare runtime da <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string> 
+    <string name="custom_runtime_warning_title">Attenzione!</string>
+    <string name="custom_runtime_warning_message">ART non è supportato dalla Mahdi ROM. Questa impostazione è inclusa soltanto per la sperimentazione e può causare instabilità e crash. Visita \u003Ca href=\"http://source.android.com/devices/tech/dalvik/art.html\"\u003EIntroduzione di ART\u003C/a\u003E per maggiori informazioni .\u003Cbr/\u003E\u003Cbr/\u003E Non riportare bug se hai attivato ART.\u003Cbr/\u003E\u003Cbr/\u003E Sei sicuro che vuoi riavviare per cambiare runtime da <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string> 
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Notifiche </string>
@@ -1374,7 +1374,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="icons_settings_title">Icone</string>
     <string name="fonts_settings_title">Caratteri</string>
     <string name="wallpaper_settings_title">Sfondi</string>
-    <string name="lockscreen_wallpaper_settings_title">Sfondo lockscreen</string>
+    <string name="lockscreen_wallpaper_settings_title">Sfondi sblocco</string>
     <string name="bootanim_settings_title">Animazioni di avvio</string>
     <string name="soundpack_settings_title">Pacchetti suoni</string>
 
@@ -1383,7 +1383,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="theme_auto_mode_off">Manuale </string>
     <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce </string>
     <string name="theme_auto_mode_twilight">A seconda dell\'orario </string>
-    <string name="theme_auto_switch_mode_error">Lo switch automatico con la luminosità è attivo. Non puoi attivare in modo manuale </string>
+    <string name="theme_auto_switch_mode_error">Lo switch automatico con la luminosità è attivo. Non puoi attivare il tema dark in modo manuale </string>
 
     <!-- Notification drawer background -->
     <string name="notification_style_title">Stile</string>    
@@ -1415,7 +1415,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockscreen_buttons_summary">Vedi o cambia le azioni dei pulsanti nella lockscreen </string>
     <string name="lockscreen_long_press_back_title">Tieni premuto pulsante indietro </string>
     <string name="lockscreen_long_press_home_title">Tieni premuto pulsante home </string>
-    <string name="lockscreen_long_press_menu_title">Tieni premuto pulsante menù </string>
+    <string name="lockscreen_long_press_menu_title">Tieni premuto pulsante menu </string>
     <string name="lockscreen_buttons_no_action">Nessun azione </string>
     <string name="lockscreen_buttons_flashlight">Torcia </string>
     <string name="lockscreen_buttons_next">Prossima canzone </string>
@@ -1648,7 +1648,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Scrolling Animation Controls -->
     <string name="scrolling_title">Scroll</string>
-    <string name="scrolling_summary">Vedi o cambia animazioni Scroll</string>
+    <string name="scrolling_summary">Vedi o cambia animazioni scroll</string>
     <string name="animation_fling_velocity_title">Velocità</string>
     <string name="animation_scroll_friction_title">Attrito</string>
     <string name="animation_overscroll_distance_title">Distanza overscroll</string>
@@ -1675,7 +1675,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="progressbar_speed_title">Velocità </string>
     <string name="progressbar_width_title">Spessore </string>
     <string name="progressbar_length_title">Lunghezza separatori </string>
-    <string name="progressbar_count_title">Conto sezioni </string>
+    <string name="progressbar_count_title">Numero sezioni </string>
     <string name="progressbar_color_1_title">Colore 1</string>
     <string name="progressbar_color_2_title">Colore 2</string>
     <string name="progressbar_color_3_title">Colore 3</string>
@@ -1692,7 +1692,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="ram_bar_reset">Ripristina </string>
 
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Animazione Toast</string>
+    <string name="toast_animation_title">Animazione toast</string>
     <string name="toast_none_animation">Nessuno </string>
     <string name="toast_default_animation">Predefinito </string>
     <string name="toast_fade_animation">Dissolvenza</string>
@@ -1719,14 +1719,14 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="edge_gesture_service_summary">Non inviare eventi al tocco della navigation bar </string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker">Blocca Wakelock </string>
+    <string name="wakelock_blocker">Blocca wakelock </string>
     <string name="wakelock_blocker_title">Attiva </string>
-    <string name="wakelock_blocker_summary">Attiva blocco per Wakelock Controllati </string>
+    <string name="wakelock_blocker_summary">Attiva blocco per wakelock controllati </string>
     <string name="wakelock_blocker_save">Salva </string>
     <string name="wakelock_list_header">Wakelock disponibili </string>
     <string name="wakelock_blocker_reload">Ricarica </string>
     <string name="wakelock_blocker_warning_title">Procedere con cautela </string>
-    <string name="wakelock_blocker_warning">Bloccare Wakelock può causare problemi </string>
+    <string name="wakelock_blocker_warning">Bloccare wakelock può causare problemi </string>
 
     <!-- Battery saver mode -->
     <string name="unit_sec">sec</string>
@@ -1830,12 +1830,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockscreen_misc_color_summary">Colore degli elementi rimanenti</string>
     
     <!-- Themes -->
-    <string name="theme_settings_title_slim">Themes</string>
-    <string name="theme_auto_mode_title">Dark UI</string>
-    <string name="theme_auto_mode_off">Manual</string>
-    <string name="theme_auto_mode_lightsensor">On light condition change</string>
-    <string name="theme_auto_mode_twilight">On daytime</string>
-    <string name="theme_auto_switch_mode_error">Automatic light condition change mode is enabled. Manual switching is not possible.</string>
+    <string name="theme_settings_title_slim">Temi</string>
+    <string name="theme_auto_mode_title">Dark-UI</string>
+    <string name="theme_auto_mode_off">Manuale</string>
+    <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce</string>
+    <string name="theme_auto_mode_twilight">A seconda dell\'orario</string>
+    <string name="theme_auto_switch_mode_error">Lo switch automatico con la luminosità è attivo. Non puoi attivare il tema dark in modo manuale </string>
 
     <!-- Double-tap to sleep -->
     <string name="double_tap_sleep_title">Doppio tocco per spegnere lo schermo </string>
@@ -1843,7 +1843,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="double_tap_sleep_secure_lockscreen_category">Lockscreen sicura </string>
     <string name="status_bar_double_tap_sleep_status_bar_title">Barra di stato </string>
     <string name="status_bar_double_tap_sleep_status_bar_summary">Doppio tocco ovunque sulla barra di stato </string>
-    <string name="status_bar_double_tap_sleep_glowpad_title">Pad bagliore</string>
+    <string name="status_bar_double_tap_sleep_glowpad_title">Pad</string>
     <string name="status_bar_double_tap_sleep_glowpad_summary">Doppio tap sul pad</string>
     <string name="status_bar_double_tap_sleep_pin_password_title">Pin e password </string>
     <string name="status_bar_double_tap_sleep_pin_password_summary">Doppio tocco sul testo di entrata</string>
@@ -1877,7 +1877,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="ram_bar_title">RAM Bar </string>
     <string name="ram_bar_summary">Vedi o cambia le impostazioni della RAM bar</string>
     <string name="ram_bar_note_title">Nota </string>
-    <string name="ram_bar_note_summary">Questa barra della RAM mostra l\'attuale utilizzo di memoria di Android. Per favore nota che avere le applicazioni in cache aiuta il telefono ad aprire le applicazioni più velocemente. </string>
+    <string name="ram_bar_note_summary">Questa barra della RAM mostra l\'attuale utilizzo di memoria di android. Nota che avere le applicazioni in cache aiuta il telefono ad aprire le applicazioni più velocemente. </string>
     <string name="ram_bar_mode_title">Modalità RAM Bar </string>
     <string name="ram_bar_mode_dialog_title">Mostra la RAM Bar </string>
     <string name="ram_bar_none">Nessuno </string>
@@ -1923,9 +1923,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="voice_tts_title">Modalità alla guida </string>
     <string name="voice_tts_summary">Attiva la modalità alla guida e poi scegli cosa vuoi che sia riprodotto </string>
     <string name="tts_settings_reset_message">Ripristinare tutte le impostazioni di default? </string>
-    <string name="voice_tts_notification_title">Modalità alla Guida </string>
-    <string name="voice_tts_notification_summary_on">Attiva Modalità alla Guida </string>
-    <string name="voice_tts_notification_summary_off">Disattiva Modalità alla Guida </string>
+    <string name="voice_tts_notification_title">Modalità alla guida </string>
+    <string name="voice_tts_notification_summary_on">Attiva modalità alla guida </string>
+    <string name="voice_tts_notification_summary_off">Disattiva modalità alla guida </string>
     <string name="voice_tts_volume_title">Volume </string>
     <string name="voice_tts_volume_summary">Imposta volume voce </string>
     <string name="voice_tts_call_title">Chiamate in arrivo </string>
@@ -2050,10 +2050,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Lockscreen background -->
     <string name="lockscreen_background">Sfondo</string>
-    <string name="lockscreen_background_style_title">Sfondo Lockscreen</string>
-    <string name="background_default">Sfondo Predefinito</string>
-    <string name="background_wallpaper">Sfondo Personalizzato</string>
-    <string name="background_result_successful">Sfondo Cambiato</string>
+    <string name="lockscreen_background_style_title">Sfondo lockscreen</string>
+    <string name="background_default">Sfondo predefinito</string>
+    <string name="background_wallpaper">Sfondo personalizzato</string>
+    <string name="background_result_successful">Sfondo cambiato</string>
     <string name="background_result_not_successful">Sfondo non cambiato</string>
     <string name="setting_lockscreen_background">Applicazione sfondo</string>
     <!-- Custom lockscreen -->
@@ -2072,7 +2072,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="notification_peek_title">Notifiche peek</string>
     <string name="notification_peek_summary">Mostra l\'ultima notifica quando si prende il telefono</string>
     <string name="peek_pickup_timeout_title">Sensori peek attivi per...</string>
-    <string name="peek_wake_timeout_title">Schermo peek accesa per...</string>
+    <string name="peek_wake_timeout_title">Schermata peek accesa per...</string>
     <string name="peek_pickup_15seconds">15 secondi(consigliato)</string>
     <string name="peek_pickup_30seconds">30 secondi</string>
     <string name="peek_pickup_45seconds">45 secondi</string>
