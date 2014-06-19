@@ -96,7 +96,7 @@
     <!-- Power menu enable disable -->
     <string name="power_menu_title">Pulsante spegnimento</string> 
     <string name="power_menu_summary">Vedi o cambia le azioni del pulsante spegnimento</string>
-    <string name="lockscreen_enable_power_menu_title">Attiva menu pulsante spegnimento nella lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Attiva menu nella lockscreen</string>
     <string name="power_menu_reboot_title">Menu riavvio</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
@@ -552,7 +552,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <string name="title_general">Generale</string>
     <string name="title_quick_pulldown">Quick settings veloci</string>
-    <string name="summary_quick_pulldown">Strisciando dal lato %1$s della barra di notifica scenderanno i quick settings</string>
+    <string name="summary_quick_pulldown">Strisciando dal lato %1$s della barra di stato scenderanno i quick settings</string>
     <string name="quick_pulldown_summary_left">Sinistra</string>
     <string name="quick_pulldown_summary_right">Destra</string>
     <string name="quick_pulldown_off">Spento</string>
@@ -668,7 +668,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="color_default">Predefinito</string>
 
     <!-- Status bar | Clock -->
-    <string name="status_bar_title">Barra di notifica</string>
+    <string name="status_bar_title">Barra di stato</string>
     <string name="status_bar_style_title">Stile</string>
 
     <string name="status_bar_clock">Orologio e data</string>
@@ -869,7 +869,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_help_button">pulsante</string>
     <string name="shortcut_action_help_app">app</string>
     <string name="shortcut_action_help_icon">, mentre si seleziona l\'icona apparirà il menu di personalizzazione</string>
-    <string name="shortcut_action_help_main">Per aggiungere una %1$s, selezionare l\'icona aggiungi. Una volta che l\' %1$s è aggiunta, selezionare la riga cambierà l\'azione%2$s\n\nPer rimuovere una %1$s, fai uno swipe sulla riga verso destra o sinistra. Riordina una %1$s trascinandola tramite l\'ancora a sinistra.</string>
+    <string name="shortcut_action_help_main">Per aggiungere un\'opzione, selezionare l\'icona aggiungi.  Una volta che un\'opzione è stata aggiunta, selezionando la riga si potrà cambiare azione.\n\nPer rimuovere un\'opzione, fare uno swipe orizzontale da destra o sinistra.  Si possono ri-ordinare le icone trascinandole con l\'ancora a sinistra.\n\nPer togliere tutto e tornare come all\'inizio, selezionare l'icona ripristina.</string>
     <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nella lista disabiliterà la feature.</string>
     <string name="shortcut_action_help">Aiuto</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovere ogni %1$s nella lista disabiliterà il secondo arco.</string>
