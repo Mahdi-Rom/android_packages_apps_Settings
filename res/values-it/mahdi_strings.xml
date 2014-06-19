@@ -37,9 +37,9 @@
     
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Ripristina</string>
     <string name="attention">Attenzione</string>
-    <string name="default_string">Default</string>
+    <string name="default_string">Predefinito</string>
     <string name="enabled">Attivato</string>
     <string name="disabled">Disattivato</string>
     <string name="add">Aggiungi</string>
@@ -49,13 +49,13 @@
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">Opzioni LED</string>
-    <string name="notification_light_title">LED di Notifica</string>
+    <string name="notification_light_title">LED Notifica</string>
     <string name="notification_light_general_title">Generale</string>
     <string name="notification_light_applist_title">Applicazioni</string>
     <string name="notification_light_phonelist_title">Telefono</string>
     <string name="notification_light_use_custom">Usa valori personalizzati</string>
-    <string name="notification_light_missed_call_title">Chiamata Persa</string>
-    <string name="notification_light_voicemail_title">Messaggio in Segreteria</string>
+    <string name="notification_light_missed_call_title">Chiamata persa</string>
+    <string name="notification_light_voicemail_title">Messaggio in segreteria</string>
     <string name="notification_light_choose_app">Scegli applicazione</string>
     <string name="notification_light_add">Aggiungi</string>
     
@@ -122,7 +122,7 @@
     <string name="add_profile_dialog_title">Crea nuovo profilo</string>
     <string name="profile_name_title">Nome</string>
     <string name="profile_profile_name_prompt">Inserisci un nome per il nuovo profilo</string>
-    <string name="menu_new_profile">Nuovo Profilo</string>
+    <string name="menu_new_profile">Nuovo profilo</string>
     <string name="menu_new_profile_summary">Aggiungi e configura nuovo profilo</string>
     <string name="new_profile_name">\u003Cnuovo profilo\u003E</string>
 
@@ -147,9 +147,9 @@
     <string name="profile_networkmode_2g3g">2G/3G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Sovrascrizione Connessione</string>
-    <string name="profile_volumeoverrides_title">Sovrascrizione Volume</string>
-    <string name="profile_vibratoroverrides_title">Sovrascrizione Vibrazione</string>
+    <string name="profile_connectionoverrides_title">Sovrascrizione connessione</string>
+    <string name="profile_volumeoverrides_title">Sovrascrizione volume</string>
+    <string name="profile_vibratoroverrides_title">Sovrascrizione vibrazione</string>
     <string name="connection_state_disabled">Disattiva</string>
     <string name="connection_state_enabled">Attiva</string>
     <string name="volume_override_summary">Imposta a</string>
@@ -159,10 +159,10 @@
 
     <!-- Menu item for managing profiles -->
     <string name="profile_profiles_manage">Profili</string>
-    <string name="profile_profile_manage">Amministrazione Profilo</string>
-    <string name="profile_applist_manage">Lista Applicazioni</string>
-    <string name="profile_appgroups_manage">Gruppi Applicazioni</string>
-    <string name="profile_appgroup_manage">Amministra Gruppi Applicazioni</string>
+    <string name="profile_profile_manage">Amministrazione profilo</string>
+    <string name="profile_applist_manage">Lista applicazioni</string>
+    <string name="profile_appgroups_manage">Gruppi applicazioni</string>
+    <string name="profile_appgroup_manage">Amministra gruppi applicazioni</string>
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Imposta profilo</string>
@@ -193,7 +193,7 @@
 
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Scegli applicazione</string>
-    <string name="profile_settings_header">Impostazioni Profilo</string>
+    <string name="profile_settings_header">Impostazioni profilo</string>
 
     <!-- Profiles - system settings -->
     <string name="profile_system_settings_title">Impostazioni sistema</string>
@@ -204,7 +204,7 @@
     <string name="profile_lockmode_default_summary">Usa predefinito sistema</string>
     <string name="profile_lockmode_insecure_summary">Usa modalità di blocco predefinita</string>
     <string name="profile_lockmode_disabled_summary">La schermata di sblocco è disattivata</string>
-    <string name="profile_airplanemode_title">Modalità Aereo</string>
+    <string name="profile_airplanemode_title">Modalità aereo</string>
     <string name="profile_disable_screen_lock_summary">Disattiva la lock screen di sicurezza quando questo profilo è attivo</string>
 
     <string name="vibrator_type_ringer">Chiamate</string>
@@ -217,7 +217,7 @@
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Dati Mobili</string>
-    <string name="toggleSync">Sincronizzazione Dati</string>
+    <string name="toggleSync">Sincronizzazione dati</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleSound">Modalità suoneria</string>
     <string name="toggleNotificationSound">Suono notifica</string>
@@ -241,14 +241,14 @@
     <string name="profile_write_failed">Scrittura del tag fallita!</string>
     <string name="profile_selected">Profilo selezionato: %1$s</string>
     <string name="profile_nfc_text">Scrivere un profilo su un tag NFC ti permette di selezionare il profilo toccando il tag. Un secondo tocco selezionerà il profilo precedente.</string>
-    <string name="profile_unknown_nfc_tag">Profilo sconosciuto </string>
+    <string name="profile_unknown_nfc_tag">Profilo sconosciuto</string>
     <string name="profile_add_nfc_text">Questo tag si riferisce a un profilo inesistente.</string>
-    <string name="profile_select">Seleziona profilo </string>
+    <string name="profile_select">Seleziona profilo</string>
 
     <string name="ring_mode_title">Modalità suoneria</string>
     <string name="ring_mode_normal">Normale</string>
     <string name="ring_mode_vibrate">Vibrazione</string>
-    <string name="ring_mode_mute">Muto</string>
+    <string name="ring_mode_mute">Silenzioso</string>
 
     <!-- button settings -->
     <string name="button_volume_keys_title">Tasti volume</string>
@@ -271,18 +271,18 @@
     <string name="blacklist_disabled_empty_text">Per bloccare chiamate o messaggi da un numero, abilitare la blacklist </string>
     <string name="blacklist_summary_disabled">Disattiva</string>
     <string name="blacklist_summary">Chiamate in arrivo e messaggi dai numeri in blacklist saranno bloccati.</string>
-    <string name="blacklist_notify">Mostra Notifica</string>
-    <string name="blacklist_private_numbers_title">Numeri Privati</string>
+    <string name="blacklist_notify">Mostra notifica</string>
+    <string name="blacklist_private_numbers_title">Numeri privati</string>
     <string name="blacklist_private_numbers_summary_disabled">Non bloccare chiamate dai numeri privati</string>
-    <string name="blacklist_private_numbers_summary">Blocca  <xliff:g id="type">%s</xliff:g> da numeri privati </string>
-    <string name="blacklist_unknown_numbers_title">Numeri Sconosciuti</string>
+    <string name="blacklist_private_numbers_summary">Blocca <xliff:g id="type">%s</xliff:g> da numeri privati </string>
+    <string name="blacklist_unknown_numbers_title">Numeri sconosciuti</string>
     <string name="blacklist_unknown_numbers_summary_disabled">Non bloccare le chiamate dei numeri che non sono nei contatti</string>
-    <string name="blacklist_unknown_numbers_summary">Blocca  <xliff:g id="type">%s</xliff:g> dai numeri che non sono nella lista dei lista dei contatti</string>
+    <string name="blacklist_unknown_numbers_summary">Blocca <xliff:g id="type">%s</xliff:g> dai numeri che non sono nella lista dei contatti</string>
     <string name="blacklist_summary_type_calls_only">chiamate</string>
     <string name="blacklist_summary_type_messages_only">messaggi</string>
     <string name="blacklist_summary_type_calls_and_messages">chiamate e messaggi</string>
     <string name="blacklist_regex_title">usa jolly</string>
-    <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
+    <string name="blacklist_regex_summary">Usa . come un jolly e * per le ripetizioni. Es: 123.* blocca i numeri che iniziano con 123 e .*123.* blocca i numeri che contengono 123</string>
     <string name="blacklist_policy_block_calls">Blocca chiamate in arrivo</string>
     <string name="blacklist_policy_block_messages">Blocca messaggi in arrivo</string>
 
@@ -290,16 +290,16 @@
     <string name="add_blacklist_number">Aggiungi numero</string>
     <string name="remove_blacklist_number_title">Rimuovi numero</string>
     <string name="remove_blacklist_entry">Vuoi rimuovere questo numero dalla blacklist?</string>
-    <string name="select_contact">Seleziona Contatto</string>
+    <string name="select_contact">Seleziona contatto</string>
 
     <!-- Performance Control -->
-    <string name="performance_settings">Impostazioni Kernel</string>
+    <string name="performance_settings">Impostazioni kernel</string>
 
     <!-- Sound settings -->
     <string name="volume_category">Volume</string>
     <string name="advanced_sound_title">Opzioni avanzate</string>
     <string name="advanced_sound_summary">Guarda o cambia opzioni per i pulsanti del volume e cuffie</string>
-    <string name="link_volume_ringtones">Unisci volume suoneria e notifica \u0026 notifications volumes</string>
+    <string name="link_volume_ringtones">Unisci volume suoneria e notifica</string>
     <string name="volume_ring_only_description">Suoneria</string>
     <string name="volume_overlay_title">Stile pannello volume</string>
     <!-- Volume button music control -->
@@ -317,10 +317,10 @@
     <string name="button_volume_default_ringer">Suoneria</string>
     <string name="button_volume_default_media">Applicazioni multimediali</string>
     <string name="button_volume_default_title">Volume di default</string>
-    <string name="button_volume_default_summary">Scegli quale volume viene cambiato di default</string>
+    <string name="button_volume_default_summary">Quale volume viene cambiato di default</string>
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Timeout</string>
-    <string name="volume_panel_timeout_summary">Tempo prima che il pannello viene nascosto</string>
+    <string name="volume_panel_timeout_summary">Tempo prima che il pannello venga nascosto</string>
     <!-- Launch music app on connect -->
     <string name="headset_category_title">Cuffie</string>
     <string name="headset_connect_player_title">Apri player predefinito alla connessione delle cuffie</string>
@@ -345,7 +345,7 @@
     <string name="auto_brightness_split_lux_format">Dividi posizione (tra <xliff:g id="min">%1$d</xliff:g> e <xliff:g id="max">%2$d</xliff:g> lux)</string>
     <string name="auto_brightness_level_options">Impostazioni livelli luminosità</string>
     <string name="auto_brightness_menu_edit">Modifica</string>
-    <string name="auto_brightness_menu_split">Split</string>
+    <string name="auto_brightness_menu_split">Dividi</string>
     <string name="auto_brightness_menu_remove">Rimuovi</string>
     <string name="auto_brightness_preview">Anteprima</string>
     <string name="auto_brightness_preview_dialog_title">Anteprima curva luminosità</string>
@@ -386,7 +386,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="screen_security_summary">Vedi o modifica schermata di sblocco</string>
     <string name="lock_screen_title">Schermata di sblocco</string>
     <string name="lock_screen_summary">Cambia il modo in cui si presenta la tua lockscreen, aggiungi scorciatoie e widget</string>
-    <string name="additional_options_title">Opzioni Avanzate</string>
+    <string name="additional_options_title">Opzioni avanzate</string>
     <string name="lock_before_unlock_title">Mostra slider prima dello sblocco sicuro</string>
     <string name="lock_before_unlock_summary">Mostra slider di sblocco prima del meccanismo sicuro di sblocco</string>
 
@@ -394,7 +394,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shake_to_secure_title">Scuoti in lockscreen per il blocco sicuro</string>
     <string name="shake_to_secure_summary">Il blocco non ci sarà più dopo lo sblocco</string>
     <string name="shake_to_secure_dlg_title">Attenzione:</string>
-    <string name="shake_to_secure_dlg_message">Il dispositivo non sarà sicuro affinchè non scuoti esplicitamente per attivare un blocco temporaneo. Quando diventa sicuro: se il dispositivo è sbloccato con successo diventerà insicuro fino al prossimo scuotimento.</string>
+    <string name="shake_to_secure_dlg_message">Il dispositivo non sarà sicuro affinchè non scuoti per attivare un blocco temporaneo. Quando diventa sicuro: se il dispositivo è sbloccato con successo diventerà insicuro fino al prossimo scuotimento.</string>
     <string name="shake_secure_timeout_title">Ri-diventa sicuro automaticamente</string>
     <string name="shake_all">Scuoti in ogni direzione</string>
     <string name="shake_horizontal">Scuoti orizzontalmente</string>
@@ -528,7 +528,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="title_tile_custom">Personalizzato</string>
     <string name="custom_tile_dialog_text">Ogni azione aggiungerà un nuovo stato al tile. Ogni click lo porta al prossimo stato. Tieni premuto per aggiungere un\'azione.</string>
     <string name="custom_tile_dialog_title">Azione del tile personalizzato</string>
-    <string name="custom_tile_dialog_extra_text">Advanced tile detected. Your tile will now change states when adjusted from anywhere. You may optionally input an icon and label for the toggle to switch to if it doesn\'t recognize the state it\'s in.</string>
+    <string name="custom_tile_dialog_extra_text">Tile avanzato trovato. Il tuo tile ora cambierà stato in qualsiasi luogo.</string>
     <string name="custom_toggle_extras">Extra del tile personalizzato</string>
     <string name="custom_toggle_collapse_check">Chiudi dopo aver premuto</string>
     <string name="custom_toggle_match_state_check">Il click unisce le icone</string>
@@ -631,10 +631,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="usb_mass_storage_title">Archivio di massa</string>
     <string name="usb_mass_storage_summary">Attiva archivio di massa</string>
     <string name="storage_rescan_media">Riesegui lo scan dei media per l\'archiviazione</string>
-    <string name="storage_rescan_media_complete">Scan Completo</string>
+    <string name="storage_rescan_media_complete">Scan completo</string>
 
     <!-- Category title for power sound notification specific Settings -->
-    <string name="power_notifications_category_title">Suono power</string>
+    <string name="power_notifications_category_title">Suono collegamento</string>
     <!-- Sound settings, power notifications enable/disable, setting check box label -->
     <string name="power_notifications_enable_title">Attiva</string>
     <!-- Sound settings, power notifications vibrate enable/disable, setting check box label -->
@@ -704,8 +704,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="status_bar_clock_style_reset_message">Ripristinare colore orologio?</string>
     
     <!-- Statusbar Second Clock -->
-    <string name="clock_use_second">Second</string>
-    <string name="clock_use_second_summary">Show seconds in the clock</string>
+    <string name="clock_use_second">Secondi</string>
+    <string name="clock_use_second_summary">Mostra secondi nell\'orologio</string>
 
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Stile batteria</string>
@@ -745,8 +745,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="battery_around_lockscreen_ring_summary">Se attivo l\'anello intorno alla lockscreen mostrerà il livello batteria.</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">Notifica Debug USB</string>
-    <string name="adb_notify_summary">Mostra notifica quando il Debug USB è attivo</string>
+    <string name="adb_notify">Notifica debug USB</string>
+    <string name="adb_notify_summary">Mostra notifica quando il debug USB è attivo</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="advanced_settings_title">Avanzato</string>
@@ -760,12 +760,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="keys_back_press_title">Pulsante indietro</string>
     <string name="keys_back_long_press_title">Pulsante indietro(tieni premuto)</string>
     <string name="keys_back_double_tap_title">Pulsante indietro (doppio tocco)</string>
-    <string name="keys_home_press_title">Tasto Home</string>
+    <string name="keys_home_press_title">Tasto home</string>
     <string name="keys_home_long_press_title">Tasto home (tieni premuto)</string>
     <string name="keys_home_double_tap_title">Tasto home (doppio tocco)</string>
-    <string name="keys_menu_press_title">Tasto menù</string>
-    <string name="keys_menu_long_press_title">Tasto menù (tieni premuto)</string>
-    <string name="keys_menu_double_tap_title">Tasto menù (doppio tocco)</string>
+    <string name="keys_menu_press_title">Tasto menu</string>
+    <string name="keys_menu_long_press_title">Tasto menu (tieni premuto)</string>
+    <string name="keys_menu_double_tap_title">Tasto menu (doppio tocco)</string>
     <string name="keys_assist_press_title">Tasto cerca</string>
     <string name="keys_assist_long_press_title">Tasto cerca(tieni premuto) </string>
     <string name="keys_assist_double_tap_title">Tasto cerca (doppio tocco)</string>
@@ -778,7 +778,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="no_home_key">Non hai nessuna opzione selezionata per il tasto \"home\"! \n\n Questo può rendere il tuo dispositivo inusabile!</string>
 
     <!-- Increase Ringing -->
-    <string name="increasing_ring_title">Suoneria Incrementale</string>
+    <string name="increasing_ring_title">Suoneria incrementale</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
     <string name="checkbox_increasing_ring">Attiva</string>
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
@@ -806,11 +806,11 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Display : Rotation  -->
     <string name="display_rotation_title">Rotazione</string>
-    <string name="display_rotation_enabled">Attivo.</string>
-    <string name="display_rotation_disabled">Disattivo.</string>
+    <string name="display_rotation_enabled">Attivo</string>
+    <string name="display_rotation_disabled">Disattivo</string>
     <string name="display_rotation_unit">Gradi</string>    
     <string name="display_lockscreen_rotation_title">Includi nella lockscreen</string>
-    <string name="display_rotation_category_title">Modalità Rotazione</string>
+    <string name="display_rotation_category_title">Modalità rotazione</string>
     <string name="display_rotation_0_title">0 gradi</string>
     <string name="display_rotation_90_title">90 gradi</string>
     <string name="display_rotation_180_title">180 gradi</string>
@@ -820,7 +820,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="adb_over_network">ADB via Wi-Fi</string>
     <string name="adb_over_network_summary">Attiva debug TCP/IP sulle interfacce di rete(Wi-Fi, USB). Questa impostazione è ripristinata al riavvio.</string>
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">ATTENZIONE: Quando ADB via rete è attivo, il tuo telefono è aperto all\'intrusione da qualsiasi rete, inclusa la rete GSM!\n\nUsa questa feature solo con reti sicure.\n\nVuoi veramente arrivare quest\'opzione?</string>
+    <string name="adb_over_network_warning">Attenzione: Quando ADB via rete è attivo, il tuo telefono è aperto all\'intrusione da qualsiasi rete, inclusa la rete GSM!\n\nUsa questa feature solo con reti sicure.\n\nVuoi veramente arrivare quest\'opzione?</string>
 
     <!-- Button shorcut actions -->
     <string name="shortcut_action_keyguard_camera">Keyguard fotocamera</string>
@@ -837,7 +837,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_screenshot">Screenshot</string>
     <string name="shortcut_action_menu">Menu</string>
     <string name="shortcut_action_ime">Cambia tastiera</string>
-    <string name="shortcut_action_immersive_mode">Immersive Mode</string>
+    <string name="shortcut_action_immersive_mode">Immersive mode</string>
     <string name="shortcut_action_kill">Chiudi app</string>
     <string name="shortcut_action_power">Spegni schermo</string>
     <string name="shortcut_action_notifications">Notifiche</string>
@@ -845,11 +845,11 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_qs">Quick settings</string>
     <string name="shortcut_action_smart">Quick settings intelligenti</string>
     <string name="shortcut_action_none">Niente</string>
-    <string name="shortcut_action_power_menu">Menù Power</string>
+    <string name="shortcut_action_power_menu">Menù power</string>
     <string name="shortcut_action_ring_vib">Suoneria/Vibrazione</string>
     <string name="shortcut_action_ring_silent">Suoneria/Silenzioso</string>
     <string name="shortcut_action_ring_vib_silent">Suoneria/Vibrazione/Silenzioso</string>
-    <string name="shortcut_action_theme_switch">Theme switcher</string>
+    <string name="shortcut_action_theme_switch">Cambia tema</string>
     <string name="shortcut_action_torch">Torcia</string>
     <string name="shortcut_action_omniswitch">OmniSwitch</string>
     <string name="shortcut_action_longpress">Tieni premuto:</string>
@@ -869,10 +869,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_help_button">pulsante</string>
     <string name="shortcut_action_help_app">app</string>
     <string name="shortcut_action_help_icon">, mentre si seleziona l\'icona apparirà il menu di personalizzazione</string>
-    <string name="shortcut_action_help_main">Per aggiungere una %1$s, selezionare l\'icona aggiungi. Una volte che l\' %1$s è aggiunta, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right.  Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the Reset icon.</string>
-    <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
+    <string name="shortcut_action_help_main">Per aggiungere una %1$s, selezionare l\'icona aggiungi. Una volta che l\' %1$s è aggiunta, selezionare la riga cambierà l\'azione%2$s\n\nPer rimuovere una %1$s, fai uno swipe sulla riga verso destra o sinistra. Riordina una %1$s trascinandola tramite l\'ancora a sinistra.</string>
+    <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nella lista disabiliterà la feature.</string>
     <string name="shortcut_action_help">Aiuto</string>
-    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovere ogni %1$s nella lista disabiliterà il secondo arco.</string>
 
     <string name="shortcuts_icon_picker_alarm">Allarme</string>
     <string name="shortcuts_icon_picker_andy">Andy</string>
@@ -901,8 +901,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
     <string name="shortcuts_icon_picker_help">Aiuto</string>
     <string name="shortcuts_icon_picker_joystick">Joystick</string>
-    <string name="shortcuts_icon_picker_key">Keys/Accounts</string>
-    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_key">Chiavi/Account</string>
+    <string name="shortcuts_icon_picker_laptop">Portatile</string>
     <string name="shortcuts_icon_picker_notes">Notes</string>
     <string name="shortcuts_icon_picker_luggage">Viaggio</string>
     <string name="shortcuts_icon_picker_maps">Maps</string>
@@ -921,7 +921,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcuts_icon_picker_search">Cerca</string>
     <string name="shortcuts_icon_picker_sms">Messaging</string>
     <string name="shortcuts_icon_picker_tasks">Tasks</string>
-    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_terminal">Terminale</string>
     <string name="shortcuts_icon_picker_transit">Transit</string>
     <string name="shortcuts_icon_picker_tv">TV</string>
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
@@ -947,7 +947,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="notification_drawer_title">Drawer notifiche</string>
     <string name="notification_drawer_summary">Aggiungi scorciatoie, quick settings e altro </string>
     <string name="notification_shortcuts_settings_title">Scorciatoie </string>
-    <string name="notification_shortcuts_settings_summary">Aggiungi quick settings in fondo al notification drawer </string>
+    <string name="notification_shortcuts_settings_summary">Aggiungi quick settings in alto nel notification drawer </string>
 
     <!-- Notification hide labels -->
     <string name="notification_hide_labels_title">Nascondi gestore/rete Wi-Fi</string>
@@ -979,7 +979,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="navigation_menu_never_show">Non mostrare mai </string>
     <string name="navigation_menu_always_show">Mostra sempre </string>
     <string name="navigation_bar">Navigation bar</string>
-    <string name="navbar_button_cat">Pulsanti della Navigation bar</string>
+    <string name="navbar_button_cat">Pulsanti della navigation bar</string>
     <string name="title_pref_menu_location">Posizione menu</string>
     <string name="summary_pref_menu_location">Dove vuoi che appaia il pulsante menu?</string>
     <string name="title_pref_menu_display">Visibilità menu</string>
@@ -987,15 +987,15 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="navbar_enable_bar">Attiva navigation bar </string>
     <string name="navbar_enable_bar_summary">Attiva la navigation bar </string>
     <string name="navigation_bar_left_title">Modalità mancino</string>
-    <string name="navigation_bar_left_summary">In modalità orizzontale la navigation bar è sulla sinistra </string>
+    <string name="navigation_bar_left_summary">In modalità landscape la navigation bar è sulla sinistra </string>
     <string name="navigation_bar_height_title">Altezza navigation bar </string>
     <string name="navigation_bar_height_summary">Altezza della navigation bar in verticale</string>
-    <string name="navigation_bar_height_landscape_title">Altezza navigation bar in orizzontale</string>
-    <string name="navigation_bar_height_landscape_summary">Altezza della navigation bar in orizzontale</string>
+    <string name="navigation_bar_height_landscape_title">Altezza navigation bar in landscape</string>
+    <string name="navigation_bar_height_landscape_summary">Altezza della navigation bar in landscape</string>
     <string name="navigation_bar_width_title">Spessore navigation bar</string>
-    <string name="navigation_bar_width_summary">Altezza navigation bar in modalità orizzontale</string>
-    <string name="navbar_can_move">Mostra orizzontale</string>
-    <string name="navbar_can_move_summary">Mostra navigation bar in basso in modalità orizzontale </string>
+    <string name="navigation_bar_width_summary">Altezza navigation bar in modalità landscape</string>
+    <string name="navbar_can_move">Mostra landscape</string>
+    <string name="navbar_can_move_summary">Mostra navigation bar in basso in modalità landscape </string>
     <string name="navbar_style_dimen_title">Dimensioni</string>
     <string name="navbar_style_dimen_summary">Vedi o cambia le dimensioni della navigation bar</string>
     <string name="navbar_button_title">Pulsanti </string>
@@ -1057,7 +1057,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_auto_string_title">Risposta da inviare </string>
     <string name="quiet_hours_auto_string_explain">Questo messaggio sarà inviato a chiunque tenti di contattarti durante
             le ore di quiete </string>
-    <string name="quiet_hours_auto_sms_null">[Messaggio Automatico] Ti richiamo appena posso.</string>
+    <string name="quiet_hours_auto_sms_null">[Messaggio automatico] Ti richiamo appena posso.</string>
     <string name="quiet_hours_auto_disabled">Disattivato </string>
     <string name="quiet_hours_auto_enabled">Tutti i numeri </string>
     <string name="quiet_hours_auto_contacts">Solo i contatti </string>
