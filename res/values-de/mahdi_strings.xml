@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Custom settings  -->
+    <!-- Custom settings -->
     <string name="custom_settings_category">ROM</string>
     <!-- Customization Interface settings -->
     <string name="customization_settings_title">Benutzeroptionen</string>
@@ -46,7 +46,7 @@ limitations under the License.
     <string name="reset_message">Auf Standardeinstellungen zurücksetzen?</string>
     <string name="style_title">Optik</string>
     <string name="more_title">Mehr...</string>
-	
+
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">LED-Einstellungen</string>
     <string name="notification_light_title">Benachrichtigungs-LED</string>
@@ -62,7 +62,7 @@ limitations under the License.
     <!-- Screen-On Notification Light -->
     <string name="screen_on_notification_led_title">Bei eingeschaltetem Bildschirm aktiv</string>
     <string name="screen_on_notification_led_summary">LED ist auch bei eingeschaltetem Bildschirm aktiv</string>
-	
+
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Farbeinstellungen ändern</string>
     <string name="pulse_speed_title">Pulsdauer und Geschwindigkeit</string>
@@ -103,9 +103,9 @@ limitations under the License.
     <string name="power_menu_profiles_title">Profilwechsel</string>
     <string name="power_menu_airplane_title">Flugmodus</string>
     <string name="power_menu_silent_title">Lautlos</string>
-    <string name="power_menu_expanded_desktop">Erweiterter Desktop</string> 
+    <string name="power_menu_expanded_desktop">Erweiterter Desktop</string>
     <string name="power_menu_mobile_data">Mobile Datenverbindung</string>
-	
+
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Erweitertes Neustartmenü</string>
     <string name="advanced_reboot_summary">Bei entsperrtem Bildschirm dem Neustartmenü Optionen für Neustart in Recovery und Bootloader hinzufügen.</string>
@@ -327,13 +327,13 @@ limitations under the License.
    
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Automatische Helligkeit</string>
-    <string name="auto_brightness_adjustment_title">Helligkeits-Einstellung</string>
     <string name="auto_brightness_twilight_adjustment">An Dämmerung anpassen</string>
     <string name="light_sensor_current_value">Aktueller Sensorwert: <xliff:g id="light_level">%d</xliff:g> Lux</string>
     <string name="auto_brightness_dialog_title">Helligkeitsstufen</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> Lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e Lux</string>
 
+	
     <string name="auto_brightness_adjust_button">Anpassen</string>
     <string name="auto_brightness_close_button">Schließen</string>
     <string name="auto_brightness_reset_button">Zurücksetzen</string>
@@ -511,7 +511,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="title_tile_profile">Profile</string>
     <string name="title_tile_autorotate">Bildschirmausrichtung</string>
     <string name="title_tile_settings">Einstellungen</string>
-    <string name="title_tile_shake">Schüttelevents</string> 
+    <string name="title_tile_shake">Schüttelevents</string>
     <string name="title_tile_sound">Klingelmodus</string>
     <string name="title_tile_sync">Synchronisation</string>
     <string name="title_tile_wifiap">WLAN-Hotspot</string>
@@ -536,7 +536,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="custom_toggle_extras">Extras</string>
     <string name="custom_toggle_collapse_check">Benachrichtigungsschattierung</string>
     <string name="custom_toggle_match_state_check">Symbolübereinstimmung</string>
-    <string name="custom_toggle_double_click_check">Zweimal Tippen um zur vorherigen Aktion zu wechseln</string> 
+    <string name="custom_toggle_double_click_check">Zweimal Tippen um zur vorherigen Aktion zu wechseln</string>
     <string name="custom_tile_long_press">Langer Druck:</string>
     <string name="custom_tile_null_warning">Zuerst muss eine Aktion festgelegt werden</string>
     <string name="custom_tile_resolve_name">Unbekannt</string>
@@ -595,8 +595,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="summary_quick_access_linked">Konfiguration der Schnelleinstellungen verwenden</string>
 
     <!-- QuickSettings style options -->
-    <string name="title_qs_small_icons">Kleinere Kacheln anzeigen</string>
-    <string name="summary_qs_small_icons">Kleinere Kacheln anzeigen, um die Spaltenanzahl zu erhöhen</string>
     <string name="summary_quicksettings_tiles_style">Konfiguration der Kacheloptik</string>
     <string name="quick_tiles_color_title">Bnutzerdefinierte Farben aktivieren</string>
     <string name="quick_tiles_color_summary">Aktivierte benutzerdefinierte Farben überschreiben die Änderungen von Themen</string>
@@ -613,6 +611,10 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- QuickSettings haptic feedback -->
     <string name="haptic_qs_tiles_title">Beim Drücken vibrieren</string>
     <string name="haptic_qs_tiles_summary">Vibration beim Drücken der Kacheln</string>
+
+    <!-- QuickSettings smaller tiles -->
+    <string name="title_qs_small_icons">Kleinere Kacheln anzeigen</string>
+    <string name="summary_qs_small_icons">Anzeige kleinerer Kacheln um die Anzahl der Spalten zu erhöhen</string>
 
     <!-- This exists as part of Power widget already, re-use them If Power widget is removed, re-enable these -->
     <string name="pref_ring_mode_title">Klingelmodi</string>
@@ -702,10 +704,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="clock_date_format_custom">Eigenes Format</string>
     <string name="status_bar_clock_style_reset_message">Uhrfarbe zurücksetzen?</string>
 
-	<!-- Statusbar Second Clock -->
-    <string name="clock_use_second">Sekunden</string>
-    <string name="clock_use_second_summary">Anzeige der Sekunden aktivieren</string>
-
     <!-- StatusBar Battery Settings -->
     <string name="status_bar_battery_title">Akkustandanzeige</string>
     <string name="status_bar_style_icon_portrait">Symbol (stehend)</string>
@@ -746,9 +744,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">USB-Debugging-Info</string>
     <string name="adb_notify_summary">Eine Benachrichtigung zeigen, wenn USB-Debugging verbunden ist</string>
-
-    <!-- Advanced, Device specific (DeviceParts) settings -->
-    <string name="advanced_settings_title">Erweitert</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Tasten</string>
@@ -942,12 +937,21 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="shortcuts_color_mode_title">Symbolfarbmodus</string>
     <string name="shortcuts_color_mode_summary">Ändert den Farbmodus der Verküpfung</string>
 
-    <!-- Notification drawer settings -->
+    <!-- Status bar auto-collapse behaviour -->
     <string name="notification_drawer_title">Benachrichtigungsanzeige</string>
     <string name="notification_drawer_summary">Konfiguration der Benachrichtigungsanzeige, Verknüpfungen und der Schnellzugriffsleiste</string>
     <string name="notification_shortcuts_settings_title">App-Verknüpfungen</string>
     <string name="notification_shortcuts_settings_summary">Verknüfungen hinzufügen</string>
 
+    <!-- Notification Auto close behavior -->
+    <string name="notification_drawer_collapse_on_dismiss_title">Automatisches Schließen</string>
+    <string name="collapse_on_dismiss_never">Deaktiviert</string>
+    <string name="collapse_on_dismiss_if_empty">Wenn keine Verbleibenden</string>
+    <string name="collapse_on_dismiss_if_no_clearable">Wenn keine Nichtlöschbaren</string>
+    <string name="collapse_on_dismiss_never_summary">Nach dem Entfernen der Benachrichtigungen geöffnet lassen</string>
+    <string name="collapse_on_dismiss_if_empty_summary">Nach dem Entfernen der letzten Benachrichtigung schließen</string>
+    <string name="collapse_on_dismiss_if_no_clearable_summary">Nach dem Entfernen der letzten löschbaren Benachrichtigung schließen</string>
+    
     <!-- Notification hide labels -->
     <string name="notification_hide_labels_title">Verstecke Netzwerknamen</string>
     <string name="notification_hide_labels_disable">Zeige alle Netzwerke</string>
@@ -1222,20 +1226,26 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="accessibility_target_direction">Schieber zur gewünschten Position ziehen um ein Ziel zu aktivieren</string>
     <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
     <string name="description_target_unlock">Entsperren</string>
-	
+
     <!-- Lockscreen Shortcuts -->
     <string name="lockscreen_shortcuts_title">Verknüpfungen</string>
     <string name="lockscreen_shortcuts_summary">Verküpfungen zum Sperrbildschirm hinzufügen</string>
     <string name="lockscreen_shorcuts_longpress_title">Verknüfungen öffnen</string>
     <string name="lockscreen_shorcuts_longpress_summary">Taste lange drücken um die Verknüpfungen des Sperrbildschirm zu öffnen</string>
-		
-    <!-- Lock screen targets and shortcuts -->
+
+    <!--Lockscreen See Through-->
+    <string name="see_through_title">Hindurchsehen</string>
+    <string name="see_through_summary">Zeigt den Inhalt hinter dem Sperrbildschirm, Daten könnten daher für Dritte sichtbar sein</string>
+	
+    <!-- Lock screen shortcuts -->
     <string name="picker_activities">Aktivitäten</string>
     <string name="select_custom_activity_title">Aktivität wählen</string>
     <string name="icon_picker_alarm">Wecker</string>
     <string name="icon_picker_browser">Browser</string>
     <string name="icon_picker_calendar">Kalendar</string>
     <string name="icon_picker_camera">Kamera</string>
+	<string name="icon_picker_chrome">Chrome</string>
+    <string name="icon_picker_contacts">Kontakte</string>
     <string name="icon_picker_email">Email</string>
     <string name="icon_picker_email2">Email Holo</string>
     <string name="icon_picker_facebook">Facebook</string>
@@ -1364,7 +1374,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Themes settings -->
     <string name="themes_settings_title">Themen</string>
     <string name="title_cm_themes">Themen Auswahl</string>
-	
+
     <!-- The following are entries under the themes menu -->
     <string name="themepacks_settings_title">Themen</string>
     <string name="styles_settings_title">Stile</string>
@@ -1381,7 +1391,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="theme_auto_mode_lightsensor">Bei Änderung der Lichtverhältnisse</string>
     <string name="theme_auto_mode_twilight">Tageszeitabhängig</string>
     <string name="theme_auto_switch_mode_error">Automatischer Änderungsmodus durch Lichtverhältnisse aktiviert. Manuelles Umschalten nicht möglich.</string>
-	
+
     <!-- Notification drawer background -->
     <string name="notification_background_title">Hintergrund</string>
     <string name="notification_background_summary">Hintergrund ändern</string>
@@ -1832,7 +1842,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="theme_auto_mode_lightsensor">Bei Änderung der Lichtverhältnisse</string>
     <string name="theme_auto_mode_twilight">Tageszeitabhängig</string>
     <string name="theme_auto_switch_mode_error">Automatischer Änderungsmodus durch Lichtverhältnisse aktiviert. Manuelles Umschalten nicht möglich.</string>
-	
+
     <!-- Double-tap to sleep -->
     <string name="double_tap_sleep_title">Double-Tap-Schlafmodus</string>
     <string name="double_tap_to_sleep_summary">Konfiguration des Double-Tap-Schlafmodus</string>
@@ -1993,7 +2003,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="time_quarter_to">Viertel vor</string>
     <string name="time_ten_to">Zehn vor</string>
     <string name="time_five_to">Fünf vor</string>
-	
+
     <!-- Pie Control -->
     <string name="pie_control_title">Pie Steuerung</string>
     <string name="pie_control_summary">Pie aktivieren</string>
@@ -2044,22 +2054,13 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- Shortcuts -->
     <string name="shortcut_picker">Aktionen</string>
 
-    <!-- Lockscreen background -->
-    <string name="lockscreen_background">Hintergrund</string>
-    <string name="lockscreen_background_style_title">Sperrbildschirmhintergrund</string>
-    <string name="background_default">Standard Hintergrundbild</string>
-    <string name="background_wallpaper">Eigenes Hintergrundbild</string>
-    <string name="background_result_successful">Hintergrundbild geändert</string>
-    <string name="background_result_not_successful">Hintergrundbild nicht geändert</string>
-    <string name="setting_lockscreen_background">Hintergrund wird eingerichtet</string>
     <!-- Custom lockscreen -->
     <string name="lockscreen_enable_modlock_title">Benutzerdefinierter Sperrbildschirm</string>
 
     <!-- Bluetooth accept all file types -->
     <string name="bluetooth_accept_all_files">Akzeptieren aller Dateitypen</string>
 
-    <!-- Font size sample text. This needs to be a very short string, as it is shown in
-    multiple font sizes in a limited amount of space. -->
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in multiple font sizes in a limited amount of space. -->
     <string name="font_size_sample">Beispiel</string>
 
     <!--Notification category-->
@@ -2080,7 +2081,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="peek_wake_20seconds">20 Sekunden</string>
     <string name="peek_wake_30seconds">30 Sekunden</string>
     
-	<!-- Battery Bar -->
+    <!-- Battery Bar -->
     <string name="battery_bar_title">Batterieleiste</string>
     <string name="battery_bar_summary">Konfiguration der Batterieleiste</string>
     <string name="battery_bar">Position</string>
@@ -2132,7 +2133,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="shake_sensitivity_very_sensitive">Sehr empfindlich</string>
     <string name="shake_sensitivity_super_sensitive">Super empfindlich</string>
     <string name="shake_sensitivity_ultra_sensitive">Ultra empfindlich</string>
-	
+
     <!-- Data Usage -->
     <!-- Subtitle of dialog for editing data usage cycle reset date. [CHAR LIMIT=32] -->
     <string name="data_usage_cycle_editor_subtitle_cm">Zyklusdatum:</string>
@@ -2168,4 +2169,95 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="menu_hidden_apps_reset_lock">Zurücksetzen des Sperrmusters</string>
     <string name="protected_apps">Geschützte Apps</string>
     <string name="saving_protected_components">Speichern des Komponentenstatus</string>
+
+    <!-- Hover -->
+    <string name="hover_settings_title">Hover</string>
+    <string name="hover_exclude_low_priority_title">Nierdrige Priorität ausschließen</string>
+    <string name="hover_exclude_low_priority_summary">Benachrichtigungen von nierdriger Priorität ausschließen</string>
+    <string name="hover_exclude_non_clearable_title">Nicht Löschbare ausschließen</string>
+    <string name="hover_exclude_non_clearable_summary">Nichtlöschbare Benachrichtigungen ausschließen</string>
+    <string name="hover_exclude_topmost_title">Aktuellen App ausschließen</string>
+    <string name="hover_exclude_topmost_summary">Benachrichtigungen der App im Vordergrund ausschließen</string>
+    <string name="hover_long_fadeout_title">Benachrichtigungszeit</string>
+    <string name="hover_long_fadeout_3seconds">3 Sekunden</string>
+    <string name="hover_long_fadeout_5seconds">5 Sekunden (Standard)</string>
+    <string name="hover_long_fadeout_7seconds">7 Sekunden</string>
+    <string name="hover_long_fadeout_10seconds">10 Sekunden</string>
+    <string name="hover_long_fadeout_15seconds">15 Sekunden</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Heads-Up</string>
+    <string name="summary_heads_up">Heads-Up ermöglicht es Benachrichtigungen über dem aktuellen Bildschirminhalt anzuzeigen</string>
+    <string name="title_heads_up_enabled">Aktivieren</string>
+    <string name="add_heads_up_package">App hinzufügen</string>
+    <string name="add_heads_up_dnd_summary">Innerhalb dieser Anwendungen nichts anzeigen</string>
+    <string name="add_heads_up_blacklist_summary">Von diesen Anwendungen nichts anzeigen</string>
+    <string name="heads_up_dnd_title">Nicht stören</string>
+    <string name="heads_up_blacklist_title">Schwarzeliste</string>
+
+    <!-- Notification settings -->
+    <string name="notification_settings_title">Benachrichtigungen</string>
+    <string name="notification_settings_summary">Konfiguration der Benachrichtigungen von Hover, Heads-Up usw.</string>
+
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">Vibrationsstärke</string>
+    <string name="vibrator_warning">Werte größer %1$d werden nicht empfohlen</string>
+
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">Farbkalibration</string>
+    <string name="color_calibration_summary">Kalibrierung der Bildschirmfarben</string>
+    <string name="color_red_title">Rot</string>
+    <string name="color_green_title">Grün</string>
+    <string name="color_blue_title">Blau</string>
+
+    <!-- Hardware tunables - Gamma calibration -->
+    <string name="gamma_tuning_title_head">Gammakalibration</string>
+    <string name="gamma_tuning_summary_head">Kalibrierung der Gammawerte</string>
+    <string name="gamma_tuning_control_set_header">Gruppe <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
+    <string name="gamma_tuning_contrast">Kontrast</string>
+    <string name="gamma_tuning_brightness">Helligkeit</string>
+    <string name="gamma_tuning_saturation">Sättigung</string>
+
+    <!-- Backlight brightness settings screen -->
+    <string name="adaptive_backlight_title">Adaptive-Hintergrundbeleuchtung</string>
+    <string name="adaptive_backlight_summary">Intelligente Verwaltung der Displayhelligkeit um die Akkulaufzeit zu verlängern</string>
+
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Double-Tab-Weckmodus</string>
+
+    <!-- Screen color -->
+    <string name="screencolor">Bildschrimfarben</string>
+    <string name="custom_screencolor">Benutzerdefinierte Bildschirmfarben</string>
+    <string name="screencolor_save">Speichern</string>
+    <string name="screencolor_cancel">Abbrechen</string>
+    <string name="previous_str">Vorherige</string>
+    <string name="new_str">Neu</string>
+    <string name="restore_preview">Standard Bild ansehen</string>
+    <string name="selectnewfile_menu">Neues Bild aus Gallerie ansehen</string>
+    <string name="selectfile_menu">Bild aus Gallerie ansehen</string>
+    <string name="restore_default_str">Zurücksetzen</string>
+    <string name="hue_str">Farbton: <xliff:g id="hue_value">%1$s</xliff:g></string>
+    <string name="saturation_str">Sättigung: <xliff:g id="saturation_value">%1$s</xliff:g></string>
+    <string name="contrast_str">Kontrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Intensität: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+
+    <!-- Color enhancement settings screen -->
+    <string name="color_enhancement_title">Farbverbesserung</string>
+    <string name="color_enhancement_summary">Dynamische Verbesserung der Farbdarstellung</string>
+
+    <!-- Hardware tunables - Key backlight -->
+    <string name="button_backlight_title">Hintergrundbeleuchtung</string>
+    <string name="button_backlight_enabled">Tasten beleuchten</string>
+    <string name="keyboard_backlight_enabled">Tastatur beleuchten</string>
+    <string name="button_backlight_seekbar_title">Tastenhelligkeit</string>
+    <string name="keyboard_backlight_seekbar_title">Tastaturhelligkeit</string>
+    <string name="backlight_timeout_title">Leuchtdauer</string>
+    <string name="backlight_timeout_unlimited">Nicht abschalten</string>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
+    </plurals>
+    <string name="backlight_summary_disabled">Deaktiviert</string>
+    <string name="backlight_summary_enabled_with_timeout">Aktiviert für <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Aktiviert</string>
 </resources>
