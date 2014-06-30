@@ -327,7 +327,6 @@
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Автоматическая регулировка</string>
-    <string name="auto_brightness_adjustment_title">Корректировка яркости</string>
     <string name="auto_brightness_twilight_adjustment">Использовать только в дневное время</string>
     <string name="light_sensor_current_value">Текущее показание датчика: <xliff:g id="light_level">%d</xliff:g> лк</string>
     <string name="auto_brightness_dialog_title">Уровни автоматической подсветки</string>
@@ -522,6 +521,7 @@
     <string name="custom_tile_resolve_name">Неизвестно</string>
     <string name="title_tile_theme">Переключатель темы</string>
     <string name="title_tile_batterysaver">Режим \"Энергосбережения\"</string>
+    <string name="title_tile_heads_up">Всплывающие уведомления</string>
 
     <string name="title_dynamic_tiles">Динамические плитки</string>
     <string name="dynamic_tiles_note_title">Примечание</string>
@@ -561,18 +561,15 @@
     <string name="music_tile_mode_tracktitle">Показывать название композиции</string>
 
     <!-- Quick access ribbon -->
-    <string name="category_quick_access">Лента быстрого доступа</string>
-    <string name="title_quick_access">Показывать в панели</string>
+    <string name="title_quick_access">Лента быстрого доступа</string>
     <string name="title_quick_access_linked">Связанное расположение</string>
     <string name="summary_quick_access_linked">Используются плитки и их размещение из панели быстрых настроек</string>
 
     <!-- QuickSettings style options -->
-    <string name="quicksettings_tiles_style">Стиль быстрых настроек</string>
+    <string name="quick_settings_title">Быстрые настройки</string>
+    <string name="title_qs_small_icons">Маленькие плитки</string>
+    <string name="summary_qs_small_icons">Использовать плитки меньшего размера для увеличения количества столбцов</string>
     <string name="summary_quicksettings_tiles_style">Просмотреть/изменить установки стиля быстрых настроек</string>
-    <string name="quicksettings_tiles_style_additional_options">Дополнительные настройки</string>
-    <string name="tiles_per_row_title">Плиток в ряд</string>
-    <string name="tiles_per_row_duplicate_landscape_title">Изменять количество в ландшафтном режиме</string>
-    <string name="tiles_per_row_duplicate_landscape_summary">В ландшафтном режиме количество плиток в ряду удваивается</string>
     <string name="quick_tiles_color_title">Включить пользовательские цвета</string>
     <string name="quick_tiles_color_summary">Пользовательские цвета заменят цвета тем</string>
     <string name="quick_tiles_bg_color_title">Цвет фона плиток</string>
@@ -680,10 +677,6 @@
     <string name="clock_date_format_custom">Свой формат Java</string>
     <string name="status_bar_clock_style_reset_message">Сбросить цвета часов?</string>
 
-    <!-- Statusbar Second Clock -->
-    <string name="clock_use_second">Секунды</string>
-    <string name="clock_use_second_summary">Показывать секунды</string>
-
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Стиль индикатора батареи</string>
     <string name="status_bar_style_icon_portrait">Вертикальная иконка</string>
@@ -724,9 +717,6 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Уведомление об Отладке USB</string>
     <string name="adb_notify_summary">Отображать уведомление, когда включена Отладка USB</string>
-
-    <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="advanced_settings_title">Расширенные настройки</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Физические кнопки</string>
@@ -923,11 +913,20 @@
     <string name="shortcuts_color_mode_title">Режим цвета значка</string>
     <string name="shortcuts_color_mode_summary">Изменить режим цвета значка</string>
 
-    <!-- Notification drawer settings  -->
+    <!-- Status bar auto-collapse behaviour  -->
     <string name="notification_drawer_title">Панель уведомлений</string>
     <string name="notification_drawer_summary">Изменить настройки панели уведомлений</string>
     <string name="notification_shortcuts_settings_title">Ярлыки</string>
     <string name="notification_shortcuts_settings_summary">Показывать ярлыки в панели уведомлений</string>
+    
+    <!-- Notification hide labels -->
+    <string name="notification_drawer_collapse_on_dismiss_title">Автозакрытие панели</string>
+    <string name="collapse_on_dismiss_never">Выключено</string>
+    <string name="collapse_on_dismiss_if_empty">Если нет уведомлений</string>
+    <string name="collapse_on_dismiss_if_no_clearable">Если нет удаляемых уведомлений</string>
+    <string name="collapse_on_dismiss_never_summary">Не скрывать панель при удалении уведомлений</string>
+    <string name="collapse_on_dismiss_if_empty_summary">Скрывать панель при удалении всех уведомлений</string>
+    <string name="collapse_on_dismiss_if_no_clearable_summary">Скрывать панель при удалении всех удаляемых уведомлений</string>
 
     <!-- Notification hide labels -->
     <string name="notification_hide_labels_title">Скрывать метки уведомлений</string>
@@ -1150,9 +1149,10 @@
     <string name="layout">Расположение</string>
     <string name="privacy">Безопасность</string>
 
-    <string name="Lockscreen_notifications_header">Уведомления на экране блокировки</string>
     <string name="lockscreen_notifications">Уведомления на экране блокировки</string>
-    <string name="lockscreen_notifications_summary">Показывать ожидающие уведомления на экране блокировки</string>
+    <string name="summary_lockscreen_notifications_enabled">Уведомления на экране блокировки включены</string>
+    <string name="summary_lockscreen_notifications_disabled">Уведомления на экране блокировки выключены</string>
+    <string name="lockscreen_notifications_disabled_notice">Включить отображение интерактивных уведомлений на экране блокировки.</string>
     <string name="pocket_mode">Режим \"В кармане\"</string>
     <string name="pocket_mode_summary">Включает экран и отображает все уведомления, когда устройство достали из кармана. Отключает экран, когда устройство кладут обратно в карман.</string>
     <string name="show_always">Показывать всегда</string>
@@ -1209,8 +1209,12 @@
     <string name="lockscreen_shortcuts_summary">Посмотреть или изменить ярлыки экрана блокировки</string>
     <string name="lockscreen_shorcuts_longpress_title">Длительное нажатие на ярлык</string>
     <string name="lockscreen_shorcuts_longpress_summary">Пользовательское действие при длительном нажатии</string>
-    
-    <!-- Lock screen targets and shortcuts -->
+
+    <!-- Lockscreen see through -->
+    <string name="lockscreen_see_through_title">Вид \"насквозь\"</string>
+    <string name="lockscreen_see_through_summary">Показывает содержимое позади экрана блокировки, ваши данные могут быть видны для окружающих</string>
+
+    <!-- Lock screen shortcuts -->
     <string name="picker_activities">Действия</string>
     <string name="select_custom_app_title">Выбрать собственное приложение</string>
     <string name="select_custom_activity_title">Выбрать собственное действие</string>
@@ -1300,6 +1304,8 @@
     <string name="recent_panel_expanded_mode_auto">Авто (по умолчанию)</string>
     <string name="recent_panel_expanded_mode_always">Всегда</string>
     <string name="recent_panel_expanded_mode_never">Никогда</string>
+    <string name="recent_panel_show_topmost_title">Показывать последнее приложение</string>
+    <string name="recent_panel_show_topmost_summary">Показывать последнее приложение в списке недавних</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
@@ -1360,16 +1366,7 @@
     <string name="bootanim_settings_title">Анимация загрузки</string>
     <string name="soundpack_settings_title">Наборы звуков</string>
 
-    <!-- DarkUI -->
-    <string name="theme_settings_title_slim">Темы</string>
-    <string name="theme_auto_mode_title">Dark UI</string>
-    <string name="theme_auto_mode_off">Вручную</string>
-    <string name="theme_auto_mode_lightsensor">При изменении освещения</string>
-    <string name="theme_auto_mode_twilight">В дневное время</string>
-    <string name="theme_auto_switch_mode_error">Активирован режим автоматического изменения в зависимости от освещения. Ручной режим недоступен.</string>
-
-    <!-- Notification drawer background -->
-    <string name="notification_style_title">Стиль панели уведомлений</string>    
+    <!-- Notification drawer background -->   
     <string name="notification_background_title">Стиль фона панели уведомлений</string>
     <string name="notification_background_summary">Изменить Стиль фона панели уведомлений</string>
     <string name="notification_wallpaper_title">Фон панели уведомлений</string>
@@ -1423,6 +1420,9 @@
 
     <!-- Superuser header name -->
     <string name="superuser">Суперпользователь</string>
+    
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
 
     <!-- Emulate menu key -->
     <string name="emulate_menu_key_title">Скрывать кнопку Меню (три точки)</string>
@@ -2127,5 +2127,103 @@
     <string name="menu_hidden_apps_reset_lock">Сбросить шаблон блокировки</string>
     <string name="protected_apps">Защищенные приложения</string>
     <string name="saving_protected_components">Сохранение состояния компонентов</string>
+    
+    <!-- Hover -->
+    <string name="hover_settings_title">Hover</string>
+    <string name="hover_settings_summary">Hover - это альтернативная система уведомлений, которая доступна для любого приложения.</string>
+    <string name="hover_exclude_low_priority_title">Исключить низкий приоритет</string>
+    <string name="hover_exclude_low_priority_summary">Исключить уведомления, имеющие низкий приоритет</string>
+    <string name="hover_exclude_non_clearable_title">Исключить неудаляемые</string>
+    <string name="hover_exclude_non_clearable_summary">Исключить неудаляемые уведомления</string>
+    <string name="hover_exclude_topmost_title">Исключить текущее приложение</string>
+    <string name="hover_exclude_topmost_summary">Исключить уведомления от приложения, работающего в данный момент.</string>
+    <string name="hover_exclude_from_insecure_lock_screen_title">Исключить экран блокировки</string>
+    <string name="hover_exclude_from_insecure_lock_screen_summary">Не показывать уведомления Hover на незащищенном экране блокировки</string>
+    <string name="hover_long_fadeout_title">Таймаут уведомлений Hover</string>
+    <string name="hover_long_fadeout_3seconds">3 секунды</string>
+    <string name="hover_long_fadeout_5seconds">5 секунд (по умолчанию)</string>
+    <string name="hover_long_fadeout_7seconds">7 секунд</string>
+    <string name="hover_long_fadeout_10seconds">10 секунд</string>
+    <string name="hover_long_fadeout_15seconds">15 секунд</string>
+    
+    <!-- Heads Up -->
+    <string name="category_heads_up">Всплывающие уведомления</string>
+    <string name="summary_heads_up_enabled">\"Всплывающие уведомления\" включены</string>
+    <string name="summary_heads_up_disabled">\"Всплывающие уведомления\" выключены</string>
+    <string name="add_heads_up_package">Добавить приложение</string>
+    <string name="add_heads_up_dnd_summary">Не показывать всплывающие уведомления при работе с этими приложениями</string>
+    <string name="add_heads_up_blacklist_summary">Не показывать всплывающие уведомления от этих приложений</string>
+    <string name="heads_up_dnd_title">Не беспокоить</string>
+    <string name="heads_up_blacklist_title">Чёрный список</string>
+    <string name="heads_up_disabled_notice">\"Всплывающие уведомления\" позволяют отображать интерактивные уведомления от приложений во всплывающем окне.</string>
 
+    <!-- Notification settings -->
+    <string name="notification_settings_title">Уведомления</string>
+    <string name="notification_settings_summary">Выбрать способ отображения уведомлений.</string>
+ 
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">Мощность вибросигнала</string>
+    <string name="vibrator_warning">Установка значений от %1$d и выше не рекомендуется</string>
+
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">Цвет</string>
+    <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_green_title">Зелёный</string>
+    <string name="color_blue_title">Синий</string>
+
+    <!-- Hardware tunables - Gamma calibration -->
+    <string name="gamma_tuning_title_head">Гамма</string>
+    <string name="gamma_tuning_summary_head">Настройка гамма-коррекции экрана</string>
+    <string name="gamma_tuning_control_set_header">Группа <xliff:g id="index">%d</xliff:g></string>
+    <string name="gamma_tuning_contrast">Контрастность</string>
+    <string name="gamma_tuning_brightness">Яркость</string>
+    <string name="gamma_tuning_saturation">Насыщенность</string>
+    
+    <!-- Backlight brightness settings screen -->
+    <string name="adaptive_backlight_title">Адаптивная подсветка</string>
+    <string name="adaptive_backlight_summary">Интеллектуальное изменение яркости подсветки экрана для сохранения заряда аккумулятора</string>
+    
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Включение при двойном нажатии</string>
+    
+    <!-- Screen color -->
+    <string name="screencolor">Цвет экрана</string>
+    <string name="custom_screencolor">Пользовательский цвет экрана</string>
+    <string name="screencolor_save">Сохранить</string>
+    <string name="screencolor_cancel">Отменить</string>
+    <string name="previous_str">Предыдущий</string>
+    <string name="new_str">Новый</string>
+    <string name="restore_preview">Показать стандартное изображение</string>
+    <string name="selectnewfile_menu">Показать новое изображение из галереи</string>
+    <string name="selectfile_menu">Просмотр изображения из галереи</string>
+    <string name="restore_default_str">Сброс</string>
+    <string name="hue_str">Оттенок: <xliff:g id="hue_value">%1$s</xliff:g></string>
+    <string name="saturation_str">Насыщенность: <xliff:g id="saturation_value">%1$s</xliff:g></string>
+    <string name="contrast_str">Контрастность: <xliff:g id="contrast_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Интенсивность: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+    
+    <!-- Color enhancement settings screen -->
+    <string name="color_enhancement_title">Улучшение цвета</string>
+    <string name="color_enhancement_summary">Динамическое улучшение цветопередачи экрана</string>
+
+    <!-- Hardware tunables - Key backlight -->
+    <string name="button_backlight_title">Подсветка</string>
+    <string name="button_backlight_enabled">Подсветка кнопок</string>
+    <string name="keyboard_backlight_enabled">Подсветка клавиатуры</string>
+    <string name="button_backlight_seekbar_title">Яркость кнопок</string>
+    <string name="keyboard_backlight_seekbar_title">Яркость клавиатуры</string>
+    <string name="backlight_timeout_title">Длительность подсветки</string>
+    <string name="backlight_timeout_unlimited">Не выключать</string>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> сек.</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> сек.</item>
+    </plurals>
+    <string name="backlight_summary_disabled">Выключена</string>
+    <string name="backlight_summary_enabled_with_timeout">Включена <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Включена всегда</string>
+    
+    <!-- Glove mode / high touch sensitivity -->
+    <string name="auto_adjust_touch_title">Высокая чувствительность касания</string>
+    <string name="auto_adjust_touch_summary">"Повысить чувствительности экрана для того, чтобы вы могли прикасаться к нему в перчатках"</string>
 </resources>
