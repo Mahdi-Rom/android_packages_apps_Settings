@@ -216,7 +216,7 @@
     <string name="toggleWifiAp">Hotspot Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
-    <string name="toggleData">Dati Mobili</string>
+    <string name="toggleData">Dati mobili</string>
     <string name="toggleSync">Sincronizzazione dati</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleSound">Modalità suoneria</string>
@@ -327,7 +327,6 @@
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Luminosità automatica</string>
-    <string name="auto_brightness_adjustment_title">Regolazione luminosità</string>
     <string name="auto_brightness_twilight_adjustment">Regolazione all\'alba e al tramonto</string>
     <string name="light_sensor_current_value">Regolazione attuale sensore: <xliff:g id="light_level">%d</xliff:g> lux</string>
     <string name="auto_brightness_dialog_title">Livello automatico luminosità</string>
@@ -485,8 +484,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockgesture_need_to_unlock_wrong_footer" />
 
     <!-- Quick settings panel  -->
-    <string name="quick_settings_panel_title">Quick settings</string>
-    <string name="quick_settings_summary">Aggiungi o rimuovi tiles e cambia altre opzioni dei quick settings</string>
+    <string name="quick_settings_panel_title">Quick settings &amp; drawer notifiche</string>
+    <string name="quick_settings_summary">Aggiungi o rimuovi tiles e cambia altre opzioni dei quick settings e del drawer delle notifiche</string>
     <string name="title_static_tiles">Tile statici</string>
     <string name="tile_picker_title">Tile e disposizione</string>
     <string name="tile_picker_summary">Guarda, scegli o cambia la disposizione dei tile mostrati</string>
@@ -2060,14 +2059,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Shortcuts -->
     <string name="shortcut_picker">Azioni</string>
 
-    <!-- Lockscreen background -->
-    <string name="lockscreen_background">Sfondo</string>
-    <string name="lockscreen_background_style_title">Sfondo lockscreen</string>
-    <string name="background_default">Sfondo predefinito</string>
-    <string name="background_wallpaper">Sfondo personalizzato</string>
-    <string name="background_result_successful">Sfondo cambiato</string>
-    <string name="background_result_not_successful">Sfondo non cambiato</string>
-    <string name="setting_lockscreen_background">Applicazione sfondo</string>
     <!-- Custom lockscreen -->
     <string name="lockscreen_enable_modlock_title">Lockscreen personalizzata</string>
 
@@ -2187,9 +2178,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Hover -->
     <string name="hover_settings_title">Hover</string>
-    <string name="hover_settings_summary">Hover è un sistema alternativo di notifica al quale si può accedere da qualsiasi app</string>
-    <string name="hover_require_fullscreen_mode_title">Solo a schermo intero</string>
-    <string name="hover_require_fullscreen_mode_summary">Mostra solo quando la barra di stato è nascosta</string>
     <string name="hover_exclude_low_priority_title">Escludi bassa priorità</string>
     <string name="hover_exclude_low_priority_summary">Escludi notifiche che non sono importanti</string>
     <string name="hover_exclude_non_clearable_title">Escludi non rimovibili</string>
@@ -2207,16 +2195,36 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up</string>
-    <string name="summary_heads_up_enabled">Le notifiche popup sono attive</string>
-    <string name="summary_heads_up_disabled">Le notifiche popup non sono attive</string>
-    <string name="add_heads_up_package">Aggiugni app</string>
+    <string name="summary_heads_up_enabled">Heads up è attivo</string>
+    <string name="summary_heads_up_disabled">Heads up non è attivo</string>
+    <string name="add_heads_up_package">Aggiungi app</string>
     <string name="add_heads_up_dnd_summary">Non mostrare heads up in queste app</string>
     <string name="add_heads_up_blacklist_summary">Non mostrare notifiche heads up da queste app</string>
     <string name="heads_up_dnd_title">Non disturbare</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
+    <string name="heads_up_disabled_notice">Per permettere alle app di mostrare le notifiche con un popup, attiva heads up.</string>
     
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifiche</string>
     <string name="notification_settings_summary">Personalizza il modo in cui ricevi le notifiche con hover, heads up e altro</string>
+
+     
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">Intensità vibrazione</string>
+    <string name="vibrator_warning">Valori maggiori di %1$d non sono consigliati</string>
+ 
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">Calibrazione colori</string>
+    <string name="color_calibration_summary">Calibrazione colori dello schermo</string>
+    <string name="color_red_title">Rosso</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Blu</string>
+
+    <!-- Hardware tunables - Gamma calibration -->
+    <string name="gamma_tuning_title_head">Calibrazione gamma</string>
+    <string name="gamma_tuning_summary_head">Tweak valori gamma</string>
+    <string name="gamma_tuning_control_set_header">Gruppo <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
+    <string name="gamma_tuning_contrast">Contrasto</string>
+    <string name="gamma_tuning_brightness">Luminosità</string>
+    <string name="gamma_tuning_saturation">Saturazione</string>
 </resources>
