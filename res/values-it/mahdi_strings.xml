@@ -20,7 +20,7 @@
     <string name="customization_settings_title">Personalizzazioni</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">Versione Mahdi</string>
+    <string name="mod_version">Versione build</string>
     <string name="mod_version_default">Sconosciuto</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">Data build</string>
@@ -2172,9 +2172,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!--Blacklist-->
     <string name="blacklist_button_title">Blacklist</string>
-    <string name="peek_blacklist_label">Blacklist di Peek</string>
-    <string name="floating_blacklist_label">Blacklist della Modalità floating</string>
-    <string name="hover_blacklist_label">Blacklist di Hover</string>
+    <string name="peek_blacklist_label">Blacklist di peek</string>
+    <string name="floating_blacklist_label">Blacklist della modalità floating</string>
+    <string name="hover_blacklist_label">Blacklist di hover</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Ripristina</string>
