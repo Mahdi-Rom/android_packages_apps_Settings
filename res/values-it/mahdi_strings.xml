@@ -2214,7 +2214,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="notification_settings_title">Notifiche</string>
     <string name="notification_settings_summary">Personalizza il modo in cui ricevi le notifiche con hover, heads up e altro</string>
 
-     
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Intensità vibrazione</string>
     <string name="vibrator_warning">Valori maggiori di %1$d non sono consigliati</string>
@@ -2280,5 +2279,4 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Glove mode / high touch sensitivity -->
     <string name="auto_adjust_touch_title">Alta sensibilità</string>
     <string name="auto_adjust_touch_summary">Aumenta la sensibilità del touch così puoi usarlo mentre indossi i guanti</string>
-  
 </resources>
