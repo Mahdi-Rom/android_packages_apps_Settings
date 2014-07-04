@@ -20,7 +20,7 @@
     <string name="customization_settings_title">Personalizzazioni</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">Versione Mahdi</string>
+    <string name="mod_version">Versione build</string>
     <string name="mod_version_default">Sconosciuto</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">Data build</string>
@@ -216,7 +216,7 @@
     <string name="toggleWifiAp">Hotspot Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
-    <string name="toggleData">Dati Mobili</string>
+    <string name="toggleData">Dati mobili</string>
     <string name="toggleSync">Sincronizzazione dati</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleSound">Modalità suoneria</string>
@@ -303,11 +303,11 @@
     <string name="volume_ring_only_description">Suoneria</string>
     <string name="volume_overlay_title">Stile pannello volume</string>
     <!-- Volume button music control -->
-    <string name="volbtn_music_controls_title">Pulsanti del volume controllano la musica</string>
+    <string name="volbtn_music_controls_title">Controlla tracce</string>
     <string name="volbtn_music_controls_summary">Quando lo schermo è spento, tenendo premuti i tasti del volume si cambierà traccia</string>
     <!-- Volume adjust sound -->
-    <string name="volume_adjust_sounds_enable_title">Suono quando si alza/abbassa il volume</string>
-    <string name="volume_adjust_sounds_enable_summary">Suono quando si regola il volume con i tasti del volume</string>
+    <string name="volume_adjust_sounds_enable_title">Suono regolazione volume</string>
+    <string name="volume_adjust_sounds_enable_summary">Suono quando si alza/abbassa il volume con i tasti del volume</string>
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Volume di sicurezza cuffie</string>
     <string name="safe_headset_volume_summary">Evita un volume alto appena vengono messe le cuffie</string>
@@ -327,7 +327,6 @@
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Luminosità automatica</string>
-    <string name="auto_brightness_adjustment_title">Regolazione luminosità</string>
     <string name="auto_brightness_twilight_adjustment">Regolazione all\'alba e al tramonto</string>
     <string name="light_sensor_current_value">Regolazione attuale sensore: <xliff:g id="light_level">%d</xliff:g> lux</string>
     <string name="auto_brightness_dialog_title">Livello automatico luminosità</string>
@@ -485,8 +484,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockgesture_need_to_unlock_wrong_footer" />
 
     <!-- Quick settings panel  -->
-    <string name="quick_settings_panel_title">Quick settings</string>
-    <string name="quick_settings_summary">Aggiungi o rimuovi tiles e cambia altre opzioni dei quick settings</string>
+    <string name="quick_settings_panel_title">Quick settings &amp; menu notifiche</string>
+    <string name="quick_settings_summary">Aggiungi o rimuovi tiles e cambia altre opzioni dei quick settings e del menu delle notifiche</string>
     <string name="title_static_tiles">Tile statici</string>
     <string name="tile_picker_title">Tile e disposizione</string>
     <string name="tile_picker_summary">Guarda, scegli o cambia la disposizione dei tile mostrati</string>
@@ -538,6 +537,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="custom_tile_resolve_name">Sconosciuto</string>
     <string name="title_tile_theme">Cambia tema</string>
     <string name="title_tile_batterysaver">Modalità salva batteria</string>
+    <string name="title_tile_heads_up">Heads up</string>
     
     <string name="title_dynamic_tiles">Tile dinamici</string>
     <string name="dynamic_tiles_note_title">Nota</string>
@@ -591,8 +591,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="summary_quick_access_linked">Usa gli stessi tile e la stessa disposizione dei quick settings</string>
  
     <!-- QuickSettings style options -->
-    <string name="title_qs_small_icons">Visualizza tile più piccoli</string>
-    <string name="summary_qs_small_icons">Utilizza tile più piccoli per aumentare il numero di colonne</string>
+    <string name="quick_settings_title">Quick settings</string>
     <string name="summary_quicksettings_tiles_style">Cambia i colori dei tile e altro</string>
     <string name="quick_tiles_color_title">Attiva colori personalizzati</string>
     <string name="quick_tiles_color_summary">Attivare quest\'opzione sovracriverà i temi</string>
@@ -605,6 +604,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- QuickSettings fliptiles -->
     <string name="flip_qs_tiles_title">Gira tile</string>
     <string name="flip_qs_tiles_summary">Gira i tile al tocco</string>
+    
+    <!-- QuickSettings smaller tiles -->
+    <string name="title_qs_small_icons">Mostra tile più piccoli</string>
+    <string name="summary_qs_small_icons">Usa tile più piccoli per aumentare il numero di colonne</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="haptic_qs_tiles_title">Vibra al tocco</string>
@@ -743,9 +746,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notifica debug USB</string>
     <string name="adb_notify_summary">Mostra notifica quando il debug USB è attivo</string>
-
-    <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="advanced_settings_title">Avanzato</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Pulsanti</string>
@@ -940,10 +940,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcuts_color_mode_summary">Cambia la modalità del colore icona </string>
 
     <!-- Status bar auto-collapse behaviour  -->
-    <string name="notification_drawer_title">Drawer notifiche</string>
+    <string name="notification_drawer_title">Menu notifiche</string>
     <string name="notification_drawer_summary">Aggiungi scorciatoie, quick settings e altro </string>
     <string name="notification_shortcuts_settings_title">Scorciatoie </string>
-    <string name="notification_shortcuts_settings_summary">Aggiungi quick settings in alto nel notification drawer </string>
+    <string name="notification_shortcuts_settings_summary">Aggiungi quick settings in alto nel menu delle notifiche </string>
 
     <!-- Notification hide labels -->
     <string name="notification_drawer_collapse_on_dismiss_title">Chiusura automatica</string>
@@ -960,7 +960,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="notification_hide_labels_carrier">Nascondi gestore </string>
     <string name="notification_hide_labels_wifi">Nascondi Wi-Fi </string>
     <string name="notification_hide_labels_all">Nascondi tutto </string>
-    <string name="notification_hide_labels_text">nel notification drawer </string>
+    <string name="notification_hide_labels_text">nel menu notifiche </string>
 
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Opzioni di navigazione</string>
@@ -1177,9 +1177,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="layout">Disposizione</string>
     <string name="privacy">Privacy</string>
 
-    <string name="Lockscreen_notifications_header">Notifiche in lockscreen </string>
-    <string name="lockscreen_notifications">Notifiche in lockscreen </string>
-    <string name="lockscreen_notifications_summary">Mostra notifiche nella lockscreen </string>
+    <string name="lockscreen_notifications">Notifiche in lockscreen</string>
+    <string name="summary_lockscreen_notifications_enabled">Le notifiche in lockscreen sono attivate</string>
+    <string name="summary_lockscreen_notifications_disabled">Le notifiche in lockscreen sono disattivate</string>
+    <string name="lockscreen_notifications_disabled_notice">To allow lock screen to display interactive notifications on your screen, enable lock screen notifications.</string>
     <string name="pocket_mode">Modalità pocket</string>
     <string name="pocket_mode_summary">Lo schermo si accende e mostra tutte le notifiche quando il dispositivo è tirato fuori dalla tasca. Lo schermo si spegne quando il dispositivo torna in tasca </string>
     <string name="show_always">Mostra sempre </string>
@@ -1239,7 +1240,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!--Lockscreen See Through-->
     <string name="see_through_title">Lockscreen trasparente</string>
-    <string name="see_through_summary">Mostra i contenuti dietro la lockscreen, i tuoi possono essere visibili a chi ti è vicino</string>
+    <string name="see_through_summary">Mostra i contenuti dietro la lockscreen, i tuoi dati possono essere visibili a chi ti è vicino</string>
 
     <!-- Lock screen shortcuts -->
     <string name="picker_activities">Attività</string>
@@ -1255,7 +1256,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="icon_picker_facebook">Facebook</string>
     <string name="icon_picker_gallery">Galleria</string>
     <string name="icon_picker_google_small">Google (piccolo)</string>
-    <string name="icon_picker_googleplus">Google Plus</string>
+    <string name="icon_picker_googleplus">Google plus</string>
     <string name="icon_picker_googletalk">Hangouts</string>
     <string name="icon_picker_maps">Maps</string>
     <string name="icon_picker_sms">Messaggi</string>
@@ -1392,7 +1393,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="soundpack_settings_title">Pacchetti suoni</string>
 
     <!-- DarkUI -->
-    <string name="theme_auto_mode_title">Dark-UI</string>
+    <string name="darkui_title">Dark-UI</string>
+    <string name="theme_auto_mode_title">Modalità</string>
     <string name="theme_auto_mode_off">Manuale </string>
     <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce </string>
     <string name="theme_auto_mode_twilight">A seconda dell\'orario </string>
@@ -1400,7 +1402,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Notification drawer background -->    
     <string name="notification_background_title">Stile sfondo </string>
-    <string name="notification_background_summary">Cambia lo sfondo del drawer di notifica </string>
+    <string name="notification_background_summary">Cambia lo sfondo del menu notifiche</string>
     <string name="notification_wallpaper_title">Sfondo </string>
     <string name="notification_wallpaper_landscape_title">Sfondo in modalità orizzontale differente </string>
     <string name="notification_background_color_fill">Colore</string>
@@ -1447,9 +1449,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Superuser header name -->
     <string name="superuser">Superuser</string>
+    
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
 
     <!-- Emulate menu key -->
-    <string name="emulate_menu_key_title">Emula tasto menu hardware </string>
+    <string name="emulate_menu_key_title">Emula tasto hardware </string>
     <string name="emulate_menu_key_summary">Premere il tasto menu sulla navbar mostrerà il menu in basso </string>
 
     <!-- App ops -->
@@ -1913,7 +1918,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">Slider luminosità </string>
-    <string name="brightness_slider_summary">Attiva uno slider per la luminosità nel drawer notifiche </string>
+    <string name="brightness_slider_summary">Attiva uno slider per la luminosità nel menu notifiche </string>
 
     <!-- Voice+ -->
     <string name="voice_plus_title">Voice+ </string>
@@ -2060,14 +2065,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Shortcuts -->
     <string name="shortcut_picker">Azioni</string>
 
-    <!-- Lockscreen background -->
-    <string name="lockscreen_background">Sfondo</string>
-    <string name="lockscreen_background_style_title">Sfondo lockscreen</string>
-    <string name="background_default">Sfondo predefinito</string>
-    <string name="background_wallpaper">Sfondo personalizzato</string>
-    <string name="background_result_successful">Sfondo cambiato</string>
-    <string name="background_result_not_successful">Sfondo non cambiato</string>
-    <string name="setting_lockscreen_background">Applicazione sfondo</string>
     <!-- Custom lockscreen -->
     <string name="lockscreen_enable_modlock_title">Lockscreen personalizzata</string>
 
@@ -2175,9 +2172,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!--Blacklist-->
     <string name="blacklist_button_title">Blacklist</string>
-    <string name="peek_blacklist_label">Blacklist di Peek</string>
-    <string name="floating_blacklist_label">Blacklist della Modalità floating</string>
-    <string name="hover_blacklist_label">Blacklist di Hover</string>
+    <string name="peek_blacklist_label">Blacklist di peek</string>
+    <string name="floating_blacklist_label">Blacklist della modalità floating</string>
+    <string name="hover_blacklist_label">Blacklist di hover</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Ripristina</string>
@@ -2187,9 +2184,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Hover -->
     <string name="hover_settings_title">Hover</string>
-    <string name="hover_settings_summary">Hover è un sistema alternativo di notifica al quale si può accedere da qualsiasi app</string>
-    <string name="hover_require_fullscreen_mode_title">Solo a schermo intero</string>
-    <string name="hover_require_fullscreen_mode_summary">Mostra solo quando la barra di stato è nascosta</string>
     <string name="hover_exclude_low_priority_title">Escludi bassa priorità</string>
     <string name="hover_exclude_low_priority_summary">Escludi notifiche che non sono importanti</string>
     <string name="hover_exclude_non_clearable_title">Escludi non rimovibili</string>
@@ -2207,16 +2201,82 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up</string>
-    <string name="summary_heads_up_enabled">Le notifiche popup sono attive</string>
-    <string name="summary_heads_up_disabled">Le notifiche popup non sono attive</string>
-    <string name="add_heads_up_package">Aggiugni app</string>
+    <string name="summary_heads_up_enabled">Heads up è attivo</string>
+    <string name="summary_heads_up_disabled">Heads up non è attivo</string>
+    <string name="add_heads_up_package">Aggiungi app</string>
     <string name="add_heads_up_dnd_summary">Non mostrare heads up in queste app</string>
     <string name="add_heads_up_blacklist_summary">Non mostrare notifiche heads up da queste app</string>
     <string name="heads_up_dnd_title">Non disturbare</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
+    <string name="heads_up_disabled_notice">Per permettere alle app di mostrare le notifiche con un popup, attiva heads up.</string>
     
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifiche</string>
     <string name="notification_settings_summary">Personalizza il modo in cui ricevi le notifiche con hover, heads up e altro</string>
+
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">Intensità vibrazione</string>
+    <string name="vibrator_warning">Valori maggiori di %1$d non sono consigliati</string>
+ 
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">Calibrazione colori</string>
+    <string name="color_calibration_summary">Calibrazione colori dello schermo</string>
+    <string name="color_red_title">Rosso</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Blu</string>
+
+    <!-- Hardware tunables - Gamma calibration -->
+    <string name="gamma_tuning_title_head">Calibrazione gamma</string>
+    <string name="gamma_tuning_summary_head">Tweak valori gamma</string>
+    <string name="gamma_tuning_control_set_header">Gruppo <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
+    <string name="gamma_tuning_contrast">Contrasto</string>
+    <string name="gamma_tuning_brightness">Luminosità</string>
+    <string name="gamma_tuning_saturation">Saturazione</string>
+    
+    <!-- Backlight brightness settings screen -->
+    <string name="adaptive_backlight_title">Retroilluminazione intelligente</string>
+    <string name="adaptive_backlight_summary">Variazione intelligente della retroilluminazione dei pulsanti soft-touch per ottimizzare la batteria</string>
+    
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Double-tap to wake</string>
+     
+    <!-- Screen color -->
+    <string name="screencolor">Colori schermo</string>
+    <string name="custom_screencolor">Colori schermo personalizzati</string>
+    <string name="screencolor_save">Salva</string>
+    <string name="screencolor_cancel">Cancella</string>
+    <string name="previous_str">Precedente</string>
+    <string name="new_str">Nuovo</string>
+    <string name="restore_preview">Guarda immagine predefinita</string>
+    <string name="selectnewfile_menu">Guarda nuova immagine dalla galleria</string>
+    <string name="selectfile_menu">Guarda immagine dalla galleria</string>
+    <string name="restore_default_str">Ripristina</string>
+    <string name="hue_str">Hue: <xliff:g id="hue_value">%1$s</xliff:g></string>
+    <string name="saturation_str">Saturazione: <xliff:g id="saturation_value">%1$s</xliff:g></string>
+    <string name="contrast_str">Contrasto: <xliff:g id="contrast_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Intensità: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+    
+    <!-- Color enhancement settings screen -->
+    <string name="color_enhancement_title">Colori dinamici</string>
+    <string name="color_enhancement_summary">Aumento dinamico dei colori dello schermo</string>
+    
+    <!-- Hardware tunables - Key backlight -->
+    <string name="button_backlight_title">Retroilluminazione</string>
+    <string name="button_backlight_enabled">Illumina pulsanti</string>
+    <string name="keyboard_backlight_enabled">Illumina tastiera</string>
+    <string name="button_backlight_seekbar_title">Luminosità pulsanti</string>
+    <string name="keyboard_backlight_seekbar_title">Luminosità tastiera</string>
+    <string name="backlight_timeout_title">Durata illuminazione</string>
+    <string name="backlight_timeout_unlimited">Non spegnere</string>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> secondo</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> secondi</item>
+    </plurals>
+    <string name="backlight_summary_disabled">Disattiva</string>
+    <string name="backlight_summary_enabled_with_timeout">Attiva per <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Attiva</string>
+    
+    <!-- Glove mode / high touch sensitivity -->
+    <string name="auto_adjust_touch_title">Alta sensibilità</string>
+    <string name="auto_adjust_touch_summary">Aumenta la sensibilità del touch così puoi usarlo mentre indossi i guanti</string>
 </resources>
