@@ -1217,7 +1217,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockscreen_notifications">Notifiche in lockscreen</string>
     <string name="summary_lockscreen_notifications_enabled">Le notifiche in lockscreen sono attivate</string>
     <string name="summary_lockscreen_notifications_disabled">Le notifiche in lockscreen sono disattivate</string>
-    <string name="lockscreen_notifications_disabled_notice">To allow lock screen to display interactive notifications on your screen, enable lock screen notifications.</string>
+    <string name="lockscreen_notifications_disabled_notice">Per permettere alla lockscreen di mostrare le notifiche in sospeso, attiva le notifiche in lockscreen.</string>
     <string name="pocket_mode">Modalità pocket</string>
     <string name="pocket_mode_summary">Lo schermo si accende e mostra tutte le notifiche quando il dispositivo è tirato fuori dalla tasca. Lo schermo si spegne quando il dispositivo torna in tasca </string>
     <string name="show_always">Mostra sempre </string>
@@ -1463,12 +1463,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="minimum_vibration_duration">Durata minima vibrazione </string>
 
     <!-- Lock screen buttons -->
-    <string name="lockscreen_buttons_category">Azione dei pulsanti nella lockscreen </string>
-    <string name="lockscreen_buttons_title">Azione dei pulsanti nella lockscreen </string>
-    <string name="lockscreen_buttons_summary">Vedi o cambia le azioni dei pulsanti nella lockscreen </string>
-    <string name="lockscreen_long_press_back_title">Tieni premuto pulsante indietro </string>
-    <string name="lockscreen_long_press_home_title">Tieni premuto pulsante home </string>
-    <string name="lockscreen_long_press_menu_title">Tieni premuto pulsante menu </string>
     <string name="lockscreen_buttons_no_action">Nessun azione </string>
     <string name="lockscreen_buttons_flashlight">Torcia </string>
     <string name="lockscreen_buttons_next">Prossima canzone </string>
@@ -2224,6 +2218,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="summary_heads_up_enabled">Heads up è attivo</string>
     <string name="summary_heads_up_disabled">Heads up non è attivo</string>
     <string name="heads_up_floating_window">Apri in modalità floating</string>
+    <string name="heads_up_floating_window_summary">Cliccando sulla notifica quest\'ultima si aprirà in modalità floating</string>
     <string name="heads_up_expanded_title">Sempre esteso</string>
     <string name="heads_up_expanded_summary">Mostra le notifiche di heads up sempre in modalità estesa</string>
     <string name="heads_up_show_updates_title">Mostra aggiornamenti</string>
@@ -2323,7 +2318,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Search -->
     <string name="settings_search_action_bar_button">Cerca</string>
-    <string name="settings_search_autocompleteview_hint">Cerca impostazioni</string>
+    <string name="settings_search_autocompleteview_hint">Cerca nelle impostazioni</string>
+    <string name="settings_search_loading_text">Ricerca in corso\u2026</string>
     
     <!-- Stay Awake while plugged in -->
     <string name="keep_screen_on_summary_cm">Lo schermo non si spegnerà mai se in carica</string>
