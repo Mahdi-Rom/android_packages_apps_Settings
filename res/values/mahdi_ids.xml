@@ -16,4 +16,5 @@
 
 <resources>
     <item type="id" name="drag_handle" />
+    <dimen name="settings_side_margin">@*android:dimen/preference_fragment_padding_side</dimen>
 </resources>
