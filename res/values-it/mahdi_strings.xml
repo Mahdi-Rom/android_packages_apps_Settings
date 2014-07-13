@@ -774,6 +774,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="privacy_guard_manager_show_system_apps">Mostra app di sistema</string>
     <string name="privacy_guard_manager_filter_permissions">Filtro permessi</string>
     <string name="privacy_guard_advanced_settings_title">Avanzato</string>
+    <string name="privacy_guard_notification_title">Mostra notifica</string>
+    <string name="privacy_guard_notification_icon_title">Mostra icona di notifica</string>
+    <string name="privacy_guard_notification_dismiss_title">Notifica rimovibile</string>
+    <string name="privacy_guard_notification_dismiss_summary">Una notifica rimovibile può essere eliminata</string>
 
     <!-- Battery status on lock ring -->
     <string name="battery_around_lockscreen_ring">Batteria intorno al lucchetto</string>
