@@ -436,7 +436,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lock_screen_title">Schermata di sblocco</string>
     <string name="lock_screen_summary">Cambia il modo in cui si presenta la tua lockscreen, aggiungi scorciatoie e widget</string>
     <string name="additional_options_title">Opzioni avanzate</string>
-    <string name="lock_before_unlock_title">Mostra slider prima dello sblocco sicuro</string>
+    <string name="lock_before_unlock_title">Mostra slider prima di sbloccare</string>
     <string name="lock_before_unlock_summary">Mostra slider di sblocco prima del meccanismo sicuro di sblocco</string>
 
     <!-- Shake to secure -->
@@ -500,7 +500,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockgesture_settings_enable_title">Gesture richiesta</string>
     <string name="lockgesture_settings_enable_summary">Devi disegnare una gesture per sbloccare lo schermo</string>
     <string name="lockgesture_settings_enable_visible_pattern_title">Rendi la gesture visibile</string>
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">Pulsante power blocca subito lo schermo</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">Pulsante power blocca lo schermo</string>
     <string name="lockgesture_settings_choose_lock_pattern">Imposta gesture di sblocco</string>
     <string name="lockgesture_settings_change_lock_pattern">Cambia gesture di sblocco</string>
     <string name="lockgesture_settings_help_how_to_record">Come disegnare gesture di sblocco</string>
@@ -1386,7 +1386,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Notifiche </string>
-    <string name="less_notification_sounds_title">Suoni di notifica meno presenti </string>
+    <string name="less_notification_sounds_title">Suoni di notifica meno frequenti</string>
     <string name="less_notification_sounds_summary">Limita il numero di suono che può fare un\'app per un determinato periodo di tempo </string>
     <string name="less_notification_sounds_default">Predefinito </string>
     <string name="less_notification_sounds_3s">3 secondi </string>
