@@ -473,10 +473,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Mostra punti sequenza</string>
 
-    <!-- Security settings home unlock -->
-    <string name="unlock_home_unlock_title">Sblocco home</string>
-    <string name="unlock_home_unlock_summary">La pressione del tasto home sblocca il dispositivo</string>
-
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
     <string name="unlock_quick_unlock_control_summary">Sblocco automatico quando viene inserito correttamente il PIN o la password</string>
@@ -790,6 +786,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Hardware keys -->
     <string name="button_keys_title">Pulsanti</string>
     <string name="button_keys_summary">Vedi o cambia azioni dei pulsanti</string>
+    <string name="disable_hw_title">Disattiva tasti fisici</string>
+    <string name="disable_hw_summary">Disattivando i tasti fisici si attiverà la navigation bar</string>
     <string name="keys_bindings_title">Azioni</string>
     <string name="keys_enable_custom_title">Attiva azioni personalizzate</string>
     <string name="keys_enable_custom_summary">Attiva azioni personalizzate</string>
@@ -812,7 +810,21 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="keys_action_long">Tieni premuto</string>
     <string name="keys_action_double">Doppio tocco</string>
     <string name="no_home_key">Non hai nessuna opzione selezionata per il tasto \"home\"! \n\n Questo può rendere il tuo dispositivo inusabile!</string>
-
+ 
+    <!-- Lock screen buttons -->
+    <string name="lockscreen_long_press_home_title">Tieni premuto tasto home sulla lockscreen</string>
+    <string name="lockscreen_buttons_no_action">Niente</string>
+    <string name="lockscreen_buttons_flashlight">Torcia</string>
+    <string name="lockscreen_buttons_next">Traccia successiva</string>
+    <string name="lockscreen_buttons_previous">Traccia precedente</string>
+    <string name="lockscreen_buttons_playpause">Play/Pausa musica</string>
+    <string name="lockscreen_buttons_toggle_sound">Suono on/off</string>
+    <string name="lockscreen_buttons_sleep">Vai a dormire</string>
+    
+    <!-- Home unlock -->
+    <string name="unlock_home_unlock_title">Sblocco home</string>
+    <string name="unlock_home_unlock_summary">Premendo sul tasto home si sblocca il dispositivo</string>
+ 
     <!-- Increase Ringing -->
     <string name="increasing_ring_title">Suoneria incrementale</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
@@ -1465,15 +1477,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Minimum Vibration Duration -->
     <string name="minimum_vibration_duration">Durata minima vibrazione </string>
-
-    <!-- Lock screen buttons -->
-    <string name="lockscreen_buttons_no_action">Nessun azione </string>
-    <string name="lockscreen_buttons_flashlight">Torcia </string>
-    <string name="lockscreen_buttons_next">Prossima canzone </string>
-    <string name="lockscreen_buttons_previous">Canzone </string>
-    <string name="lockscreen_buttons_playpause">Play/Pausa musica </string>
-    <string name="lockscreen_buttons_toggle_sound">Toggle suono </string>
-    <string name="lockscreen_buttons_sleep">Vai a dormire </string>
 
     <!-- Lock screen misc. settings -->
     <string name="lockscreen_battery_status_title">Livello batteria </string>
