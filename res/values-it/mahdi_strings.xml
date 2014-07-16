@@ -250,11 +250,6 @@
     <string name="ring_mode_vibrate">Vibrazione</string>
     <string name="ring_mode_mute">Silenzioso</string>
 
-    <!-- button settings -->
-    <string name="button_volume_keys_title">Tasti volume</string>
-    <string name="button_volume_wake_title">Risveglio con i tasti del volume</string>
-    <string name="button_volume_wake_summary">Premendo un pulsante del volume lo schermo si accende</string>
-
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Mostra info CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -352,9 +347,6 @@
     <string name="link_volume_ringtones">Unisci volume suoneria e notifica</string>
     <string name="volume_ring_only_description">Suoneria</string>
     <string name="volume_overlay_title">Stile pannello volume</string>
-    <!-- Volume button music control -->
-    <string name="volbtn_music_controls_title">Controlla tracce</string>
-    <string name="volbtn_music_controls_summary">Quando lo schermo è spento, tenendo premuti i tasti del volume si cambierà traccia</string>
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Suono regolazione volume</string>
     <string name="volume_adjust_sounds_enable_summary">Suono quando si alza/abbassa il volume con i tasti del volume</string>
@@ -371,10 +363,30 @@
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Timeout</string>
     <string name="volume_panel_timeout_summary">Tempo prima che il pannello venga nascosto</string>
-    <!-- Launch music app on connect -->
     <string name="headset_category_title">Cuffie</string>
     <string name="headset_connect_player_title">Apri player predefinito alla connessione delle cuffie</string>
 
+    <!-- Headset category -->
+    <string name="headset_category_title">Cuffie</string>
+    
+    <!-- Headset plug -->
+    <string name="headset_settings">Cuffie</string>
+    <string name="headset_plug_enable_title">Inserisci scorciatoia</string>
+    <string name="headset_plug_positive_title">Disattivato</string>
+    <string name="headset_plug_neutral_title">Predefinito</string>
+    <string name="headset_plug_neutral_summary">App musica di sistema</string>
+    <string name="headset_plug_music_active_title">Disattiva se l\'audio è attivo</string>
+    <string name="headset_plug_music_active_summary">Non aprire scorciatoia se l\'audio è attivo</string>
+    <string name="headset_plug_app_running_title">Azione per la scorciatoia</string>
+    <string name="headset_plug_app_running_nothing">Nulla</string>
+    <string name="headset_plug_app_running_front">Muovi in avanti</string>
+    <string name="headset_plug_actions_title">Action on remove</string>
+    <string name="headset_plug_actions_disabled">Nulla</string>
+    <string name="headset_plug_actions_front">Muovi in avanti</string>
+    <string name="headset_plug_actions_kill">Chiudi app</string>
+    <string name="headset_plug_force_actions_title">Rimozione forzata</string>
+    <string name="headset_plug_force_actions_summary">Non aprire scorciatoia anche se già aperta</string>
+    
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Luminosità automatica</string>
     <string name="auto_brightness_twilight_adjustment">Regolazione all\'alba e al tramonto</string>
@@ -782,6 +794,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notifica debug USB</string>
     <string name="adb_notify_summary">Mostra notifica quando il debug USB è attivo</string>
+    
+    <!-- button settings -->
+    <string name="button_settings">Pulsanti</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Pulsanti</string>
@@ -824,6 +839,33 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Home unlock -->
     <string name="unlock_home_unlock_title">Sblocco home</string>
     <string name="unlock_home_unlock_summary">Premendo sul tasto home si sblocca il dispositivo</string>
+    
+    <!-- Power key end call -->
+    <string name="hardware_keys_power_key_title">Tasto power</string>
+    <string name="power_end_call_title">Chiude chiamata</string>
+    <string name="power_end_call_summary">Premendo sul tasto spegnimento la chiamata attuale sarà terminata</string>
+ 
+    <!-- Home key end call -->
+    <string name="home_answer_call_title">Tasto home risponde</string>
+    <string name="home_answer_call_summary">Premendo il tasto home si risponderà alla chiamata in arrivo</string>
+ 
+    <!-- Volume keys -->
+    <string name="button_volume_keys_title">Tasti volume</string>
+    <string name="button_volume_wake_title">Risveglio</string>
+    <string name="button_volume_wake_summary">Premendo un qualsiasi tasto del volume si accenderà lo schermo</string>
+ 
+    <!-- Swap volume buttons -->
+    <string name="swap_volume_buttons_title">Re-orienta tasti</string>
+    <string name="swap_volume_buttons_summary">Cambia i tasti del volume se lo schermo è ruotato</string>
+ 
+    <!-- Volume buttons cursor control -->
+    <string name="volume_key_cursor_control_title">Cursori di controllo</string>
+    <string name="volume_key_cursor_control_on">Il tasto volume su/giù muove il cursore a sinistra/destra</string>
+    <string name="volume_key_cursor_control_on_reverse">Il tasto volume su/giù muove il cursore a destra/sinistra</string>
+ 
+    <!-- Volume button music control -->
+    <string name="volbtn_music_controls_title">Controllo tracce</string>
+    <string name="volbtn_music_controls_summary">Quando lo schermo è spento, tenendo premuto su un tasto del volume si cambierà traccia</string>
  
     <!-- Increase Ringing -->
     <string name="increasing_ring_title">Suoneria incrementale</string>
@@ -1017,7 +1059,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Opzioni di navigazione</string>
     <string name="navigation_settings_category_title">Pulsanti</string>
-    <string name="navigation_settings_summary">Opzioni per la navigation bar, i controlli pie e i tasti fisici</string>
+    <string name="navigation_settings_summary">Personalizza la navigation bar</string>
     <string name="navigation_settings_title">Navigation bar</string>
 
     <!-- Navigation bar -->
@@ -1420,9 +1462,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="title_keyboard_input">Opzioni avanzate </string>
     <string name="disable_fullscreen_keyboard_title">Disattiva tastiera a schermo intero </string>
     <string name="disable_fullscreen_keyboard_summary">La tastiera in modalità orizzontale non occuperà mai tutto lo schermo </string>
-    <string name="volume_key_cursor_control_title">Tasti del volume controllano il cursore </string>
-    <string name="volume_key_cursor_control_on">Il pulsante volume su/giù muove il cursore a sinistra/destra </string>
-    <string name="volume_key_cursor_control_on_reverse"> Il pulsante volume su/giù muove il cursore a destra/sinistra </string>
     <string name="keyboard_rotation_toggle_title">Rotazione automatica tastiera </string>
     <string name="keyboard_rotation_toggle_summary">Attiva rotazione automatica quando la tastiera è mostrata </string>
     <string name="keyboard_rotation_timeout_title">Timeout rotazione automatica </string>
@@ -1925,10 +1964,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="power_menu_onthego_title">Modalità On-The-Go</string>
     <string name="title_tile_onthego">On-The-Go</string>
 
-    <!-- Swap volume buttons -->
-    <string name="swap_volume_buttons_title">Riorienta i pulsanti del volume </string>
-    <string name="swap_volume_buttons_summary">Scambia i pulsanti del volume quando lo schermo è ruotato </string>
-
     <!-- Recents Ram Bar -->
     <string name="ram_bar_title">RAM Bar </string>
     <string name="ram_bar_summary">Vedi o cambia le impostazioni della RAM bar</string>
@@ -2191,24 +2226,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Subtitle of dialog for editing data usage cycle length. [CHAR LIMIT=32] -->
     <string name="data_usage_lengths_spinner_subtitle">Lunghezza ciclo:</string>
 
-    <!-- Headset plug -->
-    <string name="headset_settings">Cuffie</string>
-    <string name="headset_plug_enable_title">Inserisci scorciatoia</string>
-    <string name="headset_plug_positive_title">Disattivato</string>
-    <string name="headset_plug_neutral_title">Predefinito</string>
-    <string name="headset_plug_neutral_summary">App musica di sistema</string>
-    <string name="headset_plug_music_active_title">Disattiva se l\'audio è attivo</string>
-    <string name="headset_plug_music_active_summary">Non aprire scorciatoia se l\'audio è attivo</string>
-    <string name="headset_plug_app_running_title">Azione per la scorciatoia</string>
-    <string name="headset_plug_app_running_nothing">Nulla</string>
-    <string name="headset_plug_app_running_front">Muovi in avanti</string>
-    <string name="headset_plug_actions_title">Action on remove</string>
-    <string name="headset_plug_actions_disabled">Nulla</string>
-    <string name="headset_plug_actions_front">Muovi in avanti</string>
-    <string name="headset_plug_actions_kill">Chiudi app</string>
-    <string name="headset_plug_force_actions_title">Rimozione forzata</string>
-    <string name="headset_plug_force_actions_summary">Non aprire scorciatoia anche se già aperta</string>
-    
     <!--Blacklist-->
     <string name="blacklist_button_title">Blacklist</string>
     <string name="peek_blacklist_label">Blacklist di peek</string>
