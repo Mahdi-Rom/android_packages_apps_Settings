@@ -17,7 +17,7 @@
     <!-- Custom settings  -->
     <string name="custom_settings_category">Mahdi</string>
     <!-- Customization Interface settings  -->
-    <string name="customization_settings_title">Personalizzazioni</string>
+    <string name="customization_settings_title">Impostazioni UI</string>
 
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">Versione build</string>
@@ -45,7 +45,7 @@
     <string name="add">Aggiungi</string>
     <string name="reset_message">Resettare tutto le impostazioni di default?</string>
     <string name="style_title">Stile</string>
-    <string name="more_title">Altro...</string>
+    <string name="more_title">Altro\u2026</string>
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">Opzioni LED</string>
@@ -526,7 +526,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockgesture_need_to_unlock_wrong_footer" />
 
     <!-- Quick settings panel  -->
-    <string name="quick_settings_panel_title">Quick settings &amp; menu notifiche</string>
+    <string name="quick_settings_panel_title">Quick settings</string>
     <string name="quick_settings_summary">Aggiungi o rimuovi tiles e cambia altre opzioni dei quick settings e del menu delle notifiche</string>
     <string name="title_static_tiles">Tile statici</string>
     <string name="tile_picker_title">Tile e disposizione</string>
