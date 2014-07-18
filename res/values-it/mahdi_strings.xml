@@ -1459,7 +1459,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="device_hostname">Hostname dispositivo </string>
 
     <!-- Keyboard and Input methods  -->
-    <string name="title_keyboard_input">Opzioni avanzate </string>
+    <string name="title_keyboard_input">Opzioni avanzate tastiera</string>
     <string name="disable_fullscreen_keyboard_title">Disattiva tastiera a schermo intero </string>
     <string name="disable_fullscreen_keyboard_summary">La tastiera in modalità orizzontale non occuperà mai tutto lo schermo </string>
     <string name="keyboard_rotation_toggle_title">Rotazione automatica tastiera </string>
