@@ -2363,4 +2363,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="enable_adb_cm">Debug USB</string>
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">Attiva l\'interfaccia adb di android</string>
+    
+    <!-- Gestures Options -->
+    <string name="gestures_settings_header_title">Gesture</string>
 </resources>
