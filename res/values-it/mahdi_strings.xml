@@ -1653,8 +1653,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="app_ops_reset_confirm_mesg">Sei sicuro di voler ripristinare il contatore AppOps?</string>
 
     <!-- Screen off animation options -->
+    <string name="display_category_animation_options_title">Animazioni</string>
     <string name="system_power_crt_mode_title">Animazione spegnimento schermo </string>
-    <string name="system_power_crt_mode_dialog_title">CRT animation</string>
+    <string name="system_power_crt_mode_dialog_title">Animazione</string>
     <string name="system_power_crt_mode_off">Non mostrare </string>
     <string name="system_power_crt_mode_horizontal">Chiusura in orizzontale </string>
     <string name="system_power_crt_mode_vertical">Chiusura in verticale </string>
@@ -1662,9 +1663,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="system_power_crt_mode_scale">Graduale </string>
 
     <!-- Animation Control -->
-    <string name="interface_animation_title">Animazioni </string>
-    <string name="interface_animation_summary">Scegli animazioni alternative per varie cose </string>
-
+    <string name="interface_animation_title">Opzioni avanzate</string>
+    <string name="interface_animation_summary">Personalizza le animazioni di sistema, della visione lista, dello scroll e altro</string>
+  
     <!-- ListView animation -->
     <string name="system_animation_title">Sistema</string>
     <string name="system_animation_summary">Vedi o cambia animazioni di sistema</string>
