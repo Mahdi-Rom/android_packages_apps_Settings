@@ -86,6 +86,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_DISPLAY_COLOR = "color_calibration";
     private static final String KEY_DISPLAY_GAMMA = "gamma_tuning";
     private static final String KEY_SCREEN_COLOR_SETTINGS = "screencolor_settings";
+    private static final String KEY_SMART_COVER = "smart_cover";
 
     // Strings used for building the summary
     private static final String ROTATION_ANGLE_0 = "0";
@@ -138,6 +139,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ContentResolver resolver = getActivity().getContentResolver();
+        Resources res = getResources();
 
         addPreferencesFromResource(R.xml.display_settings);
 
@@ -157,7 +159,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mScreenSaverPreference = findPreference(KEY_SCREEN_SAVER);
         if (mScreenSaverPreference != null
-                && getResources().getBoolean(
+                && res.getBoolean(
                         com.android.internal.R.bool.config_dreamsSupported) == false) {
             displayPrefs.removePreference(mScreenSaverPreference);
         }
@@ -272,6 +274,11 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mScreenColorSettings = (PreferenceScreen) findPreference(KEY_SCREEN_COLOR_SETTINGS);
         if (!isPostProcessingSupported()) {
             advancedPrefs.removePreference(mScreenColorSettings);
+        }
+
+        if (res.getIntArray(
+                com.android.internal.R.array.config_smartCoverWindowCoords).length != 4) {
+            getPreferenceScreen().removePreference(findPreference(KEY_SMART_COVER));
         }
     }
 
