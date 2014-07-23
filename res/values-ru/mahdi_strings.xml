@@ -17,7 +17,7 @@
     <!-- Custom settings  -->
     <string name="custom_settings_category">КАСТОМИЗАЦИЯ</string>
     <!-- Customization Interface settings  -->
-    <string name="customization_settings_title">Кастомизация</string>
+    <string name="customization_settings_title">Интерфейс</string>
 
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">Версия Mahdi Rom</string>
@@ -45,7 +45,7 @@
     <string name="add">Добавить</string>
     <string name="reset_message">Сбросить все настройки по умолчанию?</string>
     <string name="style_title">Стиль</string>
-    <string name="more_title">Ещё...</string>
+    <string name="more_title">Ещё\u2026</string>
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">Настройки LED</string>
@@ -170,6 +170,8 @@
     <string name="profile_trigger_connect">При подключении</string>
     <string name="profile_trigger_disconnect">При отключении</string>
     <string name="profile_trigger_notrigger">Не влияет на изменение профиля</string>
+    <string name="profile_trigger_a2dp_connect">При подключении A2DP</string>
+    <string name="profile_trigger_a2dp_disconnect">При отключении A2DP</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Звуки уведомлений</string>
@@ -249,11 +251,6 @@
     <string name="ring_mode_normal">Обычный</string>
     <string name="ring_mode_vibrate">Вибрация</string>
     <string name="ring_mode_mute">Беззвучный</string>
-
-    <!-- button settings -->
-    <string name="button_volume_keys_title">Кнопки громкости</string>
-    <string name="button_volume_wake_title">Пробуждение кнопками громкости</string>
-    <string name="button_volume_wake_summary">Нажатие на кнопки громкости пробуждает устройство.</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Показать информацию процессора</string>
@@ -351,9 +348,6 @@
     <string name="link_volume_ringtones">Связать громкость и звуки уведомления</string>
     <string name="volume_ring_only_description">Рингтон</string>
     <string name="volume_overlay_title">Панель громкости</string>
-    <!-- Volume button music control -->
-    <string name="volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
-    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие кнопок громкости переключает музыкальные треки</string>
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Звук при регулировке громкости</string>
     <string name="volume_adjust_sounds_enable_summary">Воспроизводить звук при изменении громкости кнопками «+» или «-»</string>
@@ -370,9 +364,28 @@
     <!-- Launch music app on connect -->
     <string name="volume_panel_timeout_title">Таймаут</string>
     <string name="volume_panel_timeout_summary">Время до скрытия панели</string>
-    <!-- Launch music app on connect -->
+    
+    <!-- Headset category -->
     <string name="headset_category_title">Гарнитура</string>
     <string name="headset_connect_player_title">Запускать плеер при подключении гарнитуры</string>
+
+    <!-- Headset plug -->
+    <string name="headset_settings">Гарнитура</string>
+    <string name="headset_plug_enable_title">Приложение при подключении</string>
+    <string name="headset_plug_positive_title">Отключено</string>
+    <string name="headset_plug_neutral_title">По умолчанию</string>
+    <string name="headset_plug_neutral_summary">Системное муз. приложение по умолчанию</string>
+    <string name="headset_plug_music_active_title">Отключить при активном аудио</string>
+    <string name="headset_plug_music_active_summary">Не запускать приложение во время воспроизведения аудио</string>
+    <string name="headset_plug_app_running_title">Действия при уже запущенном приложении</string>
+    <string name="headset_plug_app_running_nothing">Ничего</string>
+    <string name="headset_plug_app_running_front">Переместить на передний план</string>
+    <string name="headset_plug_actions_title">Действия при отключении</string>
+    <string name="headset_plug_actions_disabled">Ничего</string>
+    <string name="headset_plug_actions_front">Переместить на передний план</string>
+    <string name="headset_plug_actions_kill">Закрыть приложение</string>
+    <string name="headset_plug_force_actions_title">Принудительные действия при отключении</string>
+    <string name="headset_plug_force_actions_summary">Выполнить \"Действия при отключении\" при уже запущенном приложении</string>
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Автоматическая регулировка</string>
@@ -459,10 +472,6 @@
     <string name="lockpattern_settings_enable_error_path_title">Показывать неверный ввод</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Показывать точки</string>
-    
-    <!-- security settings home unlock -->
-    <string name="unlock_home_unlock_title">Разблок. по кнопке «Домой»</string>
-    <string name="unlock_home_unlock_summary">Нажатие кнопки «Домой» разблокирует устройство</string>
     
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
@@ -744,6 +753,10 @@
     <string name="privacy_guard_manager_show_system_apps">Системные приложения</string>
     <string name="privacy_guard_manager_filter_permissions">Фильтр разрешений</string>
     <string name="privacy_guard_advanced_settings_title">Дополнительно</string>
+    <string name="privacy_guard_notification_title">Показывать уведомление</string>
+    <string name="privacy_guard_notification_icon_title">Показывать иконку уведомления</string>
+    <string name="privacy_guard_notification_dismiss_title">Удаляемые уведомления</string>
+    <string name="privacy_guard_notification_dismiss_summary">Удаляемые уведомления можно убрать</string>
 
     <!-- Battery status on lock ring -->
     <string name="battery_around_lockscreen_ring">Индикатор батареи вокруг кольца разблокировки</string>
@@ -752,10 +765,15 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Уведомление об Отладке USB</string>
     <string name="adb_notify_summary">Отображать уведомление, когда включена Отладка USB</string>
+    
+    <!-- button settings -->
+    <string name="button_settings">Кнопки</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Физические кнопки</string>
     <string name="button_keys_summary">Посмотреть или изменить назначения физических кнопок</string>
+    <string name="disable_hw_title">Отключить физические кнопки</string>
+    <string name="disable_hw_summary">При отключении физических кнопок включится наэкранная \"Панель навигации\"</string>
     <string name="keys_bindings_title">Назначения кнопок</string>
     <string name="keys_enable_custom_title">Включить свои назначения</string>
     <string name="keys_enable_custom_summary">Включить установку своих действий на физические кнопки</string>
@@ -778,6 +796,51 @@
     <string name="keys_action_long">Долгое нажатие</string>
     <string name="keys_action_double">Двойное нажатие</string>
     <string name="no_home_key">Действие \"Домой\" не назначено ни на какую кнопку!\n\nЭто может сделать невозможным использование устройства!</string>
+
+    <!-- Lock screen buttons -->
+    <string name="lockscreen_long_press_home_title">Долгое нажатие на экране блокировки</string>
+    <string name="lockscreen_buttons_no_action">Нет действия</string>
+    <string name="lockscreen_buttons_flashlight">Фонарик</string>
+    <string name="lockscreen_buttons_next">Следующий трек</string>
+    <string name="lockscreen_buttons_previous">Предыдущий трек</string>
+    <string name="lockscreen_buttons_playpause">Воспроизв./пауза</string>
+    <string name="lockscreen_buttons_toggle_sound">Перекл. режим звонка</string>
+    <string name="lockscreen_buttons_sleep">Выключить экран</string>
+    
+    <!-- Home wake -->
+    <string name="button_volume_wake_title">Пробуждение</string>
+    <string name="home_wake_summary">Нажатие на кнопки «Домой» пробуждает устройство.</string>
+    
+    <!-- Home unlock -->
+    <string name="unlock_home_unlock_title">Разблокировка</string>
+    <string name="unlock_home_unlock_summary">Нажатие кнопки «Домой» разблокирует устройство</string>
+
+    <!-- Home key end call -->
+    <string name="home_answer_call_title">Ответ на звонок</string>
+    <string name="home_answer_call_summary">Отвечать на звонок нажатием кнопки «Домой»</string>
+    
+    <!-- Power key end call -->
+    <string name="hardware_keys_power_key_title">Кнопка питания</string>
+    <string name="power_end_call_title">Завершение вызова</string>
+    <string name="power_end_call_summary">Завершать вызов нажатием кнопки питания</string>
+    
+    <!-- Volume keys -->
+    <string name="button_volume_keys_title">Кнопки громкости</string>
+    <string name="button_volume_wake_title">Пробуждение</string>
+    <string name="button_volume_wake_summary">Нажатие на кнопки громкости пробуждает устройство.</string>
+    
+    <!-- Swap volume buttons -->
+    <string name="swap_volume_buttons_title">Поворот кнопок громкости</string>
+    <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
+    
+    <!-- Volume buttons cursor control -->
+    <string name="volume_key_cursor_control_title">Перемещение курсора кнопками громкости</string>
+    <string name="volume_key_cursor_control_on">Кнопка \&quot;+\&quot; двигает курсор влево, \&quot;-\&quot;-вправо</string>
+    <string name="volume_key_cursor_control_on_reverse">Кнопка \&quot;+\&quot; двигает курсор вправо, \&quot;-\&quot;-влево</string>
+    
+    <!-- Volume button music control -->
+    <string name="volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
+    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие кнопок громкости переключает музыкальные треки</string>
 
     <!-- Increase Ringing -->
     <string name="increasing_ring_title">Возрастающая громкость звонка</string>
@@ -974,7 +1037,7 @@
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Настройки навигации</string>
     <string name="navigation_settings_category_title">Навигация</string>
-    <string name="navigation_settings_summary">Настройка панели навигации, pie и аппаратных клавиш</string>
+    <string name="navigation_settings_summary">Настройка наэкранных кнопок</string>
     <string name="navigation_settings_title">Панель навигации</string>
 
     <!-- Navigation bar -->
@@ -1374,12 +1437,9 @@
     <string name="device_hostname">Имя хоста</string>
 
     <!-- Keyboard and Input methods  -->
-    <string name="title_keyboard_input">Дополнительные настройки</string>
+    <string name="title_keyboard_input">Дополнительные настройки клавиатуры</string>
     <string name="disable_fullscreen_keyboard_title">Отключить полноэкранную клавиатуру</string>
     <string name="disable_fullscreen_keyboard_summary">В ландшафтном режиме клавиатура не будет разворачиваться на весь экран</string>
-    <string name="volume_key_cursor_control_title">Перемещение курсора кнопками громкости</string>
-    <string name="volume_key_cursor_control_on">Кнопка \&quot;+\&quot; двигает курсор влево, \&quot;-\&quot;-вправо</string>
-    <string name="volume_key_cursor_control_on_reverse">Кнопка \&quot;+\&quot; двигает курсор вправо, \&quot;-\&quot;-влево</string>
     <string name="keyboard_rotation_toggle_title">Автоповорот клавиатуры</string>
     <string name="keyboard_rotation_toggle_summary">Принудительный поворот экрана, когда показывается клавиатура</string>
     <string name="keyboard_rotation_timeout_title">Задержка при повороте</string>
@@ -1431,16 +1491,6 @@
 
     <!-- Minimum Vibration Duration -->
     <string name="minimum_vibration_duration">Минимальная длительность вибрации</string>
-
-    <!-- Lock screen buttons -->
-    <string name="lockscreen_long_press_home_title">Долгое нажатие кнопки «Домой» на экране блокировки</string>
-    <string name="lockscreen_buttons_no_action">Нет действия</string>
-    <string name="lockscreen_buttons_flashlight">Фонарик</string>
-    <string name="lockscreen_buttons_next">Следующий трек</string>
-    <string name="lockscreen_buttons_previous">Предыдущий трек</string>
-    <string name="lockscreen_buttons_playpause">Воспроизв./пауза</string>
-    <string name="lockscreen_buttons_toggle_sound">Перекл. режим звонка</string>
-    <string name="lockscreen_buttons_sleep">Выключить экран</string>
 
     <!-- Lock screen misc. settings -->
     <string name="lockscreen_battery_status_title">Состояние батареи</string>
@@ -1578,6 +1628,7 @@
     <string name="app_ops_reset_confirm_mesg">Данные счётчиков «операций в приложениях» будут удалены.</string>
 
     <!-- Screen off animation options -->
+    <string name="display_category_animation_options_title">Настройки анимации</string>
     <string name="system_power_crt_mode_title">CRT анимация</string>
     <string name="system_power_crt_mode_dialog_title">Показывать анимацию</string>
     <string name="system_power_crt_mode_off">Не показывать</string>
@@ -1587,7 +1638,7 @@
     <string name="system_power_crt_mode_scale">Уменьшить</string>
 
     <!-- Animation Control -->
-    <string name="interface_animation_title">Управление анимацией</string>
+    <string name="interface_animation_title">Расширенные настройки</string>
     <string name="interface_animation_summary">Настройка системных анимаций, анимации для списков и т.д.</string>
 
     <!-- ListView animation -->
@@ -1884,10 +1935,6 @@
     <string name="power_menu_onthego_title">Режим \"На ходу\"</string>
     <string name="title_tile_onthego">\"На ходу\"</string>
 
-    <!-- Swap volume buttons -->
-    <string name="swap_volume_buttons_title">Поворот кнопок громкости</string>
-    <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
-
     <!-- Recents Ram Bar -->
     <string name="ram_bar_title">Строка использования ОЗУ</string>
     <string name="ram_bar_summary">Посмотреть или изменить настройки \"Строки использования ОЗУ\"</string>
@@ -2133,24 +2180,6 @@
     <!-- Subtitle of dialog for editing data usage cycle length. [CHAR LIMIT=32] -->
     <string name="data_usage_lengths_spinner_subtitle">Продолжительность цикла:</string>
 
-    <!-- Headset plug -->
-    <string name="headset_settings">Гарнитура</string>
-    <string name="headset_plug_enable_title">Приложение при подключении</string>
-    <string name="headset_plug_positive_title">Отключено</string>
-    <string name="headset_plug_neutral_title">По умолчанию</string>
-    <string name="headset_plug_neutral_summary">Системное муз. приложение по умолчанию</string>
-    <string name="headset_plug_music_active_title">Отключить при активном аудио</string>
-    <string name="headset_plug_music_active_summary">Не запускать приложение во время воспроизведения аудио</string>
-    <string name="headset_plug_app_running_title">Действия при уже запущенном приложении</string>
-    <string name="headset_plug_app_running_nothing">Ничего</string>
-    <string name="headset_plug_app_running_front">Переместить на передний план</string>
-    <string name="headset_plug_actions_title">Действия при отключении</string>
-    <string name="headset_plug_actions_disabled">Ничего</string>
-    <string name="headset_plug_actions_front">Переместить на передний план</string>
-    <string name="headset_plug_actions_kill">Закрыть приложение</string>
-    <string name="headset_plug_force_actions_title">Принудительные действия при отключении</string>
-    <string name="headset_plug_force_actions_summary">Выполнить \"Действия при отключении\" при уже запущенном приложении</string>
-
     <!--Blacklist-->
     <string name="blacklist_button_title">Чёрный список</string>
     <string name="peek_blacklist_label">Чёрный список от Peek</string>
@@ -2161,6 +2190,15 @@
     <string name="menu_hidden_apps_reset_lock">Сбросить шаблон блокировки</string>
     <string name="protected_apps">Защищенные приложения</string>
     <string name="saving_protected_components">Сохранение состояния компонентов</string>
+
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Сбросить граф. ключ</string>
+    <string name="lockpattern_settings_reset_summary">Введите адрес эл. почты основного аккаунта и соответствующий пароль для сброса граф. ключа</string>
+    <string name="pa_login_username_hint">Имя пользователя (эл. почта)</string>
+    <string name="pa_login_password_hint">Пароль</string>
+    <string name="pa_login_submit_button">Войти</string>
+    <string name="pa_login_checking_password">Проверка данных\u2026</string>
+    <string name="pa_login_incorrect_login">Вход не удался</string>
     
     <!-- Heads Up -->
     <string name="category_heads_up">Всплывающие уведомления</string>
@@ -2287,4 +2325,14 @@
     <string name="enable_adb_cm">Отладка</string>
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">Включение интерфейса Android Debug Bridge (ADB)</string>
+
+    <!-- Gestures Options -->
+    <string name="gestures_settings_header_title">Жесты</string>
+    
+    <!-- Lid Settings -->
+    <string name="smart_cover">\"Умная\" обложка</string>
+    <string name="smart_cover_wake_title">Пробуждение \"умной\" обложкой</string>
+    <string name="smart_cover_wake_summary">Пробуждать устройство при открытии \"умной\" обложки</string>
+    <string name="smart_cover_sleep_title">Блокировка \"умной\" обложкой</string>
+    <string name="smart_cover_sleep_summary">Заблокировать устройство при закрытии \"умной\" обложки</string>
 </resources>
