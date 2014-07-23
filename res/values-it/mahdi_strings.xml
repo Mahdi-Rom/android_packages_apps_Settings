@@ -836,18 +836,22 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockscreen_buttons_toggle_sound">Suono on/off</string>
     <string name="lockscreen_buttons_sleep">Vai a dormire</string>
     
+    <!-- Home wake -->
+    <string name="button_volume_wake_title">Risveglio</string>
+    <string name="home_wake_summary">Lo schermo si accende quando si preme il tasto home</string>
+    
     <!-- Home unlock -->
     <string name="unlock_home_unlock_title">Sblocco home</string>
     <string name="unlock_home_unlock_summary">Premendo sul tasto home si sblocca il dispositivo</string>
     
+    <!-- Home key end call -->
+    <string name="home_answer_call_title">Rispondi alla chiamata</string>
+    <string name="home_answer_call_summary">Premendo il tasto home si risponderà alla chiamata in arrivo</string>
+ 
     <!-- Power key end call -->
     <string name="hardware_keys_power_key_title">Tasto power</string>
     <string name="power_end_call_title">Chiude chiamata</string>
     <string name="power_end_call_summary">Premendo sul tasto spegnimento la chiamata attuale sarà terminata</string>
- 
-    <!-- Home key end call -->
-    <string name="home_answer_call_title">Tasto home risponde</string>
-    <string name="home_answer_call_summary">Premendo il tasto home si risponderà alla chiamata in arrivo</string>
  
     <!-- Volume keys -->
     <string name="button_volume_keys_title">Tasti volume</string>
