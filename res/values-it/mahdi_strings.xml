@@ -2242,8 +2242,17 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="menu_hidden_apps_delete">Ripristina</string>
     <string name="menu_hidden_apps_reset_lock">Ripristina modello di sblocco</string>
     <string name="protected_apps">Applicazioni protette</string>
-    <string name="saving_protected_components">Salvataggio dei componenti di stato</string>
+    <string name="saving_protected_components">Salvataggio stato dei componenti</string>
     
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Ripristina</string>
+    <string name="lockpattern_settings_reset_summary">Inserisci l\'email primaria e la password corrispondente per ripristinare il modello di sblocco</string>
+    <string name="pa_login_username_hint">Nome utente (email)</string>
+    <string name="pa_login_password_hint">Password</string>
+    <string name="pa_login_submit_button">Login</string>
+    <string name="pa_login_checking_password">Controllo account\u2026</string>
+    <string name="pa_login_incorrect_login">C'è stato un errore</string>
+ 
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up</string>
     <string name="summary_heads_up_enabled">Heads up è attivo</string>
