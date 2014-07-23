@@ -170,6 +170,8 @@
     <string name="profile_trigger_connect">Connetti</string>
     <string name="profile_trigger_disconnect">Disconnetti</string>
     <string name="profile_trigger_notrigger">Nessun innesco</string>
+    <string name="profile_trigger_a2dp_connect">Connetti A2DP</string>
+    <string name="profile_trigger_a2dp_disconnect">Disconnetti A2DP</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Modalità notifica</string>
