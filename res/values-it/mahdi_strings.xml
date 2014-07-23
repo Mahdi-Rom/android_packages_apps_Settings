@@ -73,7 +73,7 @@
     <string name="dialog_delete_message">Cancellare l\'oggetto selezionato?</string>
 
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Sempre acceso</string>
+    <string name="pulse_length_always_on">Fisso</string>
     <string name="pulse_length_very_short">Molto breve</string>
     <string name="pulse_length_short">Breve</string>
     <string name="pulse_length_normal">Normale</string>
