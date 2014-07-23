@@ -2381,4 +2381,11 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Gestures Options -->
     <string name="gestures_settings_header_title">Gesture</string>
+    
+    <!-- Lid Settings -->
+    <string name="smart_cover">Smart cover</string>
+    <string name="smart_cover_wake_title">Risveglio smart cover</string>
+    <string name="smart_cover_wake_summary">Risveglia dispositivo all\'apertura della smart cover</string>
+    <string name="smart_cover_sleep_title">Spegnimento smart cover</string>
+    <string name="smart_cover_sleep_summary">Spegni lo schermo del dispositivo alla chiusura della smart cover</string>
 </resources>
