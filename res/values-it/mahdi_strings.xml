@@ -307,22 +307,17 @@
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Frequenza attuale CPU</string>
     <string name="cpu_governors_title">Governor CPU</string>
-    <string name="cpu_governors_summary" translatable="false">%S</string>
     <string name="cpu_min_freq_title">Frequenza minima CPU</string>
-    <string name="cpu_min_freq_summary" translatable="false">%s</string>
     <string name="cpu_max_freq_title">Frequenza massima CPU</string>
-    <string name="cpu_max_freq_summary" translatable="false">%s</string>
     
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Schedulatore I/O</string>
  
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Schedulatore I/O</string>
-    <string name="io_sched_summary" translatable="false">%S</string>
     
     <!-- Performance Settings : Performance profile settings -->
     <string name="perf_profile_title">Profilo</string>
-    <string name="perf_profile_summary" translatable="false">%s</string>
     
     <!-- Memory Management -->
     <string name="memory_management_title">Controllo memoria</string>
@@ -399,7 +394,6 @@
     <string name="auto_brightness_dialog_title">Livello automatico luminosità</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
-    <string name="auto_brightness_brightness_format" translatable="false"><xliff:g id="percent">%s</xliff:g>%%</string>
     <string name="auto_brightness_adjust_button">Regola</string>
     <string name="auto_brightness_close_button">Chiudi</string>
     <string name="auto_brightness_reset_button">Ripristina</string>
