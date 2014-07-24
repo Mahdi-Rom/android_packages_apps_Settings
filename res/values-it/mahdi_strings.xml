@@ -73,13 +73,13 @@
     <string name="dialog_delete_message">Cancellare l\'oggetto selezionato?</string>
 
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Fisso</string>
+    <string name="pulse_length_always_on">Sempre acceso</string>
     <string name="pulse_length_very_short">Molto breve</string>
     <string name="pulse_length_short">Breve</string>
     <string name="pulse_length_normal">Normale</string>
     <string name="pulse_length_long">Lungo</string>
     <string name="pulse_length_very_long">Molto lungo</string>
-    <string name="pulse_speed_very_fast">Molto facile</string>
+    <string name="pulse_speed_very_fast">Molto veloce</string>
     <string name="pulse_speed_fast">Veloce</string>
     <string name="pulse_speed_normal">Normale</string>
     <string name="pulse_speed_slow">Lento</string>
@@ -307,17 +307,22 @@
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Frequenza attuale CPU</string>
     <string name="cpu_governors_title">Governor CPU</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
     <string name="cpu_min_freq_title">Frequenza minima CPU</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
     <string name="cpu_max_freq_title">Frequenza massima CPU</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
     
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Schedulatore I/O</string>
  
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Schedulatore I/O</string>
+    <string name="io_sched_summary" translatable="false">%S</string>
     
     <!-- Performance Settings : Performance profile settings -->
     <string name="perf_profile_title">Profilo</string>
+    <string name="perf_profile_summary" translatable="false">%s</string>
     
     <!-- Memory Management -->
     <string name="memory_management_title">Controllo memoria</string>
@@ -365,9 +370,7 @@
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Timeout</string>
     <string name="volume_panel_timeout_summary">Tempo prima che il pannello venga nascosto</string>
-    <string name="headset_category_title">Cuffie</string>
-    <string name="headset_connect_player_title">Apri player predefinito alla connessione delle cuffie</string>
-
+   
     <!-- Headset category -->
     <string name="headset_category_title">Cuffie</string>
     
@@ -396,6 +399,7 @@
     <string name="auto_brightness_dialog_title">Livello automatico luminosità</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
+    <string name="auto_brightness_brightness_format" translatable="false"><xliff:g id="percent">%s</xliff:g>%%</string>
     <string name="auto_brightness_adjust_button">Regola</string>
     <string name="auto_brightness_close_button">Chiudi</string>
     <string name="auto_brightness_reset_button">Ripristina</string>
@@ -416,15 +420,15 @@
     <string name="auto_brightness_help_text"><b>Come viene calcolata la luminosità automatica?</b>
 \n\n
 La curva di luminosità viene calcolata eseguendo una <i>interpolazione spline di terzo grado</i>
-su un dato numero di <i>punti di controllo</i>. Non è un algoritmo che fa rimanere costante
-la luminosità dello schermo in determinati intervalli di luminosità ambientale. In questo modo,
-piccole variazioni di luce ambientale non causano grandi variazioni di luminosità dello schermo;
+su un dato numero di <i>punti di controllo</i>. Non è un algoritmo che fa rimanere costante la
+luminosità dello schermo in determinati intervalli di luminosità ambientale. In questo modo, piccole
+variazioni di luce ambientale non causano grandi variazioni di luminosità dello schermo;
 tuttavia, può essere arduo predire le esatte conseguenze di una modifica nei punti di controllo.\n
 Per rimediare a questo, si può esaminare un\'anteprima della curva calcolata. Si noti che
-l\'anteprima mostra la curva in scala <i>logaritmica</i>, in modo che i punti di controllo
-possano essere visualizzati distintamente. Se si usasse una scala lineare, non sarebbe
-possibile distinguere i punti di controllo - tendenzialmente più importanti - nella gamma
-più bassa di luminosità ambientale.\n\n
+l\'anteprima mostra la curva in scala <i>logaritmica</i>, in modo che i punti di controllo possano essere
+visualizzati distintamente. Se si usasse una scala lineare, non sarebbe possibile distinguere
+i punti di controllo - tendenzialmente più importanti - nella gamma più bassa di luminosità ambientale.
+\n\n
 <b>Come modificare la curva di luminosità?</b>
 \n\n
 Ogni riga nella lista corrisponde ad un <i>punto di controllo</i> della curva di luminosità.
@@ -434,7 +438,8 @@ del controllo a scorrimento per fornire un\'anteprima del livello di luminosità
 Altre opzioni sono disponibili premendo a lungo una riga. Selezionando \'Modifica\', puoi modificare
 il livello di luce ambientale del punto di controllo, ed anche inserire manualmente il valore
 desiderato di luminosità dello schermo. Selezionando \'Dividi\' puoi dividere una riga, per
-inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.</string>
+inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
+    </string>
 
     <string name="auto_brightness_sensitivity_title">Regola sensibilità</string>
     <string name="auto_brightness_sensitivity_verylow">Molto bassa</string>
@@ -650,18 +655,14 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="flip_qs_tiles_title">Gira tile</string>
     <string name="flip_qs_tiles_summary">Gira i tile al tocco</string>
     
-    <!-- QuickSettings smaller tiles -->
-    <string name="title_qs_small_icons">Mostra tile più piccoli</string>
-    <string name="summary_qs_small_icons">Usa tile più piccoli per aumentare il numero di colonne</string>
-
     <!-- QuickSettings haptic feedback -->
     <string name="haptic_qs_tiles_title">Vibra al tocco</string>
     <string name="haptic_qs_tiles_summary">Il telefono vibra al tocco del tile</string>
     
     <!-- QuickSettings smaller tiles -->
     <string name="title_qs_small_icons">Mostra tile più piccoli</string>
-    <string name="summary_qs_small_icons">Mostra tile più piccoli per usarne di più</string>
- 
+    <string name="summary_qs_small_icons">Usa tile più piccoli per aumentare il numero di colonne</string>
+
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
     <string name="pref_ring_mode_title">Modalità suoneria</string>
@@ -1495,9 +1496,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- DarkUI -->
     <string name="darkui_title">Dark-UI</string>
     <string name="theme_auto_mode_title">Modalità</string>
-    <string name="theme_auto_mode_off">Manuale </string>
-    <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce </string>
-    <string name="theme_auto_mode_twilight">A seconda dell\'orario </string>
+    <string name="theme_auto_mode_off">Manuale</string>
+    <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce</string>
+    <string name="theme_auto_mode_twilight">A seconda dell\'orario</string>
     <string name="theme_auto_switch_mode_error">Lo switch automatico con la luminosità è attivo. Non puoi attivare il tema dark in modo manuale </string>
 
     <!-- Notification drawer background -->    
@@ -1543,12 +1544,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="emulate_menu_key_summary">Premere il tasto menu sulla navbar mostrerà il menu in basso </string>
 
     <!-- App ops -->
-    <string name="app_ops_summaries_coarse_location">Locazione </string>
-    <string name="app_ops_summaries_fine_location">Alta precisione </string>
+    <string name="app_ops_summaries_coarse_location">Posizione</string>
+    <string name="app_ops_summaries_fine_location">Alta precisione</string>
     <string name="app_ops_summaries_gps">GPS</string>
-    <string name="app_ops_summaries_vibrate">vibrazione </string>
-    <string name="app_ops_summaries_read_contacts">leggi contatti </string>
-    <string name="app_ops_summaries_modify_contacts">modifica contatti </string>
+    <string name="app_ops_summaries_vibrate">vibrazione</string>
+    <string name="app_ops_summaries_read_contacts">leggi contatti</string>
+    <string name="app_ops_summaries_modify_contacts">modifica contatti</string>
     <string name="app_ops_summaries_read_call_log">leggi log chiamate </string>
     <string name="app_ops_summaries_modify_call_log">modifica log chiamate </string>
     <string name="app_ops_summaries_read_calendar">leggi calendario </string>
@@ -1928,14 +1929,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="lockscreen_misc_color_title">Colori vari</string>
     <string name="lockscreen_misc_color_summary">Colore degli elementi rimanenti</string>
     
-    <!-- Themes -->
-    <string name="theme_settings_title_slim">Temi</string>
-    <string name="theme_auto_mode_title">Dark-UI</string>
-    <string name="theme_auto_mode_off">Manuale</string>
-    <string name="theme_auto_mode_lightsensor">Al cambiamento delle condizioni di luce</string>
-    <string name="theme_auto_mode_twilight">A seconda dell\'orario</string>
-    <string name="theme_auto_switch_mode_error">Lo switch automatico con la luminosità è attivo. Non puoi attivare il tema dark in modo manuale </string>
-
     <!-- Double-tap to sleep -->
     <string name="double_tap_sleep_title">Doppio tocco per spegnere lo schermo </string>
     <string name="double_tap_to_sleep_summary">Vedi o cambia le opzioni </string>
