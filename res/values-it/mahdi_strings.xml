@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings  -->
-    <string name="custom_settings_category">Mahdi</string>
+    <string name="custom_settings_category">UI sistema</string>
     <!-- Customization Interface settings  -->
     <string name="customization_settings_title">Impostazioni UI</string>
 
@@ -1113,15 +1113,15 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="navigation_bar_glow_tint_title">Colore bagliore</string>
 
     <!-- Basic Numbers -->
-    <string name="two">Due </string>
-    <string name="three">Tre </string>
-    <string name="four">Quattro </string>
-    <string name="five">Cinque </string>
-    <string name="six">Sei </string>
+    <string name="two">Due</string>
+    <string name="three">Tre</string>
+    <string name="four">Quattro</string>
+    <string name="five">Cinque</string>
+    <string name="six">Sei</string>
 
     <!-- Quiet hours -->
-    <string name="quiet_hours_title">Ore di quiete </string>
-    <string name="quiet_hours_summary">Configura gli orari in cui il dispositivo deve essere silenzioso </string>
+    <string name="quiet_hours_title">Ore di quiete</string>
+    <string name="quiet_hours_summary">Configura gli orari in cui il dispositivo deve essere silenzioso</string>
     <string name="quiet_hours_enabled">Attiva ore di quiete </string>
     <string name="quiet_hours_enabled_on">Le ore di quiete saranno forzate</string>
     <string name="quiet_hours_enabled_off">Le notifiche funzioneranno normalmente </string>
