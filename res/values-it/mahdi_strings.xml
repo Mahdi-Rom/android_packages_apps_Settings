@@ -2253,6 +2253,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="heads_up_dnd_title">Non disturbare</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
     <string name="heads_up_disabled_notice">Per permettere alle app di mostrare le notifiche con un popup, attiva heads up.</string>
+    <string name="heads_up_gravity_title">Mostra in basso</string>
+    <string name="heads_up_gravity_summary">Mostra le notifiche di heads up nella parte bassa dello schermo</string>
     
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifiche</string>
