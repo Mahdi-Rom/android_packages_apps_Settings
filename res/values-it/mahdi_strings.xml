@@ -2356,4 +2356,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="smart_cover_wake_summary">Risveglia dispositivo all\'apertura della smart cover</string>
     <string name="smart_cover_sleep_title">Spegnimento smart cover</string>
     <string name="smart_cover_sleep_summary">Spegni lo schermo del dispositivo alla chiusura della smart cover</string>
+    
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Risveglio prossimità</string>
+    <string name="proximity_wake_summary">Usa il sensore di prossimità per determinare quando accendere lo schermo</string>
 </resources>
