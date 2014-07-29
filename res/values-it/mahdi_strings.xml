@@ -1131,7 +1131,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_start">Inizio delle ore di quiete </string>
     <string name="quiet_hours_start_summary">Quando iniziare a imporre le ore di quiete </string>
     <string name="quiet_hours_end">Fine delle ore di quiete </string>
-    <string name="quiet_hours_end_summary">Quando finire di imporre le ore di quiete </string>
+    <string name="quiet_hours_end_summary">Quando finire di imporre le ore di quiete</string>
     <string name="quiet_hours_ringer_title">Mettere la suoneria a muto </string>
     <string name="quiet_hours_ringer_on">Non saranno riprodotte suonerie </string>
     <string name="quiet_hours_ringer_off">La suoneria sarà riprodotta normalmente </string>
