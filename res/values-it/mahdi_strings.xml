@@ -1131,7 +1131,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_start">Inizio delle ore di quiete </string>
     <string name="quiet_hours_start_summary">Quando iniziare a imporre le ore di quiete </string>
     <string name="quiet_hours_end">Fine delle ore di quiete </string>
-    <string name="quiet_hours_end_summary">Quando finire di imporre le ore di quiete </string>
+    <string name="quiet_hours_end_summary">Quando finire di imporre le ore di quiete</string>
     <string name="quiet_hours_ringer_title">Mettere la suoneria a muto </string>
     <string name="quiet_hours_ringer_on">Non saranno riprodotte suonerie </string>
     <string name="quiet_hours_ringer_off">La suoneria sarà riprodotta normalmente </string>
@@ -2253,6 +2253,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="heads_up_dnd_title">Non disturbare</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
     <string name="heads_up_disabled_notice">Per permettere alle app di mostrare le notifiche con un popup, attiva heads up.</string>
+    <string name="heads_up_gravity_title">Mostra in basso</string>
+    <string name="heads_up_gravity_summary">Mostra le notifiche di heads up nella parte bassa dello schermo</string>
     
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifiche</string>
@@ -2356,4 +2358,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="smart_cover_wake_summary">Risveglia dispositivo all\'apertura della smart cover</string>
     <string name="smart_cover_sleep_title">Spegnimento smart cover</string>
     <string name="smart_cover_sleep_summary">Spegni lo schermo del dispositivo alla chiusura della smart cover</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Risveglio prossimità</string>
+    <string name="proximity_wake_summary">Usa il sensore di prossimità per determinare quando accendere lo schermo</string>
 </resources>
