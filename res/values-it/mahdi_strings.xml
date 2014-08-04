@@ -941,6 +941,11 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_ring_vib">Suoneria/Vibrazione</string>
     <string name="shortcut_action_ring_silent">Suoneria/Silenzioso</string>
     <string name="shortcut_action_ring_vib_silent">Suoneria/Vibrazione/Silenzioso</string>
+    <string name="shortcut_action_camera">Fotocamera</string>
+    <string name="shortcut_action_media_next">Musica - prossima traccia</string>
+    <string name="shortcut_action_media_play_pause">Musica - play/pausa</string>
+    <string name="shortcut_action_media_previous">Musica - traccia precedente</string>
+    <string name="shortcut_action_wake_device">Risveglia dispositivo</string>
     <string name="shortcut_action_theme_switch">Cambia tema</string>
     <string name="shortcut_action_torch">Torcia</string>
     <string name="shortcut_action_longpress">Tieni premuto:</string>
