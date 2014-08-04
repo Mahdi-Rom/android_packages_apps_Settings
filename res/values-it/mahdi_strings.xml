@@ -943,7 +943,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="shortcut_action_ring_vib_silent">Suoneria/Vibrazione/Silenzioso</string>
     <string name="shortcut_action_theme_switch">Cambia tema</string>
     <string name="shortcut_action_torch">Torcia</string>
-    <string name="shortcut_action_omniswitch">OmniSwitch</string>
     <string name="shortcut_action_longpress">Tieni premuto:</string>
     <string name="shortcut_action_select_action_longpress">Scegli l\'azione tieni premuto:</string>
     <string name="shortcut_action_select_action">Scegli azione:</string>
