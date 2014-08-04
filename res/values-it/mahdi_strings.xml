@@ -1089,7 +1089,9 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="navbar_enable_bar">Attiva navigation bar </string>
     <string name="navbar_enable_bar_summary">Attiva la navigation bar </string>
     <string name="navigation_bar_left_title">Modalità mancino</string>
-    <string name="navigation_bar_left_summary">In modalità landscape la navigation bar è sulla sinistra </string>
+    <string name="navigation_bar_left_summary">In modalità landscape la navigation bar è sulla sinistra</string>
+    <string name="navigation_bar_ime_title">Disattiva cursori</string>
+    <string name="navigation_bar_ime_summary">I cursori per la tastiera sono attivati di default, disattivali con questa opzione</string>
     <string name="navigation_bar_height_title">Altezza navigation bar </string>
     <string name="navigation_bar_height_summary">Altezza della navigation bar in verticale</string>
     <string name="navigation_bar_height_landscape_title">Altezza navigation bar in landscape</string>
