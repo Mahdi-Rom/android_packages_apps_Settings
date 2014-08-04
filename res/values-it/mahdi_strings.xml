@@ -1134,7 +1134,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_end_summary">Quando finire di imporre le ore di quiete</string>
     <string name="quiet_hours_ringer_title">Mettere la suoneria a muto </string>
     <string name="quiet_hours_ringer_on">Non saranno riprodotte suonerie </string>
-    <string name="quiet_hours_ringer_off">La suoneria sarà riprodotta normalmente </string>
+    <string name="quiet_hours_ringer_off">La suoneria sarà riprodotta normalmente</string>
     <string name="quiet_hours_mute">Notifiche silenziose </string>
     <string name="quiet_hours_mute_on">Non sarà riprodotto nessun suono </string>
     <string name="quiet_hours_mute_off">I suoni saranno riprodotti normalmente </string>
@@ -2362,4 +2362,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Risveglio prossimità</string>
     <string name="proximity_wake_summary">Usa il sensore di prossimità per determinare quando accendere lo schermo</string>
+    
+    <!-- Spam notifications -->
+    <string name="spam_added_title">Aggiunto %1$s</string>
+    <string name="spam_last_blocked_title">Ultimo bloccato %1$s</string>
+    <string name="block_notifications_title">Filtra notifiche</string>
+    <string name="no_filters_title">Nessun filtro impostato</string>
 </resources>
