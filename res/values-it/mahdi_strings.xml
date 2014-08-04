@@ -631,6 +631,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
 
     <!-- Quick access ribbon -->
     <string name="title_quick_access">Barra di accesso rapido</string>
+    <string name="title_quick_access_size">Grandezza della barra</string>
     <string name="title_quick_access_linked">Disposizione collegata</string>
     <string name="summary_quick_access_linked">Usa gli stessi tile e la stessa disposizione dei quick settings</string>
  
