@@ -9,12 +9,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="@color/card_lockscreen_targets"
         android:layout_marginEnd="8dip"
         android:layout_marginStart="8dip"
         android:padding="4dip"
         android:gravity="center_horizontal"
-        android:textColor="#000000"
+        android:textColor="@color/card_lockscreen_targets_text_color"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/lockscreen_target_info" />
 
