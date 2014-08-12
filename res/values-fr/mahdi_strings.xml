@@ -290,37 +290,37 @@
     <string name="select_contact">Sélectionner un contact</string>
 
     <!-- Performance settings -->
-    <string name="performance_settings_title">Performance</string>
+    <string name="performance_settings_title">Performances</string>
 
     <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">Proceed with Caution</string>
-    <string name="performance_settings_warning">These settings are included for experimentation and any changes made to them have the potential to cause instability, crashes, data loss or hardware failures.\n\nWe request you do not file bug reports if any of these settings have been changed from the defaults.</string>
+    <string name="performance_settings_warning_title">Attention</string>
+    <string name="performance_settings_warning">Ces paramètres sont expérimentaux et toutes les modifications appliquées sont susceptibles de provoquer des instabilités,  des plantages, des pertes de données ou de la casse matériel.\n\n Nous vous demandons de ne pas déposer de rapports de bugs si des valeurs par défaut de paramètre ont été modifiés.</string>
 
     <!-- Performance Settings : Set on boot option -->
-    <string name="performance_set_on_boot">Set on boot</string>
-    <string name="performance_set_on_boot_summary">Restore the settings on boot</string>
+    <string name="performance_set_on_boot">Définir au démarrage</string>
+    <string name="performance_set_on_boot_summary">Paramètres de restauration appliqués au démarrage</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
-    <string name="processor_title">Processor</string>
+    <string name="processor_title">Processeur</string>
 
     <!-- Performance Settings : Processor settings sub items -->
-    <string name="cpu_cur_freq_title">Current CPU frequency</string>
-    <string name="cpu_governors_title">CPU governor</string>
-    <string name="cpu_min_freq_title">Minimum CPU frequency</string>
-    <string name="cpu_max_freq_title">Maximum CPU frequency</string>
+    <string name="cpu_cur_freq_title">Fréquence actuelle</string>
+    <string name="cpu_governors_title">Stratégie</string>
+    <string name="cpu_min_freq_title">Fréquence minimale</string>
+    <string name="cpu_max_freq_title">Fréquence maximale</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O scheduler</string>
+    <string name="io_scheds_title">Horloge E/S</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
-    <string name="io_sched_title">I/O scheduler</string>
+    <string name="io_sched_title">Horloge E/S</string>
 
     <!-- Performance Settings : Performance profile settings -->
-    <string name="perf_profile_title">Profile</string>
+    <string name="perf_profile_title">Profil</string>
 
     <!-- Memory Management -->
-    <string name="memory_management_title">Memory management</string>
+    <string name="memory_management_title">Gestion de la mémoire</string>
     <!-- zRam -->
     <string name="pref_zram_title">zRam</string>
     <string name="pref_zram_summary">Compress memory for increased virtual capacity (requires reboot)</string>
@@ -328,19 +328,19 @@
     <string name="pref_ksm_title">Kernel samepage merging</string>
     <string name="pref_ksm_summary">KSM reduces physical memory requirements and improves performance</string>
     <!-- Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Allow purging of assets</string>
-    <string name="pref_purgeable_assets_summary">Purging of bitmap memory assets allows the freeing of more RAM when needed (requires reboot)</string>
+    <string name="pref_purgeable_assets_title">Purge des bitmaps</string>
+    <string name="pref_purgeable_assets_summary">La purge des bitmaps actifs permet de libérer plus de RAM en cas de besoin (nécessite un redémarrage)</string>
 
     <!-- Performance Settings : 16bpp Alpha -->
-    <string name="pref_use_16bpp_alpha_title">16bit transparency</string>
-    <string name="pref_use_16bpp_alpha_summary">Better graphics performance, but lower quality and may cause visual artifacts (requires reboot)</string>
+    <string name="pref_use_16bpp_alpha_title">Transparence 16 bits</string>
+    <string name="pref_use_16bpp_alpha_summary">Utiliser le mode 16 bits améliore la vitesse de défilement et des animations, mais peut affecter l\'affichage des éléments transparents (nécessite un redémarrage)</string>
 
     <!-- Automatic performance profiles -->
-    <string name="autoperf_title">Enable per-app profiles</string>
-    <string name="autoperf_summary">Automatically choose an appropriate performance profile for various applications</string>
+    <string name="autoperf_title">Activer les profiles par application</string>
+    <string name="autoperf_summary">Choisir automatiquement le profil de performance le plus approprié pour les différentes applications</string>
 
     <!-- Performance menu, graphics options category -->
-    <string name="graphics_title">Graphics and rendering</string>
+    <string name="graphics_title">Graphismes et rendu</string>
 
     <!-- Sound settings -->
     <string name="volume_category">Volume</string>
@@ -443,10 +443,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="auto_brightness_sensitivity_veryhigh">Very high</string>
 
     <!-- Screen security - Screen security   -->
-    <string name="screen_security_category">Screen security</string>
-    <string name="screen_security_title">Lock screen</string>
-    <string name="screen_security_summary">View or change lock screen security</string>
-    <string name="lock_screen_title">Lock screen</string>
+    <string name="screen_security_category">Verrouillage de l'écran</string>
+    <string name="screen_security_title">Écran de verrouillage</string>
+    <string name="screen_security_summary">Afficher ou modifier les paramètres de sécurité de l'écran de verrouillage</string>
+    <string name="lock_screen_title">Écran de verrouillage</string>
     <string name="lock_screen_summary">Change the way your lock screen looks, add shortcuts and adjust widget options</string>
     <string name="additional_options_title">Additional options</string>
     <string name="lock_before_unlock_title">Show slider before secure unlock</string>
@@ -527,41 +527,41 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockgesture_need_to_unlock_wrong_footer" />
 
     <!-- Quick settings panel  -->
-    <string name="quick_settings_panel_title">Quick settings</string>
+    <string name="quick_settings_panel_title">Volet des raccourcis</string>
     <string name="quick_settings_summary">View or change options for quick settings and notification drawer</string>
-    <string name="title_static_tiles">Static tiles</string>
-    <string name="tile_picker_title">Tiles and layout</string>
-    <string name="tile_picker_summary">View, select or change the layout of the displayed tiles</string>
-    <string name="tile_choose_title">Choose a tile</string>
+    <string name="title_static_tiles">Raccourcis statiques</string>
+    <string name="tile_picker_title">Raccourcis et disposition</string>
+    <string name="tile_picker_summary">Afficher, sélectionner ou changer la disposition des raccourcis</string>
+    <string name="tile_choose_title">Choisir un raccourci</string>
 
-    <string name="title_tile_airplane">Airplane mode</string>
-    <string name="title_tile_battery">Battery stats</string>
+    <string name="title_tile_airplane">Mode Avion</string>
+    <string name="title_tile_battery">Batterie</string>
     <string name="title_tile_bluetooth">Bluetooth</string>
-    <string name="title_tile_brightness">Brightness</string>
-    <string name="title_tile_camera">Camera</string>
-    <string name="title_tile_compass">Compass</string>
+    <string name="title_tile_brightness">Luminosité</string>
+    <string name="title_tile_camera">Appareil photo</string>
+    <string name="title_tile_compass">Boussole</string>
     <string name="title_tile_power">Power</string>
     <string name="title_tile_location">Location</string>
-    <string name="title_tile_torch">Torch</string>
-    <string name="title_tile_lockscreen">Lock screen</string>
+    <string name="title_tile_torch">Lampe</string>
+    <string name="title_tile_lockscreen">Verrouillage écran</string>
     <string name="title_tile_lte">LTE</string>
-    <string name="title_tile_mobiledata">Mobile data</string>
-    <string name="title_tile_profile">Profile</string>
-    <string name="title_tile_autorotate">Orientation</string>
-    <string name="title_tile_settings">Settings</string>
+    <string name="title_tile_mobiledata">Données mobiles</string>
+    <string name="title_tile_profile">Profil</string>
+    <string name="title_tile_autorotate">Rotation automatique</string>
+    <string name="title_tile_settings">Paramètres</string>
     <string name="title_tile_shake">Shake events</string>
-    <string name="title_tile_sound">Sound</string>
-    <string name="title_tile_sync">Sync</string>
-    <string name="title_tile_wifiap">Wi-Fi AP</string>
+    <string name="title_tile_sound">Son</string>
+    <string name="title_tile_sync">Synchronisation</string>
+    <string name="title_tile_wifiap">Partage Wi-Fi</string>
     <string name="title_tile_wifi">Wi-Fi</string>
-    <string name="title_tile_user">User switcher</string>
-    <string name="title_tile_networkmode">Network mode</string>
+    <string name="title_tile_user">Utilisateur</string>
+    <string name="title_tile_networkmode">Mode réseau</string>
     <string name="title_tile_nfc">NFC</string>
-    <string name="title_tile_screen_timeout">Screen timeout</string>
-    <string name="title_tile_quiet_hours">Quiet hours</string>
+    <string name="title_tile_screen_timeout">Extinction écran</string>
+    <string name="title_tile_quiet_hours">Heures silencieuses</string>
     <string name="title_tile_volume">Volume</string>
     <string name="title_tile_immersive_mode">Immersive mode</string>
-    <string name="title_tile_network_adb">ADB over network</string>
+    <string name="title_tile_network_adb">ADB réseau</string>
     <string name="title_tile_navbar">Navigation Bar</string>
     <string name="title_tile_network_traffic">Network traffic</string>
     <string name="title_tile_music">Music</string>
@@ -580,30 +580,30 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="custom_tile_resolve_name">Unknown</string>
     <string name="title_tile_theme">Theme switcher</string>
     <string name="title_tile_batterysaver">BatterySaver mode</string>
-    <string name="title_tile_heads_up">Heads up</string>
-    <string name="title_tile_performance_profile">Performance profile</string>
+    <string name="title_tile_heads_up">Notifications flottantes</string>
+    <string name="title_tile_performance_profile">Profil de performance</string>
 
-    <string name="title_dynamic_tiles">Dynamic tiles</string>
+    <string name="title_dynamic_tiles">Raccourcis dynamiques</string>
     <string name="dynamic_tiles_note_title">Note</string>
-    <string name="dynamic_tiles_note_summary">Dynamic tiles are not always visible and will only show up if triggered by a system event</string>
-    <string name="title_dynamic_alarm">Alarm clock</string>
-    <string name="title_dynamic_bugreport">Bug report</string>
-    <string name="title_dynamic_dock_battery">Dock battery</string>
-    <string name="title_dynamic_equalizer">Equalizer</string>
-    <string name="title_dynamic_ime">IME changer</string>
-    <string name="title_dynamic_usbtether">USB Tether</string>
-    <string name="title_dynamic_wifi">Wi-Fi display</string>
+    <string name="dynamic_tiles_note_summary">Les raccourcis dynamiques ne sont pas toujours visibles et ils ne peuvent s\'afficher que s\'ils sont déclenchés par un événement système</string>
+    <string name="title_dynamic_alarm">Réveil</string>
+    <string name="title_dynamic_bugreport">Rapport de bug</string>
+    <string name="title_dynamic_dock_battery">Batterie du dock</string>
+    <string name="title_dynamic_equalizer">Égaliseur</string>
+    <string name="title_dynamic_ime">Changement IME</string>
+    <string name="title_dynamic_usbtether">Modem USB</string>
+    <string name="title_dynamic_wifi">Diffusion sans fil</string>
 
-    <string name="title_general">General</string>
-    <string name="title_quick_pulldown">Déroulement rapide</string>
-    <string name="summary_quick_pulldown">%1$s coin de la barre de statut affiche les paramètres rapides</string>
+    <string name="title_general">Général</string>
+    <string name="title_quick_pulldown">Ouverture rapide</string>
+    <string name="summary_quick_pulldown">Tirer le côté %1$s pour ouvrir le volet des raccourcis</string>
     <string name="quick_pulldown_summary_left">Gauche</string>
     <string name="quick_pulldown_summary_right">Droit</string>
-    <string name="quick_pulldown_off">Désactivé</string>
+    <string name="quick_pulldown_off">Désactiver</string>
     <string name="quick_pulldown_left">Gauche</string>
     <string name="quick_pulldown_right">Droit</string>
-    <string name="title_collapse_panel">Fermeture rapide</string>
-    <string name="summary_collapse_panel">Fermer le panneau de notification après appui sur une tuile</string>
+    <string name="title_collapse_panel">Fermeture automatique</string>
+    <string name="summary_collapse_panel">Fermer le volet des raccourcis après un appui</string>
 
     <!-- QuickSettings: Smart Pulldown -->
     <string name="smart_pulldown_title">Déroulement intelligent</string>
@@ -622,18 +622,18 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
      <string name="custom_tile_long_press">Pression longue:</string>
      <string name="custom_tile_null_warning">Une action doit d\'abord être définie</string>
 
-    <string name="pref_network_mode_title">Modes réseau</string>
+    <string name="pref_network_mode_title">Modes de réseau</string>
     <string name="pref_screentimeout_mode_title">Modes d\'extinction de l\'écran</string>
-    <string name="pref_ring_mode_title">Modes du son</string>
+    <string name="pref_ring_mode_title">Modes de sonnerie</string>
     <string name="pref_music_mode_title">Modes de la musique</string>
     <string name="music_tile_mode_background">Afficher la pochette de l\'album</string>
-    <string name="music_tile_mode_tracktitle">fficher le titre de la piste</string>
+    <string name="music_tile_mode_tracktitle">Afficher le titre de la piste</string>
 
     <!-- Quick access ribbon -->
-    <string name="title_quick_access">Quick access ribbon</string>
-    <string name="title_quick_access_size">Size of ribbon bar</string>
-    <string name="title_quick_access_linked">Linked layout</string>
-    <string name="summary_quick_access_linked">Use the same tiles and layout as the Quick Settings panel</string>
+    <string name="title_quick_access">Afficher avec les notifications</string>
+    <string name="title_quick_access_size">Taille du bandeau</string>
+    <string name="title_quick_access_linked">Lier la disposition</string>
+    <string name="summary_quick_access_linked">Utiliser les mêmes raccourcis et disposition que le volet des raccourcis</string>
 
     <!-- QuickSettings style options -->
     <string name="quick_settings_title">Paramètres rapides</string>
@@ -1207,7 +1207,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
-
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <!-- Status Bar Activity Indicators -->
     <string name="show_activity_indicators_on_status_bar_title">Activity indicators</string>
     <string name="show_activity_indicators_on_status_bar_summary">Show indicators in signal bars</string>
@@ -1420,7 +1422,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="recent_clear_all_button_location_top_right">Top right</string>
     <string name="recent_clear_all_button_location_bottom_left">Bottom left</string>
     <string name="recent_clear_all_button_location_bottom_right">Bottom right</string>
-
+    <string name="recent_clear_all_apps_title">Clear all tasks</string>
+    <string name="recent_clear_all_apps_summary">Clear all tasks including the topmost</string>
     <!-- New Recents Screen -->
     <string name="new_recents_category">Slims Recents</string>
     <string name="new_recents_screen_title">Slims recents</string>
