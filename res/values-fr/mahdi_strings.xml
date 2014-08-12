@@ -20,19 +20,19 @@
     <string name="customization_settings_title">Paramètres d\'interface</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">Build version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version">Version Mahdi</string>
+    <string name="mod_version_default">Inconnu</string>
     <!-- About phone screen, Build date of ROM -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Date de compilation</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
-    <string name="mem_info">Memory</string>
+    <string name="mem_info">Mémoire</string>
     <!-- About phone screen, status item label -->
 
     <!-- Updater --> 
-    <string name="updater_title">mis à jour</string>
+    <string name="updater_title">Mise à jour</string>
     <string name="updater_summary">Rechercher les mises à jour et plus</string>
 
     <!-- General strings -->
@@ -111,35 +111,35 @@
     <string name="advanced_reboot_summary">Inclure des options dans le power menu pour un reboot dans le recovery et le bootloader</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">Profiles</string>
+    <string name="profiles_settings_title">Profils</string>
     <string name="profiles_general_title">General</string>
-    <string name="profiles_add">AJouter</string>
-    <string name="profile_menu_delete">Delete</string>
-    <string name="profile_settings_title">Profile</string>
-    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
+    <string name="profiles_add">Ajouter</string>
+    <string name="profile_menu_delete">Supprimer</string>
+    <string name="profile_settings_title">Profil</string>
+    <string name="profile_empty_list_profiles_off">Activer le système de profils pour le personnaliser et l\'utiliser.</string>
 
     <!-- Add Profile -->
-    <string name="add_profile_dialog_title">Create new profile</string>
-    <string name="profile_name_title">Name</string>
-    <string name="profile_profile_name_prompt">Enter a name for the new profile</string>
-    <string name="menu_new_profile">New profile</string>
-    <string name="menu_new_profile_summary">Add and configure a new profile</string>
-    <string name="new_profile_name">\u003Cnew profile\u003E</string>
+    <string name="add_profile_dialog_title">Créer un nouveau profil</string>
+    <string name="profile_name_title">Nom</string>
+    <string name="profile_profile_name_prompt">Entrer un nom pour le nouveau profil</string>
+    <string name="menu_new_profile">Nouveau profil</string>
+    <string name="menu_new_profile_summary">Ajouter et configurer un nouveau profil</string>
+    <string name="new_profile_name">\u003CNouveau profil\u003E</string>
 
     <!-- Rename Dialog  -->
-    <string name="rename_dialog_title">Rename</string>
-    <string name="rename_dialog_message">Enter a new name</string>
-    <string name="duplicate_profile_name">Duplicate profile name!</string>
+    <string name="rename_dialog_title">Renommer</string>
+    <string name="rename_dialog_message">Entrer un nouveau nom</string>
+    <string name="duplicate_profile_name">Dupliquer le nom du profil!</string>
     <string name="duplicate_appgroup_name">Duplicate app group name!</string>
 
     <!-- Reset Profiles -->
-    <string name="profile_reset_title">Reset</string>
-    <string name="profile_reset_message">Delete all user created profiles and app groups and restore them to default?</string>
+    <string name="profile_reset_title">Réinitialiser</string>
+    <string name="profile_reset_message">Supprimer tous les profils et groupes d\'applications et revenir à la configuration d\'origine?</string>
 
     <!-- Delete confimation messages -->
-    <string name="profile_delete_confirm">Delete this profile?</string>
-    <string name="profile_app_delete_confirm">Remove this app?</string>
-    <string name="profile_cannot_delete">An active profile cannot be deleted</string>
+    <string name="profile_delete_confirm">Supprimer ce profil?</string>
+    <string name="profile_app_delete_confirm">Supprimer cette application?</string>
+    <string name="profile_cannot_delete">Vous ne pouvez pas supprimer le profil actif</string>
 
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
@@ -147,31 +147,31 @@
     <string name="profile_networkmode_2g3g">2G/3G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Connection overrides</string>
-    <string name="profile_volumeoverrides_title">Volume overrides</string>
+    <string name="profile_connectionoverrides_title">Connexions</string>
+    <string name="profile_volumeoverrides_title">Volumes</string>
     <string name="profile_vibratoroverrides_title">Vibrator overrides</string>
-    <string name="connection_state_disabled">Disable</string>
-    <string name="connection_state_enabled">Enable</string>
-    <string name="volume_override_summary">Set to</string>
-    <string name="vibrator_state_disabled">Disable</string>
-    <string name="vibrator_state_enabled">Enable</string>
+    <string name="connection_state_disabled">Inactif</string>
+    <string name="connection_state_enabled">Activer</string>
+    <string name="volume_override_summary">Défini à</string>
+    <string name="vibrator_state_disabled">Inactif</string>
+    <string name="vibrator_state_enabled">Activer</string>
     <string name="vibrator_state_silent">Only when silent</string>
 
     <!-- Menu item for managing profiles -->
-    <string name="profile_profiles_manage">Profiles</string>
-    <string name="profile_profile_manage">Manage profile</string>
+    <string name="profile_profiles_manage">Profils</string>
+    <string name="profile_profile_manage">Gérer le profil</string>
     <string name="profile_applist_manage">Application list</string>
-    <string name="profile_appgroups_manage">App groups</string>
-    <string name="profile_appgroup_manage">Manage app group</string>
+    <string name="profile_appgroups_manage">Groupes d\'applications</string>
+    <string name="profile_appgroup_manage">Gérer le groupe d\'applications</string>
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
-    <string name="profile_settings">Profile settings</string>
-    <string name="profile_name">Name</string>
-    <string name="profile_trigger_connect">On connect</string>
-    <string name="profile_trigger_disconnect">On disconnect</string>
-    <string name="profile_trigger_notrigger">No trigger</string>
-    <string name="profile_trigger_a2dp_connect">On A2DP connect</string>
-    <string name="profile_trigger_a2dp_disconnect">On A2DP disconnect</string>
+    <string name="profile_settings">Paramètres du profil</string>
+    <string name="profile_name">Nom</string>
+    <string name="profile_trigger_connect">À la connexion</string>
+    <string name="profile_trigger_disconnect">À la déconnexion</string>
+    <string name="profile_trigger_notrigger">Aucune activation</string>
+    <string name="profile_trigger_a2dp_connect">À la connexion A2DP</string>
+    <string name="profile_trigger_a2dp_disconnect">À la déconnexion A2DP</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Mode de notification</string>
@@ -247,10 +247,10 @@
     <string name="profile_add_nfc_text">Ce tag NFC ne se réfère à aucun profil. Le relier à un profil existant permettra à l\'avenir de le sélectionner.</string>
     <string name="profile_select">Sélectionner un profil</string>
 
-    <string name="ring_mode_title">Ring mode</string>
-    <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibrate</string>
-    <string name="ring_mode_mute">Mute</string>
+    <string name="ring_mode_title">Sonnerie</string>
+    <string name="ring_mode_normal">Normale</string>
+    <string name="ring_mode_vibrate">Vibreur</string>
+    <string name="ring_mode_mute">Silencieux</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Show CPU info</string>
