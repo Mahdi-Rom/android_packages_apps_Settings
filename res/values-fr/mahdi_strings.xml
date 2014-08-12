@@ -21,18 +21,18 @@
 
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">Build version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version_default">Inconnu</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
-    <string name="mem_info">Memory</string>
+    <string name="mem_info">Mémoire</string>
     <!-- About phone screen, status item label -->
 
     <!-- Updater --> 
-    <string name="updater_title">mis à jour</string>
+    <string name="updater_title">Mise à jour</string>
     <string name="updater_summary">Rechercher les mises à jour et plus</string>
 
     <!-- General strings -->
@@ -111,25 +111,25 @@
     <string name="advanced_reboot_summary">Inclure des options dans le power menu pour un reboot dans le recovery et le bootloader</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">Profiles</string>
+    <string name="profiles_settings_title">Profils</string>
     <string name="profiles_general_title">General</string>
-    <string name="profiles_add">AJouter</string>
-    <string name="profile_menu_delete">Delete</string>
-    <string name="profile_settings_title">Profile</string>
-    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
+    <string name="profiles_add">Ajouter</string>
+    <string name="profile_menu_delete">Supprimer</string>
+    <string name="profile_settings_title">Profil</string>
+    <string name="profile_empty_list_profiles_off">Pour configurer et utiliser les profils du système, mettez profils sur on.</string>
 
     <!-- Add Profile -->
-    <string name="add_profile_dialog_title">Create new profile</string>
-    <string name="profile_name_title">Name</string>
-    <string name="profile_profile_name_prompt">Enter a name for the new profile</string>
-    <string name="menu_new_profile">New profile</string>
-    <string name="menu_new_profile_summary">Add and configure a new profile</string>
-    <string name="new_profile_name">\u003Cnew profile\u003E</string>
+    <string name="add_profile_dialog_title">Créer un nouveau profil</string>
+    <string name="profile_name_title">Nom</string>
+    <string name="profile_profile_name_prompt">Entrer un nom pour le nouveau profil</string>
+    <string name="menu_new_profile">Nouveau profil</string>
+    <string name="menu_new_profile_summary">Ajouter et configurer un nouveau profil</string>
+    <string name="new_profile_name">\u003CNouveau profil\u003E</string>
 
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Rename</string>
-    <string name="rename_dialog_message">Enter a new name</string>
-    <string name="duplicate_profile_name">Duplicate profile name!</string>
+    <string name="rename_dialog_message">Entrer un nouveau nom</string>
+    <string name="duplicate_profile_name">Dupliquer le nom du profil!</string>
     <string name="duplicate_appgroup_name">Duplicate app group name!</string>
 
     <!-- Reset Profiles -->
@@ -137,9 +137,9 @@
     <string name="profile_reset_message">Delete all user created profiles and app groups and restore them to default?</string>
 
     <!-- Delete confimation messages -->
-    <string name="profile_delete_confirm">Delete this profile?</string>
+    <string name="profile_delete_confirm">Supprimer ce profil?</string>
     <string name="profile_app_delete_confirm">Remove this app?</string>
-    <string name="profile_cannot_delete">An active profile cannot be deleted</string>
+    <string name="profile_cannot_delete">Un profil actif ne peut être supprimé</string>
 
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
