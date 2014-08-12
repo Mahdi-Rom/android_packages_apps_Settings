@@ -284,10 +284,10 @@
     <string name="blacklist_policy_block_messages">Bloquer les messages entrants</string>
 
     <!-- Blacklist management -->
-    <string name="add_blacklist_number">Add number</string>
-    <string name="remove_blacklist_number_title">Remove number</string>
-    <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
-    <string name="select_contact">Select contact</string>
+    <string name="add_blacklist_number">Ajouter le numéro</string>
+    <string name="remove_blacklist_number_title">Supprimer le numéro</string>
+    <string name="remove_blacklist_entry">Voulez-vous supprimer cette entrée de la liste noire?</string>
+    <string name="select_contact">Sélectionner un contact</string>
 
     <!-- Performance settings -->
     <string name="performance_settings_title">Performance</string>
