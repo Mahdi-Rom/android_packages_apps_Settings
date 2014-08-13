@@ -790,11 +790,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_around_lockscreen_ring_summary">If checked the lock screen ring will display the battery charge level</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">USB debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+    <string name="adb_notify">Notification débogage USB</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est actif</string>
 
     <!-- button settings -->
-    <string name="button_settings">Buttons</string>
+    <string name="button_settings">Boutons</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Hardware Buttons</string>
@@ -825,31 +825,31 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="no_home_key">You have no button assigned any more to the \"Home\" action!\n\nThis can make your device unusable!</string>
 
     <!-- Lock screen buttons -->
-    <string name="lockscreen_long_press_home_title">Long press on lock screen</string>
-    <string name="lockscreen_buttons_no_action">No action</string>
-    <string name="lockscreen_buttons_flashlight">Flashlight</string>
-    <string name="lockscreen_buttons_next">Next song</string>
-    <string name="lockscreen_buttons_previous">Previous song</string>
-    <string name="lockscreen_buttons_playpause">Play/Pause music</string>
-    <string name="lockscreen_buttons_toggle_sound">Toggle sound</string>
-    <string name="lockscreen_buttons_sleep">Go to sleep</string>
+    <string name="lockscreen_long_press_home_title">Appui long sur le bouton Accueil</string>
+    <string name="lockscreen_buttons_no_action">Aucune action</string>
+    <string name="lockscreen_buttons_flashlight">Lampe</string>
+    <string name="lockscreen_buttons_next">Piste suivante</string>
+    <string name="lockscreen_buttons_previous">Piste précédente</string>
+    <string name="lockscreen_buttons_playpause">Lecture/Pause de la musique</string>
+    <string name="lockscreen_buttons_toggle_sound">Activer/désactiver le son</string>
+    <string name="lockscreen_buttons_sleep">Mise en veille</string>
 
     <!-- Home wake -->
-    <string name="button_volume_wake_title">Wake up</string>
-    <string name="home_wake_summary">Pressing the home button will wake your device</string>
+    <string name="button_home_wake_title">Wake up</string>
+    <string name="home_wake_summary">Un appui sur le bouton Accueil sortira votre appareil de la veille</string>
 
     <!-- Home unlock -->
-    <string name="unlock_home_unlock_title">Unlock</string>
-    <string name="unlock_home_unlock_summary">Pressing the home button unlocks the device</string>
+    <string name="unlock_home_unlock_title">Déverrouillage par bouton Accueil</string>
+    <string name="unlock_home_unlock_summary">Déverrouiller l\'écran en appuyant sur le bouton Accueil</string>
 
     <!-- Home key end call -->
-    <string name="home_answer_call_title">Answer call</string>
-    <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
+    <string name="home_answer_call_title">Répondre à l\'appel</string>
+    <string name="home_answer_call_summary">Appuyer sur le bouton Accueil décrochera l\'appel entrant en cours</string>
 
     <!-- Power key end call -->
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="power_end_call_title">End call</string>
-    <string name="power_end_call_summary">Pressing the power button will end the current call</string>
+    <string name="hardware_keys_power_key_title">Bouton marche/arrêt</string>
+    <string name="power_end_call_title">Terminer l\'appel</string>
+    <string name="power_end_call_summary">Appuyer sur le bouton marche/arrêt raccrochera l\'appel en cours</string>
 
     <!-- Volume keys -->
     <string name="button_volume_keys_title">Volume Keys</string>
@@ -857,8 +857,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="button_volume_wake_summary">Pressing either volume button will wake your device</string>
 
     <!-- Swap volume buttons -->
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">Réorienter</string>
+    <string name="swap_volume_buttons_summary">Inverser les boutons volume lorsque l\'écran est tourné</string>
 
     <!-- Volume buttons cursor control -->
     <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
@@ -866,24 +866,24 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
     <!-- Volume button music control -->
-    <string name="volbtn_music_controls_title">Playback control</string>
-    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
+    <string name="volbtn_music_controls_title">Contrôle de la musique</string>
+    <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture</string>
 
     <!-- Increase Ringing -->
-    <string name="increasing_ring_title">Ascending ringtone</string>
+    <string name="increasing_ring_title">Sonnerie progressive</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
-    <string name="checkbox_increasing_ring">Enabled</string>
+    <string name="checkbox_increasing_ring">Activer</string>
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
-    <string name="increasing_ring_min_volume_title">Ringing start volume</string>
-    <string name="increasing_ring_volume_notice">Notice:\nAs the start volume is set higher than the ringer volume, the ring tone will be played using the ringer volume.</string>
-    <string name="increasing_ring_interval_title">Increase interval</string>
-    <string name="increasing_ring_interval_eachring">On each ring</string>
-    <string name="increasing_ring_interval_half_second">0.5 seconds</string>
-    <string name="increasing_ring_interval_1second">1 second</string>
-    <string name="increasing_ring_interval_2seconds">2 seconds</string>
-    <string name="increasing_ring_interval_3seconds">3 seconds</string>
-    <string name="increasing_ring_interval_5seconds">5 seconds</string>
-    <string name="increasing_ring_interval_10seconds">10 seconds</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_volume_notice">Note :\nComme le volume défini est plus grand que celui de la sonnerie, il sera réduit à ce niveau.</string>
+    <string name="increasing_ring_interval_title">Intervalle de progression</string>
+    <string name="increasing_ring_interval_eachring">À chaque sonnerie</string>
+    <string name="increasing_ring_interval_half_second">0.5 seconde</string>
+    <string name="increasing_ring_interval_1second">1 seconde</string>
+    <string name="increasing_ring_interval_2seconds">2 secondes</string>
+    <string name="increasing_ring_interval_3seconds">3 secondes</string>
+    <string name="increasing_ring_interval_5seconds">5 secondes</string>
+    <string name="increasing_ring_interval_10seconds">10 secondes</string>
 
     <!-- Low battery warning policy -->
     <string name="pref_low_battery_warning_policy_title">Low battery warning</string>
