@@ -90,6 +90,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
     private static final String KEY_SCREEN_OFF_GESTURE_SETTINGS = "screen_off_gesture_settings";
     private static final String KEY_SCREEN_OFF_GESTURE_PACKAGE_NAME = "com.slim.device";
+    private static final String KEY_TOUCH_CONTROL_SETTINGS = "touch_control_settings";
+    private static final String KEY_TOUCH_CONTROL_PACKAGE_NAME = "com.mahdi.touchcontrol";
 
     // Strings used for building the summary
     private static final String ROTATION_ANGLE_0 = "0";
@@ -117,6 +119,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private CheckBoxPreference mColorEnhancement;
     private PreferenceScreen mScreenColorSettings;
     private PreferenceScreen mScreenOffGesture;
+    private PreferenceScreen mTouchControl;
 
     private final Configuration mCurConfig = new Configuration();
     
@@ -291,6 +294,11 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mScreenOffGesture = (PreferenceScreen) findPreference(KEY_SCREEN_OFF_GESTURE_SETTINGS);
         if (!Utils.isPackageInstalled(getActivity(), KEY_SCREEN_OFF_GESTURE_PACKAGE_NAME)) {
             advancedPrefs.removePreference(mScreenOffGesture);
+        }
+
+        mTouchControl = (PreferenceScreen) findPreference(KEY_TOUCH_CONTROL_SETTINGS);
+        if (!Utils.isPackageInstalled(getActivity(), KEY_TOUCH_CONTROL_PACKAGE_NAME)) {
+            advancedPrefs.removePreference(mTouchControl);
         }
     }
 

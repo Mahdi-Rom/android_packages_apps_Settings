@@ -143,6 +143,16 @@
                     android:targetClass="com.slim.device.settings.ScreenOffGestureSettings" />
             </PreferenceScreen>
 
+            <PreferenceScreen
+                android:key="touch_control_settings"
+                android:title="@string/touch_control_settings_title"
+                android:summary="@string/touch_control_settings_summary">
+                <intent
+                    android:action="com.mahdi.action.LAUNCH_TOUCH_CONTROL_SETTINGS"
+                    android:targetPackage="com.mahdi.touchcontrol"
+                    android:targetClass="com.mahdi.touchcontrol.settings.TouchControlActivity" />
+            </PreferenceScreen>
+
             <CheckBoxPreference
                 android:key="double_tap_wake_gesture"
                 android:title="@string/double_tap_to_wake_title"

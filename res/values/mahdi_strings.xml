@@ -2388,4 +2388,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="block_notifications_summary">Manage ignored notifications and filters</string>
     <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
     <string name="no_filters_title">No filters set. To filter a notification, long press it and choose \'Ignore messages like this\'.</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Advanced</string>
+    <string name="touch_control_settings_summary">Manage advance wakeup option including double tap to wake and more</string>
 </resources>
