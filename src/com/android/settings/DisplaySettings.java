@@ -64,36 +64,39 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     /** If there is no setting in the provider, use this. */
     private static final int FALLBACK_SCREEN_TIMEOUT_VALUE = 30000;
 
-    private static final String CATEGORY_ADVANCED = "advanced_display_prefs";
+    /** Categories */
     private static final String CATEGORY_DISPLAY = "display_prefs";
+    private static final String CATEGORY_GENERAL = "general_prefs";
+    private static final String CATEGORY_ANIMATION = "animation_prefs";
+    private static final String CATEGORY_SMART_COVER = "smart_cover_prefs";
+    private static final String CATEGORY_LIGHT_OPTIONS = "led_prefs";
+    private static final String CATEGORY_WAKEUP = "wakeup_prefs";
+
+    private static final String KEY_ADAPTIVE_BACKLIGHT = "adaptive_backlight";    
+    private static final String KEY_COLOR_ENHANCEMENT = "color_enhancement";
+    private static final String KEY_DISPLAY_COLOR = "color_calibration";
+    private static final String KEY_DISPLAY_GAMMA = "gamma_tuning";
+    private static final String KEY_SCREEN_COLOR_SETTINGS = "screencolor_settings";
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";    
     private static final String KEY_FONT_SIZE = "font_size";
     private static final String KEY_SCREEN_SAVER = "screensaver";
     private static final String KEY_DISPLAY_ROTATION = "display_rotation";
     private static final String KEY_LOCKSCREEN_ROTATION = "lockscreen_rotation";
-    private static final String KEY_ANIMATION_OPTIONS = "category_animation_options";
+    private static final String KEY_AUTO_ADJUST_TOUCH = "auto_adjust_touch";
     private static final String KEY_POWER_CRT_MODE = "system_power_crt_mode";
-    private static final String KEY_LIGHT_OPTIONS = "category_light_options";
     private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
     private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
     private static final String KEY_SCREEN_ON_NOTIFICATION_LED = "screen_on_notification_led";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
     private static final String KEY_TAP_TO_WAKE = "double_tap_wake_gesture";
-    private static final String KEY_ADAPTIVE_BACKLIGHT = "adaptive_backlight";
-    private static final String KEY_AUTO_ADJUST_TOUCH = "auto_adjust_touch";
-    private static final String KEY_COLOR_ENHANCEMENT = "color_enhancement";
-    private static final String KEY_DISPLAY_COLOR = "color_calibration";
-    private static final String KEY_DISPLAY_GAMMA = "gamma_tuning";
-    private static final String KEY_SCREEN_COLOR_SETTINGS = "screencolor_settings";
-    private static final String KEY_SMART_COVER = "smart_cover";
     private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
     private static final String KEY_SCREEN_OFF_GESTURE_SETTINGS = "screen_off_gesture_settings";
     private static final String KEY_SCREEN_OFF_GESTURE_PACKAGE_NAME = "com.slim.device";
     private static final String KEY_TOUCH_CONTROL_SETTINGS = "touch_control_settings";
     private static final String KEY_TOUCH_CONTROL_PACKAGE_NAME = "com.mahdi.touchcontrol";
 
-    // Strings used for building the summary
+    /** Strings used for building the summary */
     private static final String ROTATION_ANGLE_0 = "0";
     private static final String ROTATION_ANGLE_90 = "90";
     private static final String ROTATION_ANGLE_180 = "180";
@@ -103,21 +106,20 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
+    private CheckBoxPreference mAdaptiveBacklight;
+    private CheckBoxPreference mColorEnhancement;
+    private PreferenceScreen mScreenColorSettings;
     private PreferenceScreen mDisplayRotationPreference;    
     private FontDialogPreference mFontSizePref;
+    private CheckBoxPreference mHighTouchSensitivity;
     private ListPreference mCrtMode;
-    private CheckBoxPreference mNotificationPulse;
     private PreferenceCategory mLightOptions;
+    private CheckBoxPreference mNotificationPulse;
     private PreferenceScreen mNotificationLight;
     private CheckBoxPreference mScreenOnLed;
     private PreferenceScreen mBatteryPulse;
-    private PreferenceCategory mWakeUpOptions;
     private CheckBoxPreference mWakeWhenPluggedOrUnplugged;
     private CheckBoxPreference mTapToWake;
-    private CheckBoxPreference mAdaptiveBacklight;
-    private CheckBoxPreference mHighTouchSensitivity;
-    private CheckBoxPreference mColorEnhancement;
-    private PreferenceScreen mScreenColorSettings;
     private PreferenceScreen mScreenOffGesture;
     private PreferenceScreen mTouchControl;
 
@@ -147,12 +149,39 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         ContentResolver resolver = getActivity().getContentResolver();
         Resources res = getResources();
-
         addPreferencesFromResource(R.xml.display_settings);
-
         PreferenceScreen prefSet = getPreferenceScreen();
 
+        /** Display category */
         PreferenceCategory displayPrefs = (PreferenceCategory) findPreference(CATEGORY_DISPLAY);
+
+        mAdaptiveBacklight = (CheckBoxPreference) findPreference(KEY_ADAPTIVE_BACKLIGHT);
+        if (!isAdaptiveBacklightSupported()) {
+            displayPrefs.removePreference(mAdaptiveBacklight);
+            mAdaptiveBacklight = null;
+        }
+
+        mColorEnhancement = (CheckBoxPreference) findPreference(KEY_COLOR_ENHANCEMENT);
+        if (!isColorEnhancementSupported()) {
+            displayPrefs.removePreference(mColorEnhancement);
+            mColorEnhancement = null;
+        }
+
+        if (!DisplayColor.isSupported()) {
+            displayPrefs.removePreference(findPreference(KEY_DISPLAY_COLOR));
+        }
+
+        if (!DisplayGamma.isSupported()) {
+            displayPrefs.removePreference(findPreference(KEY_DISPLAY_GAMMA));
+        }
+
+        mScreenColorSettings = (PreferenceScreen) findPreference(KEY_SCREEN_COLOR_SETTINGS);
+        if (!isPostProcessingSupported()) {
+            displayPrefs.removePreference(mScreenColorSettings);
+        }
+
+        /** General category */
+        PreferenceCategory generalPrefs = (PreferenceCategory) findPreference(CATEGORY_GENERAL);
 
         mDisplayRotationPreference = (PreferenceScreen) findPreference(KEY_DISPLAY_ROTATION);
         
@@ -168,7 +197,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         if (mScreenSaverPreference != null
                 && res.getBoolean(
                         com.android.internal.R.bool.config_dreamsSupported) == false) {
-            displayPrefs.removePreference(mScreenSaverPreference);
+            generalPrefs.removePreference(mScreenSaverPreference);
         }
 
         mScreenTimeoutPreference = (ListPreference) findPreference(KEY_SCREEN_TIMEOUT);
@@ -184,12 +213,17 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mFontSizePref.setOnPreferenceChangeListener(this);
         mFontSizePref.setOnPreferenceClickListener(this);
 
-        // respect device default configuration
-        // true fades while false animates
+        mHighTouchSensitivity = (CheckBoxPreference) findPreference(KEY_AUTO_ADJUST_TOUCH);
+        if (!isHighTouchSensitivitySupported()) {
+            generalPrefs.removePreference(mHighTouchSensitivity);
+            mHighTouchSensitivity = null;
+        }
+
+        /** Animation category */
+        PreferenceCategory animationOptions = (PreferenceCategory) prefSet.findPreference(CATEGORY_ANIMATION);
+
         boolean electronBeamFadesConfig = getResources().getBoolean(
                 com.android.internal.R.bool.config_animateScreenLights);
-        PreferenceCategory animationOptions =
-            (PreferenceCategory) prefSet.findPreference(KEY_ANIMATION_OPTIONS);
         mCrtMode = (ListPreference) prefSet.findPreference(KEY_POWER_CRT_MODE);
         if (!electronBeamFadesConfig && mCrtMode != null) {
             int crtMode = Settings.System.getInt(getContentResolver(),
@@ -201,7 +235,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(animationOptions);
         }		
 
-        mLightOptions = (PreferenceCategory) prefSet.findPreference(KEY_LIGHT_OPTIONS);
+        /** LED category */
+        mLightOptions = (PreferenceCategory) prefSet.findPreference(CATEGORY_LIGHT_OPTIONS);
+
         mNotificationPulse = (CheckBoxPreference) findPreference(KEY_NOTIFICATION_PULSE);
         mNotificationLight = (PreferenceScreen) findPreference(KEY_NOTIFICATION_LIGHT);
         mScreenOnLed = (CheckBoxPreference) findPreference(KEY_SCREEN_ON_NOTIFICATION_LED);
@@ -233,12 +269,18 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             }
         }
 
-        PreferenceCategory advancedPrefs = (PreferenceCategory) findPreference(CATEGORY_ADVANCED);
+        /** Smart cover category */
+        if (res.getIntArray(
+                com.android.internal.R.array.config_smartCoverWindowCoords).length != 4) {
+            getPreferenceScreen().removePreference(findPreference(CATEGORY_SMART_COVER));
+        }
+
+        /** Wakeup category */
+        PreferenceCategory wakeupPrefs = (PreferenceCategory) findPreference(CATEGORY_WAKEUP);
 
         mWakeWhenPluggedOrUnplugged =
                 (CheckBoxPreference) findPreference(KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED);
 
-        // Default value for wake-on-plug behavior from config.xml
         boolean wakeUpWhenPluggedOrUnpluggedConfig = getResources().getBoolean(
                 com.android.internal.R.bool.config_unplugTurnsOnScreen);
 
@@ -248,57 +290,21 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mTapToWake = (CheckBoxPreference) findPreference(KEY_TAP_TO_WAKE);
         if (!isTapToWakeSupported()) {
-            advancedPrefs.removePreference(mTapToWake);
+            wakeupPrefs.removePreference(mTapToWake);
             mTapToWake = null;
         } else {
-            advancedPrefs.removePreference(findPreference(KEY_PROXIMITY_WAKE));
+            wakeupPrefs.removePreference(findPreference(KEY_PROXIMITY_WAKE));
             Settings.System.putInt(getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 1);
-        }
-
-        mAdaptiveBacklight = (CheckBoxPreference) findPreference(KEY_ADAPTIVE_BACKLIGHT);
-        if (!isAdaptiveBacklightSupported()) {
-            advancedPrefs.removePreference(mAdaptiveBacklight);
-            mAdaptiveBacklight = null;
-        }
-
-        mHighTouchSensitivity = (CheckBoxPreference) findPreference(KEY_AUTO_ADJUST_TOUCH);
-        if (!isHighTouchSensitivitySupported()) {
-            advancedPrefs.removePreference(mHighTouchSensitivity);
-            mHighTouchSensitivity = null;
-        }
-
-        mColorEnhancement = (CheckBoxPreference) findPreference(KEY_COLOR_ENHANCEMENT);
-        if (!isColorEnhancementSupported()) {
-            advancedPrefs.removePreference(mColorEnhancement);
-            mColorEnhancement = null;
-        }
-
-        if (!DisplayColor.isSupported()) {
-            advancedPrefs.removePreference(findPreference(KEY_DISPLAY_COLOR));
-        }
-
-        if (!DisplayGamma.isSupported()) {
-            advancedPrefs.removePreference(findPreference(KEY_DISPLAY_GAMMA));
-        }
-
-        mScreenColorSettings = (PreferenceScreen) findPreference(KEY_SCREEN_COLOR_SETTINGS);
-        if (!isPostProcessingSupported()) {
-            advancedPrefs.removePreference(mScreenColorSettings);
-        }
-
-        if (res.getIntArray(
-                com.android.internal.R.array.config_smartCoverWindowCoords).length != 4) {
-            getPreferenceScreen().removePreference(findPreference(KEY_SMART_COVER));
         }
 
         mScreenOffGesture = (PreferenceScreen) findPreference(KEY_SCREEN_OFF_GESTURE_SETTINGS);
         if (!Utils.isPackageInstalled(getActivity(), KEY_SCREEN_OFF_GESTURE_PACKAGE_NAME)) {
-            advancedPrefs.removePreference(mScreenOffGesture);
+            wakeupPrefs.removePreference(mScreenOffGesture);
         }
 
         mTouchControl = (PreferenceScreen) findPreference(KEY_TOUCH_CONTROL_SETTINGS);
         if (!Utils.isPackageInstalled(getActivity(), KEY_TOUCH_CONTROL_PACKAGE_NAME)) {
-            advancedPrefs.removePreference(mTouchControl);
+            wakeupPrefs.removePreference(mTouchControl);
         }
     }
 

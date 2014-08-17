@@ -18,13 +18,53 @@
         android:title="@string/display_settings"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <com.android.settings.BrightnessPreference
-                    android:title="@string/brightness"
-                    android:persistent="false"/>
-
         <PreferenceCategory
             android:key="display_prefs"
             android:title="@string/display_settings_title">
+
+            <com.android.settings.BrightnessPreference
+                android:title="@string/brightness"
+                android:persistent="false"/>
+
+            <PreferenceScreen
+                android:persistent="false"
+                android:key="screencolor_settings"
+                android:title="@string/screencolor">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.ScreenColorSettings" />
+            </PreferenceScreen>
+
+            <com.android.settings.hardware.DisplayColor
+                android:key="color_calibration"
+                android:title="@string/color_calibration_title"
+                android:dialogTitle="@string/color_calibration_title"
+                android:persistent="false" />
+
+            <com.android.settings.hardware.DisplayGamma
+                android:key="gamma_tuning"
+                android:title="@string/gamma_tuning_title_head"
+                android:dialogTitle="@string/gamma_tuning_title_head"
+                android:persistent="false" />
+
+            <CheckBoxPreference
+                android:key="color_enhancement"
+                android:title="@string/color_enhancement_title"
+                android:summary="@string/color_enhancement_summary"
+                android:defaultValue="true" />
+
+            <CheckBoxPreference
+                android:key="adaptive_backlight"
+                android:title="@string/adaptive_backlight_title"
+                android:summary="@string/adaptive_backlight_summary"
+                android:defaultValue="true" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="general_prefs"
+            android:title="@string/title_general">
 
             <PreferenceScreen
                 android:key="display_rotation"
@@ -60,10 +100,16 @@
                 android:title="@string/screen_recorder_title"
                 android:fragment="com.android.settings.mahdi.ScreenRecorderSettings" />
 
+            <CheckBoxPreference
+                android:key="auto_adjust_touch"
+                android:title="@string/auto_adjust_touch_title"
+                android:summary="@string/auto_adjust_touch_summary"
+                android:defaultValue="false" />
+
         </PreferenceCategory>
 
         <PreferenceCategory
-            android:key="category_animation_options"
+            android:key="animation_prefs"
             android:title="@string/display_category_animation_options_title" >
 
             <ListPreference
@@ -83,26 +129,7 @@
         </PreferenceCategory>
 
         <PreferenceCategory
-            android:key="smart_cover"
-            android:title="@string/smart_cover">
-
-            <com.android.settings.mahdi.SystemSettingCheckBoxPreference
-                android:key="lockscreen_lid_wake"
-                android:title="@string/smart_cover_wake_title"
-                android:summary="@string/smart_cover_wake_summary"
-                android:defaultValue="true" />
-
-
-            <com.android.settings.mahdi.SystemSettingCheckBoxPreference
-                android:key="lockscreen_lid_sleep"
-                android:title="@string/smart_cover_sleep_title"
-                android:summary="@string/smart_cover_sleep_summary"
-                android:defaultValue="true" />
-
-        </PreferenceCategory>
-
-        <PreferenceCategory
-            android:key="category_light_options"
+            android:key="led_prefs"
             android:title="@string/display_category_light_options_title" >
 
             <CheckBoxPreference
@@ -129,14 +156,50 @@
 
         </PreferenceCategory>
 
-        <!-- DeviceParts Device Specific Display settings -->
         <PreferenceCategory
-            android:key="advanced_display_prefs"
-            android:title="@string/advanced_settings">
+            android:key="smart_cover_prefs"
+            android:title="@string/smart_cover">
+
+            <com.android.settings.mahdi.SystemSettingCheckBoxPreference
+                android:key="lockscreen_lid_wake"
+                android:title="@string/smart_cover_wake_title"
+                android:summary="@string/smart_cover_wake_summary"
+                android:defaultValue="true" />
+
+
+            <com.android.settings.mahdi.SystemSettingCheckBoxPreference
+                android:key="lockscreen_lid_sleep"
+                android:title="@string/smart_cover_sleep_title"
+                android:summary="@string/smart_cover_sleep_summary"
+                android:defaultValue="true" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="wakeup_prefs"
+            android:title="@string/display_category_wakeup_options_title">
+
+            <CheckBoxPreference
+                android:key="wake_when_plugged_or_unplugged"
+                android:title="@string/wakeup_when_plugged_unplugged_title"
+                android:summary="@string/wakeup_when_plugged_unplugged_summary"
+                android:defaultValue="false" />
+
+            <CheckBoxPreference
+                android:key="double_tap_wake_gesture"
+                android:title="@string/double_tap_to_wake_title"
+                android:defaultValue="false" />
+
+            <com.android.settings.mahdi.SystemSettingCheckBoxPreference
+                android:key="proximity_on_wake"
+                android:title="@string/proximity_wake_title"
+                android:summary="@string/proximity_wake_summary"
+                android:defaultValue="false" />
 
             <PreferenceScreen
                 android:key="screen_off_gesture_settings"
-                android:title="@string/screen_off_gesture_settings_title">
+                android:title="@string/screen_off_gesture_settings_title"
+                android:summary="@string/screen_off_gesture_settings_summary">
                 <intent
                     android:action="com.slim.action.LAUNCH_SCREEN_OFF_GESTURE_SETTINGS"
                     android:targetPackage="com.slim.device"
@@ -152,65 +215,6 @@
                     android:targetPackage="com.mahdi.touchcontrol"
                     android:targetClass="com.mahdi.touchcontrol.settings.TouchControlActivity" />
             </PreferenceScreen>
-
-            <CheckBoxPreference
-                android:key="double_tap_wake_gesture"
-                android:title="@string/double_tap_to_wake_title"
-                android:defaultValue="false" />
-
-            <com.android.settings.mahdi.SystemSettingCheckBoxPreference
-                android:key="proximity_on_wake"
-                android:title="@string/proximity_wake_title"
-                android:summary="@string/proximity_wake_summary"
-                android:defaultValue="false" />
-
-            <CheckBoxPreference
-                android:key="wake_when_plugged_or_unplugged"
-                android:title="@string/wakeup_when_plugged_unplugged_title"
-                android:summary="@string/wakeup_when_plugged_unplugged_summary"
-                android:defaultValue="false" />
-
-            <CheckBoxPreference
-                android:key="adaptive_backlight"
-                android:title="@string/adaptive_backlight_title"
-                android:summary="@string/adaptive_backlight_summary"
-                android:defaultValue="true" />
-
-            <CheckBoxPreference
-                android:key="auto_adjust_touch"
-                android:title="@string/auto_adjust_touch_title"
-                android:summary="@string/auto_adjust_touch_summary"
-                android:defaultValue="false" />
-
-            <PreferenceScreen
-                android:persistent="false"
-                android:key="screencolor_settings"
-                android:title="@string/screencolor">
-                <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.settings"
-                    android:targetClass="com.android.settings.ScreenColorSettings" />
-            </PreferenceScreen>
-
-            <CheckBoxPreference
-                android:key="color_enhancement"
-                android:title="@string/color_enhancement_title"
-                android:summary="@string/color_enhancement_summary"
-                android:defaultValue="true" />
-
-            <com.android.settings.hardware.DisplayColor
-                android:key="color_calibration"
-                android:title="@string/color_calibration_title"
-                android:dialogTitle="@string/color_calibration_title"
-                android:summary="@string/color_calibration_summary"
-                android:persistent="false" />
-
-            <com.android.settings.hardware.DisplayGamma
-                android:key="gamma_tuning"
-                android:title="@string/gamma_tuning_title_head"
-                android:dialogTitle="@string/gamma_tuning_title_head"
-                android:summary="@string/gamma_tuning_summary_head"
-                android:persistent="false" />
 
         </PreferenceCategory>
         

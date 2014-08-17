@@ -48,7 +48,7 @@
     <string name="more_title">More\u2026</string>
 
     <!-- Display settings screen, notification light settings -->
-    <string name="display_category_light_options_title">Light options</string>
+    <string name="display_category_light_options_title">LED</string>
     <string name="notification_light_title">Notification light</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_applist_title">Applications</string>
@@ -1390,11 +1390,30 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="icon_picker_pack_title">Icon pack</string>
 
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Wakeup options</string>
+    <string name="display_category_wakeup_options_title">Wakeup</string>
 
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
+    <!-- Gestures Options -->
+    <string name="screen_off_gesture_settings_title">Gestures</string>
+    <string name="screen_off_gesture_settings_summary">Manage screen off gestures</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Advanced</string>
+    <string name="touch_control_settings_summary">Manage advance wakeup option including double tap to wake and more</string>
+
+    <!-- Lid Settings -->
+    <string name="smart_cover">Smart cover</string>
+    <string name="smart_cover_wake_title">Smart cover wake</string>
+    <string name="smart_cover_wake_summary">Wakeup device when smart cover opens</string>
+    <string name="smart_cover_sleep_title">Smart cover sleep</string>
+    <string name="smart_cover_sleep_summary">Put the device to sleep when smart cover closes</string>
 
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">The APN will be deleted.</string>
@@ -1672,7 +1691,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset AppOps counters?</string>
 
     <!-- Screen off animation options -->
-    <string name="display_category_animation_options_title">Animation options</string>
+    <string name="display_category_animation_options_title">Animation</string>
     <string name="system_power_crt_mode_title">Screen off </string>
     <string name="system_power_crt_mode_dialog_title">Screen off animation</string>
     <string name="system_power_crt_mode_off">Don\'t show</string>
@@ -1682,7 +1701,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="system_power_crt_mode_scale">Scale down</string>
 
     <!-- Animation Control -->
-    <string name="interface_animation_title">Advanced options</string>
+    <string name="interface_animation_title">Advanced</string>
     <string name="interface_animation_summary">Customize animations for System, Listview, Scroll and more</string>
 
     <!-- ListView animation -->
@@ -2367,20 +2386,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">Enable the Android Debug Bridge (adb) interface</string>
 
-    <!-- Gestures Options -->
-    <string name="screen_off_gesture_settings_title">Screen off gestures</string>
-
-    <!-- Lid Settings -->
-    <string name="smart_cover">Smart cover</string>
-    <string name="smart_cover_wake_title">Smart cover wake</string>
-    <string name="smart_cover_wake_summary">Wakeup device when smart cover opens</string>
-    <string name="smart_cover_sleep_title">Smart cover sleep</string>
-    <string name="smart_cover_sleep_summary">Put the device to sleep when smart cover closes</string>
-
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-
     <!-- Spam notifications -->
     <string name="spam_added_title">Added <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g></string>
     <string name="spam_last_blocked_title">Last blocked <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g> (total: <xliff:g id="count" example="2 times">%2$s</xliff:g>)</string>
@@ -2389,7 +2394,4 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
     <string name="no_filters_title">No filters set. To filter a notification, long press it and choose \'Ignore messages like this\'.</string>
 
-    <!-- Touch control -->
-    <string name="touch_control_settings_title">Advanced</string>
-    <string name="touch_control_settings_summary">Manage advance wakeup option including double tap to wake and more</string>
 </resources>
