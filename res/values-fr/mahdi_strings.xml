@@ -99,7 +99,7 @@
     <string name="lockscreen_enable_power_menu_title">Activé le menu général au lockscreen</string>
     <string name="power_menu_reboot_title">Redémarrer</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
-    <string name="power_menu_screenrecord_title">enregistreur d\'écran</string>
+    <string name="power_menu_screenrecord_title">Enregistreur d\'écran</string>
     <string name="power_menu_profiles_title">Changer le profil</string>
     <string name="power_menu_airplane_title">Mode Avion</string>
     <string name="power_menu_silent_title">Menu du son</string>
@@ -116,30 +116,30 @@
     <string name="profiles_add">Ajouter</string>
     <string name="profile_menu_delete">Supprimer</string>
     <string name="profile_settings_title">Profil</string>
-    <string name="profile_empty_list_profiles_off">Pour configurer et utiliser les profils système, activez les profils.</string>
+    <string name="profile_empty_list_profiles_off">Activer le système de profils pour le personnaliser et l\'utiliser.</string>
 
     <!-- Add Profile -->
     <string name="add_profile_dialog_title">Créer un nouveau profil</string>
     <string name="profile_name_title">Nom</string>
-    <string name="profile_profile_name_prompt">Entrer un nom pour le nouveau profil</string>
+    <string name="profile_profile_name_prompt">Saisir un nom pour le nouveau profil</string>
     <string name="menu_new_profile">Nouveau profil</string>
     <string name="menu_new_profile_summary">Ajouter et configurer un nouveau profil</string>
-    <string name="new_profile_name">\u003Cnew profile\u003E</string>
+    <string name="new_profile_name">\u003CNouveau profil\u003E</string>
 
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Renommer</string>
-    <string name="rename_dialog_message">Entrer un nouveau nom</string>
-    <string name="duplicate_profile_name">Dupliquer le nom du profil!</string>
-    <string name="duplicate_appgroup_name">Dupliquer le nom du groupe d\'applications !</string>
+    <string name="rename_dialog_message">Saisir un nouveau nom</string>
+    <string name="duplicate_profile_name">Ce profil existe déjà!</string>
+    <string name="duplicate_appgroup_name">Ce groupe existe déjà!</string>
 
     <!-- Reset Profiles -->
     <string name="profile_reset_title">Réinitialiser</string>
-    <string name="profile_reset_message">Supprimer tous les profils utilisateur créés et les groupes d\'applications et les réinitialiser ?</string>
+    <string name="profile_reset_message">Supprimer tous les profils et groupes d\'applications et revenir à la configuration d\'origine\u00A0?</string>
 
-    <!-- Delete confimation messages -->
-    <string name="profile_delete_confirm">Supprimer ce profil ?</string>
-    <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
-    <string name="profile_cannot_delete">Un profil actif ne peut pas être supprimé</string>
+    <!-- Delete confirmation messages -->
+    <string name="profile_delete_confirm">Supprimer ce profil\u00A0?</string>
+    <string name="profile_app_delete_confirm">Supprimer cette application\u00A0?</string>
+    <string name="profile_cannot_delete">Vous ne pouvez pas supprimer le profil actif</string>
 
     <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
@@ -147,15 +147,15 @@
     <string name="profile_networkmode_2g3g">2G/3G</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Connection overrides</string>
-    <string name="profile_volumeoverrides_title">Volume overrides</string>
-    <string name="profile_vibratoroverrides_title">Vibrator overrides</string>
-    <string name="connection_state_disabled">Disable</string>
-    <string name="connection_state_enabled">Enable</string>
-    <string name="volume_override_summary">Set to</string>
+    <string name="profile_connectionoverrides_title">Connexions</string>
+    <string name="profile_volumeoverrides_title">Volumes</string>
+    <string name="profile_vibratoroverrides_title">Vibreur</string>
+    <string name="connection_state_disabled">Inactif</string>
+    <string name="connection_state_enabled">Actif</string>
+    <string name="volume_override_summary">Défini à</string>
     <string name="vibrator_state_disabled">Désactiver</string>
     <string name="vibrator_state_enabled">Activer</string>
-    <string name="vibrator_state_silent">Uniquement sur silence</string>
+    <string name="vibrator_state_silent">Uniquement sur silencieux</string>
 
     <!-- Menu item for managing profiles -->
     <string name="profile_profiles_manage">Profils</string>
@@ -167,68 +167,68 @@
     <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Paramètres du profil</string>
     <string name="profile_name">Nom</string>
-    <string name="profile_trigger_connect">Sur connecté</string>
-    <string name="profile_trigger_disconnect">Sur déconnecté</string>
-    <string name="profile_trigger_notrigger">Au déclencheur</string>
-    <string name="profile_trigger_a2dp_connect">Sur connexion A2DP</string>
-    <string name="profile_trigger_a2dp_disconnect">On A2DP disconnect</string>
+    <string name="profile_trigger_connect">À la connexion</string>
+    <string name="profile_trigger_disconnect">À la déconnexion</string>
+    <string name="profile_trigger_notrigger">Aucune activation</string>
+    <string name="profile_trigger_a2dp_connect">À la connexion A2DP</string>
+    <string name="profile_trigger_a2dp_disconnect">À la déconnexion A2DP</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Mode notification</string>
-    <string name="ringer_mode">Mode sonnerie</string>
-    <string name="lights_mode">Mode lumières</string>
-    <string name="vibrate_mode">Mode vibreur</string>
-    <string name="choose_soundtone">Choisir la tonalité de notification</string>
-    <string name="choose_ringtone">Choisir la sonnerie</string>
+    <string name="ringer_mode">Sonnerie</string>
+    <string name="lights_mode">Voyant</string>
+    <string name="vibrate_mode">Vibreur</string>
+    <string name="choose_soundtone">Son de notification</string>
+    <string name="choose_ringtone">Choix de la sonnerie</string>
 
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-    <string name="soundtone_title">Tonalité de notification</string>
+    <string name="soundtone_title">Son de notification</string>
     <string name="soundtone_summary">""</string>
 
     <!-- Title for application group setting screen -->
     <string name="profile_appgroups_title">Groupes d\'applications</string>
     <string name="profile_applist_title">Applications</string>
     <string name="profile_new_appgroup">Nouveau groupe d\'applications</string>
-    <string name="profile_delete_appgroup">Supprimer ce groupe d\'applications ?</string>
-    <string name="profile_appgroup_name_prompt">Entrer un nom pour ce nouveau groupe d\'applications</string>
+    <string name="profile_delete_appgroup">Supprimer ce groupe d\'applications</string>
+    <string name="profile_appgroup_name_prompt">Saisir le nom du nouveau groupe</string>
     <string name="profile_appgroup_name_title">Nom</string>
 
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Choisir une application</string>
-    <string name="profile_settings_header">Paramètres du fpril</string>
+    <string name="profile_settings_header">Paramètres du profil</string>
 
     <!-- Profiles - system settings -->
     <string name="profile_system_settings_title">Paramètres système</string>
-    <string name="profile_lockmode_title">Mode écran de verrouillage</string>
+    <string name="profile_lockmode_title">Mode de verrouillage</string>
     <string name="profile_lockmode_default">Par défaut</string>
-    <string name="profile_lockmode_insecure">Insecure</string>
+    <string name="profile_lockmode_insecure">Non sécurisé</string>
     <string name="profile_lockmode_disabled">Désactivé</string>
-    <string name="profile_lockmode_default_summary">Use system default</string>
-    <string name="profile_lockmode_insecure_summary">Use insecure lock screen</string>
-    <string name="profile_lockmode_disabled_summary">Lock screen is disabled</string>
+    <string name="profile_lockmode_default_summary">Conserver les paramètres système</string>
+    <string name="profile_lockmode_insecure_summary">Écran de verrouillage non sécurisé</string>
+    <string name="profile_lockmode_disabled_summary">Écran de verrouillage désactivé</string>
     <string name="profile_airplanemode_title">Mode avion</string>
-    <string name="profile_disable_screen_lock_summary">Disable lock screen security while this profile is active</string>
+    <string name="profile_disable_screen_lock_summary">Désactiver la sécurité de l\'écran de verrouillage lorsque ce profil est actif</string>
 
     <string name="vibrator_type_ringer">Appels</string>
     <string name="vibrator_type_notification">Notifications</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
-    <string name="possibleButtons">Possible Buttons</string>
+    <string name="possibleButtons">Boutons possibles</string>
     <string name="toggleWifi">Wi-Fi</string>
-    <string name="toggleWifiAp">Portable Wi-Fi hotspot</string>
+    <string name="toggleWifiAp">Partage Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Données mobile</string>
     <string name="toggleSync">Synchronisation</string>
     <string name="toggle2g3g">2G/3G</string>
-    <string name="toggleSound">Ring Mode</string>
-    <string name="toggleNotificationSound">Notification Sound</string>
-    <string name="toggleBrightness">Brightness</string>
+    <string name="toggleSound">Mode sonnerie</string>
+    <string name="toggleNotificationSound">Son de notification</string>
+    <string name="toggleBrightness">Luminosité</string>
     <string name="toggleAutoRotate">Orientation</string>
-    <string name="toggleScreenTimeout">Screen Timeout</string>
-    <string name="toggleAirplane">Airplane</string>
-    <string name="toggleFlashlight">Flashlight</string>
-    <string name="toggleLockScreen">Lock Screen</string>
+    <string name="toggleScreenTimeout">Veille</string>
+    <string name="toggleAirplane">Mode avion</string>
+    <string name="toggleFlashlight">Torche</string>
+    <string name="toggleLockScreen">Écran de verrouillage</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
 
@@ -253,11 +253,11 @@
     <string name="ring_mode_mute">Silencieux</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info">Afficher les infos du CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 
-    <string name="app_security_title">App security</string>
+    <string name="app_security_title">Sécurité des applications</string>
 
     <!-- Blacklist preferences -->
     <string name="blacklist_title">Liste noire</string>
@@ -293,12 +293,12 @@
     <string name="performance_settings_title">Performances</string>
 
     <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">Proceed with Caution</string>
-    <string name="performance_settings_warning">These settings are included for experimentation and any changes made to them have the potential to cause instability, crashes, data loss or hardware failures.\n\nWe request you do not file bug reports if any of these settings have been changed from the defaults.</string>
+    <string name="performance_settings_warning_title">ATTENTION\u00A0!</string>
+    <string name="performance_settings_warning">Ces paramètres sont expérimentaux et toutes les modifications appliquées sont susceptibles de provoquer des instabilités, des plantages, des pertes de données ou de la casse matériel.\n\n Nous vous demandons de ne pas déposer de rapports de bugs si des valeurs par défaut de paramètre ont été modifiés.</string>
 
     <!-- Performance Settings : Set on boot option -->
-    <string name="performance_set_on_boot">Set on boot</string>
-    <string name="performance_set_on_boot_summary">Restore the settings on boot</string>
+    <string name="performance_set_on_boot">Définir au démarrage</string>
+    <string name="performance_set_on_boot_summary">Paramètres de restauration appliqués au démarrage</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
@@ -317,16 +317,16 @@
     <string name="io_sched_title">Horloge E/S</string>
 
     <!-- Performance Settings : Performance profile settings -->
-    <string name="perf_profile_title">Profile</string>
+    <string name="perf_profile_title">Profil</string>
 
     <!-- Memory Management -->
     <string name="memory_management_title">Gestion de la mémoire</string>
     <!-- zRam -->
     <string name="pref_zram_title">zRam</string>
-    <string name="pref_zram_summary">Compress memory for increased virtual capacity (requires reboot)</string>
+    <string name="pref_zram_summary">Comprimer la mémoire pour augmenter la capacité virtuelle (nécessite un redémarrage)</string>
     <!-- KSM -->
-    <string name="pref_ksm_title">Kernel samepage merging</string>
-    <string name="pref_ksm_summary">KSM reduces physical memory requirements and improves performance</string>
+    <string name="pref_ksm_title">KSM/string>
+    <string name="pref_ksm_summary">Cette fonction du noyau réduit l\'utilisation de la mémoire physique et améliore les performances (Kernel Samepage Merging)</string>
     <!-- Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Purge des bitmaps</string>
     <string name="pref_purgeable_assets_summary">La purge des bitmaps actifs permet de libérer plus de RAM en cas de besoin (nécessite un redémarrage)</string>
@@ -336,7 +336,7 @@
     <string name="pref_use_16bpp_alpha_summary">Utiliser le mode 16 bits améliore la vitesse de défilement et des animations, mais peut affecter l\'affichage des éléments transparents (nécessite un redémarrage)</string>
 
     <!-- Automatic performance profiles -->
-    <string name="autoperf_title">Activer les profiles par application</string>
+    <string name="autoperf_title">Activer les profils par application</string>
     <string name="autoperf_summary">Choisir automatiquement le profil de performance le plus approprié pour les différentes applications</string>
 
     <!-- Performance menu, graphics options category -->
@@ -344,30 +344,30 @@
 
     <!-- Sound settings -->
     <string name="volume_category">Volume</string>
-    <string name="advanced_sound_title">Advanced options</string>
-    <string name="advanced_sound_summary">View or change advanced options for volume keys and headset</string>
-    <string name="link_volume_ringtones">Link ringtone \u0026 notifications volumes</string>
-    <string name="volume_ring_only_description">Ringtone</string>
-    <string name="volume_overlay_title">Volume panel style</string>
+    <string name="advanced_sound_title">Options avancées</string>
+    <string name="advanced_sound_summary">Afficher ou modifier les options avancées pour les touches de volume et casque</string>
+    <string name="link_volume_ringtones">Lier le volume des alertes à la sonnerie</string>
+    <string name="volume_ring_only_description">Sonnerie</string>
+    <string name="volume_overlay_title">Contrôle du volume</string>
     <!-- Volume adjust sound -->
-    <string name="volume_adjust_sounds_enable_title">Volume adjust sound</string>
-    <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
+    <string name="volume_adjust_sounds_enable_title">Son au réglage du volume</string>
+    <string name="volume_adjust_sounds_enable_summary">Jouer un son lors du réglage de la sonnerie avec les boutons de volume</string>
     <!-- Safe headset volume -->
-    <string name="safe_headset_volume_title">Safe headset volume</string>
-    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
-    <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
+    <string name="safe_headset_volume_title">Volume sécurisé du casque</string>
+    <string name="safe_headset_volume_summary">Empêche un volume trop haut du son lorsque le casque vient d\'être branché</string>
+    <string name="safe_headset_volume_warning_dialog_text">L\'écoute prolongée à haut volume peut endommager votre audition. Désactiver avec précaution.</string>
     <!-- Volume button default -->
-    <string name="button_volume_default_none">None</string>
-    <string name="button_volume_default_ringer">Ringer</string>
-    <string name="button_volume_default_media">Media</string>
-    <string name="button_volume_default_title">Volume default</string>
-    <string name="button_volume_default_summary">Choose which volume gets changed by default</string>
+    <string name="button_volume_default_none">Aucun</string>
+    <string name="button_volume_default_ringer">Sonnerie</string>
+    <string name="button_volume_default_media">Média</string>
+    <string name="button_volume_default_title">Volume par défaut</string>
+    <string name="button_volume_default_summary">Choisissez le volume qui est changé par défaut</string>
     <!-- Volume panel timeout -->
-    <string name="volume_panel_timeout_title">Timeout</string>
-    <string name="volume_panel_timeout_summary">Time until the panel will be hidden</string>
+    <string name="volume_panel_timeout_title">Veille</string>
+    <string name="volume_panel_timeout_summary">Temps jusqu'à ce que le panneau soit caché</string>
 
     <!-- Headset category -->
-    <string name="headset_category_title">Headset</string>
+    <string name="headset_category_title">Casque</string>
 
     <!-- Headset plug -->
     <string name="headset_plug_title">Headset plug options</string>
@@ -388,59 +388,46 @@
     <string name="headset_plug_force_actions_summary">Run remove action also if shortcut was already running</string>
 
     <!-- Automatic brightness customization -->
-    <string name="auto_brightness_setup_title">Automatic brightness</string>
-    <string name="auto_brightness_twilight_adjustment">Adjust to sunrise and sunset</string>
-    <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>
-    <string name="auto_brightness_dialog_title">Automatic brightness levels</string>
+    <string name="auto_brightness_setup_title">Luminosité automatique</string>
+    <string name="auto_brightness_twilight_adjustment">S\'adapter au lever et au coucher du soleil</string>
+    <string name="light_sensor_current_value">Valeur actuelle du capteur de lumière\u00A0: <xliff:g id="light_level">%d</xliff:g> lux</string>
+    <string name="auto_brightness_dialog_title">Niveaux d\'éclairage automatique</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
-    <string name="auto_brightness_adjust_button">Adjust</string>
-    <string name="auto_brightness_close_button">Close</string>
-    <string name="auto_brightness_reset_button">Reset</string>
-    <string name="auto_brightness_split_dialog_title">Split brightness level</string>
-    <string name="auto_brightness_level_dialog_title">Light level setup</string>
-    <string name="auto_brightness_lux">Ambient brightness (lux)</string>
-    <string name="auto_brightness_backlight">Screen brightness (%)</string>
-    <string name="auto_brightness_reset_dialog_title">Reset levels?</string>
-    <string name="auto_brightness_reset_confirmation">All brightness levels will be reset to their default settings.</string>
-    <string name="auto_brightness_split_lux_format">Split position (between <xliff:g id="min">%1$d</xliff:g> and <xliff:g id="max">%2$d</xliff:g> lux)</string>
-    <string name="auto_brightness_level_options">Light level options</string>
-    <string name="auto_brightness_menu_edit">Edit</string>
-    <string name="auto_brightness_menu_split">Split</string>
-    <string name="auto_brightness_menu_remove">Remove</string>
-    <string name="auto_brightness_preview">Preview</string>
-    <string name="auto_brightness_preview_dialog_title">Brightness curve preview</string>
-    <string name="auto_brightness_help_dialog_title">Help</string>
-    <string name="auto_brightness_help_text"><b>How is brightness calculated?</b>
+    <string name="auto_brightness_adjust_button">Ajuster</string>
+    <string name="auto_brightness_close_button">Quitter</string>
+    <string name="auto_brightness_reset_button">Réinitialiser</string>
+    <string name="auto_brightness_split_dialog_title">Division du niveau de luminosité</string>
+    <string name="auto_brightness_level_dialog_title">Définir le niveau de lumière</string>
+    <string name="auto_brightness_lux">Luminosité ambiante (lux)</string>
+    <string name="auto_brightness_backlight">Luminosité de l\'écran (%)</string>
+    <string name="auto_brightness_reset_dialog_title">Réinitialiser les niveaux\u00A0?</string>
+    <string name="auto_brightness_reset_confirmation">Tous les niveaux de luminosité seront réinitialisés à leurs réglages par défaut.</string>
+    <string name="auto_brightness_split_lux_format">Position de coupure (entre <xliff:g id="min">%1$d</xliff:g> et <xliff:g id="max">%2$d</xliff:g> lux)</string>
+    <string name="auto_brightness_level_options">Options de niveau de lumière</string>
+    <string name="auto_brightness_menu_edit">Modifier</string>
+    <string name="auto_brightness_menu_split">Diviser</string>
+    <string name="auto_brightness_menu_remove">Supprimer</string>
+    <string name="auto_brightness_preview">Aperçu</string>
+    <string name="auto_brightness_preview_dialog_title">Aperçu de la courbe de luminosité</string>
+    <string name="auto_brightness_help_dialog_title">Aide</string>
+    <string name="auto_brightness_help_text"><b>Comment est calculée la luminosité\u00A0?</b>
 \n\n
-The brightness curve is calculated by performing a <i>cubic spline interpolation</i>
-on a given number of <i>control points</i>. It\'s not a \'bucket-type\' calculation where
-screen brightness will stay constant for a specific range of ambient brightness. That way,
-small changes in ambient brightness do not cause a large jump in screen brightness; however,
-it can be a little hard to predict the exact consequences of changing control points.\n
-To help with that, a preview of the calculated curve can be examined. Please note that the
-preview shows the curve in <i>logarithmic</i> scale, so that all control points can be shown
-distinctively. When using a linear scale, it wouldn\'t be possible to distinguish the tendentially
-more important control points in the lower range of ambient brightness.
+La courbe de luminosité est calculée en effectuant l\'<i>interpolation d\'une courbe cubique</i> sur un certain nombre de <i>points de contrôle</i>. C\'est un calcul précis dans lequel la luminosité de l\'écran ne reste pas constante pour une plage déterminée de luminosité ambiante. De cette manière, les légers changements de luminosité ambiante ne provoquent pas de grands sauts de luminosité de l\'écran, néanmoins il est plus difficile de prédire les conséquences exactes de l\'évolution des points de contrôle.\n
+Pour vous aider, un aperçu de la courbe calculée peut être examiné. Noter que l\'aperçu montre une courbe avec une échelle <i>logarithmique</i>, de sorte que tous les points de contrôle peuvent être affichés distinctement. Lorsque vous utilisez une échelle linéaire, il n\'est pas possible de distinguer la tendance des points de contrôle les plus importants dans la fourchette basse de luminosité ambiante.
 \n\n
-<b>How to edit the brightness curve?</b>
+<b>Comment éditer la courbe de luminosité\u00A0?</b>
 \n\n
-Each line in the brightness list corresponds to one <i>control point</i> of the
-brightness curve. To edit the brightness level of the point, you can use the slider
-present in each line. The screen brightness will be changed accordingly while touching
-the slider to give a preview of the light level.\n
-Additional options are available by long-pressing a line. By selecting \'Edit\', you can
-both edit the ambient brightness level of the control point as well as manually input the
-desired screen brightness. Selecting \'Split\' allows you to to duplicate one line into
-two in order to insert additional control points. \'Remove\' deletes the selected line.
-    </string>
+Chaque ligne de la liste correspond à un <i>point de contrôle</i> de la courbe de luminosité. Pour modifier le niveau de luminosité d\'un point, vous pouvez utiliser le curseur présent sur chaque ligne. Lorsque vous toucherez le curseur, la luminosité de l\'écran sera modifiée en conséquence pour prévisualiser le niveau de lumière.\n
+Des options supplémentaires sont disponibles en appuyant longtemps sur une ligne. En sélectionnant \'Modifier\', vous pouvez modifier le niveau du point de contrôle de luminosité ambiante ou saisir manuellement la luminosité de l\'écran désirée. En sélectionnant \'Diviser\' vous pouvez séparer une ligne en deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprimer\' efface la ligne sélectionnée.
+</string>
 
-    <string name="auto_brightness_sensitivity_title">Adjustment sensitivity</string>
-    <string name="auto_brightness_sensitivity_verylow">Very low</string>
-    <string name="auto_brightness_sensitivity_low">Low</string>
-    <string name="auto_brightness_sensitivity_medium">Medium</string>
-    <string name="auto_brightness_sensitivity_high">High</string>
-    <string name="auto_brightness_sensitivity_veryhigh">Very high</string>
+    <string name="auto_brightness_sensitivity_title">Sensibilité</string>
+    <string name="auto_brightness_sensitivity_verylow">Très faible</string>
+    <string name="auto_brightness_sensitivity_low">Faible</string>
+    <string name="auto_brightness_sensitivity_medium">Moyenne</string>
+    <string name="auto_brightness_sensitivity_high">Élevée</string>
+    <string name="auto_brightness_sensitivity_veryhigh">Très élevée</string>
 
     <!-- Screen security - Screen security   -->
     <string name="screen_security_category">Verrouillage de l\'écran</string>
@@ -453,27 +440,27 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lock_before_unlock_summary">Show slider lock screen before secure unlock mechanism</string>
 
     <!-- Shake to secure -->
-    <string name="shake_to_secure_title">Shake the lock screen to enable security</string>
-    <string name="shake_to_secure_summary">Security will be disabled after each successful unlock</string>
-    <string name="shake_to_secure_dlg_title">Warning:</string>
-    <string name="shake_to_secure_dlg_message">Your device will be insecure until you explicitly shake to enable a temporary secure lock.  Once secure: if your device is successfully unlocked it will become insecure until you shake again.</string>
-    <string name="shake_secure_timeout_title">Automatically resecure</string>
-    <string name="shake_all">Shake any direction</string>
-    <string name="shake_horizontal">Shake horizontally</string>
-    <string name="shake_vertical">Shake vertically</string>
-    <string name="shake_back_forth">Shake back-and-forth</string>
-    <string name="shake_secure_timeout_disabled">Never automatically secure</string>
-    <string name="shake_secure_timeout_1min">1 minute after screen turned off</string>
-    <string name="shake_secure_timeout_5min">5 minutes after screen turned off</string>
-    <string name="shake_secure_timeout_10min">10 minutes after screen turned off</string>
-    <string name="shake_secure_timeout_30min">30 minutes after screen turned off</string>
+    <string name="shake_to_secure_title">Secouer le lockscreen pour activer la sécurité</string>
+    <string name="shake_to_secure_summary">La sécurité sera désactivée après chaque déverrouillage réussi</string>
+    <string name="shake_to_secure_dlg_title">Attention:</string>
+    <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
+    <string name="shake_secure_timeout_title">Re-sécuriser automatiquement</string>
+    <string name="shake_all">Secouer dans n\'importe quelle direction</string>
+    <string name="shake_horizontal">Secouer horizontalement</string>
+    <string name="shake_vertical">Secouer verticalement</string>
+    <string name="shake_back_forth">Secouer d\'avant en arrière</string>
+    <string name="shake_secure_timeout_disabled">Ne jamais sécuriser automatiquement</string>
+    <string name="shake_secure_timeout_1min">1 minute après l\'extinction de l\'écran</string>
+    <string name="shake_secure_timeout_5min">5 minute après l\'extinction de l\'écran</string>
+    <string name="shake_secure_timeout_10min">10 minute après l\'extinction de l\'écran</string>
+    <string name="shake_secure_timeout_30min">30 minute après l\'extinction de l\'écran</string>
 
     <!-- Lockscreen pin shuffle -->
-    <string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
-    <string name="lock_numpad_random_dialog_title">PIN pad random order</string>
-    <string name="lock_numpad_random_off">Disabled</string>
-    <string name="lock_numpad_random_always">Always</string>
-    <string name="lock_numpad_random_on_request">On request</string>
+    <string name="lock_numpad_random_title">Changer l\'ordre des numéros du pavé numérique</string>
+    <string name="lock_numpad_random_dialog_title">Clavier PIN aléatoire</string>
+    <string name="lock_numpad_random_off">Désactivé</string>
+    <string name="lock_numpad_random_always">Toujours</string>
+    <string name="lock_numpad_random_on_request">Sur demande</string>
 
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_pattern_size_3">3x3</string>
@@ -482,9 +469,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lock_pattern_size_6">6x6</string>
 
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Afficher l\'erreur de schéma</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Afficher les points</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
@@ -569,19 +556,19 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="title_tile_contact">Contact</string>
     <string name="title_tile_custom">Custom</string>
     <string name="custom_tile_dialog_text">Each action will add a new state to the tile. Each click changes to the next state. Long-press to add long-press actions. If no click action exists the long-action icon will be used for the tile. This allows you to change states by clicking and launch actions by long-pressing.</string>
-    <string name="custom_tile_dialog_title">Custom tile actions</string>
-    <string name="custom_tile_dialog_extra_text">Advanced tile detected. Your tile will now change states when adjusted from anywhere. You may optionally input an icon and label for the toggle to switch to if it doesn\'t recognize the state it\'s in.</string>
-    <string name="custom_toggle_extras">Custom tile extras</string>
-    <string name="custom_toggle_collapse_check">Collapse notification shade</string>
-    <string name="custom_toggle_match_state_check">Click action matches icon</string>
-    <string name="custom_toggle_double_click_check">Double-tap to switch to the previous action</string>
-    <string name="custom_tile_long_press">Longpress:</string>
-    <string name="custom_tile_null_warning">An action must be set first</string>
-    <string name="custom_tile_resolve_name">Unknown</string>
-    <string name="title_tile_theme">Theme switcher</string>
+    <string name="custom_tile_dialog_title">Actions de tuile custom</string>
+    <string name="custom_tile_dialog_extra_text">Tuile avancée détectée. Votre tuile changera maintenant d\'état depuis n\'importe où. Vous pouvez éventuellement ajouter une icône et un libellé pour la tuile à activer si elle ne reconnait pas son état.</string>
+    <string name="custom_toggle_extras">Extras pour la tuile custom</string>
+    <string name="custom_toggle_collapse_check">Réduire l\'ombre de la notification</string>
+    <string name="custom_toggle_match_state_check">L\'action du clic correspond à l\'icône</string>
+    <string name="custom_toggle_double_click_check">Double-taper pour revenir à l\'action précédente</string>
+    <string name="custom_tile_long_press">Pression longue:</string>
+    <string name="custom_tile_null_warning">Une action doit d\'abord être définie</string>
+    <string name="custom_tile_resolve_name">Inconnu</string>
+    <string name="title_tile_theme">Sélecteur de thème</string>
     <string name="title_tile_batterysaver">BatterySaver mode</string>
-    <string name="title_tile_heads_up">Heads up</string>
-    <string name="title_tile_performance_profile">Performance profile</string>
+    <string name="title_tile_heads_up">Notifications flottantes</string>
+    <string name="title_tile_performance_profile">Profil de performance</string>
 
     <string name="title_dynamic_tiles">Raccourcis dynamiques</string>
     <string name="dynamic_tiles_note_title">Note</string>
@@ -2359,12 +2346,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="show_dev_already_cm">Inutile, vous avez déjà activé les options de développeur.</string>
 
     <!-- Setting checkbox title for Whether to enable Android debugging support on the phone. -->
-    <string name="enable_adb_cm">Android debugging</string>
+    <string name="enable_adb_cm">Débogage Android</string>
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
-    <string name="enable_adb_summary_cm">Enable the Android Debug Bridge (adb) interface</string>
+    <string name="enable_adb_summary_cm">Activer l\'interface Android Debug Bridge (adb)</string>
 
     <!-- Gestures Options -->
-    <string name="screen_off_gesture_settings_title">Screen off gestures</string>
+    <string name="screen_off_gesture_settings_title">Gestures écran éteint</string>
 
     <!-- Lid Settings -->
     <string name="smart_cover">Smart cover</string>
