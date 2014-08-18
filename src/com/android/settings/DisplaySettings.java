@@ -292,7 +292,11 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         if (!isTapToWakeSupported()) {
             wakeupPrefs.removePreference(mTapToWake);
             mTapToWake = null;
-        } else {
+        }
+
+        boolean proximityCheckOnWait = res.getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake);
+        if (!proximityCheckOnWait) {
             wakeupPrefs.removePreference(findPreference(KEY_PROXIMITY_WAKE));
             Settings.System.putInt(getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 1);
         }
