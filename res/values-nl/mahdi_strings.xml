@@ -464,12 +464,12 @@
     <string name="volume_category">Volume</string>
     <string name="advanced_sound_title">Advanced options</string>
     <string name="advanced_sound_summary">View or change advanced options for volume keys and headset</string>
-    <string name="link_volume_ringtones">Link ringtone \u0026 notifications volumes</string>
+    <string name="link_volume_ringtones">Volumes koppelen</string>
     <string name="volume_ring_only_description">Beltoon</string>
     <string name="volume_overlay_title">Volumepaneel</string>
     <!-- Volume adjust sound -->
-    <string name="volume_adjust_sounds_enable_title">Volume adjust sound</string>
-    <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
+    <string name="volume_adjust_sounds_enable_title">Aanpassingsgeluid volume</string>
+    <string name="volume_adjust_sounds_enable_summary">Geluid afspelen bij aanpassen van volume met volumeknoppen</string>
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Veilig headsetvolume</string>
     <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
@@ -482,7 +482,7 @@
     <string name="button_volume_default_summary">Choose which volume gets changed by default</string>
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Timeout</string>
-    <string name="volume_panel_timeout_summary">Time until the panel will be hidden</string>
+    <string name="volume_panel_timeout_summary">Interval tot automatisch sluiten</string>
 
     <!-- Headset category -->
     <string name="headset_category_title">Headset</string>
@@ -557,18 +557,18 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <!-- Shake to secure -->
     <string name="shake_to_secure_title">Shake the lock screen to enable security</string>
     <string name="shake_to_secure_summary">Security will be disabled after each successful unlock</string>
-    <string name="shake_to_secure_dlg_title">Warning:</string>
+    <string name="shake_to_secure_dlg_title">Let op:</string>
     <string name="shake_to_secure_dlg_message">Your device will be insecure until you explicitly shake to enable a temporary secure lock.  Once secure: if your device is successfully unlocked it will become insecure until you shake again.</string>
-    <string name="shake_secure_timeout_title">Automatically resecure</string>
-    <string name="shake_all">Shake any direction</string>
-    <string name="shake_horizontal">Shake horizontally</string>
-    <string name="shake_vertical">Shake vertically</string>
-    <string name="shake_back_forth">Shake back-and-forth</string>
-    <string name="shake_secure_timeout_disabled">Never automatically secure</string>
-    <string name="shake_secure_timeout_1min">1 minute after screen turned off</string>
-    <string name="shake_secure_timeout_5min">5 minutes after screen turned off</string>
-    <string name="shake_secure_timeout_10min">10 minutes after screen turned off</string>
-    <string name="shake_secure_timeout_30min">30 minutes after screen turned off</string>
+    <string name="shake_secure_timeout_title">Automatisch vergrendelen</string>
+    <string name="shake_all">In willekeurige richting schudden</string>
+    <string name="shake_horizontal">Horizontaal schudden</string>
+    <string name="shake_vertical">Vertikaal schudden</string>
+    <string name="shake_back_forth">Heen en weer schudden</string>
+    <string name="shake_secure_timeout_disabled">Nooit automatisch vergrendelen</string>
+    <string name="shake_secure_timeout_1min">1 minuut na scherm-uit</string>
+    <string name="shake_secure_timeout_5min">5 minuten na scherm-uit</string>
+    <string name="shake_secure_timeout_10min">10 minuten na scherm-uit</string>
+    <string name="shake_secure_timeout_30min">30 minuten na scherm-uit</string>
 
     <!-- Lockscreen pin shuffle -->
     <string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
@@ -630,7 +630,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Snelle instellingenpaneel</string>
-    <string name="quick_settings_summary">View or change options for quick settings and notification drawer</string>
+    <string name="quick_settings_summary">Beheer snelle instellingenpaneel en meldingenpaneel</string>
     <string name="title_static_tiles">Statische tegels</string>
     <string name="tile_picker_title">Tegels en indeling</string>
     <string name="tile_picker_summary">Indeling van te tonen tegels beheren</string>
@@ -673,7 +673,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="custom_tile_dialog_text">Each action will add a new state to the tile. Each click changes to the next state. Long-press to add long-press actions. If no click action exists the long-action icon will be used for the tile. This allows you to change states by clicking and launch actions by long-pressing.</string>
     <string name="custom_tile_dialog_title">Custom tile actions</string>
     <string name="custom_tile_dialog_extra_text">Advanced tile detected. Your tile will now change states when adjusted from anywhere. You may optionally input an icon and label for the toggle to switch to if it doesn\'t recognize the state it\'s in.</string>
-    <string name="custom_toggle_extras">Aangepaste extra tegelsp</string>
+    <string name="custom_toggle_extras">Aangepaste extra tegels</string>
     <string name="custom_toggle_collapse_check">Collapse notification shade</string>
     <string name="custom_toggle_match_state_check">Click action matches icon</string>
     <string name="custom_toggle_double_click_check">Double-tap to switch to the previous action</string>
@@ -721,7 +721,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
      <string name="custom_toggle_extras">Custom tile extras</string>
      <string name="custom_toggle_collapse_check">Collapse notification shade</string>
      <string name="custom_toggle_match_state_check">Click action matches icon</string>
-     <string name="custom_tile_long_press">Longpress:</string>
+     <string name="custom_tile_long_press">Lang indrukken:</string>
      <string name="custom_tile_null_warning">An action must be set first</string>
 
     <string name="pref_network_mode_title">Netwerkmodes</string>
@@ -733,9 +733,9 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
 
     <!-- Quick access ribbon -->
     <string name="title_quick_access">Snelle knoppenstrook</string>
-    <string name="title_quick_access_size">Size of ribbon bar</string>
+    <string name="title_quick_access_size">Grootte knoppenstrook</string>
     <string name="title_quick_access_linked">Gelijke indeling</string>
-    <string name="summary_quick_access_linked">Use the same tiles and layout as the Quick Settings panel</string>
+    <string name="summary_quick_access_linked">Gebruik gelijke indeling als snelle instellingenpaneel</string>
 
     <!-- QuickSettings style options -->
     <string name="quick_settings_title">Snelle instellingenpaneel</string>
@@ -749,29 +749,29 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="qs_style_reset_message">Reset colors to default?</string>
 
     <!-- QuickSettings fliptiles -->
-    <string name="flip_qs_tiles_title">Flip tiles</string>
-    <string name="flip_qs_tiles_summary">Flips the tiles on touch</string>
+    <string name="flip_qs_tiles_title">Tegels omkeren</string>
+    <string name="flip_qs_tiles_summary">Keert de tegels om bij aanraking</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="haptic_qs_tiles_title">Trillen bij aanraken</string>
     <string name="haptic_qs_tiles_summary">Trillen bij aanraken van tegels</string>
 
     <!-- QuickSettings smaller tiles -->
-    <string name="title_qs_small_icons">Show smaller tiles</string>
-    <string name="summary_qs_small_icons">Use smaller tiles to increase the number of colums</string>
+    <string name="title_qs_small_icons">Kleinere tegels</string>
+    <string name="summary_qs_small_icons">Kleinere tegels voor meer tegels per kolom</string>
 
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
-    <string name="pref_ring_mode_title">Sound modes</string>
-    <string name="pref_ring_mode_summary">View or change the Sound button modes</string>
-    <string name="cm_sound_mode_silent">Silent</string>
-    <string name="cm_sound_mode_vibrate">Vibrate</string>
-    <string name="cm_sound_mode_sound">Sound</string>
-    <string name="cm_sound_mode_soundVibrate">Sound + Vibrate</string>
+    <string name="pref_ring_mode_title">Geluidsstanden</string>
+    <string name="pref_ring_mode_summary">Geluidsknopstanden beheren</string>
+    <string name="cm_sound_mode_silent">Stil</string>
+    <string name="cm_sound_mode_vibrate">Trillen</string>
+    <string name="cm_sound_mode_sound">Geluid</string>
+    <string name="cm_sound_mode_soundVibrate">Geluid &amp; trillen</string>
 
     <!-- Reset tiles -->
-    <string name="tiles_reset_title">Reset</string>
-    <string name="tiles_reset_message">Restore the default displayed tiles and layout?</string>            
+    <string name="tiles_reset_title">Opnieuw instellen</string>
+    <string name="tiles_reset_message">Tegels herstellen naar standaardwaarden?</string>            
 
     <!-- USB Mass Storage -->
     <string name="usb_mass_storage_title">Massaopslag (UMS)</string>
@@ -881,47 +881,47 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="privacy_guard_manager_show_system_apps">Ingebouwde apps tonen</string>
     <string name="privacy_guard_manager_filter_permissions">Machtigingenfilter</string>
     <string name="privacy_guard_advanced_settings_title">Geavanceerd</string>
-    <string name="privacy_guard_notification_icon_title">Show notification icon</string>
-    <string name="privacy_guard_notification_dismiss_title">Dismissable notification</string>
-    <string name="privacy_guard_notification_dismiss_summary">A dismissable notification can be cleared</string>
+    <string name="privacy_guard_notification_icon_title">Meldingspictogram weergeven</string>
+    <string name="privacy_guard_notification_dismiss_title">Verwijderbare melding</string>
+    <string name="privacy_guard_notification_dismiss_summary">Een verwijderbare melding kan gewist worden</string>
 
     <!-- Battery status on lock ring -->
     <string name="battery_around_lockscreen_ring">Battery level around lock ring</string>
     <string name="battery_around_lockscreen_ring_summary">If checked the lock screen ring will display the battery charge level</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">USB debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+    <string name="adb_notify">USB-foutopsporingsmodus melden</string>
+    <string name="adb_notify_summary">Melding tonen indien USB-foutopsporingmodus is ingeschakeld</string>
 
     <!-- button settings -->
-    <string name="button_settings">Buttons</string>
+    <string name="button_settings">Knoppen</string>
 
     <!-- Hardware keys -->
-    <string name="button_keys_title">Hardware Buttons</string>
+    <string name="button_keys_title">Hardware Knoppen</string>
     <string name="button_keys_summary">View or change hardware key actions</string>
     <string name="disable_hw_title">Disable hardware buttons</string>
     <string name="disable_hw_summary">Disabling hardware keys will enable the on-screen navigation bar</string>
     <string name="keys_bindings_title">Key actions</string>
-    <string name="keys_enable_custom_title">Enable custom actions</string>
+    <string name="keys_enable_custom_title">Aangepaste acties inschakelen</string>
     <string name="keys_enable_custom_summary">Enable custom hardware key actions</string>
-    <string name="keys_back_press_title">Back key</string>
-    <string name="keys_back_long_press_title">Back key (long press)</string>
-    <string name="keys_back_double_tap_title">Back key (double tap)</string>
-    <string name="keys_home_press_title">Home key</string>
-    <string name="keys_home_long_press_title">Home key (long press)</string>
-    <string name="keys_home_double_tap_title">Home key (double tap)</string>
-    <string name="keys_menu_press_title">Menu key</string>
-    <string name="keys_menu_long_press_title">Menu key (long press)</string>
-    <string name="keys_menu_double_tap_title">Menu key (double tap)</string>
-    <string name="keys_assist_press_title">Search key</string>
-    <string name="keys_assist_long_press_title">Search key (long press)</string>
-    <string name="keys_assist_double_tap_title">Search key (double tap)</string>
-    <string name="keys_app_switch_press_title">App switch key</string>
-    <string name="keys_app_switch_long_press_title">App switch key (long press)</string>
-    <string name="keys_app_switch_double_tap_title">App switch key (double tap)</string>
-    <string name="keys_action_normal">Normal press</string>
-    <string name="keys_action_long">Long press</string>
-    <string name="keys_action_double">Double tap</string>
+    <string name="keys_back_press_title">Terugknop</string>
+    <string name="keys_back_long_press_title">Terugknop (lang indrukken)</string>
+    <string name="keys_back_double_tap_title">Terugknop (dubbeltikken)</string>
+    <string name="keys_home_press_title">Thuisknop</string>
+    <string name="keys_home_long_press_title">Thuisknop (lang indrukken)</string>
+    <string name="keys_home_double_tap_title">Thuisknop (dubbeltikken)</string>
+    <string name="keys_menu_press_title">Menuknop</string>
+    <string name="keys_menu_long_press_title">Menuknop (lang indrukken)</string>
+    <string name="keys_menu_double_tap_title">Menuknop (dubbeltikken)</string>
+    <string name="keys_assist_press_title">Zoekknop</string>
+    <string name="keys_assist_long_press_title">Zoekknop (lang indrukken)</string>
+    <string name="keys_assist_double_tap_title">Zoekknop (dubbeltikken)</string>
+    <string name="keys_app_switch_press_title">Recente apps-knop</string>
+    <string name="keys_app_switch_long_press_title">Recente apps-knop (lang indrukken)</string>
+    <string name="keys_app_switch_double_tap_title">Recente apps-knop (dubbeltikken)</string>
+    <string name="keys_action_normal">Kort indrukken</string>
+    <string name="keys_action_long">Lang indrukken</string>
+    <string name="keys_action_double">Dubbeltikken</string>
     <string name="no_home_key">You have no button assigned any more to the \"Home\" action!\n\nThis can make your device unusable!</string>
 
     <!-- Lock screen buttons -->
@@ -936,39 +936,39 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
 
 
     <!-- Home wake -->
-    <string name="button_volume_wake_title">Wake up</string>
-    <string name="home_wake_summary">Pressing the home button will wake your device</string>
+    <string name="button_volume_wake_title">Ontwaken</string>
+    <string name="home_wake_summary">Apparaat ontwaken door op de thuisknop te drukken</string>
 
     <!-- Home unlock -->
-    <string name="unlock_home_unlock_title">Unlock</string>
-    <string name="unlock_home_unlock_summary">Pressing the home button unlocks the device</string>
+    <string name="unlock_home_unlock_title">Ontgrendelen</string>
+    <string name="unlock_home_unlock_summary">Apparaat ontgrendelen door op de thuisknop te drukken</string>
 
     <!-- Home key end call -->
-    <string name="home_answer_call_title">Answer call</string>
-    <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
+    <string name="home_answer_call_title">Oproep beantwoorden</string>
+    <string name="home_answer_call_summary">Inkomende oproep beantwoorden door op de thuisknop te drukken</string>
 
     <!-- Power key end call -->
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="power_end_call_title">End call</string>
-    <string name="power_end_call_summary">Pressing the power button will end the current call</string>
+    <string name="hardware_keys_power_key_title">Aan/uit-knop</string>
+    <string name="power_end_call_title">Gesprek beëindigen</string>
+    <string name="power_end_call_summary">Huidige gesprek beëindigen door op de aan/uit-knop te drukken</string>
 
     <!-- Volume keys -->
-    <string name="button_volume_keys_title">Volume Keys</string>
-    <string name="button_volume_wake_title">Wake up</string>
-    <string name="button_volume_wake_summary">Pressing either volume button will wake your device</string>
+    <string name="button_volume_keys_title">Volumeknoppen</string>
+    <string name="button_volume_wake_title">Ontwaken</string>
+    <string name="button_volume_wake_summary">Apparaat ontwaken door op een volumeknop te drukken</string>
 
     <!-- Swap volume buttons -->
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">Oriëntatie</string>
+    <string name="swap_volume_buttons_summary">Volumeknoppen omdraaien indien het scherm gedraaid is</string>
 
     <!-- Volume buttons cursor control -->
-    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volume_key_cursor_control_title">Toetsenbordcursor beheren</string>
+    <string name="volume_key_cursor_control_on">Volume omhoog/omlaag beweegt cursor naar links/rechts</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume omhoog/omlaag beweegt cursor naar rechts/links</string>
 
     <!-- Volume button music control -->
-    <string name="volbtn_music_controls_title">Playback control</string>
-    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
+    <string name="volbtn_music_controls_title">Muziek beheren</string>
+    <string name="volbtn_music_controls_summary">Bij scherm uit door nummers spoelen door volumeknoppen lang in te drukken/string>
 
     <!-- Increase Ringing -->
     <string name="increasing_ring_title">In volume toenemende beltoon</string>
@@ -1019,7 +1019,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="shortcut_action_keyguard_camera">Keyguard camera</string>
     <string name="shortcut_action_navbar">Navigatiebalk</string>
     <string name="shortcut_action_pie">Pie controls</string>
-    <string name="shortcut_action_app">Custom app</string>
+    <string name="shortcut_action_app">Aangepaste app</string>
     <string name="shortcut_action_home">Home</string>
     <string name="shortcut_action_back">Terug</string>
     <string name="shortcut_action_recent">Recente apps</string>
@@ -1032,13 +1032,13 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="shortcut_action_ime">Invoermethode wisselen</string>
     <string name="shortcut_action_immersive_mode">Uitgebreid bureaublad</string>
     <string name="shortcut_action_kill">App stoppen</string>
-    <string name="shortcut_action_power">Screen Off</string>
+    <string name="shortcut_action_power">Scherm uit</string>
     <string name="shortcut_action_notifications">Meldingen</string>
     <string name="shortcut_action_menu_big">Menu</string>
-    <string name="shortcut_action_qs">Quicksettings panel</string>
+    <string name="shortcut_action_qs">Snelle instellingenpaneel</string>
     <string name="shortcut_action_smart">Smart pulldown</string>
     <string name="shortcut_action_none">Geen actie</string>
-    <string name="shortcut_action_power_menu">Power menu</string>
+    <string name="shortcut_action_power_menu">Afsluitmenu</string>
     <string name="shortcut_action_ring_vib">Geluid/trillen</string>
     <string name="shortcut_action_ring_silent">Geluid/stil</string>
     <string name="shortcut_action_ring_vib_silent">Geluid/trillen/stil</string>
@@ -1046,16 +1046,16 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="shortcut_action_media_next">Volgend nummer</string>
     <string name="shortcut_action_media_play_pause">Afspelen/pauzeren</string>
     <string name="shortcut_action_media_previous">Vorig nummer</string>
-    <string name="shortcut_action_wake_device">Wake up device</string>
+    <string name="shortcut_action_wake_device">Apparaat ontwaken</string>
     <string name="shortcut_action_theme_switch">Theme switcher</string>
     <string name="shortcut_action_torch">Zaklamp</string>
     <string name="shortcut_action_omniswitch">OmniSwitch</string>
-    <string name="shortcut_action_longpress">Longpress:</string>
+    <string name="shortcut_action_longpress">Lang indrukken:</string>
     <string name="shortcut_action_select_action_longpress">Choose longpress action:</string>
-    <string name="shortcut_action_select_action">Choose action:</string>
+    <string name="shortcut_action_select_action">Kies actie:</string>
     <string name="shortcut_action_select_action_newbutton">Choose new button:</string>
-    <string name="shortcut_action_reset">Reset</string>
-    <string name="shortcut_action_add">Add</string>
+    <string name="shortcut_action_reset">Opnieuw instellen</string>
+    <string name="shortcut_action_add">Toevoegen</string>
     <string name="shortcut_action_reset_message">Reset all entries to default?</string>
     <string name="shortcut_action_max">Maximum entries size has been reached</string>
     <string name="shortcut_action_warning">Warning</string>
@@ -1063,8 +1063,8 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="shortcut_action_disable_message">Disabled\nAdd an entry to enable this feature</string>
     <string name="shortcut_image_not_valid">The chosen app did not return a valid icon or does not support image cropping. Use another app</string>
     <string name="shortcut_duplicate_entry">The chosen action cannot be added twice</string>
-    <string name="shortcut_action_help_shortcut">shortcut</string>
-    <string name="shortcut_action_help_button">button</string>
+    <string name="shortcut_action_help_shortcut">snelkoppeling</string>
+    <string name="shortcut_action_help_button">knop</string>
     <string name="shortcut_action_help_app">app</string>
     <string name="shortcut_action_help_icon">, while selecting the icon will bring up customization options</string>
     <string name="shortcut_action_help_main">To add a %1$s, select the Add icon.  Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right.  Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the Reset icon.</string>
@@ -1074,14 +1074,14 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
 
     <string name="shortcuts_icon_picker_alarm">Alarm</string>
     <string name="shortcuts_icon_picker_andy">Andy</string>
-    <string name="shortcuts_icon_picker_battery">Accu/string>
+    <string name="shortcuts_icon_picker_battery">Accu</string>
     <string name="shortcuts_icon_picker_browser">Browser</string>
     <string name="shortcuts_icon_picker_calendar">Agenda</string>
     <string name="shortcuts_icon_picker_camera">Camera</string>
     <string name="shortcuts_icon_picker_cloud">Cloud</string>
     <string name="shortcuts_icon_picker_contact">Contacten</string>
-    <string name="shortcuts_icon_picker_directdial">Direct Dial</string>
-    <string name="shortcuts_icon_picker_directmessage">Direct Message</string>
+    <string name="shortcuts_icon_picker_directdial">Direct Bellen</string>
+    <string name="shortcuts_icon_picker_directmessage">Direct Bericht</string>
     <string name="shortcuts_icon_picker_drive">Drive</string>
     <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
     <string name="shortcuts_icon_picker_email">Email</string>
@@ -1365,13 +1365,13 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <!-- Lockscreen widget settings -->
     <string name="title_widgets">Widgets</string>
     <string name="lockscreen_widgets_title">Widgets</string>
-    <string name="lockscreen_allow_all_title">Allow all widgets</string>
+    <string name="lockscreen_allow_all_title">Alle widgets toestaan</string>
     <string name="lockscreen_allow_all_summary">Allow legacy widgets that don\'t natively support lock screen placement</string>
     <string name="lockscreen_allow_all_warning">Some widgets may not behave as expected when placed on the lock screen.  Other widgets may expose your personal data to anyone who accesses your device.  Please be mindful of these warnings before continuing.</string>
-    <string name="lockscreen_camera_widget_title">Enable camera widget</string>
+    <string name="lockscreen_camera_widget_title">Camera-widget inschakelen</string>
     <string name="lockscreen_camera_widget_summary">Show secure camera widget on the lock screen</string>
-    <string name="lockscreen_maximize_widgets_title">Start maximized</string>
-    <string name="lockscreen_maximize_widgets_summary">Show widget maximized when screen turned on</string>
+    <string name="lockscreen_maximize_widgets_title">Widgets maximaliseren</string>
+    <string name="lockscreen_maximize_widgets_summary">Widgets maximaliseren bij scherm aanzetten</string>
     <string name="lockscreen_disable_hints_title">Disable initial page hints</string>
     <string name="lockscreen_disable_hints_summary">Disables the glow on the edges that surrounds the widget pager on lock screen in portrait mode</string>
     <string name="lockscreen_use_widget_container_carousel_title">Enable portrait widget carousel</string>
@@ -1391,7 +1391,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="lockscreen_notifications_disabled_notice">To allow lock screen to display interactive notifications on your screen, enable lock screen notifications.</string>
     <string name="pocket_mode">Pocket mode</string>
     <string name="pocket_mode_summary">Turn screen on and show all notifications when device is pulled out of pocket. Turn screen off when device gets back into pocket.</string>
-    <string name="show_always">Show always</string>
+    <string name="show_always">Altijd tonen</string>
     <string name="show_always_summary">Always turn screen on when pulled out of pocket, even when there are no notifications pending</string>
     <string name="hide_low_priority">Hide low priority</string>
     <string name="hide_low_priority_summary">Hide low priority notifications such as google now weather notifications</string>
@@ -1414,7 +1414,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="dynamic_width_summary">Sets the width of notifications dynamic, so that they only use the space they really need</string>
     <string name="excluded_apps_title">Excluded applications</string>
     <string name="excluded_apps_summary">Excluded applications will not show up as lock screen notifications</string>
-    <string name="notification_color">Notification background color</string>
+    <string name="notification_color">Achtergrondkleur meldingenpaneel</string>
 
     <!-- Lock Screen -->
     <string name="title_shortcuts">Snelkoppelingen</string>
@@ -1438,10 +1438,10 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <!-- Description of accessibility direction for targets [CHAR LIMIT=NONE] -->
     <string name="accessibility_target_direction">Swipe to activate a target</string>
     <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
-    <string name="description_target_unlock">Unlock</string>
+    <string name="description_target_unlock">Ontgrendelen</string>
 
     <!-- Lockscreen Shortcuts -->
-    <string name="lockscreen_shortcuts_title">Shortcuts</string>
+    <string name="lockscreen_shortcuts_title">Snelkoppelingen</string>
     <string name="lockscreen_shortcuts_summary">View or change custom lock screen shortcuts</string>
     <string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
     <string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
@@ -1497,8 +1497,8 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="screen_off_gesture_settings_summary">Manage screen off gestures</string>
 
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Per ongeluk ontwaken voorkomen</string>
+    <string name="proximity_wake_summary">Nabijheidssensor gebruiken voorafgaand aan ontwaken van scherm</string>
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Advanced</string>
@@ -1543,16 +1543,16 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
 
     <!-- Recents clear all -->
     <string name="aosp_recents_category">AOSP Recents</string>
-    <string name="show_recent_clear_all_button_title">Clear all button</string>
+    <string name="show_recent_clear_all_button_title">Alles-wissen knop</string>
     <string name="show_recent_clear_all_button_summary">Show clear all button within the recent applications view</string>
-    <string name="recent_clear_all_button_location_title">Clear all button position</string>
-    <string name="recent_clear_all_button_location_summary">Choose position of the clear all button</string>
+    <string name="recent_clear_all_button_location_title">Positie alles-wissen knop</string>
+    <string name="recent_clear_all_button_location_summary">Positie alles-wissen knop instellen</string>
     <string name="recent_clear_all_button_location_top_left">Bovenaan links</string>
     <string name="recent_clear_all_button_location_top_right">Bovenaan rechts</string>
     <string name="recent_clear_all_button_location_bottom_left">Onderaan links</string>
     <string name="recent_clear_all_button_location_bottom_right">Onderaan rechts</string>
-    <string name="recent_clear_all_apps_title">Clear all tasks</string>
-    <string name="recent_clear_all_apps_summary">Clear all tasks including the topmost</string>
+    <string name="recent_clear_all_apps_title">Alle taken wissen</string>
+    <string name="recent_clear_all_apps_summary">Alle taken wissen incl. huidige taak</string>
 
     <!-- New Recents Screen -->
     <string name="new_recents_category">Slims Recents</string>
@@ -1596,12 +1596,12 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="less_notification_sounds_5m">5 minuten</string>
 
     <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
-    <string name="debug_LAN_category">LAN Settings</string>
+    <string name="debug_LAN_category">LAN Instellingen</string>
     <!-- Hostname setting -->
-    <string name="device_hostname">Device hostname</string>
+    <string name="device_hostname">Hostnaam apparaat</string>
 
     <!-- Keyboard and Input methods  -->
-    <string name="title_keyboard_input">Advanced keyboard options</string>
+    <string name="title_keyboard_input">Uitgebreide totsenbordinstllingen</string>
     <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
     <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
     <string name="keyboard_rotation_toggle_title">Auto keyboard rotation</string>
@@ -1615,7 +1615,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
 
     <!-- Themes settings  -->
-    <string name="themes_settings_title">Thema's</string>
+    <string name="themes_settings_title">Thema\'s</string>
     <string name="title_cm_themes">Themes chooser</string>
 
     <!-- The following are entries under the themes menu -->
@@ -1631,9 +1631,9 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <!-- DarkUI -->
     <string name="darkui_title">Dark UI</string>
     <string name="theme_auto_mode_title">Mode</string>
-    <string name="theme_auto_mode_off">Manual</string>
-    <string name="theme_auto_mode_lightsensor">On light condition change</string>
-    <string name="theme_auto_mode_twilight">On daytime</string>
+    <string name="theme_auto_mode_off">Handmatig</string>
+    <string name="theme_auto_mode_lightsensor">Volgens omgevingsicht</string>
+    <string name="theme_auto_mode_twilight">Overdag</string>
     <string name="theme_auto_switch_mode_error">Automatic light condition change mode is enabled. Manual switching is not possible.</string>
 
     <!-- Notification drawer background -->   
@@ -1649,21 +1649,21 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="notif_alpha_title">Notification transparency</string>
 
     <!-- Title for PreferenceScreen to change encryption password [CHAR LIMIT=22] -->
-    <string name="change_crypt_password_title">Change password</string>
+    <string name="change_crypt_password_title">Wachtwoord wijzigen</string>
     <!-- Summary for PreferenceScreen to change encryption password [CHAR LIMIT=45] -->
-    <string name="change_crypt_password_summary">Change the password used for device encryption</string>
+    <string name="change_crypt_password_summary">Wachtwoord wijzigen dat wordt gebruikt voor versleutelen van het apparaat</string>
 
     <!-- Header on first screen of choose encryption password [CHAR LIMIT=30] -->
-    <string name="encryptionpassword_choose_your_password_header">Set encryption password</string>
+    <string name="encryptionpassword_choose_your_password_header">Wachtwoord voor versleutelen instellen</string>
 
     <!-- Minimum Vibration Duration -->
-    <string name="minimum_vibration_duration">Minimum vibration duration</string>
+    <string name="minimum_vibration_duration">Minimale trilduur</string>
 
     <!-- Lock screen misc. settings -->
-    <string name="lockscreen_battery_status_title">Battery status</string>
-    <string name="lockscreen_battery_status_charging">Only when charging</string>
-    <string name="lockscreen_battery_status_alwayson">Always on</string>
-    <string name="lockscreen_battery_status_alwaysoff">Always off</string>
+    <string name="lockscreen_battery_status_title">Accustatus</string>
+    <string name="lockscreen_battery_status_charging">Enkel tijdens sladen</string>
+    <string name="lockscreen_battery_status_alwayson">Altijd aan</string>
+    <string name="lockscreen_battery_status_alwaysoff">Altijd uit</string>
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_mahdi_title">Privacy</string>
@@ -1976,13 +1976,13 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="pref_battery_saver_battery_summary">Activate power saving mode when battery low</string>
     <string name="pref_battery_saver_mode_battery_level_title">Battery level</string>
     <string name="pref_battery_saver_mode_battery_level_summary">Activate power saving mode or changing screen brightness by specified battery level</string>
-    <string name="pref_battery_saver_data_title">Disable mobile data</string>
+    <string name="pref_battery_saver_data_title">Mobiele data uitschakelen</string>
     <string name="pref_battery_saver_data_summary">Disable mobile data connection when power saving activated</string>
-    <string name="pref_battery_saver_wifi_title">Disable Wi-Fi</string>
+    <string name="pref_battery_saver_wifi_title">Wi-Fi uitschakelen</string>
     <string name="pref_battery_saver_wifi_summary">Disable Wi-Fi connection when power saving activated</string>
-    <string name="pref_battery_saver_led_title">Disable LED</string>
+    <string name="pref_battery_saver_led_title">LED uitschakelen</string>
     <string name="pref_battery_saver_led_summary">Disable LED notification when power saving activated</string>
-    <string name="pref_battery_saver_vibrate_title">Disable vibrate</string>
+    <string name="pref_battery_saver_vibrate_title">Trillen uitschakelen</string>
     <string name="pref_battery_saver_vibrate_summary">Disable vibration when power saving activated</string>
     <string name="pref_battery_saver_brightness_title">Brightness mode</string>
     <string name="pref_battery_saver_brightness_summary">Activates brightness level change when battery low</string>
@@ -2025,7 +2025,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="noti_reminder_interval_4s">4 seconden</string>
 
     <!-- Lockscreen style settings -->
-    <string name="lockscreen_icon_title">Lock handle icon</string>
+    <string name="lockscreen_icon_title">Vergrendelpictogram</string>
     <string name="lockscreen_lock_icon_custom">Eigen pictogram</string>
     <string name="lockscreen_lock_icon_mahdi">Mahdi pictogram</string>
     <string name="lockscreen_lock_icon_default">Standaard pictogram</string>
@@ -2049,13 +2049,13 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
 
     <!-- Immersive mode -->
     <string name="immersive_mode_category">Immersive</string>
-    <string name="immersive_mode_title">Immersive mode</string>
+    <string name="immersive_mode_title">Uitgebreid bureaublad</string>
     <string name="summary_immersive_mode">%1$s</string>
-    <string name="immersive_mode_summary_status_bar">Status bar visible</string>
-    <string name="immersive_mode_summary_no_status_bar">Status bar hidden</string>
-    <string name="immersive_mode_disabled">Off</string>
-    <string name="immersive_mode_status_bar">With status bar</string>
-    <string name="immersive_mode_no_status_bar">Without status bar</string>
+    <string name="immersive_mode_summary_status_bar">Statusbalk zichtbaar</string>
+    <string name="immersive_mode_summary_no_status_bar">Statusbalk verborgen</string>
+    <string name="immersive_mode_disabled">Uit</string>
+    <string name="immersive_mode_status_bar">Met statusbalk</string>
+    <string name="immersive_mode_no_status_bar">Zonder statusbalk</string>
 
     <!-- Lockscreen system bar visibility -->
     <string name="system_bar_visibility">Disable in lock screen</string>
@@ -2080,8 +2080,8 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="ram_bar_color_app_mem_color">Applications RAM color</string>
     <string name="ram_bar_color_cache_mem_color">Cache RAM color</string>
     <string name="ram_bar_color_total_mem_color">Other RAM color</string>
-    <string name="ram_bar_color_enabled">Enabled</string>
-    <string name="ram_bar_color_disabled">Disabled</string>
+    <string name="ram_bar_color_enabled">Ingeschakeld</string>
+    <string name="ram_bar_color_disabled">Uitgeschakeld</string>
     <string name="ram_bar_button_help">Help</string>
     <string name="ram_bar_button_reset">Kleuren opnieuw instellen</string>
     <string name="ram_bar_reset">Opnieuw instellen</string>
@@ -2110,27 +2110,27 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="voice_tts_summary">Enable driving mode then choose what you want to speak while driving</string>
     <string name="tts_settings_reset_message">Reset all settings to default?</string>
     <string name="voice_tts_notification_title">Drive mode</string>
-    <string name="voice_tts_notification_summary_on">Enabled</string>
-    <string name="voice_tts_notification_summary_off">Disabled</string>
+    <string name="voice_tts_notification_summary_on">Ingeschakeld</string>
+    <string name="voice_tts_notification_summary_off">Uitgeschakeld</string>
     <string name="voice_tts_volume_title">Volume</string>
-    <string name="voice_tts_volume_summary">Set volume for speak</string>
-    <string name="voice_tts_call_title">Incoming call</string>
+    <string name="voice_tts_volume_summary">Spraakvolume instellen</string>
+    <string name="voice_tts_call_title">Inkomende oproep</string>
     <string name="voice_tts_call_summary">Enable/disable speak for Incoming calls</string>
-    <string name="voice_tts_sms_title">New message</string>
+    <string name="voice_tts_sms_title">Nieuw bericht</string>
     <string name="voice_tts_sms_summary">Enable/disable speak for New messages</string>
     <string name="voice_tts_sms_read_title">Read new message</string>
     <string name="voice_tts_sms_read_summary">Enable/disable speak for Read New messages</string>
     <string name="voice_tts_charge_full_title">Battery full indicator</string>
     <string name="voice_tts_charge_full_summary">Enable/disable speak for battery fully charged</string>
-    <string name="voice_tts_charge_on_title">Connect charger</string>
+    <string name="voice_tts_charge_on_title">Oplader aansluiten</string>
     <string name="voice_tts_charge_on_summary">Enable/disable speak for charging connected</string>
-    <string name="voice_tts_charge_off_title">Disconnect charger</string>
+    <string name="voice_tts_charge_off_title">Oplader ontkoppelen</string>
     <string name="voice_tts_charge_off_summary">Enable/disable speak for charging disconnected</string>
-    <string name="voice_tts_clock_title">Clock</string>
+    <string name="voice_tts_clock_title">Klok</string>
     <string name="voice_tts_clock_summary">Enable/disable speak for clock after screen turn on</string>
-    <string name="voice_tts_date_title">Date</string>
+    <string name="voice_tts_date_title">Datum</string>
     <string name="voice_tts_date_summary">Enable/disable speak for date after screen turn on</string>
-    <string name="voice_tts_notif_title">Notification</string>
+    <string name="voice_tts_notif_title">Melding</string>
     <string name="voice_tts_notif_summary">Enable/disable speak for new notification</string>
     <string name="voice_tts_notif_read_title">Read new notifications</string>
     <string name="voice_tts_notif_read_summary">Enable/disable speak for Read New messages from notifications</string>
@@ -2151,8 +2151,8 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="voice_tts_annoy_notif_2m">2 minuten</string>
     <string name="voice_tts_annoy_notif_5m">5 minuten</string>
     <string name="voice_tts_charge_full">Batterij volledig opgeladen</string>
-    <string name="voice_tts_charge_on">Charging Start</string>
-    <string name="voice_tts_charge_off">Charging Stop</string>
+    <string name="voice_tts_charge_on">Start opladen</string>
+    <string name="voice_tts_charge_off">Stop opladen</string>
     <string name="voice_tts_time">Time is</string>
     <string name="voice_tts_date">Date is</string>
     <string name="voice_tts_music">Now playing</string>
@@ -2215,13 +2215,13 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="pie_mirror_right_title">Mirror right pie</string>
     <string name="pie_mirror_right_summary">Mirror right pie on the horizontal axis</string>
     <string name="pie_style">Style and dimension</string>
-    <string name="pie_style_title">Style</string>
-    <string name="pie_dimens_title">Dimension</string>
+    <string name="pie_style_title">Stijl</string>
+    <string name="pie_dimens_title">Afmeting</string>
     <string name="pie_show_snap_title">Show snap points</string>
     <string name="pie_show_snap_summary">Shows snap points to change the trigger edge dynamically</string>
     <string name="pie_show_text_title">Show status and clock</string>
     <string name="pie_show_text_summary">Shows phone status, time and date information</string>
-    <string name="pie_show_background_title">Show background</string>
+    <string name="pie_show_background_title">Achtergrond weergeven</string>
     <string name="pie_show_background_summary">Enable pie background screen</string>
     <string name="pie_button">Buttons</string>
     <string name="pie_button_second_layer">Buttons second layer</string>
@@ -2235,14 +2235,14 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="shortcut_picker">Acties</string>
 
     <!-- Bluetooth accept all file types -->
-    <string name="bluetooth_accept_all_files">Accept all file types</string>
+    <string name="bluetooth_accept_all_files">Alle bestandstypen ontvangen</string>
 
     <!-- Font size sample text. This needs to be a very short string, as it is shown in
     multiple font sizes in a limited amount of space. -->
     <string name="font_size_sample">Voorbeeld</string>
 
     <!--Notification category-->
-    <string name="notification_category">Notifications</string>
+    <string name="notification_category">Meldingen</string>
     <!--Notification peek-->
     <string name="notification_peek_title">Notification peek</string>
     <string name="notification_peek_summary">Show latest notification after picking up your device</string>
@@ -2272,7 +2272,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="battery_bar_reset_message">Reset battery bar style to default?</string>
 
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_title">Volumestappen</string>
     <string name="volume_steps_summary">Choose the amount of steps you want between min and max</string>
     <string name="volume_steps_60">60</string>
     <string name="volume_steps_45">45</string>
@@ -2283,10 +2283,10 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="volume_steps_alarm_title">Alarm</string>
     <string name="volume_steps_dtmf_title">DTMF</string>
     <string name="volume_steps_music_title">Muziek</string>
-    <string name="volume_steps_notification_title">Notification</string>
-    <string name="volume_steps_ring_title">Ringer</string>
-    <string name="volume_steps_system_title">System</string>
-    <string name="volume_steps_voice_call_title">Voice call</string>
+    <string name="volume_steps_notification_title">Meldingen</string>
+    <string name="volume_steps_ring_title">Beltoon</string>
+    <string name="volume_steps_system_title">Systeemgeluid</string>
+    <string name="volume_steps_voice_call_title">Spraakoproep</string>
 
     <!-- Shake Events -->
     <string name="shake_events_title">Shake events</string>
@@ -2303,40 +2303,40 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="keyguard_shake_events_title">Keyguard shake events</string>
 
     <!-- Shake sensitivity -->
-    <string name="shake_sensitivity_title">Shake sensitivity</string>
-    <string name="shake_sensitivity_summary">Global sensitivity of all shake preferences</string>
-    <string name="shake_sensitivity_even_less_sensitive">Very insensitive</string>
-    <string name="shake_sensitivity_less_sensitive">Less sensitive</string>
-    <string name="shake_sensitivity_more_sensitive">More sensitive</string>
-    <string name="shake_sensitivity_very_sensitive">Very sensitive</string>
-    <string name="shake_sensitivity_super_sensitive">Super sensitive</string>
-    <string name="shake_sensitivity_ultra_sensitive">Ultra sensitive</string>
+    <string name="shake_sensitivity_title">Gevoeligheid bij schudden</string>
+    <string name="shake_sensitivity_summary">Algemene gevoeligheid voor schudacties</string>
+    <string name="shake_sensitivity_even_less_sensitive">Zeer ongevoelig</string>
+    <string name="shake_sensitivity_less_sensitive">Minder gevoelig</string>
+    <string name="shake_sensitivity_more_sensitive">Gevoeliger</string>
+    <string name="shake_sensitivity_very_sensitive">Zeer gevoelig</string>
+    <string name="shake_sensitivity_super_sensitive">Super gevoelig</string>
+    <string name="shake_sensitivity_ultra_sensitive">Ultra gevoelig</string>
 
     <!-- Data Usage -->
     <!-- Subtitle of dialog for editing data usage cycle reset date. [CHAR LIMIT=32] -->
-    <string name="data_usage_cycle_editor_subtitle_cm">Date of each cycle:</string>
+    <string name="data_usage_cycle_editor_subtitle_cm">Datum van elke cyclus:</string>
     <!-- Subtitle of dialog for editing data usage cycle length. [CHAR LIMIT=32] -->
-    <string name="data_usage_lengths_spinner_subtitle">Cycle length:</string>
+    <string name="data_usage_lengths_spinner_subtitle">Cycluslengte:</string>
 
     <!--Blacklist-->
-    <string name="blacklist_button_title">Blacklist</string>
-    <string name="peek_blacklist_label">Blacklist from Peek</string>
-    <string name="floating_blacklist_label">Blacklist from Floating Mode</string>
+    <string name="blacklist_button_title">Zwarte lijst</string>
+    <string name="peek_blacklist_label">Zwarte lijst van Peek</string>
+    <string name="floating_blacklist_label">Zwarte lijst van Zwevende Mode</string>
 
     <!-- Protected Apps -->
-    <string name="menu_hidden_apps_delete">Reset</string>
-    <string name="menu_hidden_apps_reset_lock">Reset pattern lock</string>
-    <string name="protected_apps">Protected apps</string>
-    <string name="saving_protected_components">Saving component state</string>
+    <string name="menu_hidden_apps_delete">Opnieuw instellen</string>
+    <string name="menu_hidden_apps_reset_lock">Patroon opnieuw instellen</string>
+    <string name="protected_apps">Beschermde apps</string>
+    <string name="saving_protected_components">Opslaan\u2026</string>
 
     <!-- Protected apps lockpattern reset button -->
-    <string name="lockpattern_reset_button">Reset pattern</string>
-    <string name="lockpattern_settings_reset_summary">Enter primary email account and associated password to reset pattern lock</string>
+    <string name="lockpattern_reset_button">Patroon opnieuw instellen</string>
+    <string name="lockpattern_settings_reset_summary">Voer primair e-mailadres en bijbehorende wachtwoord in om patroon opnieuw in te stellen</string>
     <string name="pa_login_username_hint">gebruikersnaam (email)</string>
     <string name="pa_login_password_hint">Wachtwoord</string>
     <string name="pa_login_submit_button">Inloggen</string>
-    <string name="pa_login_checking_password">Checking account\u2026</string>
-    <string name="pa_login_incorrect_login">Login was incorrect</string>
+    <string name="pa_login_checking_password">Account controleren\u2026</string>
+    <string name="pa_login_incorrect_login">Inloggen mislukt</string>
 
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up</string>
@@ -2346,7 +2346,7 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="heads_up_floating_window_summary">Tapping on the notification will open the app in a floating window</string>
     <string name="heads_up_expanded_title">Always expanded</string>
     <string name="heads_up_expanded_summary">Show heads up notification always expanded</string>
-    <string name="heads_up_show_updates_title">Show updates</string>
+    <string name="heads_up_show_updates_title">Updates weergeven</string>
     <string name="heads_up_show_updates_summary">Show updates from pending background notifications as heads up</string>
     <string name="heads_up_snooze_title">Snooze timer</string>
     <string name="heads_up_snooze_summary">If snooze button is pressed disable heads up for <xliff:g id="number">%d</xliff:g> minutes.</string>
@@ -2405,8 +2405,8 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="sunlight_enhancement_summary">Enhance display brightness and readability under bright sunlight</string>
 
     <!-- Screen color -->
-    <string name="screencolor">Screen color</string>
-    <string name="custom_screencolor">Custom screen color</string>
+    <string name="screencolor">Schermkleur</string>
+    <string name="custom_screencolor">aangepaste schermkleur</string>
     <string name="screencolor_save">Opslaan</string>
     <string name="screencolor_cancel">Annuleren</string>
     <string name="previous_str">Vorige</string>
@@ -2414,11 +2414,11 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="restore_preview">View default picture</string>
     <string name="selectnewfile_menu">View new picture from Gallery</string>
     <string name="selectfile_menu">View picture from Gallery</string>
-    <string name="restore_default_str">Reset</string>
+    <string name="restore_default_str">Opnieuw instellen</string>
     <string name="hue_str">Hue: <xliff:g id="hue_value">%1$s</xliff:g></string>
     <string name="saturation_str">Verzadiging: <xliff:g id="saturation_value">%1$s</xliff:g></string>
     <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
-    <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Intensiteit: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
 
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Kleurverbetering</string>
@@ -2468,9 +2468,9 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="enable_adb_summary_cm">Foutopsporingsmodus bij USB-verbinding (ADB)</string>
 
     <!-- Spam notifications -->
-    <string name="spam_added_title">Added <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g></string>
+    <string name="spam_added_title">Toegevoegd <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g></string>
     <string name="spam_last_blocked_title">Last blocked <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g> (total: <xliff:g id="count" example="2 times">%2$s</xliff:g>)</string>
-    <string name="block_notifications_title">Filter notifications</string>
+    <string name="block_notifications_title">Meldingen filteren</string>
     <string name="block_notifications_summary">Manage ignored notifications and filters</string>
     <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
     <string name="no_filters_title">No filters set. To filter a notification, long press it and choose \'Ignore messages like this\'.</string>
