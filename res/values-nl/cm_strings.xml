@@ -544,4 +544,24 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="app_ops_categories_media">Media</string>
     <string name="app_ops_categories_messaging">Berichten</string>
     <string name="app_ops_categories_personal">Persoonlijk</string>
+    
+    <string name="button_settings">Knoppen</string>
+    
+    <!-- Power key end call -->
+    <string name="hardware_keys_power_key_title">Aan/uit-knop</string>
+    <string name="power_end_call_title">Gesprek beëindigen</string>
+    <string name="power_end_call_summary">De aan/uit-knop zal de huidige oproep beëindigen</string>
+    
+    <!-- Volume keys -->
+    <string name="button_volume_keys_title">Volume knoppen</string>
+    <string name="button_volume_wake_title">Scherm aan</string>
+    <string name="button_volume_wake_summary">Als u op één van de volume knoppen drukt gaat het scherm aan</string>
+    
+    <!-- Swap volume buttons -->
+    <string name="swap_volume_buttons_title">Heroriëntatie</string>
+    <string name="swap_volume_buttons_summary">Wissel de volume knoppen om wanneer het scherm gedraaid is</string>
+    
+    <!-- Volume button music control -->
+    <string name="volbtn_music_controls_title">Afspeel controle</string>
+    <string name="volbtn_music_controls_summary">Wanneer het scherm uit staat, zal het lang indrukken van de volume knoppen de nummers verwisselen</string>
 </resources>
