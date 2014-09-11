@@ -2303,6 +2303,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="menu_hidden_apps_reset_lock">Reset pattern lock</string>
     <string name="protected_apps">Protected apps</string>
     <string name="saving_protected_components">Saving component state</string>
+    <string name="launch_app">Launch app</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Reset pattern</string>
