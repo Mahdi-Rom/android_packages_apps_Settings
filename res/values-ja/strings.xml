@@ -2049,5 +2049,5 @@
     <string name="user_image_choose_photo" msgid="7940990613897477057">"ギャラリーから画像を選ぶ"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
     <string name="enable_quickboot_title">クイックブートを有効にする</string>
-    <string name="enable_quickboot_summary">通常の電源オフの代わりにソフトリブートを使用する</string>
+    <string name="enable_quickboot_summary">通常の電源オフの代わりにクイックブートを使用する</string>
 </resources>
