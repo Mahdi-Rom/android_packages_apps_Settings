@@ -489,7 +489,8 @@ public class Settings extends PreferenceActivity
         BatterySaverSettings.class.getName(),
         ButtonSettings.class.getName(),
         LockscreenInterface.class.getName(),
-        NotificationSettings.class.getName()
+        NotificationSettings.class.getName(),
+        com.android.settings.wifi.WifiApSettings.class.getName()
     };
 
     @Override
@@ -1372,4 +1373,5 @@ public class Settings extends PreferenceActivity
     public static class ShakeEventsSettingsActivity extends Settings { /* empty */ }
     public static class HeadsUpSettingsActivity extends Settings { /* empty */ }
     public static class BatterySaverSettingsActivity extends Settings { /* empty */ }
+    public static class WifiApSettingsActivity extends Settings { /* empty */ }
 }

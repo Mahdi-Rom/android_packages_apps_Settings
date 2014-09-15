@@ -2439,4 +2439,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="nfc_polling_mode_screen_off">Screen off</string>
     <string name="nfc_polling_mode_screen_locked">Screen on, locked</string>
     <string name="nfc_polling_mode_screen_unlocked">Screen on, unlocked (default)</string>
+
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Connected devices</string>
+    <string name="wifi_ap_client_ap_disabled">Hotspot is disabled</string>
+    <string name="wifi_ap_client_none_connected">No devices connected</string>
 </resources>
