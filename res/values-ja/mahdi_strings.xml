@@ -96,7 +96,8 @@
     <!-- Power menu enable disable -->
     <string name="power_menu_title">電源メニュー</string> 
     <string name="power_menu_summary">電源メニューリストを参照または変更する</string>
-    <string name="lockscreen_enable_power_menu_title">ロック画面でも電源メニューを有効</string>
+    <string name="lockscreen_enable_power_menu_title">ロック画面に表示</string>
+    <string name="lockscreen_enable_power_menu_summary">注意:このオプションはセキュアなロック画面上の電源メニューを無効にするだけです</string>
     <string name="power_menu_reboot_title">再起動</string>
     <string name="power_menu_screenshot_title">スクリーンショット</string>
     <string name="power_menu_screenrecord_title">画面の録画</string>
@@ -371,7 +372,7 @@
     <string name="headset_category_title">ヘッドセット</string>
 
     <!-- Headset plug -->
-    <string name="headset_plug_title">ヘッドセット接続オプション</string>
+    <string name="headset_plug_title">ヘッドセットオプション</string>
     <string name="headset_plug_enable_title">接続時のショートカット</string>
     <string name="headset_plug_positive_title">無効</string>
     <string name="headset_plug_neutral_title">デフォルト</string>
@@ -654,6 +655,10 @@
     <!-- QuickSettings smaller tiles -->
     <string name="title_qs_small_icons">小さいタイルを使用</string>
     <string name="summary_qs_small_icons">行数を増加させるために小さなタイルを使用する</string>
+    
+    <!-- QuickSettings add tile button -->
+    <string name="qs_add_tiles_title">タイル編集ボタンを表示</string>
+    <string name="qs_add_tiles_summary">ステータスバーのヘッダ内にタイル編集ボタンを表示する</string>
 
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
@@ -1410,6 +1415,18 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">左側に表示</string>
     <string name="recent_panel_lefty_mode_summary">アプリ履歴を画面の左側に表示する</string>
+    
+    <!-- App circle sidebar -->
+   <string name="app_circle_bar_title">サークルランチャー</string>
+   <string name="app_circle_sidebar_summary">サイドバーからアプリを素早く起動して1画面に複数のアプリを開く</string>
+   <string name="app_circle_bar_included_apps_title">表示するアプリ</string>
+   <string name="app_circle_bar_included_apps_summary">サークルランチャーに表示するアプリの選択</string>
+   <string name="trigger_width_title">トリガーの幅</string>
+   <string name="trigger_width_summary">トリガーの幅を調整する</string>
+   <string name="trigger_top_title">トリガーの位置</string>
+   <string name="trigger_top_summary">トリガーの位置を調整する</string>
+   <string name="trigger_bottom_title">トリガーの高さ</string>
+   <string name="trigger_bottom_summary">トリガーの高さを調整する</string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">警告</string>
@@ -1797,8 +1814,8 @@
     <string name="battery_saver_action_undefined">未定義</string>
     <string name="battery_saver_title">省電力モード</string>
     <string name="battery_saver_summary">モバイルデータおよびWi-Fi接続のための省電力モードを選択する</string>
-    <string name="pref_battery_saver_enable_title">省電力モード</string>
-    <string name="pref_battery_saver_enable_summary">自動的にデバイスのバッテリーの使用状況を管理してモバイルデータとWi-Fi接続の状態に応じてユーザー定義の省電力モードまたは通常モードにネットワークを切り替えます</string>
+    <string name="pref_battery_saver_enable_title">有効にする</string>
+    <string name="pref_battery_saver_enable_summary">省電力モードは接続の状態に応じてユーザー定義の省電力モードまたは通常モードにネットワークを切り替えます</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">自動的ににデバイスのバッテリーの使用状況を管理するユーザー定義</string>
     <string name="pref_battery_saver_normal_mode_title">通常ネットワークモード</string>
     <string name="pref_battery_saver_power_saving_mode_title">省電力ネットワークモード</string>
@@ -1926,10 +1943,6 @@
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">明るさスライダー</string>
     <string name="brightness_slider_summary">通知ドロワーに明るさスライダーを表示する</string>
-
-    <!-- Voice+ -->
-    <string name="voice_plus_title">ボイス+</string>
-    <string name="voice_plus_summary">Googleボイスを介してSMSメッセージを送信するためにすべてのアプリケーションを有効にする</string>
 
     <!-- Driving mode -->
     <!-- require add space in the end of string -->
