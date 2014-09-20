@@ -97,6 +97,7 @@ limitations under the License.
     <string name="power_menu_title">Ein/Aus-Taste</string>
     <string name="power_menu_summary">Konfiguration des Ein/Aus-Tastenmenüs</string>
     <string name="lockscreen_enable_power_menu_title">Ein/Aus-Tastenmenü im Sperrbildschirm aktivieren</string>
+    <string name="lockscreen_enable_power_menu_summary">Diese Option deaktiviert das Ein/Aus-Tastenmenü nur bei sicherer Display-Sperre</string>
     <string name="power_menu_reboot_title">Neustartmenü</string>
     <string name="power_menu_screenshot_title">Bildschirmfoto</string>
     <string name="power_menu_screenrecord_title">Bildschirmrekorder</string>
@@ -105,6 +106,10 @@ limitations under the License.
     <string name="power_menu_silent_title">Lautlos</string>
     <string name="power_menu_expanded_desktop">Erweiterter Desktop</string>
     <string name="power_menu_mobile_data">Mobile Datenverbindung</string>
+    
+    <string name="hardware_keys_power_key_title">Ein/Aus-Taste</string>
+    <string name="power_end_call_title">Anruf beenden</string>
+    <string name="power_end_call_summary">Drücken der Ein/Aus-Taste beendet den aktuellen Anruf</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Erweitertes Neustartmenü</string>
@@ -251,6 +256,7 @@ limitations under the License.
     <string name="ring_mode_mute">Lautlos</string>
 
     <!-- button settings -->
+    <string name="button_settings">Tasten</string>
     <string name="button_volume_keys_title">Lautstärke-Taste</string>
     <string name="button_volume_wake_title">Aufwecken mit der Lautstärke-Taste</string>
     <string name="button_volume_wake_summary">Drücken der Lautstärke-Taste aktiviert den Bildschirm</string>
@@ -294,6 +300,7 @@ limitations under the License.
 
     <!-- Performance settings -->
     <string name="performance_settings">Leistungsoptionen</string>
+    <string name="performance_settings_title">Leistung</string>
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">Bitte Vorsicht</string>
@@ -667,6 +674,10 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <!-- QuickSettings smaller tiles -->
     <string name="title_qs_small_icons">Kleinere Kacheln anzeigen</string>
     <string name="summary_qs_small_icons">Anzeige kleinerer Kacheln um die Anzahl der Spalten zu erhöhen</string>
+    
+    <!-- QuickSettings add tile button -->
+    <string name="qs_add_tiles_title">Bearbeitungskachel</string>
+    <string name="qs_add_tiles_summary">Zeigt eine Bearbeitungskachel in der Kopfzeile der Benachrichtigung um die Kacheln schnell anzuordnen</string>
 
     <!-- This exists as part of Power widget already, re-use them
 If Power widget is removed, re-enable these -->
@@ -1111,6 +1122,9 @@ If Power widget is removed, re-enable these -->
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Automatisch verbergen</string>
+    <string name="network_traffic_autohide_summary">Blendet den Traffic-Monitor aus wenn kein Aktivität vorhanden ist</string>
+    <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
 
     <!-- Status Bar Activity Indicators -->
     <string name="show_activity_indicators_on_status_bar_title">Netzwerkaktivität</string>
@@ -1280,6 +1294,17 @@ If Power widget is removed, re-enable these -->
 
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Einschaltoptionen</string>
+    
+        <!-- Proximity wake -->
+    <string name="proximity_wake_title">Verhindere versehentliches Einschalten</string>
+    <string name="proximity_wake_summary">Überprüft den Näherungssensor vor dem Einschalten</string>
+    
+        <!-- Touch control -->
+    <string name="touch_control_settings_title">Erweitert</string>
+    <string name="touch_control_settings_summary">Erweiterte Option zum Einschalten des Bildschirms durch doppeltes tippen und mehr</string>
+
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Doppeltes Tippen zum Einschalten</string>
 
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">Einschalten beim Laden</string>
@@ -1318,6 +1343,8 @@ If Power widget is removed, re-enable these -->
     <string name="recent_clear_all_button_location_top_right">Oben Rechts</string>
     <string name="recent_clear_all_button_location_bottom_left">Unten Links</string>
     <string name="recent_clear_all_button_location_bottom_right">Unten Rechts</string>
+    <string name="recent_clear_all_apps_title">Alle Anwendungen beenden</string>
+    <string name="recent_clear_all_apps_summary">Beende alle Anwendungen einschließlich dem Aktuellen</string>
 
     <!-- New Recents Screen -->
     <string name="new_recents_category">Alternativer Anwendungsverlauf</string>
@@ -1335,10 +1362,23 @@ If Power widget is removed, re-enable these -->
     <string name="recent_panel_expanded_mode_never">Verkleinert</string>
     <string name="recent_panel_show_topmost_title">Aktuellen Task anzeigen</string>
     <string name="recent_panel_show_topmost_summary">Aktuellen Task nicht aus Anwendungsverlauf ausschließen</string>
+    <string name="recent_panel_bg_color_title">Hintergrundfarbe</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Am linken Bildschirmrand anzeigen</string>
     <string name="recent_panel_lefty_mode_summary">Den Anwendungsverlauf links statt rechts anzeigen</string>
+    
+        <!-- App circle sidebar -->
+    <string name="app_circle_bar_title">Anwendungskreis</string>
+    <string name="app_circle_sidebar_summary">Startet Anwendungen von einer Seitenleiste wodurch Multitasking vereinfacht möglich ist</string>
+    <string name="app_circle_bar_included_apps_title">Hinzugefügte Anwendungen</string>
+    <string name="app_circle_bar_included_apps_summary">Anwendungen welche in der Seitenleiste angezeigt werden</string>
+    <string name="trigger_width_title">Trigger-Breite</string>
+    <string name="trigger_width_summary">Anpassen der der Breite</string></string>
+    <string name="trigger_top_title">Trigger-Position</string>
+    <string name="trigger_top_summary">Anpassen der Position</string>
+    <string name="trigger_bottom_title">Trigger-Höhe</string>
+    <string name="trigger_bottom_summary">Anpassen der Höhe</string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Achtung!</string>
@@ -2100,6 +2140,7 @@ multiple font sizes in a limited amount of space. -->
 
     <!-- Headset plug -->
     <string name="headset_settings">Kopfhörer</string>
+    <string name="headset_plug_title">Kopfhöreroptionen</string>
     <string name="headset_plug_enable_title">Beim Einstecken</string>
     <string name="headset_plug_positive_title">Deaktiviert</string>
     <string name="headset_plug_neutral_title">Standard</string>
