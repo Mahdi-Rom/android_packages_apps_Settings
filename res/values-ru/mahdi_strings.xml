@@ -96,7 +96,8 @@
     <!-- Power menu enable disable -->
     <string name="power_menu_title">Меню кнопки питания</string> 
     <string name="power_menu_summary">Посмотреть или изменить меню кнопки питания</string>
-    <string name="lockscreen_enable_power_menu_title">Меню кнопки питания на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_title">Показывать на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_summary">Примечание: данная опция позволяет отключить меню кнопки питания только на защищённом экране блокировки</string>
     <string name="power_menu_reboot_title">Перезагрузка</string>
     <string name="power_menu_screenshot_title">Снимок экрана</string>
     <string name="power_menu_screenrecord_title">Запись с экрана</string>
@@ -611,8 +612,6 @@
 
     <!-- QuickSettings style options -->
     <string name="quick_settings_title">Быстрые настройки</string>
-    <string name="title_qs_small_icons">Маленькие плитки</string>
-    <string name="summary_qs_small_icons">Использовать плитки меньшего размера для увеличения количества столбцов</string>
     <string name="summary_quicksettings_tiles_style">Просмотреть/изменить установки стиля быстрых настроек</string>
     <string name="quick_tiles_color_title">Включить пользовательские цвета</string>
     <string name="quick_tiles_color_summary">Пользовательские цвета заменят цвета тем</string>
@@ -629,6 +628,14 @@
     <!-- QuickSettings haptic feedback -->
     <string name="haptic_qs_tiles_title">Вибрация при нажатии</string>
     <string name="haptic_qs_tiles_summary">Вибрация при нажатии плитки</string>
+    
+     <!-- QuickSettings smaller tiles -->
+    <string name="title_qs_small_icons">Маленькие плитки</string>
+    <string name="summary_qs_small_icons">Использовать плитки меньшего размера для увеличения количества столбцов</string>
+    
+    <!-- QuickSettings add tile button -->
+    <string name="qs_add_tiles_title">Кнопка редактирования плиток</string>
+    <string name="qs_add_tiles_summary">Показывать кнопку редактирования в верхней части панели уведомлений для быстрого доступа выбору плиток</string>
 
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
@@ -1413,6 +1420,18 @@
     <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
     <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений у левого края.</string>
 
+    <!-- App circle sidebar -->
+    <string name="app_circle_bar_title">Круговая панель приложений</string>
+    <string name="app_circle_bar_enable_summary">Быстрый запуск приложений с круговой панели, а также удобная работа с нескольким приложениями на одном экране для многозадачности</string>
+    <string name="app_circle_bar_included_apps_title">Включенные приложения</string>
+    <string name="app_circle_bar_included_apps_summary">Приложения, которые отображаются в круговой панели</string>
+    <string name="trigger_width_title">Ширина переключателя</string>
+    <string name="trigger_width_summary">Установите ширину переключателя</string>
+    <string name="trigger_top_title">Положение переключателя</string>
+    <string name="trigger_top_summary">Установите положение переключателя</string>
+    <string name="trigger_bottom_title">Высота переключателя</string>
+    <string name="trigger_bottom_summary">Установите высоту переключателя</string>  
+
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Внимание</string>
     <string name="custom_runtime_warning_message">ART не поддерживается Mahdi-Rom. Эта опция является экспериментальной и может повлечь нестабильную работу, ошибки, потерю данных или даже препятствовать загрузке устройства. Посетите страницу «&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Введение в ART&lt;/a&gt;» (на английском языке) для получения подробных сведений.&lt;br/&gt;&lt;br/&gt;Мы просим не присылать баг-репорты, если вы выбрали ART в качестве среды выполнения системы.&lt;br/&gt;&lt;br/&gt;Вы действительно хотите перезагрузить устройство и переключить среду выполнения с «<xliff:g id="old" example="libdvm.so">%1$s</xliff:g>» на «<xliff:g id="new" example="libart.so">%2$s</xliff:g>»?</string>
@@ -1795,8 +1814,8 @@
     <string name="battery_saver_action_undefined">Не определено</string>
     <string name="battery_saver_title">Режим \"Энергосбережения\"</string>
     <string name="battery_saver_summary">Выберите энергосберегающие режимы для передачи данных и Wi-Fi соединений</string>
-    <string name="pref_battery_saver_enable_title">Экономия батареи</string>
-    <string name="pref_battery_saver_enable_summary">Эта настройка будет автоматически управлять вашими соединениями для лучшего энергосбережения</string>
+    <string name="pref_battery_saver_enable_title">Включить</string>
+    <string name="pref_battery_saver_enable_summary">Режим \"Энергосбережения\" будет автоматически управлять вашими соединениями для лучшего энергосбережения</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">Эта настройка будет автоматически управлять потреблением заряда по пользовательским установкам</string>
     <string name="pref_battery_saver_normal_mode_title">Нормальный режим сети</string>
     <string name="pref_battery_saver_power_saving_mode_title">Энергосберегающий режим сети</string>
