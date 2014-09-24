@@ -77,21 +77,21 @@
         android:key="pa_pie_menu"
         android:title="@string/pa_pie_menu_title"
         android:summary="@string/pa_pie_menu_summary"
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:dependency="pa_pie_controls" />
 
     <com.android.settings.mahdi.SystemSettingCheckBoxPreference
-        android:key="pa_pie_search"
-        android:title="@string/pa_pie_search_title"
-        android:summary="@string/pa_pie_search_summary"
-        android:defaultValue="false"
+        android:key="pa_pie_power"
+        android:title="@string/pa_pie_power_title"
+        android:summary="@string/pa_pie_power_summary"
+        android:defaultValue="true"
         android:dependency="pa_pie_controls" />
 
     <com.android.settings.mahdi.SystemSettingCheckBoxPreference
         android:key="pa_pie_stick"
         android:title="@string/pa_pie_stick_title"
         android:summary="@string/pa_pie_stick_summary"
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:dependency="pa_pie_controls" />
 
     <com.android.settings.mahdi.SystemSettingCheckBoxPreference
