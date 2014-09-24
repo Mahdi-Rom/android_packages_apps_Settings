@@ -810,7 +810,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="button_settings">Buttons</string>
 
     <!-- Hardware keys -->
-    <string name="button_keys_title">Hardware Buttons</string>
+    <string name="button_keys_title">Hardware buttons</string>
     <string name="button_keys_summary">View or change hardware key actions</string>
     <string name="disable_hw_title">Disable hardware buttons</string>
     <string name="disable_hw_summary">Disabling hardware keys will enable the on-screen navigation bar</string>
@@ -2068,7 +2068,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="time_five_to">Five till</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Pie navigation</string>
+    <string name="pie_control_title">Slim pie</string>
     <string name="pie_control_enable_title">Enable</string>
     <string name="pie_control_summary">Enable pie controls to help navigate while using immersive mode</string>
     <string name="pie_control_size">Navigation size</string>
@@ -2121,6 +2121,69 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="pie_slice_gap_medium">Medium</string>
     <string name="pie_slice_gap_large">Large</string>
     <string name="pie_colors_title">Colors</string>
+
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PA pie</string>
+    <string name="pa_pie_controls">Enable</string>
+    <string name="pa_pie_expanded_only_title">Only in expanded desktop</string>
+    <string name="pa_pie_expanded_only_summary">Only allow pie to work when Expanded Desktop is on</string>
+    <string name="pa_pie_gravity_title">Gravity</string>
+    <string name="pa_pie_gravity_top">Top</string>
+    <string name="pa_pie_gravity_bottom">Bottom</string>
+    <string name="pa_pie_gravity_right">Right</string>
+    <string name="pa_pie_gravity_left">Left</string>
+    <string name="pa_pie_mode_title">Style</string>
+    <string name="pa_pie_mode_bare">Bare</string>
+    <string name="pa_pie_mode_quick">Quick</string>
+    <string name="pa_pie_mode_default">Default</string>
+    <string name="pa_pie_mode_slow">Slow</string>
+    <string name="pa_pie_size_title">Size</string>
+    <string name="pa_pie_size_small">Small</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Large</string>
+    <string name="pa_pie_size_gigantic">Gigantic</string>
+    <string name="pa_pie_size_monster">Monster</string>
+    <string name="pa_pie_color_title">Color settings</string>
+    <string name="pa_pie_color_style_title">Color style</string>
+    <string name="pa_pie_background_title">Background color</string>
+    <string name="pa_pie_select_title">Selection color</string>
+    <string name="pa_pie_outlines_title">Outlines color</string>
+    <string name="pa_pie_status_clock_title">Clock color</string>
+    <string name="pa_pie_status_title">Status color</string>
+    <string name="pa_pie_chevron_left_title">Left chevron color</string>
+    <string name="pa_pie_chevron_right_title">Right chevron color</string>
+    <string name="pa_pie_juice_title">Battery juice color</string>
+    <string name="pa_pie_button_color">Button color</string>
+    <string name="pa_pie_button_color_title">Buttons color</string>
+    <string name="pa_pie_gap_title">Item gap</string>
+    <string name="pa_pie_angle_title">Angle</string>
+    <string name="pa_pie_angle_none">None (old)</string>
+    <string name="pa_pie_angle_small">Small</string>
+    <string name="pa_pie_angle_big">Normal (default)</string>
+    <string name="pa_pie_angle_huge">Big</string>
+    <string name="pa_pie_angle_super">Huge</string>
+    <string name="pa_pie_gap_none">None</string>
+    <string name="pa_pie_gap_small">Small</string>
+    <string name="pa_pie_gap_big">Big (default)</string>
+    <string name="pa_pie_gap_huge">Huge</string>
+    <string name="pa_pie_center_title">Middle alignment</string>
+    <string name="pa_pie_center_summary">Center pie on the trigger edge</string>
+    <string name="pa_pie_stick_title">Prevent rotation</string>
+    <string name="pa_pie_stick_summary">Avoids orientation change when screen rotates</string>
+    <string name="pa_pie_search_title">Search button</string>
+    <string name="pa_pie_search_summary">Enable search button on pie controls</string>
+    <string name="pa_pie_trigger_title">Trigger area</string>
+    <string name="pa_pie_trigger_none">None (disabled)</string>
+    <string name="pa_pie_trigger_small">@string/pa_pie_size_small</string>
+    <string name="pa_pie_trigger_normal">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_trigger_big">@string/pa_pie_gap_big</string>
+    <string name="pa_pie_trigger_huge">Huge</string>
+    <string name="pa_pie_notifications_title">Enable Chevron Targets</string>
+    <string name="pa_pie_notifications_summary">Enabling this will let the Notification panel and QuickSettings tiles become available when swiping</string>
+    <string name="pa_pie_menu_title">Always show menu button</string>
+    <string name="pa_pie_menu_summary">Whether or not the menu button should always be shown, even when its not needed</string>
+    <string name="pa_pie_restart_launcher_title">Restart Launcher</string>
+    <string name="pa_pie_restart_launcher_summary">Changing screensize can have adverse effects. This option allows your launcher to regain sanity, the cost is a slight blackout (recommended)</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">Actions</string>
