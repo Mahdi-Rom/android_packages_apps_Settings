@@ -2387,6 +2387,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="color_enhancement_title">Color enhancement</string>
     <string name="color_enhancement_summary">Dynamically enhance the color of the display</string>
 
+    <!-- SAR information -->
+    <string name="sar_info">Maximum SAR</string>
+    <string name="maximum_head_level">Head: %1$s W/kg</string>
+    <string name="maximum_body_level">Body: %1$s W/kg</string>
+
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Backlight</string>
     <string name="button_backlight_enabled">Illuminate buttons</string>
