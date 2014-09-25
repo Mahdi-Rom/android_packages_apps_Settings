@@ -23,6 +23,12 @@
         android:title="@string/title_general">
 
         <com.android.settings.mahdi.SystemSettingCheckBoxPreference
+            android:key="status_bar_carrier"
+            android:title="@string/statusbar_miui_carrier_title"
+            android:summary="@string/statusbar_miui_carrier_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.mahdi.SystemSettingCheckBoxPreference
             android:key="status_bar_notif_count"
             android:title="@string/notification_count_title"
             android:summary="@string/notification_count_summary" />

@@ -35,15 +35,16 @@ import android.util.Log;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.mahdi.SystemSettingCheckBoxPreference;
 import com.android.settings.mahdi.chameleonos.SeekBarPreference;
-
-import com.android.internal.util.mahdi.DeviceUtils;
+import com.android.settings.Utils;
 
 public class StatusBar extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String TAG = "StatusBar";
 
     private static final String KEY_STATUS_BAR = "status_bar";
+    private static final String STATUSBAR_CARRIER = "status_bar_carrier";
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
     private static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
     private static final String NETWORK_TRAFFIC_UNIT = "network_traffic_unit";
@@ -51,6 +52,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
+    private SystemSettingCheckBoxPreference mStatusbarCarrier;
     private CheckBoxPreference mStatusBarBrightnessControl;
     private ListPreference mNetTrafficState;
     private ListPreference mNetTrafficUnit;
@@ -74,6 +76,11 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
 
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+
+        mStatusbarCarrier = (SystemSettingCheckBoxPreference) findPreference(STATUSBAR_CARRIER);
+        if (Utils.isWifiOnly(getActivity())) {
+            prefSet.removePreference(mStatusbarCarrier);
+        }
 
         // Start observing for changes on auto brightness
         StatusBarBrightnessChangedObserver statusBarBrightnessChangedObserver =
