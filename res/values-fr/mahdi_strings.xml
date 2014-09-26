@@ -866,9 +866,9 @@
     <!-- Low battery warning policy -->
     <string name="pref_low_battery_warning_policy_title">Avertissement de batterie faible</string>
     <string name="pref_low_battery_warning_policy_dialog_title">Indiquer l\'avertissement de batterie faible avec</string>
-    <string name="low_battery_warning_policy_popup_sound">Pop-up et son</string>
+    <string name="low_battery_warning_policy_popup_sound">Fenêtre contextuelle et son</string>
     <string name="low_battery_warning_policy_notif_sound">Notification et son</string>
-    <string name="low_battery_warning_policy_popup">Pop-up de dialogue uniquement</string>
+    <string name="low_battery_warning_policy_popup">Fenêtre contextuelle de dialogue uniquement</string>
     <string name="low_battery_warning_policy_notif">Notification uniquement</string>
     <string name="low_battery_warning_policy_sound">Son seulement</string>
     <string name="battery_prefs_title">Options</string>
@@ -894,22 +894,22 @@
 
     <!-- Button shorcut actions -->
     <string name="shortcut_action_keyguard_camera">Keyguard camera</string>
-    <string name="shortcut_action_navbar">Navigation bar</string>
-    <string name="shortcut_action_pie">Pie controls</string>
-    <string name="shortcut_action_app">Custom app</string>
-    <string name="shortcut_action_home">Home</string>
-    <string name="shortcut_action_back">Back</string>
-    <string name="shortcut_action_recent">Recents</string>
-    <string name="shortcut_action_lastapp">Last app</string>
-    <string name="shortcut_action_assist">Search</string>
-    <string name="shortcut_action_search">Search in app</string>
-    <string name="shortcut_action_voice_search">Voice search</string>
-    <string name="shortcut_action_screenshot">Screenshot</string>
+    <string name="shortcut_action_navbar">Barre de navigation</string>
+    <string name="shortcut_action_pie">Contrôles Pie</string>
+    <string name="shortcut_action_app">Application personnalisée</string>
+    <string name="shortcut_action_home">Bureau</string>
+    <string name="shortcut_action_back">Retour</string>
+    <string name="shortcut_action_recent">Récents</string>
+    <string name="shortcut_action_lastapp">Dernière application</string>
+    <string name="shortcut_action_assist">Rechercher</string>
+    <string name="shortcut_action_search">Rechercher dans l\'application</string>
+    <string name="shortcut_action_voice_search">Recherche vocal</string>
+    <string name="shortcut_action_screenshot">Capture d\'écran</string>
     <string name="shortcut_action_menu">Menu</string>
-    <string name="shortcut_action_ime">Open IME Switcher</string>
-    <string name="shortcut_action_immersive_mode">Immersive mode</string>
-    <string name="shortcut_action_kill">Kill app</string>
-    <string name="shortcut_action_power">Screen Off</string>
+    <string name="shortcut_action_ime">Ouvrir le sélécteur de clavier</string>
+    <string name="shortcut_action_immersive_mode">Mode immersif</string>
+    <string name="shortcut_action_kill">Tuer l\'apllication</string>
+    <string name="shortcut_action_power">Eteindre l\'écran</string>
     <string name="shortcut_action_notifications">Notifications</string>
     <string name="shortcut_action_menu_big">Menu</string>
     <string name="shortcut_action_qs">Quicksettings panel</string>
