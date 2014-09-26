@@ -60,8 +60,8 @@
     <string name="notification_light_add">Ajouter</string>
 
     <!-- Screen-On Notification Light -->
-    <string name="screen_on_notification_led_title">Screen-on notification light</string>
-    <string name="screen_on_notification_led_summary">Enable notification light even when screen is on</string>
+    <string name="screen_on_notification_led_title">Notification lumineuse écran allumé</string>
+    <string name="screen_on_notification_led_summary">Activer la notification lumineuse même lorsque l\'écran est allumé</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Modifier les paramètres du voyant</string>
@@ -96,7 +96,7 @@
     <!-- Power menu enable disable -->
     <string name="power_menu_title">Menu marche/arrêt</string> 
     <string name="power_menu_summary">Changer la liste du Menu marche/arrêt</string>
-    <string name="lockscreen_enable_power_menu_title">Activé le menu général au lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Activé le menu général sur l\'écran de verrouillage</string>
     <string name="power_menu_reboot_title">Redémarrer</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
     <string name="power_menu_screenrecord_title">Enregistreur d\'écran</string>
@@ -255,7 +255,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Afficher les infos du CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">Ecran superposé montrant les informations CPU actuelle</string>
 
     <string name="app_security_title">Sécurité des applications</string>
 
@@ -370,22 +370,22 @@
     <string name="headset_category_title">Casque</string>
 
     <!-- Headset plug -->
-    <string name="headset_plug_title">Headset plug options</string>
-    <string name="headset_plug_enable_title">Insert shortcut</string>
-    <string name="headset_plug_positive_title">Disabled</string>
-    <string name="headset_plug_neutral_title">Default</string>
-    <string name="headset_plug_neutral_summary">System default music app</string>
-    <string name="headset_plug_music_active_title">Disable on active audio</string>
-    <string name="headset_plug_music_active_summary">Dont run shortcut on active audio playback</string>
-    <string name="headset_plug_app_running_title">Action on running shortcut</string>
-    <string name="headset_plug_app_running_nothing">None</string>
-    <string name="headset_plug_app_running_front">Move to front</string>
-    <string name="headset_plug_actions_title">Action on remove</string>
-    <string name="headset_plug_actions_disabled">None</string>
-    <string name="headset_plug_actions_front">Move to front</string>
-    <string name="headset_plug_actions_kill">Kill app</string>
-    <string name="headset_plug_force_actions_title">Force remove action</string>
-    <string name="headset_plug_force_actions_summary">Run remove action also if shortcut was already running</string>
+    <string name="headset_plug_title">Option casque branché</string>
+    <string name="headset_plug_enable_title">Insérer un raccourcis</string>
+    <string name="headset_plug_positive_title">Désactivé</string>
+    <string name="headset_plug_neutral_title">Par défaut</string>
+    <string name="headset_plug_neutral_summary">Application de musique du système par défaut</string>
+    <string name="headset_plug_music_active_title">Désactiver pendant la lecture audio</string>
+    <string name="headset_plug_music_active_summary">Ne pas faire fonctionner le raccourcis pendant la lecture audio</string>
+    <string name="headset_plug_app_running_title">Action du raccourcis en cours d\'execution</string>
+    <string name="headset_plug_app_running_nothing">Aucune</string>
+    <string name="headset_plug_app_running_front">Déplacer au premier plan</string>
+    <string name="headset_plug_actions_title">Action de la suppressionr</string>
+    <string name="headset_plug_actions_disabled">Aucune</string>
+    <string name="headset_plug_actions_front">Déplacer au premier plan</string>
+    <string name="headset_plug_actions_kill">Tuer l\'application</string>
+    <string name="headset_plug_force_actions_title">Forcer l\'action de suppression</string>
+    <string name="headset_plug_force_actions_summary">Executer l\'action de suppression même si le raccourci est déjà en cours d\'exécution</string>
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Luminosité automatique</string>
@@ -425,10 +425,10 @@
     <string name="screen_security_title">Écran de verrouillage</string>
     <string name="screen_security_summary">Afficher ou modifier les paramètres de sécurité de l\'écran de verrouillage</string>
     <string name="lock_screen_title">Écran de verrouillage</string>
-    <string name="lock_screen_summary">Change the way your lock screen looks, add shortcuts and adjust widget options</string>
-    <string name="additional_options_title">Additional options</string>
-    <string name="lock_before_unlock_title">Show slider before secure unlock</string>
-    <string name="lock_before_unlock_summary">Show slider lock screen before secure unlock mechanism</string>
+    <string name="lock_screen_summary">Changer le style de votre écran de verrouillage, ajouter des raccourcis et ajouter les options des widget</string>
+    <string name="additional_options_title">Options supplémentaires</string>
+    <string name="lock_before_unlock_title">Afficher le glisser avant le déverrouillage sécurisé </string>
+    <string name="lock_before_unlock_summary">Afficher le glisser de verrouillage avant de dispositif de déverrouillage sécurisé</string>
 
     <!-- Shake to secure -->
     <string name="shake_to_secure_title">Secouer le lockscreen pour activer la sécurité</string>
@@ -465,40 +465,40 @@
     <string name="lockpattern_settings_enable_dots_title">Afficher les points</string>
 
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
 
     <!-- Lock Gesture settings -->
-    <string name="lockgesture_change_lock_pattern_label">Change unlock gesture</string>
-    <string name="lockgesture_change_lock_pin_label">Change unlock PIN</string>
-    <string name="lockgesture_need_to_unlock">Confirm saved gesture</string>
-    <string name="lockgesture_need_to_unlock_wrong">Try again:</string>
-    <string name="lockgesture_recording_intro_header">Draw an unlock gesture:</string>
-    <string name="lockgesture_recording_intro_footer">Press Menu for help.</string>
-    <string name="lockgesture_recording_inprogress">Release finger when done.</string>
-    <string name="lockgesture_pattern_entered_header">Gesture recorded.</string>
-    <string name="lockgesture_need_to_confirm">Draw gesture again to confirm:</string>
-    <string name="lockgesture_pattern_confirmed_header">Your new unlock gesture:</string>
-    <string name="lockgesture_confirm_button_text">Confirm</string>
-    <string name="lockgesture_restart_button_text">Redraw</string>
-    <string name="lockgesture_retry_button_text">Retry</string>
-    <string name="lockgesture_continue_button_text">Continue</string>
-    <string name="lockgesture_settings_title">Unlock gesture</string>
-    <string name="lockgesture_settings_enable_title">Require gesture</string>
-    <string name="lockgesture_settings_enable_summary">Must draw gesture to unlock screen</string>
-    <string name="lockgesture_settings_enable_visible_pattern_title">Make gesture visible</string>
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">Power button instantly locks</string>
-    <string name="lockgesture_settings_choose_lock_pattern">Set unlock gesture</string>
-    <string name="lockgesture_settings_change_lock_pattern">Change unlock gesture</string>
-    <string name="lockgesture_settings_help_how_to_record">How to draw an unlock gesture</string>
-    <string name="lockgesture_too_many_failed_confirmation_attempts_header">Too many incorrect attempts!</string>
-    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
-    <string name="lockpassword_gesture_set_toast">Gesture has been set</string>
-    <string name="lockpassword_confirm_your_gesture_header">Confirm your gesture</string>
-    <string name="lockpassword_choose_your_gesture_header">Draw your gesture</string>
-    <string name="unlock_set_unlock_gesture_title">Gesture</string>
-    <string name="unlock_set_unlock_gesture_summary">Low security, experimental</string>
-    <string name="unlock_set_unlock_mode_gesture">Gesture</string>
+    <string name="lockgesture_change_lock_pattern_label">Changement du geste de déblocage</string>
+    <string name="lockgesture_change_lock_pin_label">Modifier le code PIN</string>
+    <string name="lockgesture_need_to_unlock">Confirmer le geste enregistré</string>
+    <string name="lockgesture_need_to_unlock_wrong">Réessayer :</string>
+    <string name="lockgesture_recording_intro_header">Dessiner un geste de déverrouillage :</string>
+    <string name="lockgesture_recording_intro_footer">Appuyer sur Menu pour obtenir de l\'aide.</string>
+    <string name="lockgesture_recording_inprogress">Relâcher le doigt lorsque terminé.</string>
+    <string name="lockgesture_pattern_entered_header">Geste enregistré.</string>
+    <string name="lockgesture_need_to_confirm">Dessiner le geste pour confirmer :</string>
+    <string name="lockgesture_pattern_confirmed_header">Votre nouveau geste de déverrouillage :</string>
+    <string name="lockgesture_confirm_button_text">Confirmer</string>
+    <string name="lockgesture_restart_button_text">Redessiner</string>
+    <string name="lockgesture_retry_button_text">Réessayer</string>
+    <string name="lockgesture_continue_button_text">Continuer</string>
+    <string name="lockgesture_settings_title">Geste de déverrouillage</string>
+    <string name="lockgesture_settings_enable_title">Geste requis</string>
+    <string name="lockgesture_settings_enable_summary">Obligation de geste pour déverrouiller</string>
+    <string name="lockgesture_settings_enable_visible_pattern_title">Montrer le geste</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">Bouton Marche/Arrêt verrouille instantanément</string>
+    <string name="lockgesture_settings_choose_lock_pattern">Paramétrer un geste de déverrouillage</string>
+    <string name="lockgesture_settings_change_lock_pattern">Changement du geste de déblocage</string>
+    <string name="lockgesture_settings_help_how_to_record">Comment dessiner un geste de déverrouillage</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_header">Trop de tentatives incorrectes !</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Réessayer dans <xliff:g id="number">%d</xliff:g> secondes.</string>
+    <string name="lockpassword_gesture_set_toast">Le geste a été défini</string>
+    <string name="lockpassword_confirm_your_gesture_header">Confirmer votre geste</string>
+    <string name="lockpassword_choose_your_gesture_header">Dessiner votre geste</string>
+    <string name="unlock_set_unlock_gesture_title">Geste</string>
+    <string name="unlock_set_unlock_gesture_summary">Sécurité faible, expérimental</string>
+    <string name="unlock_set_unlock_mode_gesture">Geste</string>
     <!-- Do not translate. -->
     <string name="lockgesture_need_to_unlock_footer" />    
     <!-- Do not translate. -->
@@ -518,7 +518,7 @@
     <string name="title_tile_brightness">Luminosité</string>
     <string name="title_tile_camera">Appareil photo</string>
     <string name="title_tile_compass">Boussole</string>
-    <string name="title_tile_power">Power</string>
+    <string name="title_tile_power">Alimentation</string>
     <string name="title_tile_location">Location</string>
     <string name="title_tile_torch">Lampe</string>
     <string name="title_tile_lockscreen">Verrouillage écran</string>
@@ -538,14 +538,14 @@
     <string name="title_tile_screen_timeout">Extinction écran</string>
     <string name="title_tile_quiet_hours">Heures silencieuses</string>
     <string name="title_tile_volume">Volume</string>
-    <string name="title_tile_immersive_mode">Immersive mode</string>
-    <string name="title_tile_network_adb">ADB réseau</string>
-    <string name="title_tile_navbar">Navigation Bar</string>
-    <string name="title_tile_network_traffic">Network traffic</string>
-    <string name="title_tile_music">Music</string>
-    <string name="title_tile_quick_record">Quick Record</string>
+    <string name="title_tile_immersive_mode">Mode immersif</string>
+    <string name="title_tile_network_adb">Réseau ADB</string>
+    <string name="title_tile_navbar">Barre de navigation</string>
+    <string name="title_tile_network_traffic">Trafic réseau</string>
+    <string name="title_tile_music">Musique</string>
+    <string name="title_tile_quick_record">Enregistrement rapide</string>
     <string name="title_tile_contact">Contact</string>
-    <string name="title_tile_custom">Custom</string>
+    <string name="title_tile_custom">Personnalisation</string>
     <string name="custom_tile_dialog_text">Each action will add a new state to the tile. Each click changes to the next state. Long-press to add long-press actions. If no click action exists the long-action icon will be used for the tile. This allows you to change states by clicking and launch actions by long-pressing.</string>
     <string name="custom_tile_dialog_title">Actions de tuile custom</string>
     <string name="custom_tile_dialog_extra_text">Tuile avancée détectée. Votre tuile changera maintenant d\'état depuis n\'importe où. Vous pouvez éventuellement ajouter une icône et un libellé pour la tuile à activer si elle ne reconnait pas son état.</string>
@@ -866,9 +866,9 @@
     <!-- Low battery warning policy -->
     <string name="pref_low_battery_warning_policy_title">Avertissement de batterie faible</string>
     <string name="pref_low_battery_warning_policy_dialog_title">Indiquer l\'avertissement de batterie faible avec</string>
-    <string name="low_battery_warning_policy_popup_sound">Pop-up et son</string>
+    <string name="low_battery_warning_policy_popup_sound">Fenêtre contextuelle et son</string>
     <string name="low_battery_warning_policy_notif_sound">Notification et son</string>
-    <string name="low_battery_warning_policy_popup">Pop-up de dialogue uniquement</string>
+    <string name="low_battery_warning_policy_popup">Fenêtre contextuelle de dialogue uniquement</string>
     <string name="low_battery_warning_policy_notif">Notification uniquement</string>
     <string name="low_battery_warning_policy_sound">Son seulement</string>
     <string name="battery_prefs_title">Options</string>
@@ -894,22 +894,22 @@
 
     <!-- Button shorcut actions -->
     <string name="shortcut_action_keyguard_camera">Keyguard camera</string>
-    <string name="shortcut_action_navbar">Navigation bar</string>
-    <string name="shortcut_action_pie">Pie controls</string>
-    <string name="shortcut_action_app">Custom app</string>
-    <string name="shortcut_action_home">Home</string>
-    <string name="shortcut_action_back">Back</string>
-    <string name="shortcut_action_recent">Recents</string>
-    <string name="shortcut_action_lastapp">Last app</string>
-    <string name="shortcut_action_assist">Search</string>
-    <string name="shortcut_action_search">Search in app</string>
-    <string name="shortcut_action_voice_search">Voice search</string>
-    <string name="shortcut_action_screenshot">Screenshot</string>
+    <string name="shortcut_action_navbar">Barre de navigation</string>
+    <string name="shortcut_action_pie">Contrôles Pie</string>
+    <string name="shortcut_action_app">Application personnalisée</string>
+    <string name="shortcut_action_home">Bureau</string>
+    <string name="shortcut_action_back">Retour</string>
+    <string name="shortcut_action_recent">Récents</string>
+    <string name="shortcut_action_lastapp">Dernière application</string>
+    <string name="shortcut_action_assist">Rechercher</string>
+    <string name="shortcut_action_search">Rechercher dans l\'application</string>
+    <string name="shortcut_action_voice_search">Recherche vocal</string>
+    <string name="shortcut_action_screenshot">Capture d\'écran</string>
     <string name="shortcut_action_menu">Menu</string>
-    <string name="shortcut_action_ime">Open IME Switcher</string>
-    <string name="shortcut_action_immersive_mode">Immersive mode</string>
-    <string name="shortcut_action_kill">Kill app</string>
-    <string name="shortcut_action_power">Screen Off</string>
+    <string name="shortcut_action_ime">Ouvrir le sélécteur de clavier</string>
+    <string name="shortcut_action_immersive_mode">Mode immersif</string>
+    <string name="shortcut_action_kill">Tuer l\'apllication</string>
+    <string name="shortcut_action_power">Eteindre l\'écran</string>
     <string name="shortcut_action_notifications">Notifications</string>
     <string name="shortcut_action_menu_big">Menu</string>
     <string name="shortcut_action_qs">Quicksettings panel</string>
