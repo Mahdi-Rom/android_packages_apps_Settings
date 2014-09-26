@@ -1913,8 +1913,8 @@
     <string name="system_bar_visibility_summary">ロック画面ではステータスバーとナビゲーションバーを表示する</string>
 
     <!-- Disable immersive mode navbar when ime is showing -->
-    <string name="disable_ime_navbar_title">IME表示時はナビゲーションバーを無効</string>
-    <string name="disable_ime_navbar_summary">デスクトップの拡張モード時にIMEを表示している時はナビゲーションバーを無効にする</string>
+    <string name="disable_ime_navbar_title">ナビゲーションバーを非表示</string>
+    <string name="disable_ime_navbar_summary">デスクトップの拡張モード時にキーボード表示中はナビゲーションバーを無効にする</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">歩きスマホモード</string>
