@@ -1410,7 +1410,9 @@
     <string name="recent_panel_expanded_mode_never">拡張しない</string>
     <string name="recent_panel_show_topmost_title">直近のタスクを表示</string>
     <string name="recent_panel_show_topmost_summary">直近のタスクも除外せずに表示する</string>
-    <string name="recent_panel_bg_color_title">背景の色</string>
+    <string name="recent_panel_bg_color_title">パネルの背景色</string>
+    <string name="recent_card_bg_color_title">カードの背景色</string>
+    <string name="recent_card_text_color_title">カードの文字色</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">左側に表示</string>
@@ -1910,6 +1912,10 @@
     <string name="system_bar_visibility">ロック画面では無効</string>
     <string name="system_bar_visibility_summary">ロック画面ではステータスバーとナビゲーションバーを表示する</string>
 
+    <!-- Disable immersive mode navbar when ime is showing -->
+    <string name="disable_ime_navbar_title">ナビゲーションバーを非表示</string>
+    <string name="disable_ime_navbar_summary">デスクトップの拡張モード時にキーボード表示中はナビゲーションバーを無効にする</string>
+
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">歩きスマホモード</string>
     <string name="title_tile_onthego">歩きスマホモード</string>
@@ -2031,6 +2037,7 @@
 
     <!-- Pie Control -->
     <string name="pie_control_title">パイナビゲーション</string>
+    <string name="pie_control_enable_title">有効にする</string>
     <string name="pie_control_summary">パイコントロールによるナビゲーションを有効にする</string>
     <string name="pie_control_size">パイの大きさ</string>
     <string name="pie_control_trigger_positions">トリガーオプション</string>
@@ -2075,6 +2082,13 @@
     <string name="pie_style_reset_message">スタイルをリセットしますか?</string>
     <string name="pie_disable_ime_triggers_title">トリガーを小さくする</string>
     <string name="pie_disable_ime_triggers_summary">キーボード表示中は左右のトリガーの大きさを小さくする</string>
+    <string name="pie_background_fadein_time_title">フェードイン時間</string>
+    <string name="pie_slice_gap_title">スライスギャップ</string>
+    <string name="pie_slice_gap_disabled">無効</string>
+    <string name="pie_slice_gap_small">小さい(デフォルト)</string>
+    <string name="pie_slice_gap_medium">標準</string>
+    <string name="pie_slice_gap_large">大きい</string>
+    <string name="pie_colors_title">色</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">アクション</string>
@@ -2341,4 +2355,10 @@
     <!-- Touch control -->
     <string name="touch_control_settings_title">詳細設定</string>
     <string name="touch_control_settings_summary">DT2Wなどのウェイクアップオプションを管理する</string>
+    
+    <!-- NFC Polling-->
+    <string name="nfc_polling_mode_title">NFCポーリングモード</string>
+    <string name="nfc_polling_mode_screen_off">画面オフ時</string>
+    <string name="nfc_polling_mode_screen_locked">画面オンでロック時</string>
+    <string name="nfc_polling_mode_screen_unlocked">画面オンでロック解除時(デフォルト)</string>
 </resources>
