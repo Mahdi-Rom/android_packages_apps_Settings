@@ -1846,22 +1846,22 @@
     <string name="status_bar_double_tap_sleep_pattern_summary">Double tap anywhere on the pattern view</string>
 
     <!-- Notification count -->
-    <string name="notification_count_title">Notification count</string>
-    <string name="notification_count_summary">Show the pending notification counts as overlays on the status bar</string>
+    <string name="notification_count_title">Compteur de notifications</string>
+    <string name="notification_count_summary">Afficher le nombre de notifications similaires en attente dans la barre de statut</string>
 
     <!-- Immersive mode -->
-    <string name="immersive_mode_category">Bureau éttendu</string>
-    <string name="immersive_mode_title">Immersive mode</string>
+    <string name="immersive_mode_category">Bureau étendu</string>
+    <string name="immersive_mode_title">Mode immersif</string>
     <string name="summary_immersive_mode">%1$s</string>
-    <string name="immersive_mode_summary_status_bar">Status bar visible</string>
-    <string name="immersive_mode_summary_no_status_bar">Status bar hidden</string>
-    <string name="immersive_mode_disabled">Off</string>
-    <string name="immersive_mode_status_bar">With status bar</string>
-    <string name="immersive_mode_no_status_bar">Without status bar</string>
+    <string name="immersive_mode_summary_status_bar">Barre de statut visible</string>
+    <string name="immersive_mode_summary_no_status_bar">Barre de statut cachée</string>
+    <string name="immersive_mode_disabled">Désactiver</string>
+    <string name="immersive_mode_status_bar">Avec la barre de statut</string>
+    <string name="immersive_mode_no_status_bar">Sans la barre de statut</string>
 
     <!-- Lockscreen system bar visibility -->
-    <string name="system_bar_visibility">Disable in lock screen</string>
-    <string name="system_bar_visibility_summary">Show status and navigation bars in lock screen during immersive mode</string>
+    <string name="system_bar_visibility">Désactivé sur l\'écran de verrouillage</string>
+    <string name="system_bar_visibility_summary">Afficher les barres de statut et de navigation sur l\'écran de verrouillage pendant le mode immersif</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go mode</string>
