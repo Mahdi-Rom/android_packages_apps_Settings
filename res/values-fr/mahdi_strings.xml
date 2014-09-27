@@ -1092,17 +1092,17 @@
     <string name="navbar_dimensions_reset_message">Réinitialiser toutes les dimensions aux valeurs par défaut ?</string>
 
     <!-- Navigation bar button style -->
-    <string name="nav_bar_button_style_summary">Change navigation bar button colors</string>
-    <string name="button_transparency_title">Button transparency</string>
-    <string name="nav_button_color_mode_summary">Change the navigation bar button color mode</string>
-    <string name="navigation_bar_glow_tint_title">Glow color</string>
+    <string name="nav_bar_button_style_summary">Changer les couleurs des boutons de la barre de navigation</string>
+    <string name="button_transparency_title">Transparence des buttons</string>
+    <string name="nav_button_color_mode_summary">Changer le mode de couleur des boutons de la barre de navigation</string>
+    <string name="navigation_bar_glow_tint_title">Couleur de la lueur</string>
 
     <!-- Quiet hours -->
     <string name="quiet_hours_title">Heures silencieuses</string>
     <string name="quiet_hours_summary">Configurer les heures où le téléphone doit être silencieux</string>
     <string name="quiet_hours_enabled">Heures silencieuses</string>
-    <string name="quiet_hours_active_from">Active from</string>
-    <string name="quiet_hours_active_to">to</string>
+    <string name="quiet_hours_active_from">Actif à partir de</string>
+    <string name="quiet_hours_active_to">jusqu\'à</string>
     <string name="quiet_hours_ringer">Sonnerie du téléphone</string>
     <string name="quiet_hours_mute">Notifications</string>
     <string name="quiet_hours_mute_summary">Désactiver le son pour les notifications</string>
@@ -1121,39 +1121,39 @@
     <string name="quiet_hours_ringer_mute_all">Sonnerie muette pour tous les appelants</string>
 
     <!-- time range preference -->
-    <string name="start_time_title">Start</string>
-    <string name="end_time_title">End</string>
+    <string name="start_time_title">Début</string>
+    <string name="end_time_title">Fin</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="network_traffic_title">Trafic réseau</string>
+    <string name="show_network_traffic_state">Moniteur de trafic sur la barre d\'état</string>
+    <string name="show_network_traffic_unit">Afficher l\'unité</string>
+    <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
+    <string name="show_network_traffic_disable">Désactivée</string>
+    <string name="show_network_traffic_up">Sortant</string>
+    <string name="show_network_traffic_down">Entrant</string>
+    <string name="show_network_traffic_all">Sortant et Entrant</string>
     <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_byte">Bytes par seconde</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_autohide">Masquer automatiquement</string>
+    <string name="network_traffic_autohide_summary">Masquer le moniteur lorsqu\'il n\'y a pas d\'activité</string>
+    <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
 
     <!-- Status Bar Activity Indicators -->
-    <string name="show_activity_indicators_on_status_bar_title">Activity indicators</string>
-    <string name="show_activity_indicators_on_status_bar_summary">Show indicators in signal bars</string>
+    <string name="show_activity_indicators_on_status_bar_title">Indicateurs d\'activités</string>
+    <string name="show_activity_indicators_on_status_bar_summary">Afficher les indicateurs dans les barres de signal</string>
 
     <!-- Screen recorder -->
-    <string name="screen_recorder_title">Screen recorder</string>
-    <string name="screen_recorder_summary">Adjust screen recorder settings</string>
-    <string name="screen_recorder_video_dimensions_title">Video size</string>
-    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
-    <string name="screen_recorder_record_audio_title">Record audio</string>
-    <string name="screen_recorder_record_audio_summary">Record audio from the microphone</string>
+    <string name="screen_recorder_title">Enregistreur d\'écran</string>
+    <string name="screen_recorder_summary">Ajuster les paramètres de l\'enregistreur d\'écran</string>
+    <string name="screen_recorder_video_dimensions_title">Taille de la vidéo</string>
+    <string name="screen_recorder_video_bitrate_title">Débit</string>
+    <string name="screen_recorder_record_audio_title">Enregistrement audio</string>
+    <string name="screen_recorder_record_audio_summary">Enregistrement audio à partir du microphone</string>
     <!-- video sizes -->
     <string name="screen_recorder_size_240x400">240x400</string>
     <string name="screen_recorder_size_360x640">360x640</string>
