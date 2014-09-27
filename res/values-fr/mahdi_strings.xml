@@ -1379,69 +1379,69 @@
     <string name="recent_card_text_color_title">Couleur du texte</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
-    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
-    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+    <string name="recent_panel_lefty_mode_title">Afficher sur le bord gauche</string>
+    <string name="recent_panel_lefty_mode_summary">Affiche le panneau d\'applications récentes sur le coté gauche</string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
-    <string name="custom_runtime_warning_title">Warning</string>
-    <string name="custom_runtime_warning_message">ART is not supported by Mahdi-Rom. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit \u003Ca href=\"http://source.android.com/devices/tech/dalvik/art.html\"\u003EIntroducing ART\u003C/a\u003E for more information.\u003Cbr/\u003E\u003Cbr/\u003EWe request you do not file bug reports if you have enabled ART as your runtime.\u003Cbr/\u003E\u003Cbr/\u003EAre you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string> 
+    <string name="custom_runtime_warning_title">Attention</string>
+    <string name="custom_runtime_warning_message">ART n\'est pas supporté par La ROM Mahdi. Ce paramètre est inclus pour des expérimentations seulement et peut causer des instabilités, des crashs, des pertes de données ou empêcher votre appareil de démarrer. Lire l\'&lt; \u003Ca href=\"http://source.android.com/devices/tech/dalvik/art.html\"\u003EIntroduction à ART\u003C/a\u003E pour plus d\'informations.\u003Cbr/\u003E\u003Cbr/\u003EWe Merci de na pas remplir de rapports de bugs si vous utilisez ART.\u003Cbr/\u003E\u003Cbr/\u003EAre Êtes-vous sûr de vouloir redémarrer pour changer le moteur d\'exécution de <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> à <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string> 
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Notifications</string>
-    <string name="less_notification_sounds_title">Less frequent notification sounds</string>
-    <string name="less_notification_sounds_summary">Limit the notification sounds of each app to only play once per set time period</string>
-    <string name="less_notification_sounds_default">Default Behaviour</string>
-    <string name="less_notification_sounds_3s">3 seconds</string>
-    <string name="less_notification_sounds_5s">5 seconds</string>
-    <string name="less_notification_sounds_10s">10 seconds</string>
-    <string name="less_notification_sounds_15s">15 seconds</string>
-    <string name="less_notification_sounds_30s">30 seconds</string>
-    <string name="less_notification_sounds_45s">45 seconds</string>
+    <string name="less_notification_sounds_title">Réduire le nombre de sons de notifications</string>
+    <string name="less_notification_sounds_summary">Limiter les sons de notification de chaque application pour seulement jouer une fois par période de temps</string>
+    <string name="less_notification_sounds_default">Comportement par défaut</string>
+    <string name="less_notification_sounds_3s">3 secondes</string>
+    <string name="less_notification_sounds_5s">5 secondes</string>
+    <string name="less_notification_sounds_10s">10 secondes</string>
+    <string name="less_notification_sounds_15s">15 secondes</string>
+    <string name="less_notification_sounds_30s">30 secondes</string>
+    <string name="less_notification_sounds_45s">45 secondes</string>
     <string name="less_notification_sounds_1m">1 minute</string>
     <string name="less_notification_sounds_2m">2 minutes</string>
     <string name="less_notification_sounds_5m">5 minutes</string>
 
     <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
-    <string name="debug_LAN_category">LAN Settings</string>
+    <string name="debug_LAN_category">Configuration LAN</string>
     <!-- Hostname setting -->
-    <string name="device_hostname">Device hostname</string>
+    <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
 
     <!-- Keyboard and Input methods  -->
-    <string name="title_keyboard_input">Advanced keyboard options</string>
-    <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
-    <string name="keyboard_rotation_toggle_title">Auto keyboard rotation</string>
-    <string name="keyboard_rotation_toggle_summary">Force auto-rotate when keyboard is shown</string>
-    <string name="keyboard_rotation_timeout_title">Auto-rotate timeout</string>
-    <string name="keyboard_rotation_timeout_summary">Disables auto-rotate sensor <xliff:g id="rotate_timeout">%1$s</xliff:g> seconds after keyboard is hidden</string>
-    <string name="keyboard_rotation_dialog">This feature forces auto-rotate to turn on temporarily while the keyboard is shown.  It has no effect when auto-rotate is already enabled.</string>
-    <string name="show_enter_key_title">Show enter key</string>
-    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="title_keyboard_input">Options avancées du clavier</string>
+    <string name="disable_fullscreen_keyboard_title">Désactiver le clavier plein écran</string>
+    <string name="disable_fullscreen_keyboard_summary">Le clavier au format paysage ne prendra jamais la totalité de l\'écran</string>
+    <string name="keyboard_rotation_toggle_title">Rotation automatique du clavier</string>
+    <string name="keyboard_rotation_toggle_summary">Forcer la rotation automatique lorsque le clavier est affiché</string>
+    <string name="keyboard_rotation_timeout_title">Délai d\'attente de la rotation automatique</string>
+    <string name="keyboard_rotation_timeout_summary">Désactive le capteur de rotation <xliff:g id="rotate_timeout">%1$s</xliff:g> secondes après la disparition du clavier</string>
+    <string name="keyboard_rotation_dialog">Cette fonctionnalité force temporairement la rotation automatique lorsque le clavier est affiché sur l\'écran. Elle n\'a aucun effet lorsque celle-ci est déjà activée.</string>
+    <string name="show_enter_key_title">Afficher la touche entrée</string>
+    <string name="show_enter_key_summary">Forcer le clavier à afficher la touche entrée au lieu de la touche émoticône</string>
+    <string name="ime_switcher_notify">Sélecteur de notifications</string>
+    <string name="ime_switcher_notify_summary">Afficher la notification de choix du mode de saisie</string>
 
     <!-- Themes settings  -->
-    <string name="themes_settings_title">Themes</string>
+    <string name="themes_settings_title">Thèmes</string>
     <string name="title_cm_themes">Themes chooser</string>
 
     <!-- The following are entries under the themes menu -->
-    <string name="themepacks_settings_title">Theme packs</string>
+    <string name="themepacks_settings_title">Packs de thème</string>
     <string name="styles_settings_title">Styles</string>
-    <string name="icons_settings_title">Icons</string>
-    <string name="fonts_settings_title">Fonts</string>
-    <string name="wallpaper_settings_title">Wallpapers</string>
-    <string name="lockscreen_wallpaper_settings_title">Lock screen wallpapers</string>
-    <string name="bootanim_settings_title">Boot animations</string>
-    <string name="soundpack_settings_title">Sound packs</string>
+    <string name="icons_settings_title">Icônes</string>
+    <string name="fonts_settings_title">Polices</string>
+    <string name="wallpaper_settings_title">Fonds d\'écran</string>
+    <string name="lockscreen_wallpaper_settings_title">Fonds d\'écran de verrouillage</string>
+    <string name="bootanim_settings_title">Animations de démarrage</string>
+    <string name="soundpack_settings_title">Packs de sons</string>
 
     <!-- DarkUI -->
     <string name="darkui_title">Dark UI</string>
     <string name="theme_auto_mode_title">Mode</string>
-    <string name="theme_auto_mode_off">Manual</string>
-    <string name="theme_auto_mode_lightsensor">On light condition change</string>
-    <string name="theme_auto_mode_twilight">On daytime</string>
-    <string name="theme_auto_switch_mode_error">Automatic light condition change mode is enabled. Manual switching is not possible.</string>
-
+    <string name="theme_auto_mode_off">Manuel</string>
+    <string name="theme_auto_mode_lightsensor">Selon la luminosité ambiante</string>
+    <string name="theme_auto_mode_twilight">Selon l\'heure</string>
+    <string name="theme_auto_switch_mode_error">Le changement automatique selon la luminosité ambiante est activé. Le changement manuel n\'est pas possible.</string>
+    
     <!-- Notification drawer background -->   
     <string name="notification_background_title">Style du fond</string>
     <string name="notification_background_summary">Change your notification drawer background and more</string>
