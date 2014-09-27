@@ -1018,78 +1018,78 @@
     <string name="shortcuts_color_mode_summary">Modifier le mode de couleur de l\'icône de raccourcis</string>
 
     <!-- Status bar auto-collapse behaviour  -->
-    <string name="notification_drawer_title">Notification drawer</string>
-    <string name="notification_drawer_summary">Add shortcuts, enable quick settings ribbons and more</string>
-    <string name="notification_shortcuts_settings_title">Shortcuts</string>
-    <string name="notification_shortcuts_settings_summary">Add shortcuts to the bottom of the notification drawer</string>
+    <string name="notification_drawer_title">Volet de notifications</string>
+    <string name="notification_drawer_summary">Ajouter des raccourcis, activer le ruban des paramètres rapide et plus</string>
+    <string name="notification_shortcuts_settings_title">Raccourcis</string>
+    <string name="notification_shortcuts_settings_summary">Ajouter des raccourcis au bas de la barre de notification</string>
 
     <!-- Notification hide labels -->
-    <string name="notification_drawer_collapse_on_dismiss_title">Auto close behavior</string>
-    <string name="collapse_on_dismiss_never">Disabled</string>
-    <string name="collapse_on_dismiss_if_empty">If none remaining</string>
-    <string name="collapse_on_dismiss_if_no_clearable">If no removable remaining</string>
-    <string name="collapse_on_dismiss_never_summary">Leave open after removing notifications</string>
-    <string name="collapse_on_dismiss_if_empty_summary">Close after removing the last notification</string>
-    <string name="collapse_on_dismiss_if_no_clearable_summary">Close after removing the last removable notification</string>
+    <string name="notification_drawer_collapse_on_dismiss_title">Comportement de fermeture automatique</string>
+    <string name="collapse_on_dismiss_never">Désactivé</string>
+    <string name="collapse_on_dismiss_if_empty">Si aucune restante</string>
+    <string name="collapse_on_dismiss_if_no_clearable">Si aucune supprimable restante</string>
+    <string name="collapse_on_dismiss_never_summary">Laisser ouvert après avoir enlevé les notifications</string>
+    <string name="collapse_on_dismiss_if_empty_summary">Fermer après avoir supprimé la dernière notification</string>
+    <string name="collapse_on_dismiss_if_no_clearable_summary">Fermer après avoir supprimé la dernière notification détachable</string>
 
     <!-- Notification hide labels -->
-    <string name="notification_hide_labels_title">Hide notification labels</string>
-    <string name="notification_hide_labels_disable">Show all labels</string>
-    <string name="notification_hide_labels_carrier">Hide Carrier label</string>
-    <string name="notification_hide_labels_wifi">Hide WiFi label</string>
-    <string name="notification_hide_labels_all">Hide all labels</string>
-    <string name="notification_hide_labels_text">in the notification panel</string>
+    <string name="notification_hide_labels_title">Masquer les libellés de notification</string>
+    <string name="notification_hide_labels_disable">Montrer tous les libellés</string>
+    <string name="notification_hide_labels_carrier">Masquer le nom d\'opérateur</string>
+    <string name="notification_hide_labels_wifi">Masquer le nom du réseau Wi-fi</string>
+    <string name="notification_hide_labels_all">Masquer tous les libellés</string>
+    <string name="notification_hide_labels_text">dans le panneau de notification</string>
 
     <!-- Navigation settings -->
-    <string name="navigation_settings_options_title">Navigation options</string>
+    <string name="navigation_settings_options_title">Options de navigation</string>
     <string name="navigation_settings_category_title">Navigation</string>
-    <string name="navigation_settings_summary">Customize your on-screen navigation bar</string>
-    <string name="navigation_settings_title">Navigation bar</string>
+    <string name="navigation_settings_summary">Personnalisez votre barre de navigation sur l\'écran</string>
+    <string name="navigation_settings_title">Barre de navigation</string>
 
     <!-- Navigation bar -->
-    <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (par défaut)</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
     <string name="navigation_bar_size_24_dp">24 dp</string>
-    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (par défaut)</string>
     <string name="navigation_bar_size_44_dp">44 dp</string>
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
-    <string name="navigation_bar_size_0_dp">0 dp (off)</string>
-    <string name="navigation_menu_right">Right</string>
-    <string name="navigation_menu_left">Left</string>
-    <string name="navigation_menu_both">Both</string>
-    <string name="navigation_menu_default_jb_behavior">Show on request (default)</string>
-    <string name="navigation_menu_never_show">Never show</string>
-    <string name="navigation_menu_always_show">Always show</string>
-    <string name="navigation_bar">Navigation bar</string>
-    <string name="navbar_button_cat">Navigation bar buttons</string>
-    <string name="title_pref_menu_location">Menu location</string>
-    <string name="summary_pref_menu_location">Where do you want the menu buttons to appear?</string>
-    <string name="title_pref_menu_display">Menu visibility</string>
-    <string name="summary_pref_menu_display">How and when do you want the menu buttons to appear?</string>
-    <string name="navbar_enable_bar">Enable navigation bar</string>
-    <string name="navbar_enable_bar_summary">Enable the navigation bar</string>
-    <string name="navigation_bar_left_title">Left handed mode</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-    <string name="navigation_bar_ime_title">Disable keyboard cursor arrows</string>
-    <string name="navigation_bar_ime_summary">Keyboard cursor arrows are enabled by default, use this option to disable them</string>
-    <string name="navigation_bar_height_title">Navigation bar height</string>
-    <string name="navigation_bar_height_summary">Navigation bar height while in portrait.</string>
-    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
-    <string name="navigation_bar_height_landscape_summary">Navigation bar height while in landscape.</string>
-    <string name="navigation_bar_width_title">Navigation bar width</string>
-    <string name="navigation_bar_width_summary">Navigation bar height if the bar is along a side.</string>
-    <string name="navbar_can_move">Show landscape</string>
-    <string name="navbar_can_move_summary">Shows navigation bar in lanscape on the bottom</string>
+    <string name="navigation_bar_size_0_dp">0 dp (Aucun)</string>
+    <string name="navigation_menu_right">Droite</string>
+    <string name="navigation_menu_left">Gauche</string>
+    <string name="navigation_menu_both">Les deux</string>
+    <string name="navigation_menu_default_jb_behavior">Afficher si besoin (Par défaut)</string>
+    <string name="navigation_menu_never_show">Ne jamais afficher</string>
+    <string name="navigation_menu_always_show">Toujours afficher</string>
+    <string name="navigation_bar">Barre de navigatio</string>
+    <string name="navbar_button_cat">Boutons de la barre de navigation</string>
+    <string name="title_pref_menu_location">Position du bouton Menu</string>
+    <string name="summary_pref_menu_location">Choisir le côté où le bouton Menu doit être affiché.</string>
+    <string name="title_pref_menu_display">Visibilité du bouton Menu</string>
+    <string name="summary_pref_menu_display">Choisir quand le bouton Menu doit être affiché.</string>
+    <string name="navbar_enable_bar">Barre de navigation</string>
+    <string name="navbar_enable_bar_summary">Activer la barre de navigation.</string>
+    <string name="navigation_bar_left_title">Mode gaucher</string>
+    <string name="navigation_bar_left_summary">Placer la barre de navigation sur le côté gauche de l'écran en mode paysage</string>
+    <string name="navigation_bar_ime_title">Désactiver les flèches de déplacement du clavier</string>
+    <string name="navigation_bar_ime_summary">Les flèches de déplacement du clavier sont activées par défauts, utiliser cette option pour les désactiver</string>
+    <string name="navigation_bar_height_title">Hauteur de la barre de navigation</string>
+    <string name="navigation_bar_height_summary">Hauteur de la barre de navigation en mode portrait.</string>
+    <string name="navigation_bar_height_landscape_title">Hauteur de la barre de navigation en mode paysage</string>
+    <string name="navigation_bar_height_landscape_summary">Hauteur de la barre de navigation en mode paysage.</string>
+    <string name="navigation_bar_width_title">Largeur de barre de navigation</string>
+    <string name="navigation_bar_width_summary">Hauteur de la barre de navigation si elle est sur un côté.</string>
+    <string name="navbar_can_move">Afficher en mode paysage</string>
+    <string name="navbar_can_move_summary">Afficher la barre de navigation en mode paysage</string>
     <string name="navbar_style_dimen_title">Dimensions</string>
-    <string name="navbar_style_dimen_summary">View or change the dimensions of the navigation bar</string>
-    <string name="navbar_button_title">Buttons</string>
-    <string name="navigation_button_summary">View or change navigation bar settings</string>
-    <string name="navbar_targets_title">Ring targets</string>
-    <string name="navbar_targets_summary">View or change navigation ring settings</string>
-    <string name="navbar_cat">Navigation bar</string>
-    <string name="navbar_dimensions_reset_message">Reset all dimensions entries to default?</string>
+    <string name="navbar_style_dimen_summary">Voir ou afficher les dimensions de la barre de navigation</string>
+    <string name="navbar_button_title">Boutons</string>
+    <string name="navigation_button_summary">Voir ou changer les paramètres de la barre de navigation</string>
+    <string name="navbar_targets_title">Cibles de l\'anneau</string>
+    <string name="navbar_targets_summary">Voir ou changer les paramètres des cibles de l\'anneau</string>
+    <string name="navbar_cat">Barre de navigation</string>
+    <string name="navbar_dimensions_reset_message">Réinitialiser toutes les dimensions aux valeurs par défaut ?</string>
 
     <!-- Navigation bar button style -->
     <string name="nav_bar_button_style_summary">Change navigation bar button colors</string>
