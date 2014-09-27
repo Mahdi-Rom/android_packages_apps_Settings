@@ -1266,97 +1266,97 @@
     <string name="lockscreen_target_edit_msg">Sélectionner ou modifier l\'application souhaitée ou l\'activité et l\'icône correspondante</string>
 
     <!-- Description of accessibility direction for targets [CHAR LIMIT=NONE] -->
-    <string name="accessibility_target_direction">Swipe to activate a target</string>
+    <string name="accessibility_target_direction">Glisser pour activer les cibles</string>
     <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
-    <string name="description_target_unlock">Unlock</string>
+    <string name="description_target_unlock">Débloquer</string>
 
     <!-- Lockscreen Shortcuts -->
-    <string name="lockscreen_shortcuts_title">Shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">View or change custom lock screen shortcuts</string>
-    <string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
-    <string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
+    <string name="lockscreen_shortcuts_title">Raccourcis</string>
+    <string name="lockscreen_shortcuts_summary">Voir ou changer les raccourcis personnalisés de l\'écran de verrouillage</string>
+    <string name="lockscreen_shorcuts_longpress_title">Appui long sur le raccourcis</string>
+    <string name="lockscreen_shorcuts_longpress_summary">Ouvrir la personnalisation des raccourcis de l\'écran de verrouillage sur un appui long</string>
 
     <!--Lockscreen See Through-->
-    <string name="see_through_title">See through</string>
-    <string name="see_through_summary">Shows the content behind your lock screen, your data may be visible to those around you</string>
-    <string name="blur_radius_title">Blur radius</string>
-    <string name="blur_radius_summary">Set lock screen blur intensity effect</string>    
+    <string name="see_through_title">Transparence</string>
+    <string name="see_through_summary">Affiche le contenu derrière votre écran de verrouillage, vos données peuvent être visibles par ceux qui vous entourent</string>
+    <string name="blur_radius_title">Intensité du flou</string>
+    <string name="blur_radius_summary">Définir l\'effet d\'intensité du flou sur l\'écran de verrouillage</string>    
 
     <!-- Lock screen shortcuts -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="icon_picker_alarm">Alarm</string>
-    <string name="icon_picker_browser">Browser</string>
-    <string name="icon_picker_calendar">Calendar</string>
-    <string name="icon_picker_camera">Camera</string>
+    <string name="picker_activities">Activités</string>
+    <string name="select_custom_activity_title">Sélectionner une activité personnalisée</string>
+    <string name="icon_picker_alarm">Alarme</string>
+    <string name="icon_picker_browser">Navigateur</string>
+    <string name="icon_picker_calendar">Calendrier</string>
+    <string name="icon_picker_camera">Appareil photo</string>
     <string name="icon_picker_chrome">Chrome</string>
     <string name="icon_picker_contacts">Contacts</string>
     <string name="icon_picker_email">Email</string>
     <string name="icon_picker_email2">Email Holo</string>
     <string name="icon_picker_facebook">Facebook</string>
     <string name="icon_picker_gallery">Gallery</string>
-    <string name="icon_picker_google_small">Google (small)</string>
+    <string name="icon_picker_google_small">Google (Petit)</string>
     <string name="icon_picker_googleplus">Google Plus</string>
     <string name="icon_picker_googletalk">Hangouts</string>
     <string name="icon_picker_maps">Maps</string>
-    <string name="icon_picker_sms">Messaging</string>
-    <string name="icon_picker_movie">Movie</string>
-    <string name="icon_picker_music">Music</string>
+    <string name="icon_picker_sms">Messagerie</string>
+    <string name="icon_picker_movie">Film</string>
+    <string name="icon_picker_music">Musique</string>
     <string name="icon_picker_nav_normal">Navigation</string>
-    <string name="icon_picker_phone">Phone</string>
+    <string name="icon_picker_phone">Téléphone</string>
     <string name="icon_picker_podcast">Podcast</string>
     <string name="icon_picker_rss">Rss</string>
-    <string name="icon_picker_search">Search</string>
+    <string name="icon_picker_search">Recherche</string>
     <string name="icon_picker_twitter">Twitter</string>
 
     <!-- String for IconPicker -->
-    <string name="icon_picker_title">Choose icon source</string>
-    <string name="icon_picker_system_icons_title">System icons</string>
-    <string name="icon_picker_gallery_title">Gallery</string>
-    <string name="icon_picker_pack_title">Icon pack</string>
+    <string name="icon_picker_title">Choisir la source des icônes</string>
+    <string name="icon_picker_system_icons_title">Icônes système</string>
+    <string name="icon_picker_gallery_title">Galerie</string>
+    <string name="icon_picker_pack_title">Pack d\'icônes</string>
 
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Wakeup options</string>
+    <string name="display_category_wakeup_options_title">Options de réveil</string>
 
     <!--Wakeup when plugged/unplugged -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Réveille l\'appareil si le chargeur est branché/débranché.</string>
 
     <!-- Delete apn confirmation dialog message -->
-    <string name="confirm_delete_apn">The APN will be deleted.</string>
+    <string name="confirm_delete_apn">L\'APN a été supprimé.</string>
 
     <!--- Lock clock -->
-    <string name="lock_clock_title">Clock widget</string>
-    <string name="lock_clock_summary">View or change how the \'cLock\' Home and Lock screen widgets will display</string>
+    <string name="lock_clock_title">Widget horloge</string>
+    <string name="lock_clock_summary">Afficher ou modifier la façon dont \'cLock\' s\'affiche sur le bureau et l\'écran de verrouillage</string>
 
     <!-- AOSP dummy strings -->
     <string name="experimental_webview"></string>
     <string name="experimental_webview_summary"></string>
 
     <!-- security settings menu unlock -->
-    <string name="unlock_menu_unlock_title">Menu unlock</string>
-    <string name="unlock_menu_unlock_summary">Pressing the menu button unlocks the device</string>
+    <string name="unlock_menu_unlock_title">Déverrouillage par le menu</string>
+    <string name="unlock_menu_unlock_summary">Un appui sur le bouton menu déverrouille l\'appareil</string>
 
     <!--  development shortcut -->
-    <string name="development_shortcut_title">Development shortcut</string>
-    <string name="development_shortcut_summary">Enable \'wipe data\' and \'force close\' options in notification area and recent apps list</string>
+    <string name="development_shortcut_title">Raccourci de développement</string>
+    <string name="development_shortcut_summary">Activer l\'option \'wipe data\' et \'arrêt forcé\' dans la zone de notification et dans la liste des applications récentes</string>
 
     <!-- Recents panel menu -->
     <string name="recents_panel_settings_title">Multi-tâches</string>
-    <string name="recents_panel_settings_summary">Multitasking options including slim recents and more</string>
+    <string name="recents_panel_settings_summary">Les options multi-tâches comprennent la version Slim recents  et plus</string>
 
     <!-- Recents clear all -->
-    <string name="aosp_recents_category">AOSP Recents</string>
-    <string name="show_recent_clear_all_button_title">Clear all button</string>
-    <string name="show_recent_clear_all_button_summary">Show clear all button within the recent applications view</string>
-    <string name="recent_clear_all_button_location_title">Clear all button position</string>
-    <string name="recent_clear_all_button_location_summary">Choose position of the clear all button</string>
-    <string name="recent_clear_all_button_location_top_left">Top left</string>
-    <string name="recent_clear_all_button_location_top_right">Top right</string>
-    <string name="recent_clear_all_button_location_bottom_left">Bottom left</string>
-    <string name="recent_clear_all_button_location_bottom_right">Bottom right</string>
-    <string name="recent_clear_all_apps_title">Clear all tasks</string>
-    <string name="recent_clear_all_apps_summary">Clear all tasks including the topmost</string>
+    <string name="aosp_recents_category">Version récents AOSP</string>
+    <string name="show_recent_clear_all_button_title">Bouton tout effacer</string>
+    <string name="show_recent_clear_all_button_summary">Afficher le bouton tout effacer dans la vue des applications récentes</string>
+    <string name="recent_clear_all_button_location_title">Position du bouton tout effacer</string>
+    <string name="recent_clear_all_button_location_summary">Choisir la position du bouton tout effacer</string>
+    <string name="recent_clear_all_button_location_top_left">En haut à gauche</string>
+    <string name="recent_clear_all_button_location_top_right">En haut à droite</string>
+    <string name="recent_clear_all_button_location_bottom_left">En bas à gauche</string>
+    <string name="recent_clear_all_button_location_bottom_right">En bas à droite</string>
+    <string name="recent_clear_all_apps_title">Effacer toutes les tâches</string>
+    <string name="recent_clear_all_apps_summary">Effacer toutes les tâches, y compris la plus haute</string>
 
     <!-- New Recents Screen -->
     <string name="new_recents_category">Slims Recents</string>
