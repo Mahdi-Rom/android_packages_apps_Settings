@@ -1833,17 +1833,17 @@
     <string name="lockscreen_lock_icon_default">Icône par défaut</string>
 
     <!-- Double-tap to sleep -->
-    <string name="double_tap_sleep_title">Double-taper pour mettre en veille</string>
-    <string name="double_tap_to_sleep_summary">View or change double-tap to sleep options</string>
-    <string name="double_tap_sleep_secure_lockscreen_category">Secure lock screen</string>
-    <string name="status_bar_double_tap_sleep_status_bar_title">Status bar</string>
-    <string name="status_bar_double_tap_sleep_status_bar_summary">Double tap anywhere on the status bar</string>
-    <string name="status_bar_double_tap_sleep_glowpad_title">Glow pad</string>
-    <string name="status_bar_double_tap_sleep_glowpad_summary">Double tap the glow pad</string>
-    <string name="status_bar_double_tap_sleep_pin_password_title">Pin and Password</string>
-    <string name="status_bar_double_tap_sleep_pin_password_summary">Double tap the text entry view</string>
-    <string name="status_bar_double_tap_sleep_pattern_title">Pattern</string>
-    <string name="status_bar_double_tap_sleep_pattern_summary">Double tap anywhere on the pattern view</string>
+    <string name="double_tap_sleep_title">Taper deux fois pour mettre en veille</string>
+    <string name="double_tap_to_sleep_summary">Voir ou changer les options de veille en tapant deux fois</string>
+    <string name="double_tap_sleep_secure_lockscreen_category">Ecran de verrouillage sécurisé</string>
+    <string name="status_bar_double_tap_sleep_status_bar_title">Barre de statut</string>
+    <string name="status_bar_double_tap_sleep_status_bar_summary">Taper deux fois n\'importe où sur la barre de statut</string>
+    <string name="status_bar_double_tap_sleep_glowpad_title">Lueur du pad</string>
+    <string name="status_bar_double_tap_sleep_glowpad_summary">Appuyez deux fois sur le pad pour la lueur</string>
+    <string name="status_bar_double_tap_sleep_pin_password_title">Code Pin et mot de passe</string>
+    <string name="status_bar_double_tap_sleep_pin_password_summary">Appuyez deux fois sur la vue de saisie du texte</string>
+    <string name="status_bar_double_tap_sleep_pattern_title">Schéma</string>
+    <string name="status_bar_double_tap_sleep_pattern_summary">Appuyez deux fois n\'importe où sur la vue du schéma</string>
 
     <!-- Notification count -->
     <string name="notification_count_title">Compteur de notifications</string>
