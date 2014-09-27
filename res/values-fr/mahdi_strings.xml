@@ -2243,8 +2243,8 @@
     <string name="backlight_summary_enabled">Activé</string>
 
     <!-- Glove mode / high touch sensitivity -->
-    <string name="auto_adjust_touch_title">High touch sensitivity</string>
-    <string name="auto_adjust_touch_summary">"Increase the screen's sensitivity so you can touch it while wearing gloves"</string>
+    <string name="auto_adjust_touch_title">Tactile haute sensibilité</string>
+    <string name="auto_adjust_touch_summary">"Augmenter la sensibilité de l'écran de sorte que vous pouvez le toucher avec des gants"</string>
 
     <!-- Search -->
     <string name="settings_search_action_bar_button">Rechercher</string>
@@ -2274,10 +2274,10 @@
 
     <!-- Lid Settings -->
     <string name="smart_cover">Smart cover</string>
-    <string name="smart_cover_wake_title">Smart cover wake</string>
-    <string name="smart_cover_wake_summary">Wakeup device when smart cover opens</string>
-    <string name="smart_cover_sleep_title">Smart cover sleep</string>
-    <string name="smart_cover_sleep_summary">Put the device to sleep when smart cover closes</string>
+    <string name="smart_cover_wake_title">Réveil avec le Smart cover</string>
+    <string name="smart_cover_wake_summary">Réveiller l\'appareil lorsque le Smart cover est ouvert</string>
+    <string name="smart_cover_sleep_title">Veille avec le Smart cover</string>
+    <string name="smart_cover_sleep_summary">Mettre l'appareil en veille lorsque le Smart cover est fermé</string>
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
