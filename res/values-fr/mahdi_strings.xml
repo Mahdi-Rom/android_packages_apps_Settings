@@ -15,12 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings  -->
-    <string name="custom_settings_category">Custom</string>
+    <string name="custom_settings_category">Personnalisation</string>
     <!-- Customization Interface settings  -->
     <string name="customization_settings_title">Paramètres d\'interface</string>
 
     <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">Version Mahdi</string>
+    <string name="mod_version">Version de Mahdi</string>
     <string name="mod_version_default">Inconnu</string>
     <!-- About phone screen, Build date of ROM -->
     <string name="build_date">Date de compilation</string>
@@ -546,7 +546,7 @@
     <string name="title_tile_quick_record">Enregistrement rapide</string>
     <string name="title_tile_contact">Contact</string>
     <string name="title_tile_custom">Personnalisation</string>
-    <string name="custom_tile_dialog_text">Each action will add a new state to the tile. Each click changes to the next state. Long-press to add long-press actions. If no click action exists the long-action icon will be used for the tile. This allows you to change states by clicking and launch actions by long-pressing.</string>
+    <string name="custom_tile_dialog_text">Chaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utilisée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.</string>
     <string name="custom_tile_dialog_title">Actions de tuile custom</string>
     <string name="custom_tile_dialog_extra_text">Tuile avancée détectée. Votre tuile changera maintenant d\'état depuis n\'importe où. Vous pouvez éventuellement ajouter une icône et un libellé pour la tuile à activer si elle ne reconnait pas son état.</string>
     <string name="custom_toggle_extras">Extras pour la tuile custom</string>
@@ -764,8 +764,8 @@
     <string name="privacy_guard_notification_dismiss_summary">Une notification dismissable peut être effacé</string>
 
     <!-- Battery status on lock ring -->
-    <string name="battery_around_lockscreen_ring">Battery level around lock ring</string>
-    <string name="battery_around_lockscreen_ring_summary">If checked the lock screen ring will display the battery charge level</string>
+    <string name="battery_around_lockscreen_ring">Batterie autour de l\'anneau</string>
+    <string name="battery_around_lockscreen_ring_summary">Afficher le niveau de la batterie autour de l\'anneau de déverrouilage</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notification débogage USB</string>
@@ -775,32 +775,32 @@
     <string name="button_settings">Boutons</string>
 
     <!-- Hardware keys -->
-    <string name="button_keys_title">Hardware Buttons</string>
-    <string name="button_keys_summary">View or change hardware key actions</string>
-    <string name="disable_hw_title">Disable hardware buttons</string>
-    <string name="disable_hw_summary">Disabling hardware keys will enable the on-screen navigation bar</string>
-    <string name="keys_bindings_title">Key actions</string>
-    <string name="keys_enable_custom_title">Enable custom actions</string>
-    <string name="keys_enable_custom_summary">Enable custom hardware key actions</string>
-    <string name="keys_back_press_title">Back key</string>
-    <string name="keys_back_long_press_title">Back key (long press)</string>
-    <string name="keys_back_double_tap_title">Back key (double tap)</string>
-    <string name="keys_home_press_title">Home key</string>
-    <string name="keys_home_long_press_title">Home key (long press)</string>
-    <string name="keys_home_double_tap_title">Home key (double tap)</string>
-    <string name="keys_menu_press_title">Menu key</string>
-    <string name="keys_menu_long_press_title">Menu key (long press)</string>
-    <string name="keys_menu_double_tap_title">Menu key (double tap)</string>
-    <string name="keys_assist_press_title">Search key</string>
-    <string name="keys_assist_long_press_title">Search key (long press)</string>
-    <string name="keys_assist_double_tap_title">Search key (double tap)</string>
-    <string name="keys_app_switch_press_title">App switch key</string>
-    <string name="keys_app_switch_long_press_title">App switch key (long press)</string>
-    <string name="keys_app_switch_double_tap_title">App switch key (double tap)</string>
-    <string name="keys_action_normal">Normal press</string>
-    <string name="keys_action_long">Long press</string>
-    <string name="keys_action_double">Double tap</string>
-    <string name="no_home_key">You have no button assigned any more to the \"Home\" action!\n\nThis can make your device unusable!</string>
+    <string name="button_keys_title">Touches physiques</string>
+    <string name="button_keys_summary">Voir et changer les actions des touches physiques</string>
+    <string name="disable_hw_title">Désactiver les touches physiques</string>
+    <string name="disable_hw_summary">Désactiver les touches physiques va activer la barre de navigation sur l\'écran</string>
+    <string name="keys_bindings_title">Actions des touches</string>
+    <string name="keys_enable_custom_title">Activer les actions personnelles.</string>
+    <string name="keys_enable_custom_summary">Active les actions personnalisée sur les touches physiques.</string>
+    <string name="keys_back_press_title">Touche retour</string>
+    <string name="keys_back_long_press_title">Touche retour (appui long)</string>
+    <string name="keys_back_double_tap_title">Touche retour (appui double)</string>
+    <string name="keys_home_press_title">Touche accueil</string>
+    <string name="keys_home_long_press_title">Touche accueil (appui long)</string>
+    <string name="keys_home_double_tap_title">Touche accueil (appui double)</string>
+    <string name="keys_menu_press_title">Touche menu</string>
+    <string name="keys_menu_long_press_title">Touche menu (appui long)</string>
+    <string name="keys_menu_double_tap_title">Touche menu (appui double)</string>
+    <string name="keys_assist_press_title">Touche recherche</string>
+    <string name="keys_assist_long_press_title">Touche recherche (appui long)</string>
+    <string name="keys_assist_double_tap_title">Touche recherche (appui double)</string>
+    <string name="keys_app_switch_press_title">Touche application récente</string>
+    <string name="keys_app_switch_long_press_title">Touche application récente (appui long)</string>
+    <string name="keys_app_switch_double_tap_title">Touche application récente (appui double)</string>
+    <string name="keys_action_normal">Appui normal</string>
+    <string name="keys_action_long">Appui long</string>
+    <string name="keys_action_double">Appui double</string>
+    <string name="no_home_key">Vous n\'avez aucun bouton assigné à l\'action \"Accueil\" !\n\nCela peut rendre votre appareil inutilisable !</string>
 
     <!-- Lock screen buttons -->
     <string name="lockscreen_long_press_home_title">Appui long sur le bouton Accueil</string>
@@ -856,7 +856,7 @@
     <string name="increasing_ring_volume_notice">Note :\nComme le volume défini est plus grand que celui de la sonnerie, il sera réduit à ce niveau.</string>
     <string name="increasing_ring_interval_title">Intervalle de progression</string>
     <string name="increasing_ring_interval_eachring">À chaque sonnerie</string>
-    <string name="increasing_ring_interval_half_second">0.5 seconde</string>
+    <string name="increasing_ring_interval_half_second">0.5 secondes</string>
     <string name="increasing_ring_interval_1second">1 seconde</string>
     <string name="increasing_ring_interval_2seconds">2 secondes</string>
     <string name="increasing_ring_interval_3seconds">3 secondes</string>
@@ -887,10 +887,10 @@
     <string name="display_rotation_270_title">270 degrés</string> 
 
     <!-- Android debugging over WiFi -->
-    <string name="adb_over_network">ADB over network</string>
-    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
+    <string name="adb_over_network">ADB par le réseau</string>
+    <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi-Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+    <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez vous vraiment activer cette fonction ?</string>
 
     <!-- Button shorcut actions -->
     <string name="shortcut_action_keyguard_camera">Keyguard camera</string>
