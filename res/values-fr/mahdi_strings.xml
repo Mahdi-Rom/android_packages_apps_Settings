@@ -2204,23 +2204,23 @@
     <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétroéclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
 
     <!-- tap-to-wake -->
-    <string name="double_tap_to_wake_title">Double-tap to wake</string>
+    <string name="double_tap_to_wake_title">Taper deux fois pour réveiller</string>
 
     <!-- Screen color -->
-    <string name="screencolor">Screen color</string>
-    <string name="custom_screencolor">Custom screen color</string>
-    <string name="screencolor_save">Save</string>
-    <string name="screencolor_cancel">Cancel</string>
-    <string name="previous_str">Previous</string>
-    <string name="new_str">New</string>
-    <string name="restore_preview">View default picture</string>
-    <string name="selectnewfile_menu">View new picture from Gallery</string>
-    <string name="selectfile_menu">View picture from Gallery</string>
-    <string name="restore_default_str">Reset</string>
-    <string name="hue_str">Hue: <xliff:g id="hue_value">%1$s</xliff:g></string>
-    <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
-    <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
-    <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+    <string name="screencolor">Couleur de l\'écran</string>
+    <string name="custom_screencolor">Couleur d\'écran personnalisée</string>
+    <string name="screencolor_save">Sauver</string>
+    <string name="screencolor_cancel">Annuler</string>
+    <string name="previous_str">Précédent</string>
+    <string name="new_str">Nouveau</string>
+    <string name="restore_preview">Voir l\'image par défaut</string>
+    <string name="selectnewfile_menu">Voir la nouvelle image à partir de la galerie</string>
+    <string name="selectfile_menu">Voir l\'image à partir de la galerie</string>
+    <string name="restore_default_str">Réinitialiser</string>
+    <string name="hue_str">Teinte : <xliff:g id="hue_value">%1$s</xliff:g></string>
+    <string name="saturation_str">Saturation : <xliff:g id="saturation_value">%1$s</xliff:g></string>
+    <string name="contrast_str">Contraste : <xliff:g id="contrast_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Intensité : <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
 
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Amélioration des couleurs</string>
@@ -2277,7 +2277,7 @@
     <string name="smart_cover_wake_title">Réveil avec le Smart cover</string>
     <string name="smart_cover_wake_summary">Réveiller l\'appareil lorsque le Smart cover est ouvert</string>
     <string name="smart_cover_sleep_title">Veille avec le Smart cover</string>
-    <string name="smart_cover_sleep_summary">Mettre l'appareil en veille lorsque le Smart cover est fermé</string>
+    <string name="smart_cover_sleep_summary">Mettre l\'appareil en veille lorsque le Smart cover est fermé</string>
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
