@@ -1071,7 +1071,7 @@
     <string name="navbar_enable_bar">Barre de navigation</string>
     <string name="navbar_enable_bar_summary">Activer la barre de navigation.</string>
     <string name="navigation_bar_left_title">Mode gaucher</string>
-    <string name="navigation_bar_left_summary">Placer la barre de navigation sur le côté gauche de l'écran en mode paysage</string>
+    <string name="navigation_bar_left_summary">Placer la barre de navigation sur le côté gauche de l\'écran en mode paysage</string>
     <string name="navigation_bar_ime_title">Désactiver les flèches de déplacement du clavier</string>
     <string name="navigation_bar_ime_summary">Les flèches de déplacement du clavier sont activées par défauts, utiliser cette option pour les désactiver</string>
     <string name="navigation_bar_height_title">Hauteur de la barre de navigation</string>
@@ -1222,7 +1222,7 @@
     <string name="pocket_mode">Mode poche</string>
     <string name="pocket_mode_summary">Allumer et afficher toutes les notifications lorsque l\'appareil est sorti de la poche. Eteindre l\'écran lorsque l\'appareil rentre dans la poche.</string>
     <string name="show_always">Toujours afficher</string>
-    <string name="show_always_summary">Toujours allumer l'écran lorsqu\'il est sorti de la poche, même quand il n'y a pas de notifications en attente</string>
+    <string name="show_always_summary">Toujours allumer l\'écran lorsqu\'il est sorti de la poche, même quand il n\'y a pas de notifications en attente</string>
     <string name="hide_low_priority">Cacher les faibles priorités</string>
     <string name="hide_low_priority_summary">Masquer les notifications de faible priorité, tels que les notifications Google météo</string>
     <string name="hide_non_clearable">Masquer les non effaçables</string>
@@ -1239,7 +1239,7 @@
     <string name="notifications_height_summary">Nombre de notifications affichées à la fois</string>
     <string name="offset_top">Valeur de décalage en haut de l\'écran :</string>
     <string name="privacy_mode">Mode privé</string>
-    <string name="privacy_mode_summary">Désactive les notifications d'être représenté et rejeté. De cette façon, vous voyez seulement les icônes de vos notifications.</string>
+    <string name="privacy_mode_summary">Désactive les notifications d\'être représenté et rejeté. De cette façon, vous voyez seulement les icônes de vos notifications.</string>
     <string name="dynamic_width">Largeur dynamique</string>
     <string name="dynamic_width_summary">Les notifications utiliseront une largeur automatique, de sorte à utiliser le moins d\'espace possible</string>
     <string name="excluded_apps_title">Applications exclues</string>
