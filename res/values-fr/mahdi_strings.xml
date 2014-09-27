@@ -1359,21 +1359,21 @@
     <string name="recent_clear_all_apps_summary">Effacer toutes les tâches, y compris la plus haute</string>
 
     <!-- New Recents Screen -->
-    <string name="new_recents_category">Slims Recents</string>
-    <string name="new_recents_screen_title">Slims recents</string>
-    <string name="new_recents_screen_summary">Replaces the recents screen with one based on the new google cards optic</string>
-    <string name="recent_panel_scale_title">Panel size</string>
-    <string name="recent_panel_scale_summary">Recent apps panel size</string>
-    <string name="recent_panel_100">Large (default)</string>
-    <string name="recent_panel_85">Medium</string>
-    <string name="recent_panel_70">Small</string>
-    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
-    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
-    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
-    <string name="recent_panel_expanded_mode_always">Always</string>
-    <string name="recent_panel_expanded_mode_never">Never</string>
-    <string name="recent_panel_show_topmost_title">Show topmost task</string>
-    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
+    <string name="new_recents_category">Version récents SLIMS</string>
+    <string name="new_recents_screen_title">Slims récents</string>
+    <string name="new_recents_screen_summary">Remplace l\'écran récent par un modèle reposant sur le nouveau système de carte Google</string>
+    <string name="recent_panel_scale_title">Taille du panneau</string>
+    <string name="recent_panel_scale_summary">Taille de l\'écran des applications récentes</string>
+    <string name="recent_panel_100">Large (par défaut)</string>
+    <string name="recent_panel_85">Moyen</string>
+    <string name="recent_panel_70">Petit</string>
+    <string name="recent_panel_expanded_mode_title">Mode étendu</string>
+    <string name="recent_panel_expanded_mode_summary">Tâches récentes étendu en mode aperçu</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (Défaut)</string>
+    <string name="recent_panel_expanded_mode_always">Toujours</string>
+    <string name="recent_panel_expanded_mode_never">Jamais</string>
+    <string name="recent_panel_show_topmost_title">Afficher la plus haute tâche</string>
+    <string name="recent_panel_show_topmost_summary">Ne pas exclure la tâche la plus haute dans la vue récent</string>
     <string name="recent_panel_bg_color_title">Couleur du panneau</string>
     <string name="recent_card_bg_color_title">Couleur des cartes</string>
     <string name="recent_card_text_color_title">Couleur du texte</string>
