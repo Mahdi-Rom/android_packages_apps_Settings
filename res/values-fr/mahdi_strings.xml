@@ -78,7 +78,7 @@
     <string name="pulse_length_short">Courte</string>
     <string name="pulse_length_normal">Normale</string>
     <string name="pulse_length_long">Longue</string>
-    <string name="pulse_length_very_long">Très longe</string>
+    <string name="pulse_length_very_long">Très longue</string>
     <string name="pulse_speed_very_fast">Très rapide</string>
     <string name="pulse_speed_fast">Rapide</string>
     <string name="pulse_speed_normal">Normale</string>
@@ -377,15 +377,15 @@
     <string name="headset_plug_neutral_summary">Application de musique du système par défaut</string>
     <string name="headset_plug_music_active_title">Désactiver pendant la lecture audio</string>
     <string name="headset_plug_music_active_summary">Ne pas faire fonctionner le raccourcis pendant la lecture audio</string>
-    <string name="headset_plug_app_running_title">Action du raccourcis en cours d\'execution</string>
+    <string name="headset_plug_app_running_title">Action du raccourcis en cours d\'exécution</string>
     <string name="headset_plug_app_running_nothing">Aucune</string>
     <string name="headset_plug_app_running_front">Déplacer au premier plan</string>
-    <string name="headset_plug_actions_title">Action de la suppressionr</string>
+    <string name="headset_plug_actions_title">Action de la suppression</string>
     <string name="headset_plug_actions_disabled">Aucune</string>
     <string name="headset_plug_actions_front">Déplacer au premier plan</string>
     <string name="headset_plug_actions_kill">Tuer l\'application</string>
     <string name="headset_plug_force_actions_title">Forcer l\'action de suppression</string>
-    <string name="headset_plug_force_actions_summary">Executer l\'action de suppression même si le raccourci est déjà en cours d\'exécution</string>
+    <string name="headset_plug_force_actions_summary">Exécuter l\'action de suppression même si le raccourci est déjà en cours d\'exécution</string>
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Luminosité automatique</string>
@@ -431,10 +431,10 @@
     <string name="lock_before_unlock_summary">Afficher le glisser de verrouillage avant de dispositif de déverrouillage sécurisé</string>
 
     <!-- Shake to secure -->
-    <string name="shake_to_secure_title">Secouer le lockscreen pour activer la sécurité</string>
+    <string name="shake_to_secure_title">Secouer l\'écran de verrouillage pour activer la sécurité</string>
     <string name="shake_to_secure_summary">La sécurité sera désactivée après chaque déverrouillage réussi</string>
     <string name="shake_to_secure_dlg_title">Attention:</string>
-    <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
+    <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverrouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
     <string name="shake_secure_timeout_title">Re-sécuriser automatiquement</string>
     <string name="shake_all">Secouer dans n\'importe quelle direction</string>
     <string name="shake_horizontal">Secouer horizontalement</string>
@@ -466,8 +466,8 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
-    <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
-
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
+    
     <!-- Lock Gesture settings -->
     <string name="lockgesture_change_lock_pattern_label">Changement du geste de déblocage</string>
     <string name="lockgesture_change_lock_pin_label">Modifier le code PIN</string>
@@ -506,7 +506,7 @@
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Volet des raccourcis</string>
-    <string name="quick_settings_summary">View or change options for quick settings and notification drawer</string>
+    <string name="quick_settings_summary">Voir ou changer les options pour la configuration rapide et la barre de notification</string>
     <string name="title_static_tiles">Raccourcis statiques</string>
     <string name="tile_picker_title">Raccourcis et disposition</string>
     <string name="tile_picker_summary">Afficher, sélectionner ou changer la disposition des raccourcis</string>
@@ -547,9 +547,9 @@
     <string name="title_tile_contact">Contact</string>
     <string name="title_tile_custom">Personnalisation</string>
     <string name="custom_tile_dialog_text">Chaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utilisée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.</string>
-    <string name="custom_tile_dialog_title">Actions de tuile custom</string>
+    <string name="custom_tile_dialog_title">Actions de la tuile personnalisée</string>
     <string name="custom_tile_dialog_extra_text">Tuile avancée détectée. Votre tuile changera maintenant d\'état depuis n\'importe où. Vous pouvez éventuellement ajouter une icône et un libellé pour la tuile à activer si elle ne reconnait pas son état.</string>
-    <string name="custom_toggle_extras">Extras pour la tuile custom</string>
+    <string name="custom_toggle_extras">Extra pour la tuile personnalisée</string>
     <string name="custom_toggle_collapse_check">Réduire l\'ombre de la notification</string>
     <string name="custom_toggle_match_state_check">L\'action du clic correspond à l\'icône</string>
     <string name="custom_toggle_double_click_check">Double-taper pour revenir à l\'action précédente</string>
@@ -557,7 +557,7 @@
     <string name="custom_tile_null_warning">Une action doit d\'abord être définie</string>
     <string name="custom_tile_resolve_name">Inconnu</string>
     <string name="title_tile_theme">Sélecteur de thème</string>
-    <string name="title_tile_batterysaver">BatterySaver mode</string>
+    <string name="title_tile_batterysaver">Mode économiseur de batterie</string>
     <string name="title_tile_heads_up">Notifications flottantes</string>
     <string name="title_tile_performance_profile">Profil de performance</string>
 
@@ -588,13 +588,13 @@
     <string name="smart_pulldown_summary">Ouvre les paramètres rapides lorsqu\'il y a %1$s notifications</string>
     <string name="smart_pulldown_off">Désactivé</string>
     <string name="smart_pullDésactivédown_dismissable">Aucune annulable</string>
-    <string name="smart_pulldown_persistent">Aucune persistente</string>
-    <string name="smart_pulldown_all">Aucune annulable ou persistente</string>
+    <string name="smart_pulldown_persistent">Aucune persistante</string>
+    <string name="smart_pulldown_all">Aucune annulable ou persistante</string>
 
     <!-- QuickSettings: Custom Tile -->
     <string name="custom_tile_dialog_text">Chaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utiliChaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utilisée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.sée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.</string>
-     <string name="custom_tile_dialog_title">Actions de tuile custom</string>
-     <string name="custom_toggle_extras">Extras pour la tuile custom</string>
+     <string name="custom_tile_dialog_title">Actions de la tuile personnalisée</string>
+     <string name="custom_toggle_extras">Extra pour la tuile personnalisée</string>
      <string name="custom_toggle_collapse_check">Réduire l\'ombre de la notification</string>
      <string name="custom_toggle_match_state_check">L\'action du clic correspond à l\'icône</string>
      <string name="custom_tile_long_press">Pression longue:</string>
@@ -616,7 +616,7 @@
     <!-- QuickSettings style options -->
     <string name="quick_settings_title">Paramètres rapides</string>
     <string name="summary_quicksettings_tiles_style">Voir ou changer les options de style des paramètres rapides</string>
-    <string name="quick_tiles_color_title">Activer les coleurs personnalisée</string>
+    <string name="quick_tiles_color_title">Activer les couleurs personnalisée</string>
     <string name="quick_tiles_color_summary">Activation des couleurs personnalisées remplace les thèmes</string>
     <string name="quick_tiles_bg_color_title">Couleur de fond des tuiles</string>
     <string name="quick_tiles_bg_pressed_color_title">Couleur de fond des tuiles appuyées</string>
@@ -625,8 +625,8 @@
     <string name="qs_style_reset_message">Réinitialiser toutes les couleurs?</string>
 
     <!-- QuickSettings fliptiles -->
-    <string name="flip_qs_tiles_title">Flip tiles</string>
-    <string name="flip_qs_tiles_summary">Flips the tiles on touch</string>
+    <string name="flip_qs_tiles_title">Tuiles basculantes</string>
+    <string name="flip_qs_tiles_summary">Basculer les tuiles au toucher</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="haptic_qs_tiles_title">Vibrer en touche</string>
@@ -652,8 +652,8 @@
     <!-- USB Mass Storage -->
     <string name="usb_mass_storage_title">Stockage de masse</string>
     <string name="usb_mass_storage_summary">Activer le stockage de masse USB</string>
-    <string name="storage_rescan_media">Réanalyser le stockage</string>
-    <string name="storage_rescan_media_complete">Scan terminé</string>
+    <string name="storage_rescan_media">Ré-analyser le stockage</string>
+    <string name="storage_rescan_media_complete">Analyse terminée</string>
 
     <!-- Category title for power sound notification specific Settings -->
     <string name="power_notifications_category_title">Alerte de branchement ou débranchement</string>
@@ -709,7 +709,7 @@
     <string name="center_clock">Horloge au centre</string>
     <string name="dont_show">Ne pas afficher</string>
     <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Afficher la date custom avant l\'horloge</string>
+    <string name="clock_date_display_summary">Afficher la date personnalisée avant l\'horloge</string>
     <string name="clock_date_style">Style de la date</string>
     <string name="clock_date_format">Format de la date</string>
     <string name="clock_date_string_edittext_title">Doit être au format de date ex: jj/mm/aa</string>
@@ -723,7 +723,7 @@
     <string name="clock_date_style_normal">Normal</string>
     <string name="clock_date_style_lowercase">Minuscule</string>
     <string name="clock_date_style_uppercase">Majuscule</string>
-    <string name="clock_date_format_custom">Format java custom</string>
+    <string name="clock_date_format_custom">Format personnalisé de java</string>
     <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge?</string>
 
     <!-- StatusBar Battery Settings -->    
@@ -759,20 +759,20 @@
     <string name="privacy_guard_manager_filter_permissions">Filtre de permissions</string>
     <string name="privacy_guard_advanced_settings_title">Avancé</string>
     <string name="privacy_guard_notification_title">Afficher la notification</string>
-    <string name="privacy_guard_notification_icon_title">Afficher l\'icon du notification</string>
-    <string name="privacy_guard_notification_dismiss_title">Notification Dismissable</string>
-    <string name="privacy_guard_notification_dismiss_summary">Une notification dismissable peut être effacé</string>
+    <string name="privacy_guard_notification_icon_title">Afficher l\'icône de notification</string>
+    <string name="privacy_guard_notification_dismiss_title">Notification rejetable</string>
+    <string name="privacy_guard_notification_dismiss_summary">Une notification rejetable peut être effacé</string>
 
     <!-- Battery status on lock ring -->
     <string name="battery_around_lockscreen_ring">Batterie autour de l\'anneau</string>
-    <string name="battery_around_lockscreen_ring_summary">Afficher le niveau de la batterie autour de l\'anneau de déverrouilage</string>
+    <string name="battery_around_lockscreen_ring_summary">Afficher le niveau de la batterie autour de l\'anneau de déverrouillage</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notification débogage USB</string>
     <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est actif</string>
 
     <!-- button settings -->
-    <string name="button_settings">Boutons</string>
+    <string name="button_settings">Touches</string>
 
     <!-- Hardware keys -->
     <string name="button_keys_title">Touches physiques</string>
@@ -1009,9 +1009,9 @@
     <string name="icon_picker_choose_icon_title">Choisir l\'icône</string>
     <string name="icon_color_mode_all_icons">Toutes les icônes</string>
     <string name="icon_color_mode_system_icons">Icônes système</string>
-    <string name="icon_color_mode_system_custom_icons">Icônes système et personnalisé.</string>
+    <string name="icon_color_mode_system_custom_icons">Icônes système et personnalisée.</string>
     <string name="group_applications">Applications</string>
-    <string name="select_custom_app_title">Sélectionner une application personnalisé.</string>
+    <string name="select_custom_app_title">Sélectionner une application personnalisée.</string>
     <string name="shortcuts_text_color_title">Couleur du texte</string>
     <string name="shortcuts_color_title">Couleur de l\'icône</string>
     <string name="shortcuts_color_mode_title">Mode de couleur de i\'icône</string>
@@ -1043,7 +1043,7 @@
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Options de navigation</string>
     <string name="navigation_settings_category_title">Navigation</string>
-    <string name="navigation_settings_summary">Personnalisez votre barre de navigation sur l\'écran</string>
+    <string name="navigation_settings_summary">Personnaliser votre barre de navigation sur l\'écran</string>
     <string name="navigation_settings_title">Barre de navigation</string>
 
     <!-- Navigation bar -->
@@ -1062,7 +1062,7 @@
     <string name="navigation_menu_default_jb_behavior">Afficher si besoin (Par défaut)</string>
     <string name="navigation_menu_never_show">Ne jamais afficher</string>
     <string name="navigation_menu_always_show">Toujours afficher</string>
-    <string name="navigation_bar">Barre de navigatio</string>
+    <string name="navigation_bar">Barre de navigation</string>
     <string name="navbar_button_cat">Boutons de la barre de navigation</string>
     <string name="title_pref_menu_location">Position du bouton Menu</string>
     <string name="summary_pref_menu_location">Choisir le côté où le bouton Menu doit être affiché.</string>
@@ -1133,7 +1133,7 @@
     <string name="show_network_traffic_up">Sortant</string>
     <string name="show_network_traffic_down">Entrant</string>
     <string name="show_network_traffic_all">Sortant et Entrant</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_bit">Bits par seconde</string>
     <string name="show_network_traffic_byte">Bytes par seconde</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
@@ -1234,7 +1234,7 @@
     <string name="force_expanded_view">Forcer les notifications étendues</string>
     <string name="force_expanded_view_summary">Afficher des notifications étendues par défaut. Vous serez toujours en mesure de basculer entre la vue étendue et normale.</string>
     <string name="wake_on_notification">Réveil lors d\'une notification</string>
-    <string name="wake_on_notification_summary">Réveiller lors de la reception d\'une nouvelle notification</string>
+    <string name="wake_on_notification_summary">Réveiller lors de la réception d\'une nouvelle notification</string>
     <string name="notifications_height">Compteur de notifications</string>
     <string name="notifications_height_summary">Nombre de notifications affichées à la fois</string>
     <string name="offset_top">Valeur de décalage en haut de l\'écran :</string>
@@ -1343,7 +1343,7 @@
 
     <!-- Recents panel menu -->
     <string name="recents_panel_settings_title">Multi-tâches</string>
-    <string name="recents_panel_settings_summary">Les options multi-tâches comprennent la version Slim recents  et plus</string>
+    <string name="recents_panel_settings_summary">Les options multi-tâches comprennent la version Slim récents et plus</string>
 
     <!-- Recents clear all -->
     <string name="aosp_recents_category">Version récents AOSP</string>
@@ -1422,7 +1422,7 @@
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Thèmes</string>
-    <string name="title_cm_themes">Themes chooser</string>
+    <string name="title_cm_themes">Sélecteur de thèmes</string>
 
     <!-- The following are entries under the themes menu -->
     <string name="themepacks_settings_title">Packs de thème</string>
@@ -1444,11 +1444,11 @@
     
     <!-- Notification drawer background -->   
     <string name="notification_background_title">Style du fond</string>
-    <string name="notification_background_summary">Change your notification drawer background and more</string>
+    <string name="notification_background_summary">Changer le fond du panneau de notification et plus</string>
     <string name="notification_wallpaper_title">Fond</string>
     <string name="notification_wallpaper_landscape_title">Fond différent en mode paysage</string>
     <string name="notification_background_color_fill">Remplissage par couleur</string>
-    <string name="notification_background_custom_image">Image custom</string>
+    <string name="notification_background_custom_image">Image personnalisée</string>
     <string name="notification_background_default_wallpaper">Fond par défaut</string>
     <string name="notification_drawer_custom_background_dialog_title">Choisir la couleur</string>
     <string name="notif_wallpaper_alpha_title">Transparence du fond</string>
@@ -1597,7 +1597,7 @@
     <string name="app_ops_show_user_apps">Voir les applications d\'utilisateur</string>
     <string name="app_ops_show_system_apps">Afficher les applications système</string>
     <string name="app_ops_reset_counters">Réinitialiser le compteur des autorisés/refusés</string>
-    <string name="app_ops_reset_confirm_title">Confirmer la réinitialisation des compteurs</string>
+    <string name="app_ops_reset_confirm_title">Confirmer la ré-initialisation des compteurs</string>
     <string name="app_ops_reset_confirm_mesg">Êtes-vous sûr de vouloir réinitialiser les compteurs de AppOps ?</string>
 
     <!-- Screen off animation options -->
@@ -1612,7 +1612,7 @@
 
     <!-- Animation Control -->
     <string name="interface_animation_title">Options avancées</string>
-    <string name="interface_animation_summary">Personnaliser les animations du system , listes et d\'autres.</string>
+    <string name="interface_animation_summary">Personnaliser les animations du système , listes et d\'autres.</string>
 
     <!-- ListView animation -->
     <string name="system_animation_title">Système</string>
