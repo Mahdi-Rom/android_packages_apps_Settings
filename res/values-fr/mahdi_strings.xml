@@ -1728,31 +1728,31 @@
     <string name="ram_bar_reset">Réinitialiser</string>
 
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Toast</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
-    <string name="toast_fade_animation">Fade</string>
-    <string name="toast_SlideRight_animation">SlideRight</string>
-    <string name="toast_SlideLeft_animation">SlideLeft</string>
+    <string name="toast_animation_title">Bulle d\'informations</string>
+    <string name="toast_none_animation">Aucune</string>
+    <string name="toast_default_animation">Par défaut</string>
+    <string name="toast_fade_animation">Fondu</string>
+    <string name="toast_SlideRight_animation">Glisser à droite</string>
+    <string name="toast_SlideLeft_animation">Glisser à gauche</string>
     <string name="toast_Xylon_animation">Xylon</string>
     <string name="toast_Toko_animation">Toko</string>
     <string name="toast_Tn_animation">Tn</string>
     <string name="toast_Honami_animation">Honami</string>
-    <string name="toast_FastFade_animation">FastFade</string>
-    <string name="toast_GrowFade_animation">GrowFade</string>
-    <string name="toast_GrowFadeCenter_animation">GrowFadeCenter</string>
-    <string name="toast_GrowFadeBottom_animation">GrowFadeBottom</string>
-    <string name="toast_Translucent_animation">Translucent</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
-
+    <string name="toast_FastFade_animation">Fondu rapide</string>
+    <string name="toast_GrowFade_animation">Fondu croissante</string>
+    <string name="toast_GrowFadeCenter_animation">Fondu centrale croissante</string>
+    <string name="toast_GrowFadeBottom_animation">Fondu basse croissante</string>
+    <string name="toast_Translucent_animation">Transparente</string>
+    <string name="toast_SlideLeftRight_animation">Glisser de gauche à droite</string>
+    <string name="toast_SlideRightLeft_animation">Glisser de droite à gauche</string>
+    
     <!-- Chamber of Secrets -->
     <string name="chamber_title">Chambre des secrets</string>
     <string name="chamber_toast">La chambre des secrets est ouverte</string>
 
     <!-- EdgeGesture service -->
-    <string name="edge_gesture_service_title">Block gesture touch events</string>
-    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
+    <string name="edge_gesture_service_title">Bloquer les gestes des événements tactiles</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre de statut aux applications</string>
 
     <!-- Battery saver mode -->
     <string name="unit_sec">sec</string>
@@ -1766,7 +1766,7 @@
     <string name="network_global">Global</string>
     <string name="battery_saver_action_undefined">Indéfini</string>
     <string name="battery_saver_title">Economiseur de batterie</string>
-    <string name="battery_saver_summary">Choose power saving modes for mobile data and WiFi connections</string>
+    <string name="battery_saver_summary">Choisissez les modes d\'économie d\'énergie pour les données mobiles et les connexions WiFi</string>
     <string name="pref_battery_saver_enable_title">Economiseur de batterie</string>
     <string name="pref_battery_saver_enable_summary">Bascule automatiquement votre réseau en mode d\'économie d\'énergie définie par l\'utilisateur ou en mode normal, selon les données mobiles et les états de connexion WiFi</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">Ceci gèrera automatiquement l\'usage de la batterie défini par l\'utilisateur</string>
@@ -1784,8 +1784,8 @@
     <string name="pref_battery_saver_mode_battery_level_summary">Activer le mode économique ou changer la luminosité selon le niveau de batterie</string>
     <string name="pref_battery_saver_data_title">Désactiver les données mobiles</string>
     <string name="pref_battery_saver_data_summary">Désactive les données mobiles lorsque le mode économique est activé</string>
-    <string name="pref_battery_saver_wifi_title">Désactiver le Wi-Fi</string>
-    <string name="pref_battery_saver_wifi_summary">Désactive le Wi-Fi lorsque le mode économique est activé</string>
+    <string name="pref_battery_saver_wifi_title">Désactiver le WIFI</string>
+    <string name="pref_battery_saver_wifi_summary">Désactive le WIFI lorsque le mode économique est activé</string>
     <string name="pref_battery_saver_brightness_title">Mode de luminosité</string>
     <string name="pref_battery_saver_brightness_summary">Active l\'ajustement de la luminosité lorsque le mode économique est activé</string>
     <string name="pref_battery_saver_mode_brightness_level_title">Niveau de luminosité</string>
@@ -1794,8 +1794,8 @@
     <string name="pref_battery_saver_network_summary">Permettre de passer le réseau en mode normal lorsque le mode économique est activé et après extinction de l\'écran</string>
     <string name="pref_battery_saver_nosignal_title">Signal réseau intelligent</string>
     <string name="pref_battery_saver_nosignal_summary">Active le mode économique lorsque il n\'y a pas de signal réseau pendant 5 minutes</string>
-    <string name="pref_battery_saver_toast_title">Afficher les bulles d\'infos</string>
-    <string name="pref_battery_saver_toast_summary">Permettre d\'afficher les bulles d\'infos lorsque le mode économique modifie la configuration de l\'appareil</string>
+    <string name="pref_battery_saver_toast_title">Afficher les bulles d\'informations</string>
+    <string name="pref_battery_saver_toast_summary">Permettre d\'afficher les bulles d\'informations lorsque le mode économique modifie la configuration de l\'appareil</string>
     <string name="battery_saver_battery_title">Options batterie</string>
     <string name="battery_saver_radio_title">Options radio</string>
     <string name="battery_saver_network_title">Les autres options de réseaux</string>
@@ -1864,7 +1864,7 @@
     <string name="system_bar_visibility_summary">Afficher les barres de statut et de navigation sur l\'écran de verrouillage pendant le mode immersif</string>
 
     <!-- On-The-Go -->
-    <string name="power_menu_onthego_title">On-The-Go mode</string>
+    <string name="power_menu_onthego_title">Mode On-The-Go</string>
     <string name="title_tile_onthego">On-The-Go</string>
 
     <!-- Recents Ram Bar -->
@@ -1890,8 +1890,8 @@
     <string name="ram_bar_reset_message">Réinitialiser le style du barre de RAM?</string>
 
     <!-- Disable FC Notifications -->
-    <string name="disable_fc_notifications_title">Disable FC Notifications</string>
-    <string name="disable_fc_notifications_summary">This will hide all force close notifications</string>
+    <string name="disable_fc_notifications_title">Désactiver les notifications de fermeture forcée</string>
+    <string name="disable_fc_notifications_summary">Permettre de masquer toutes les notifications de fermeture forcée</string>
 
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">Curseur de luminosité</string>
@@ -1912,7 +1912,7 @@
     <string name="voice_tts_notification_summary_off">Désactiver</string>
     <string name="voice_tts_volume_title">Volume</string>
     <string name="voice_tts_volume_summary">Régler le volume pour parler</string>
-    <string name="voice_tts_call_title">Appel entran</string>
+    <string name="voice_tts_call_title">Appel entrant</string>
     <string name="voice_tts_call_summary">Activer/désactiver l\'énoncé des appels entrants</string>
     <string name="voice_tts_sms_title">Nouveau message</string>
     <string name="voice_tts_sms_summary">Activer/désactiver l\'énoncé des nouveaux messages</string>
@@ -1984,7 +1984,7 @@
 
     <!-- Pie Control -->
     <string name="pie_control_title">Navigation Pie</string>
-    <string name="pie_control_summary">Active les Pie controls</string>
+    <string name="pie_control_summary">Activer les contrôles Pie</string>
     <string name="pie_control_size">Taille du Pie</string>
     <string name="pie_control_trigger_positions">Options de déclenchement</string>
     <string name="pie_control_trigger_left">Déclenchement sur le bord gauche de l\'écran</string>
@@ -1992,18 +1992,18 @@
     <string name="pie_control_trigger_right">Déclenchement sur le bord droit de l\'écran</string>
     <string name="pie_control_trigger_top">Déclenchement sur le haut de l\'écran</string>
     <string name="pie_control_trigger_top_summary">Le Pie supérieur n\'affiche pas les informations de statut et d\'horloge</string>
-    <string name="pie_button_style">Style des boutons</string>
-    <string name="pie_button_color_title">Couleur de bouton</string>
-    <string name="pie_button_alpha_title">Transparence de bouton</string>
-    <string name="pie_button_outline_color_title">Couleur extérieure de bouton</string>
-    <string name="pie_button_pressed_color_title">Couleur de bouton appuyé</string>
-    <string name="pie_button_long_pressed_color_title">Couleur de bouton lors d\'un appui long</string>
-    <string name="pie_button_pressed_alpha_title">Transparence de bouton appuyé</string>
-    <string name="pie_icon_style">Style d\'icône de bouton</string>
-    <string name="pie_icon_color_title">Couleur d\'icône de bouton</string>
-    <string name="pie_icon_color_mode_title">Mode de couleur d\'icône de bouton</string>
-    <string name="pie_icon_color_mode_dialog_title">Colorier</string>
-    <string name="pie_icon_color_mode_summary">Change le mode de couleur de l\'icône de bouton</string>
+    <string name="pie_button_style">Style des touches</string>
+    <string name="pie_button_color_title">Couleur des touches</string>
+    <string name="pie_button_alpha_title">Transparence des touches</string>
+    <string name="pie_button_outline_color_title">Couleur extérieure des touches</string>
+    <string name="pie_button_pressed_color_title">Couleur des touches à l'appui</string>
+    <string name="pie_button_long_pressed_color_title">Couleur des touches lors d\'un appui long</string>
+    <string name="pie_button_pressed_alpha_title">Transparence des touche à l'appui</string>
+    <string name="pie_icon_style">Style d\'icône de la touche</string>
+    <string name="pie_icon_color_title">Couleur d\'icône de la touche</string>
+    <string name="pie_icon_color_mode_title">Mode de couleur d\'icône de la touche</string>
+    <string name="pie_icon_color_mode_dialog_title">Couleur</string>
+    <string name="pie_icon_color_mode_summary">Change le mode de couleur de l\'icône de la touche</string>
     <string name="pie_trigger_note_title">Note</string>
     <string name="pie_trigger_note_summary">Pour éviter les conflits avec la barre de statut ou la barre de navigation, les déclencheurs sur ces côtés sont automatiquement désactivés si un ou tous sont disponibles</string>
     <string name="pie_background_color_title">Couleur du fond</string>
@@ -2021,10 +2021,10 @@
     <string name="pie_show_text_summary">Afficher l\'état du téléphone, l\'heure et la date</string>
     <string name="pie_show_background_title">Afficher le fond</string>
     <string name="pie_show_background_summary">Activer l\'écran de fond du Pie</string>
-    <string name="pie_button">Boutons</string>
-    <string name="pie_button_second_layer">Boutons de la seconde couche</string>
-    <string name="pie_button_second_layer_summary">Permet de changer les boutons de la seconde couche</string>
-    <string name="pie_button_style_summary">Permet de changer le style des boutons du Pie</string>
+    <string name="pie_button">Touchess</string>
+    <string name="pie_button_second_layer">Touches de la seconde couche</string>
+    <string name="pie_button_second_layer_summary">Permet de changer les touches de la seconde couche</string>
+    <string name="pie_button_style_summary">Permet de changer le style des touches du Pie</string>
     <string name="pie_style_reset_message">Réinitialiser les valeurs de style?</string>
     <string name="pie_warning_no_navigation_present">Aucun autre moyen de navigation n\'est actuellement activé. Désactiver le pie peut rendre votre appareil inutilisable. Voulez vous activer la barre de navigation à la place?</string>
     <string name="pie_trigger_warning">Un des déclencheurs au minimum (bas, gauche ou droit) doit être activé.</string>
@@ -2049,15 +2049,15 @@
     <!--Notification peek-->
     <string name="notification_peek_title">Notification peek</string>
     <string name="notification_peek_summary">Voir la dernière notification après avoir ramassé votre appareil</string>
-    <string name="peek_pickup_timeout_title">Peek pickup timeout</string>
-    <string name="peek_wake_timeout_title">Peek wake timeout</string>
-    <string name="peek_pickup_15seconds">15 secondes (défault)</string>
+    <string name="peek_pickup_timeout_title">Délai avant désactivation de Peek</string>
+    <string name="peek_wake_timeout_title">Délai de réveil de Peek</string>
+    <string name="peek_pickup_15seconds">15 secondes (Par défaut)</string>
     <string name="peek_pickup_30seconds">30 secondes</string>
     <string name="peek_pickup_45seconds">45 secondes</string>
     <string name="peek_pickup_60seconds">1 minute</string>
     <string name="peek_pickup_120seconds">2 minutes</string>
     <string name="peek_wake_4seconds">4 secondes</string>
-    <string name="peek_wake_7seconds">7 secondes (par défault)</string>
+    <string name="peek_wake_7seconds">7 secondes (par défaut)</string>
     <string name="peek_wake_10seconds">10 secondes</string>
     <string name="peek_wake_20seconds">20 secondes</string>
     <string name="peek_wake_30seconds">30 secondes</string>
@@ -2087,23 +2087,23 @@
     <string name="volume_steps_dtmf_title">DTMF</string>
     <string name="volume_steps_music_title">Musique</string>
     <string name="volume_steps_notification_title">Notifications</string>
-    <string name="volume_steps_ring_title">Sonneur</string>
-    <string name="volume_steps_system_title">System</string>
+    <string name="volume_steps_ring_title">Sonnerie</string>
+    <string name="volume_steps_system_title">Système</string>
     <string name="volume_steps_voice_call_title">Appel vocal</string>
 
     <!-- Shake Events -->
-    <string name="shake_events_title">Shake events</string>
-    <string name="keyguard_shake_events_title">Shake events</string>
-    <string name="shake_events_summary">utiliser le secouage pour des actions personnalisées</string>
-    <string name="shake_events_enabled_title">Activer la surveillance des shake events</string>
-    <string name="shake_events_normal_title">Shake events actifs</string>
+    <string name="shake_events_title">Actions des secousses</string>
+    <string name="keyguard_shake_events_title">Actions des secousses</string>
+    <string name="shake_events_summary">utiliser les secousses pour des actions personnalisées</string>
+    <string name="shake_events_enabled_title">Activer la surveillaflottantesnce des secousses</string>
+    <string name="shake_events_normal_title">Actions des secousses actifs</string>
     <string name="shake_events_disabled_title">Applications désactivées</string>
-    <string name="shake_events_disabled_summary">Les shake events seront désactivés dans ces applications</string>
+    <string name="shake_events_disabled_summary">Les actions des secousses seront désactivées dans ces applications</string>
     <string name="shake_event_x_title">Activité à lancer quand secoué horizontalement</string>
     <string name="shake_event_y_title">Activité à lancer quand secoué verticalement</string>
     <string name="shake_event_z_title">Activité à lancer quand secoué d\'avant en arrière</string>
-    <string name="keyguard_shake_events_cat">Keyguard</string>
-    <string name="keyguard_shake_events_title">Keyguard shake events</string>
+    <string name="keyguard_shake_events_cat">Verrouillage du clavier</string>
+    <string name="keyguard_shake_events_title">verrouillage du clavier quand secoué</string>
 
     <!-- Shake sensitivity -->
     <string name="shake_sensitivity_title">Sensibilité de la secousse</string>
@@ -2143,16 +2143,16 @@
 
     <!-- Heads Up -->
     <string name="category_heads_up">Notifications flottantes</string>
-    <string name="summary_heads_up_enabled">Les notifications Heads-up sont activées</string>
-    <string name="summary_heads_up_disabled">Les notifications Heads-up sont désctivées</string>
+    <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
+    <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>
     <string name="heads_up_floating_window">Lancer en fenêtre flottante</string>
-    <string name="heads_up_floating_window_summary">En tapant sur la notification, l\'application s\'ouvre en mode flottant.</string>
+    <string name="heads_up_floating_window_summary">En tapant sur la notification, l\'application s\'ouvrira en mode flottant.</string>
     <string name="heads_up_expanded_title">Toujours étendu</string>
-    <string name="heads_up_expanded_summary">Affiche les notifications Heads up toujours en mode étendu</string>
+    <string name="heads_up_expanded_summary">Affiche les notifications flottantes toujours en mode étendu</string>
     <string name="heads_up_show_updates_title">Affichage des mises à jour</string>
-    <string name="heads_up_show_updates_summary">Affiche les mises à jour des notifications en attente en arrière plan comme heads up</string>
+    <string name="heads_up_show_updates_summary">Affiche les mises à jour en arrière plan comme notifications flottantes</string>
     <string name="heads_up_snooze_title">Minuterie de répétition</string>
-    <string name="heads_up_snooze_summary">Un appui sur le bouton snooze désactive les heads up pour <xliff:g id="number">%d</xliff:g> minutes.</string>
+    <string name="heads_up_snooze_summary">Un appui sur le bouton répétition désactive les notifications flottantes pour <xliff:g id="number">%d</xliff:g> minutes.</string>
     <string name="heads_up_snooze_disabled_summary">La minuterie de répétition est désactivée.</string>
     <string name="heads_up_snooze_3min">3 minutes</string>
     <string name="heads_up_snooze_5min">5 minutes</string>
@@ -2160,8 +2160,8 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <string name="heads_up_time_out_title">Durée</string>
-    <string name="heads_up_time_out_summary">Les notifications Heads up seront affichées pendant <xliff:g id="number">%d</xliff:g> secondes.</string>
-    <string name="heads_up_time_out_never_summary">Les notifications Heads up seront affichées jusqu\'à annulation.</string>
+    <string name="heads_up_time_out_summary">Les notifications flottantes seront affichées pendant <xliff:g id="number">%d</xliff:g> secondes.</string>
+    <string name="heads_up_time_out_never_summary">Les notifications flottantes seront affichées jusqu\'à annulation.</string>
     <string name="heads_up_time_out_4sec">4 secondes</string>
     <string name="heads_up_time_out_6sec">6 secondes</string>
     <string name="heads_up_time_out_8sec">8 secondes</string>
@@ -2172,13 +2172,13 @@
     <string name="add_heads_up_blacklist_summary">Ne pas afficher les notifications flottantes de ces applications</string>
     <string name="heads_up_dnd_title">Ne pas déranger</string>
     <string name="heads_up_blacklist_title">Liste noire</string>
-    <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre pop-up sur votre écran, activez les notifications flottantes.</string>
+    <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre contextuelle sur votre écran, activez les notifications flottantes.</string>
     <string name="heads_up_gravity_title">Affichage en bas</string>
-    <string name="heads_up_gravity_summary">Affiche les notifications Heads up en bas de l\'écran</string>
+    <string name="heads_up_gravity_summary">Affiche les notifications flottantes en bas de l\'écran</string>
 
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifications</string>
-    <string name="notification_settings_summary">Personnaliser les options du notifications comme heads-up et peek.</string>
+    <string name="notification_settings_summary">Personnaliser les options de notifications flottantes et Peek.</string>
 
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Intensité du vibreur</string>
@@ -2200,8 +2200,8 @@
     <string name="gamma_tuning_saturation">Saturation</string>
 
     <!-- Backlight brightness settings screen -->
-    <string name="adaptive_backlight_title">Rétroéclairage adaptatif</string>
-    <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétroéclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
+    <string name="adaptive_backlight_title">Rétro-éclairage adaptatif/string>
+    <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétro-éclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
 
     <!-- tap-to-wake -->
     <string name="double_tap_to_wake_title">Taper deux fois pour réveiller</string>
@@ -2227,9 +2227,9 @@
     <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
 
     <!-- Hardware tunables - Key backlight -->
-    <string name="button_backlight_title">Rétroéclairage</string>
-    <string name="button_backlight_enabled">Rétroéclairage des boutons</string>
-    <string name="keyboard_backlight_enabled">Rétroéclairage du clavier</string>
+    <string name="button_backlight_title">Rétro-éclairage</string>
+    <string name="button_backlight_enabled">Rétro-éclairage des boutons</string>
+    <string name="keyboard_backlight_enabled">Rétro-éclairage du clavier</string>
     <string name="button_backlight_seekbar_title">Luminosité du bouton</string>
     <string name="keyboard_backlight_seekbar_title">Luminosité du clavier</string>
     <string name="backlight_timeout_title">Temps d\'éclairage</string>
@@ -2270,7 +2270,7 @@
     <string name="enable_adb_summary_cm">Activer l\'interface Android Debug Bridge (adb)</string>
 
     <!-- Gestures Options -->
-    <string name="screen_off_gesture_settings_title">Gestures écran éteint</string>
+    <string name="screen_off_gesture_settings_title">Gestuelle écran éteint</string>
 
     <!-- Lid Settings -->
     <string name="smart_cover">Smart cover</string>
