@@ -1081,6 +1081,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="notification_hide_labels_all">Hide all labels</string>
     <string name="notification_hide_labels_text">in the notification panel</string>
 
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Force expanded notification</string>
+    <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
+
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Navigation options</string>
     <string name="navigation_settings_category_title">Navigation</string>
