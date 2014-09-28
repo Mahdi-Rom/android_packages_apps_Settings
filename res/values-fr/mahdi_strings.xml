@@ -1658,38 +1658,38 @@
 
     <!-- Animation Controls -->
     <string name="animation_settings_reset_message">Réinitialiser tous les paramètres d\'animations </string>
-    <string name="animation_controls_title">Animation controls</string>
-    <string name="activity_open_title">Open in-app activity animation</string>
-    <string name="activity_close_title">Close in-app activity animation</string>
-    <string name="task_open_title">Launch from in app animation</string>
-    <string name="task_close_title">Return to previous animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Return to homescreen animation</string>
-    <string name="wallpaper_close_title">Launch from homescreen animation</string>
-    <string name="wallpaper_intra_open_title">Recents page open animation</string>
-    <string name="wallpaper_intra_close_title">Recents page close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="animation_no_override_title">Prevent app overrides</string>
-    <string name="animation_no_override_summary_on">Prevent apps from overriding transitions.</string>
-    <string name="animation_no_override_summary_off">Apps can overriding transitions.</string>
+    <string name="animation_controls_title">Contrôle des animations</string>
+    <string name="activity_open_title">Animation à l\'ouverture d\'une activité</string>
+    <string name="activity_close_title">Animation à la fermeture d\'une activité</string>
+    <string name="task_open_title">Animation de lancement à partir d\'une application</string>
+    <string name="task_close_title">Animation de retour à partir d'\une application</string>
+    <string name="task_move_to_front_title">Déplacer la tâche vers l\'avant</string>
+    <string name="task_move_to_back_title">Déplacer la tâche vers l\'arrière</string>
+    <string name="wallpaper_open_title">Animation de retour sur l\'écran d\'accueil</string>
+    <string name="wallpaper_close_title">Animation de lancement à partir de l\'écran d\'accueil</string>
+    <string name="wallpaper_intra_open_title">Animation d\'ouverture de la page récente</string>
+    <string name="wallpaper_intra_close_title">Animation de fermeture de la page récente</string>
+    <string name="animation_duration_title">Durée de l\'animation</string>
+    <string name="animation_no_override_title">Empêcher la priorité des applications</string>
+    <string name="animation_no_override_summary_on">Empêcher les applications de remplacer les transitions.</string>
+    <string name="animation_no_override_summary_off">Les applications peuvent remplacer les transitions.</string>
 
     <!-- Animation Strings -->
-    <string name="animation_default">Default</string>
-    <string name="animation_fade">Fade</string>
-    <string name="animation_slide_right">Slide in right</string>
-    <string name="animation_slide_left">Slide in left</string>
-    <string name="animation_slide_right_no_fade">Slide in right (No fade)</string>
-    <string name="animation_slide_left_no_fade">Slide in left (No fade)</string>
-    <string name="animation_slide_up">Slide in bottom</string>
-    <string name="animation_slide_down">Slide in top</string>
-    <string name="animation_translucent">Translucent</string>
-    <string name="animation_grow_shrink">Grow in (Top)</string>
-    <string name="animation_grow_shrink_center">Grow in (Center)</string>
-    <string name="animation_grow_shrink_bottom">Grow in (Bottom)</string>
-    <string name="animation_grow_shrink_left">Grow in (Left)</string>
-    <string name="animation_grow_shrink_right">Grow in (Right)</string>
-    <string name="animation_random">Random</string>
+    <string name="animation_default">Par défaut</string>
+    <string name="animation_fade">Fondu</string>
+    <string name="animation_slide_right">Glisser à droite</string>
+    <string name="animation_slide_left">Glisser à gauche</string>
+    <string name="animation_slide_right_no_fade">Glisser à droite (sans fondu)</string>
+    <string name="animation_slide_left_no_fade">Glisser à gauche (sans fondu)</string>
+    <string name="animation_slide_up">Glisser en bas</string>
+    <string name="animation_slide_down">Glisser en haut</string>
+    <string name="animation_translucent">Translucide</string>
+    <string name="animation_grow_shrink">Croître vers le (haut)</string>
+    <string name="animation_grow_shrink_center">Croître vers le (centre)</string>
+    <string name="animation_grow_shrink_bottom">Croître vers le (bas)</string>
+    <string name="animation_grow_shrink_left">Croître vers la (gauche)</string>
+    <string name="animation_grow_shrink_right">Croître vers la (droite)</string>
+    <string name="animation_random">Aléatoire</string>
 
     <!-- Scrolling Animation Controls -->
     <string name="scrolling_title">Scrolling</string>
