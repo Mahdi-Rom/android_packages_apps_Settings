@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012-2013 The Mahdi-Rom Project
+<!-- Copyright (C) 2013-2014 The Mahdi-Rom Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -749,6 +749,7 @@
     <string name="clock_date_style_uppercase">大文字</string>
     <string name="clock_date_format_custom">カスタムjavaフォーマット</string>
     <string name="status_bar_clock_style_reset_message">時計の色をリセットしますか?</string>
+    <string name="status_bar_show_clock_lockscreen_title">ロック画面でも表示する</string>
 
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">バッテリー残量表示</string>
@@ -763,6 +764,10 @@
     <string name="status_bar_toggle_brightness">明るさコントロール</string>
     <string name="status_bar_toggle_brightness_summary">ステータスバーをなぞることで明るさを調整する</string>
     <string name="status_bar_toggle_info">自動明るさ調整が有効になっています</string>
+    
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">ステータスバーにキャリアを表示</string>
+    <string name="statusbar_miui_carrier_summary">ステータスバーにMIUIスタイルのキャリアラベルを表示する</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">プライバシーガードを有効にする</string>
@@ -1066,6 +1071,10 @@
     <string name="notification_hide_labels_wifi">Wi-Fiラベルを非表示</string>
     <string name="notification_hide_labels_all">全てのラベルを非表示</string>
     <string name="notification_hide_labels_text">通知パネル内</string>
+    
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">強制的に通知を展開</string>
+    <string name="notification_force_expand_summary">サポートされている全てのアプリケーションの通知を展開して表示する</string>
 
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">ナビゲーションオプション</string>
@@ -2036,7 +2045,7 @@
     <string name="time_five_to">Five till</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">パイナビゲーション</string>
+    <string name="pie_control_title">Slimパイ</string>
     <string name="pie_control_enable_title">有効にする</string>
     <string name="pie_control_summary">パイコントロールによるナビゲーションを有効にする</string>
     <string name="pie_control_size">パイの大きさ</string>
@@ -2089,6 +2098,65 @@
     <string name="pie_slice_gap_medium">標準</string>
     <string name="pie_slice_gap_large">大きい</string>
     <string name="pie_colors_title">色</string>
+    
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PAパイ</string>
+    <string name="pa_pie_controls">有効にする</string>
+    <string name="pa_pie_expanded_only_title">デスクトップの拡張時のみ有効</string>
+    <string name="pa_pie_expanded_only_summary">デスクトップの拡張時のみパイコントロールを有効にする</string>
+    <string name="pa_pie_gravity_title">位置</string>
+    <string name="pa_pie_gravity_top">上部</string>
+    <string name="pa_pie_gravity_bottom">下部</string>
+    <string name="pa_pie_gravity_right">右側</string>
+    <string name="pa_pie_gravity_left">左側</string>
+    <string name="pa_pie_mode_title">スタイル</string>
+    <string name="pa_pie_mode_bare">露出</string>
+    <string name="pa_pie_mode_quick">クイック</string>
+    <string name="pa_pie_mode_default">デフォルト</string>
+    <string name="pa_pie_mode_slow">スロー</string>
+    <string name="pa_pie_size_title">サイズ</string>
+    <string name="pa_pie_size_small">小</string>
+    <string name="pa_pie_size_large">大</string>
+    <string name="pa_pie_size_gigantic">巨体</string>
+    <string name="pa_pie_size_monster">モンスター</string>
+    <string name="pa_pie_color_title">色設定</string>
+    <string name="pa_pie_color_style_title">色スタイル</string>
+    <string name="pa_pie_background_title">背景の色</string>
+    <string name="pa_pie_select_title">選択時の色</string>
+    <string name="pa_pie_outlines_title">外枠の色</string>
+    <string name="pa_pie_status_clock_title">時計の色</string>
+    <string name="pa_pie_status_title">ステータスの色</string>
+    <string name="pa_pie_chevron_left_title">左側の弧の色</string>
+    <string name="pa_pie_chevron_right_title">右側の弧の色</string>
+    <string name="pa_pie_juice_title">電池残量の色</string>
+    <string name="pa_pie_button_color">ボタンの色</string>
+    <string name="pa_pie_button_color_title">ボタンの色</string>
+    <string name="pa_pie_gap_title">アイテムの間隔</string>
+    <string name="pa_pie_angle_title">角度</string>
+    <string name="pa_pie_angle_none">なし(従来式)</string>
+    <string name="pa_pie_angle_small">小</string>
+    <string name="pa_pie_angle_big">標準(デフォルト)</string>
+    <string name="pa_pie_angle_huge">大</string>
+    <string name="pa_pie_angle_super">巨大</string>
+    <string name="pa_pie_gap_none">なし</string>
+    <string name="pa_pie_gap_small">小</string>
+    <string name="pa_pie_gap_big">大(デフォルト)</string>
+    <string name="pa_pie_gap_huge">巨大</string>
+    <string name="pa_pie_center_title">中央揃え</string>
+    <string name="pa_pie_center_summary">パイの中心を画面の中央にする</string>
+    <string name="pa_pie_stick_title">画面の回転を無視</string>
+    <string name="pa_pie_stick_summary">画面を回転させてもトリガーを同じ位置に維持する</string>
+    <string name="pa_pie_power_title">画面オフボタンを表示</string>
+    <string name="pa_pie_power_summary">パイコントロールに画面オフボタンを表示する</string>
+    <string name="pa_pie_trigger_title">トリガーエリア</string>
+    <string name="pa_pie_trigger_none">なし(無効)</string>
+    <string name="pa_pie_trigger_huge">巨大</string>
+    <string name="pa_pie_notifications_title">通知の表示を有効にする</string>
+    <string name="pa_pie_notifications_summary">弧の外側へスワイプすることで通知パネルやクイック設定タイルを表示する</string>
+    <string name="pa_pie_menu_title">メニューボタンを常に表示</string>
+    <string name="pa_pie_menu_summary">必要か不要かに関わらずメニューボタンを常に表示する</string>
+    <string name="pa_pie_restart_launcher_title">Restart Launcher</string>
+    <string name="pa_pie_restart_launcher_summary">画面サイズの変更は悪影響があるかもしれません/nこのオプションは少しのブラックアウトでランチャーが正気を取り戻すことを可能にします(推奨)</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">アクション</string>
@@ -2361,4 +2429,9 @@
     <string name="nfc_polling_mode_screen_off">画面オフ時</string>
     <string name="nfc_polling_mode_screen_locked">画面オンでロック時</string>
     <string name="nfc_polling_mode_screen_unlocked">画面オンでロック解除時(デフォルト)</string>
+    
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">接続中のデバイス</string>
+    <string name="wifi_ap_client_ap_disabled">ホットスポットが無効です</string>
+    <string name="wifi_ap_client_none_connected">接続中のデバイスはありません</string>
 </resources>
