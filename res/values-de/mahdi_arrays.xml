@@ -40,4 +40,10 @@
         <item>15 Sek. | 1 Min. | 5 Min.</item>
         <item>30 Sek. | 2 Min. | 5 Min.</item>
     </string-array>
+    <string-array name="volume_overlay_entries">
+        <item>Einfach</item>
+        <item>Erweiterbar</item>
+        <item>Erweitert</item>
+        <item>Keine</item>
+    </string-array>
 </resources>
