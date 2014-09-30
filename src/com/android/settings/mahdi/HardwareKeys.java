@@ -506,14 +506,6 @@ public class HardwareKeys extends SettingsPreferenceFragment implements
                 Settings.System.DISABLE_HARDWARE_KEYS, enabled ? 1 : 0);
         KeyDisabler.setActive(enabled);
 
-        if (enabled) {
-            Settings.System.putInt(context.getContentResolver(),
-                    Settings.System.NAVIGATION_BAR_SHOW, 1);
-        } else {
-            Settings.System.putInt(context.getContentResolver(),
-                    Settings.System.NAVIGATION_BAR_SHOW, 0);
-        }
-
         /* Save/restore button timeouts to disable them in softkey mode */
         Editor editor = prefs.edit();
 
