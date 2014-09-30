@@ -842,7 +842,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="lockscreen_buttons_flashlight">Linterna</string>
     <string name="lockscreen_buttons_next">Siguiente canción</string>
     <string name="lockscreen_buttons_previous">Canción anterior</string>
-    <string name="lockscreen_buttons_playpause">PReproducir/Pausar música</string>
+    <string name="lockscreen_buttons_playpause">Reproducir/Pausar música</string>
     <string name="lockscreen_buttons_toggle_sound">Toggle de sonido</string>
     <string name="lockscreen_buttons_sleep">Apagar</string>
 
@@ -953,7 +953,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="shortcut_action_ring_vib">Sonido/Vib</string>
     <string name="shortcut_action_ring_silent">Sonido/Silencio</string>
     <string name="shortcut_action_ring_vib_silent">Sonido/Vib/Silencio</string>
-    <string name="shortcut_action_camera">Camara</string>
+    <string name="shortcut_action_camera">Cámara</string>
     <string name="shortcut_action_media_next">Musica - pista siguiente</string>
     <string name="shortcut_action_media_play_pause">Musica - play/pause</string>
     <string name="shortcut_action_media_previous">Musica - pista anterior</string>
@@ -1074,6 +1074,10 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="notification_hide_labels_wifi">Ocultar etiqueta WiFi</string>
     <string name="notification_hide_labels_all">Ocultar todas las etiquetas</string>
     <string name="notification_hide_labels_text">en el panel de notificaciones</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Forzar notificaciones expandidas</string>
+    <string name="notification_force_expand_summary">Forzar notificaciones expandidas en todas las apps que las soporten</string>
 	
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Opciones de navegación</string>
@@ -1454,8 +1458,8 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="recent_panel_lefty_mode_summary">Mostrar panel de aplicaciones recientes en el borde izquierdo.</string>
 
     <!-- App circle sidebar -->
-    <string name="app_circle_bar_title">Aplicaciónes en barra lateral circular</string>
-    <string name="app_circle_sidebar_summary">Inicia aplicaciónes mas rapido desde una barra lateral y abre multiples aplicaciónes en una sola pantalla para multitarea</string>
+    <string name="app_circle_bar_title">Aplicaciones en barra lateral circular</string>
+    <string name="app_circle_sidebar_summary">Inicia aplicaciónes desde una barra lateral y abre multiples aplicaciónes en una sola pantalla para multitarea</string>
     <string name="app_circle_bar_included_apps_title">Aplicaciónes incluidas</string>
     <string name="app_circle_bar_included_apps_summary">Aplicaciones que se muestran en la barra lateral circular</string>
     <string name="trigger_width_title">Ancho de activación</string>
