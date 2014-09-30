@@ -45,4 +45,9 @@
     <color name="circle_avatar_frame_color">#ffffffff</color>
     <color name="circle_avatar_frame_shadow_color">#80000000</color>
     <color name="circle_avatar_frame_pressed_color">#ffffffff</color>
+    
+    <color name="progressbar_color_1">@android:color/holo_blue_light</color>
+    <color name="progressbar_color_2">@android:color/holo_blue_light</color>
+    <color name="progressbar_color_3">@android:color/holo_blue_light</color>
+    <color name="progressbar_color_4">@android:color/holo_blue_light</color>
 </resources>
