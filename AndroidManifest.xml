@@ -769,7 +769,8 @@
         <activity android:name="SettingsLicenseActivity"
                 android:label="@string/settings_license_activity_title"
                 android:theme="@android:style/Theme.Holo.Panel"
-                android:configChanges="orientation|screenSize">
+                android:configChanges="orientation|screenSize"
+                android:parentActivityName="Settings$DeviceInfoSettingsActivity">
             <intent-filter>
                 <action android:name="android.settings.LICENSE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -778,7 +779,8 @@
 
         <activity android:name="SettingsSafetyLegalActivity"
                 android:label="@string/settings_safetylegal_activity_title"
-                android:theme="@*android:style/Theme.Holo.Dialog.Alert">
+                android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+                android:parentActivityName="Settings$DeviceInfoSettingsActivity">
             <intent-filter>
                 <action android:name="android.settings.SAFETY" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -1198,8 +1200,9 @@
 
         <!-- Runs in the phone process since it needs access to the Phone object -->
         <activity android:name=".deviceinfo.Status"
-                android:label="@string/device_status_activity_title"                
-                android:process="com.android.phone">
+                android:label="@string/device_status_activity_title"
+                android:process="com.android.phone"
+                android:parentActivityName="Settings$DeviceInfoSettingsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -1677,7 +1680,8 @@
         <activity android:name="com.android.settings.accounts.ChooseAccountActivity"
             android:label="@string/header_add_an_account"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@android:style/Theme.Holo.DialogWhenLarge"/>
+            android:theme="@android:style/Theme.Holo.DialogWhenLarge"
+            android:parentActivityName="Settings"/>
 
         <activity android:name=".CryptKeeper"
                   android:immersive="true"
@@ -1991,7 +1995,8 @@
 
         <activity android:name=".profiles.WifiTriggerAPPreference" />
 
-        <activity android:name=".profiles.NFCProfileWriter" />
+        <activity android:name=".profiles.NFCProfileWriter"
+                android:parentActivityName="Settings$ProfilesSettingsActivity" />
 
         <activity android:name=".profiles.NFCProfileSelect" />
 
