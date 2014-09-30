@@ -2043,4 +2043,96 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"Foto maken"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"Foto kiezen in Galerij"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
+    
+    <!-- button settings -->
+    <string name="button_settings">Knoppen</string>
+    
+    <!-- Power key end call -->
+    <string name="hardware_keys_power_key_title">Power button</string>
+    <string name="power_end_call_title">Gesprek beëindigen</string>
+    <string name="power_end_call_summary">De aan/uit-knop zal het huidige gesprek beëindigen</string>
+    
+    <!-- Volume keys -->
+    <string name="button_volume_keys_title">Volume knoppen</string>
+    <string name="button_volume_wake_title">Wakker worden</string>
+    <string name="button_volume_wake_summary">Als u op één van de volume knoppen drukt zal het scherm aan gaan</string>
+    
+    <!-- Swap volume buttons -->
+    <string name="swap_volume_buttons_title">Heroriëntatie</string>
+    <string name="swap_volume_buttons_summary">Wissel de volume knoppen om wanneer het scherm gedraaid is</string>
+    
+    <!-- Volume button music control -->
+    <string name="volbtn_music_controls_title">Playback controle</string>
+    <string name="volbtn_music_controls_summary">Wanner het scherm is uitgeschakeld, zal lang op de volume knoppen drukken muzieknummers zoeken</string>
+    
+    <!-- Sound settings -->
+    <string name="volume_category">Volume</string>
+    <string name="advanced_sound_title">Geavanceerde opties</string>
+    <string name="advanced_sound_summary">View or change advanced options for volume keys and headset</string>
+    <string name="link_volume_ringtones">Link ringtone \u0026 notifications volumes</string>
+    <string name="volume_ring_only_description">Ringtone</string>
+    <string name="volume_overlay_title">Volume paneel stijl</string>
+    <!-- Volume adjust sound -->
+    <string name="volume_adjust_sounds_enable_title">Volume adjust sound</string>
+    <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
+    <!-- Safe headset volume -->
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+    <string name="safe_headset_volume_summary">Voorkom luid volume wanneer het headset voor het eerst wordt aangesloten</string>
+    <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
+    
+    <!--Wakeup when plugged/unplugged -->
+    <string name="wakeup_when_plugged_unplugged_title">Het scherm gaat aan wanneer het word aangesloten</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Zet het scherm aan wanneer het toestel word aangesloten</string>
+    
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Geavanceerd</string>
+    <string name="touch_control_settings_summary">Beheer de geavanceerde opties om het scherm aan te krijgen</string>
+    
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Dubbel tikken om wakker te worden</string>
+    
+    <!--Notification category-->
+    <string name="notification_category">Notificaties</string>
+    
+    <!-- Spam notifications -->
+    <string name="block_notifications_title">Filter notificaties</string>
+    <string name="block_notifications_summary">Beheer genegeerde notificaties en filters</string>
+    
+    <!-- Customization Interface settings  -->
+    <string name="customization_settings_title">UI instellingen</string>
+    
+    <!-- Notification drawer background -->   
+    <string name="notification_background_title">Achtergrond stijl</string>
+    
+    <string name="status_bar_clock">Klok en datum</string>
+    <string name="status_bar_clock_summary">Bekijk of verander de klok en datum instellingen</string>
+    <string name="status_bar_clock_title">Klok en datum stijl</string>
+    <string name="clock_title_enable">Uitlijning</string>
+    <string name="clock_enabled">Ingeschakeld</string>
+    <string name="clock_disabled">Uitgeschakeld</string>
+    <string name="status_bar_show_clock_title">Toon klok en datum</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-uurs klok is ingeschakeld</string>
+    <string name="enable_clock_weekday">Dag van de week</string>
+    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+    <string name="right_clock">Rechter klok</string>
+    <string name="center_clock">Midden klok</string>
+    <string name="dont_show">Niet laten zien</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_style">Datum stijl</string>
+    <string name="clock_date_format">Datum formaat</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="am_pm_clock_normal">Normaal lettertype formaat</string>
+    <string name="am_pm_clock_small">Klein lettertype formaat</string>
+    <string name="am_pm_clock_none">Niet laten zien</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Klein lettertype formaat</string>
+    <string name="clock_date_display_normal">Normaal lettertype formaat</string>
+    <string name="clock_date_style_normal">Normaal</string>
+    <string name="clock_date_style_lowercase">Kleine letters</string>
+    <string name="clock_date_style_uppercase">Grote letters</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="status_bar_clock_style_reset_message">Herstel klok kleur?</string>
 </resources>
