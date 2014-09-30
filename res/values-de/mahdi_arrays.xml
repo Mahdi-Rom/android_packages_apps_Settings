@@ -50,4 +50,29 @@
         <item>Erweitert</item>
         <item>Keine</item>
     </string-array>
+
+    <string-array name="app_ops_permissions">
+        <item>Erlaubt</item>
+        <item>Verweigert</item>
+        <item>Immer fragen</item>
+    </string-array>
+
+    <string-array name="battery_bar_entries">
+        <item>Verstecken</item>
+        <item>Statusleiste</item>
+        <item>Über der Navigationsleiste</item>
+        <item>Unter der Navigationsleiste</item>
+    </string-array>
+
+    <string-array name="battery_bar_style_entries">
+        <item>Standard</item>
+        <item>Zentriert und gespiegelt</item>
+    </string-array>
+
+    <string-array name="qs_quick_access_size_entries">
+        <item>Automatisch</item>
+        <item>Automatisch (schmal)</item>
+        <item>Groß</item>
+        <item>Schmal</item>
+    </string-array>
 </resources>

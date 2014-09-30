@@ -783,6 +783,10 @@ If Power widget is removed, re-enable these -->
     <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste ändern</string>
     <string name="status_bar_toggle_info">Automatische Helligkeit ist aktiviert</string>
 
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">Anbietername in der Statusleiste</string>
+    <string name="statusbar_miui_carrier_summary">Zeigt den Anbieternamen im MIUI-Stil in der Statusleiste</string>
+
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Datenschutz aktivieren</string>
     <string name="privacy_guard_dlg_title">Datenschutz aktivieren?</string>
@@ -801,6 +805,12 @@ If Power widget is removed, re-enable these -->
     <string name="privacy_guard_manager_show_system_apps">Integrierte Apps anzeigen</string>
     <string name="privacy_guard_manager_filter_permissions">Berechtigungsfilter</string>
     <string name="privacy_guard_advanced_settings_title">Erweitert</string>
+    <string name="privacy_guard_notification_options">Benachrichtigungen</string>
+    <string name="privacy_guard_notification_options_summary">Einstellungen anzeigen und bearbeiten</string>
+    <string name="privacy_guard_notification_title">Zeige Benachrichtigungen</string>
+    <string name="privacy_guard_notification_icon_title">Zeige Benachrichtigungssymbol</string>
+    <string name="privacy_guard_notification_dismiss_title">Verwerfbare Benachrichtigungen</string>
+    <string name="privacy_guard_notification_dismiss_summary">Eine verwerfbare Benachrichtigung kann gelöscht werden</string>
 
     <!-- Battery status on lock ring -->
     <string name="battery_around_lockscreen_ring">Akkustatus um Entsperrsymbol anzeigen</string>
@@ -1125,7 +1135,7 @@ If Power widget is removed, re-enable these -->
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatisch verbergen</string>
-    <string name="network_traffic_autohide_summary">Blendet den Traffic-Monitor aus wenn kein Aktivität vorhanden ist</string>
+    <string name="network_traffic_autohide_summary">Blendet den Traffic-Monitor aus wenn keine Aktivität vorhanden ist</string>
     <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
 
     <!-- Status Bar Activity Indicators -->
@@ -2246,13 +2256,36 @@ multiple font sizes in a limited amount of space. -->
     <string name="summary_heads_up_enabled">Pop-Up Benachrichtigungen aktiviert</string>
     <string name="summary_heads_up_disabled">Pop-Up Benachrichtigungen deaktiviert</string>
     <string name="heads_up_floating_window">Im Überlagerungsmodus starten</string>
+    <string name="heads_up_floating_window_summary">Durch Tippen auf die Benachrichtigung wird die Anwendung in einem kleinem Fenster gestartet</string>
+    <string name="heads_up_expanded_title">Immer erweitert anzeigen</string>
+    <string name="heads_up_expanded_summary">Zeigt die Benachrichtigung immer in erweiterter Darstellung</string>
+    <string name="heads_up_show_updates_title">Aktualisierungen anzeigen</string>
+    <string name="heads_up_show_updates_summary">Zeigt den aktuellen Status von Hintergrundbenachrichtungen als Heads-Up an</string>
+    <string name="heads_up_snooze_title">Schlummern</string>
+    <string name="heads_up_snooze_summary">Beim drücken der Schlummerntaste wird Heads-Up für<xliff:g id="number">%d</xliff:g> Minuten deaktiviert</string>
+    <string name="heads_up_snooze_disabled_summary">Schlummern ist deaktiviert</string>
+    <string name="heads_up_snooze_3min">3 Minuten</string>
+    <string name="heads_up_snooze_5min">5 Minuten</string>
+    <string name="heads_up_snooze_10min">10 Minuten</string>
+    <string name="heads_up_snooze_15min">15 Minuten</string>
+    <string name="heads_up_snooze_20min">20 Minuten</string>
+    <string name="heads_up_time_out_title">Anzeigedauer</string>
+    <string name="heads_up_time_out_summary">Heads-Up Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
+    <string name="heads_up_time_out_never_summary">Heads-Up Benachrichtigungen werden bis zum löschen angezeigt</string>
+    <string name="heads_up_time_out_4sec">4 Sekunden</string>
+    <string name="heads_up_time_out_6sec">6 Sekunden</string>
+    <string name="heads_up_time_out_8sec">8 Sekunden</string>
+    <string name="heads_up_time_out_10sec">10 Sekunden</string>
+    <string name="heads_up_time_out_never">Immer anzeigen</string>
     <string name="add_heads_up_package">App hinzufügen</string>
     <string name="add_heads_up_dnd_summary">Innerhalb dieser Anwendungen nichts anzeigen</string>
     <string name="add_heads_up_blacklist_summary">Von diesen Anwendungen nichts anzeigen</string>
     <string name="heads_up_dnd_title">Nicht stören</string>
     <string name="heads_up_blacklist_title">Schwarzeliste</string>
     <string name="heads_up_disabled_notice">Heads-Up aktivieren um Apps interaktive Benachrichtigungen in einem Pop-Up auf dem Bildschirm zu ermöglichen.</string>
-	
+    <string name="heads_up_gravity_title">Unten darstellen</string>
+    <string name="heads_up_gravity_summary">Zeigt die Heads-Up Benachrichtigungen am unteren Ende des Bildschirms an</string>
+
     <!-- Notification settings -->
     <string name="notification_settings_title">Benachrichtigungen</string>
     <string name="notification_settings_summary">Konfiguration der Benachrichtigungen von Hover, Heads-Up usw.</string>
