@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012-2014 The Mahdi-Rom Project
+<!-- Copyright (C) 2013-2014 The Mahdi-Rom Project
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -540,10 +540,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="unlock_set_unlock_gesture_summary">Niedrige Sicherheit (Experimentell)</string>
     <string name="unlock_set_unlock_mode_gesture">Geste</string>
   
-  
-  
-  
-  
     <!-- Quick settings panel -->
     <string name="quick_settings_panel_title">Schnelleinstellungen</string>
     <string name="quick_settings_summary">Konfiguration der Schnelleinstellungen, Anzahl der Kacheln und Reihenfolge ändern</string>
@@ -599,9 +595,10 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="title_tile_theme">Design-Umschalter</string>
     <string name="title_tile_batterysaver">Energiesparmodus</string>
     <string name="title_tile_heads_up">Heads-Up</string>
-    <string name="title_tile_performance_profile">Leistungsprofile</string>	
-    
-	<string name="title_dynamic_tiles">Dynamische Kacheln</string>
+    <string name="title_tile_performance_profile">Leistungsprofile</string>
+
+    <!-- QuickSettings: Dynamic tiles -->
+    <string name="title_dynamic_tiles">Dynamische Kacheln</string>
     <string name="dynamic_tiles_note_title">Hinweis</string>
     <string name="dynamic_tiles_note_summary">Dynamische Kacheln werden nur angezeigt, wenn das entsprechende Systemereignis eintritt</string>
     <string name="title_dynamic_alarm">Wecker</string>
@@ -612,6 +609,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="title_dynamic_usbtether">USB-Tethering</string>
     <string name="title_dynamic_wifi">Kabellose Übertragung</string>
 
+    <!-- QuickSettings: Quick Pulldown -->
     <string name="title_general">Allgemein</string>
     <string name="title_quick_pulldown">Schnelles Öffnen</string>
     <string name="summary_quick_pulldown">Herunterziehen der Statusleiste am %1$s Rand öffnet die Schnelleinstellungen</string>
@@ -649,6 +647,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- Quick access ribbon -->
     <string name="title_quick_access">Schnellzugriffsleiste</string>
+    <string name="title_quick_access_size">Größe der Benachrichtigungsschnelleinstellungen</string>
     <string name="title_quick_access_linked">Anordnung koppeln</string>
     <string name="summary_quick_access_linked">Konfiguration der Schnelleinstellungen verwenden</string>
 
@@ -768,6 +767,7 @@ If Power widget is removed, re-enable these -->
     <string name="clock_date_style_uppercase">Großschreibung</string>
     <string name="clock_date_format_custom">Eigenes Format</string>
     <string name="status_bar_clock_style_reset_message">Uhrfarbe zurücksetzen?</string>
+    <string name="status_bar_show_clock_lockscreen_title">Auf dem Sperrbildschirm anzeigen</string>
 
     <!-- StatusBar Battery Settings -->
     <string name="status_bar_battery_title">Akkustandanzeige</string>
@@ -1064,6 +1064,8 @@ If Power widget is removed, re-enable these -->
     <string name="navigation_bar_width_title">Breite der Navigationsleiste</string>
     <string name="navigation_bar_width_summary">Breite der Navigationsleiste wenn diese an der Seite dargestellt wird.</string>
     <string name="navbar_can_move">Position im Querformat</string>
+    <string name="navigation_bar_ime_title">Deaktiviere Tastaturpfeile</string>
+    <string name="navigation_bar_ime_summary">Tastaturpfeile sind standartmäßig aktiviert. Zum deaktivieren auswählen.</string>
     <string name="navbar_can_move_summary">Anzeige der Navigationsleiste am unteren Rand des Bildschirms statt an der Seite</string>
     <string name="navbar_style_dimen_title">Abmessungen</string>
     <string name="navbar_style_dimen_summary">Konfiguration der Navigationsleistengröße</string>
@@ -1207,7 +1209,11 @@ If Power widget is removed, re-enable these -->
     <string name="hide_non_clearable">Nicht löschbare verstecken</string>
     <string name="hide_non_clearable_summary">Alle nicht löschbaren Benachrichtigungen nicht anzeigen</string>
     <string name="dismiss_all">Alle Benachrichtigungen verwerfen</string>
-    <string name="dismiss_all_summary">Verwerfen von allen Benachrichtigungen, auch nicht löschbaren (nur im Lockscreen).</string>
+    <string name="dismiss_all_summary">Verwerfen von allen Benachrichtigungen, auch nicht löschbaren (nur im Lockscreen)</string>
+    <string name="dismiss_notification">Benachrichtigungen verwerfen</string>
+    <string name="dismiss_notification_summary">Benachrichtigungen wird beim wischen zur Seite verworfen</string>
+    <string name="included_apps_title">Eingeschlossene Apps</string>
+    <string name="included_apps_summary">Zeigt Benachrichtigungen mit niedriger Priorität von Anwendungen in der Liste</string>
     <string name="expanded_view">Volle Grösse</string>
     <string name="expanded_view_summary">Benachrichtigungen wenn möglich in voller Grösse anzeigen</string>
     <string name="force_expanded_view">Volle Grösse erzwingen</string>
@@ -1258,7 +1264,8 @@ If Power widget is removed, re-enable these -->
     <!--Lockscreen See Through-->
     <string name="see_through_title">Hindurchsehen</string>
     <string name="see_through_summary">Zeigt den Inhalt hinter dem Sperrbildschirm, Daten könnten daher für Dritte sichtbar sein</string>
-	
+    <string name="blur_radius_title">Weichzeichnung</string>
+    <string name="blur_radius_summary">Ändert die Intensität des Weichzeichnungseffekts</string>
     <!-- Lock screen shortcuts -->
     <string name="picker_activities">Aktivitäten</string>
     <string name="select_custom_activity_title">Aktivität wählen</string>
@@ -1295,11 +1302,11 @@ If Power widget is removed, re-enable these -->
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Einschaltoptionen</string>
     
-        <!-- Proximity wake -->
+    <!-- Proximity wake -->
     <string name="proximity_wake_title">Verhindere versehentliches Einschalten</string>
     <string name="proximity_wake_summary">Überprüft den Näherungssensor vor dem Einschalten</string>
     
-        <!-- Touch control -->
+    <!-- Touch control -->
     <string name="touch_control_settings_title">Erweitert</string>
     <string name="touch_control_settings_summary">Erweiterte Option zum Einschalten des Bildschirms durch doppeltes tippen und mehr</string>
 
@@ -1363,12 +1370,14 @@ If Power widget is removed, re-enable these -->
     <string name="recent_panel_show_topmost_title">Aktuellen Task anzeigen</string>
     <string name="recent_panel_show_topmost_summary">Aktuellen Task nicht aus Anwendungsverlauf ausschließen</string>
     <string name="recent_panel_bg_color_title">Hintergrundfarbe</string>
+    <string name="recent_card_bg_color_title">Anwendungskartenhintergrundfarbe</string>
+    <string name="recent_card_text_color_title">Anwendungskartentextfarbe</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Am linken Bildschirmrand anzeigen</string>
     <string name="recent_panel_lefty_mode_summary">Den Anwendungsverlauf links statt rechts anzeigen</string>
     
-        <!-- App circle sidebar -->
+    <!-- App circle sidebar -->
     <string name="app_circle_bar_title">Anwendungskreis</string>
     <string name="app_circle_sidebar_summary">Startet Anwendungen von einer Seitenleiste wodurch Multitasking vereinfacht möglich ist</string>
     <string name="app_circle_bar_included_apps_title">Hinzugefügte Anwendungen</string>
@@ -2002,8 +2011,9 @@ If Power widget is removed, re-enable these -->
     <string name="time_five_to">Fünf vor</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Pie Steuerung</string>
-    <string name="pie_control_summary">Pie aktivieren</string>
+    <string name="pie_control_title">Slim-Pie Steuerung</string>
+    <string name="pie_control_enable_title">Aktivieren</string>
+    <string name="pie_control_summary">Slim-Pie aktivieren</string>
     <string name="pie_control_size">Größe der Steuerung</string>
     <string name="pie_control_trigger_positions">Trigger-Optionen</string>
     <string name="pie_control_trigger_left">Trigger am linken Bildschirmrand</string>
@@ -2047,6 +2057,69 @@ If Power widget is removed, re-enable these -->
     <string name="pie_style_reset_message">Alle Designeinstellungen zürücksetzen?</string>
     <string name="pie_disable_ime_triggers_title">Reduziere Schaltflächengröße auf der Tastaur</string>
     <string name="pie_disable_ime_triggers_summary">Reduziert linke und rechte Schaltflächengröße wenn die Tastatur aktiviert ist</string>
+
+     <!-- PA Pie -->
+    <string name="pa_pie_title">PA-Pie Steuerung</string>
+    <string name="pa_pie_controls">Aktivieren</string>
+    <string name="pa_pie_expanded_only_title">Erweiterter Modus</string>
+    <string name="pa_pie_expanded_only_summary">Pie funktioniert nur im erweitern Mouds</string>
+    <string name="pa_pie_gravity_title">Ausrichtung</string>
+    <string name="pa_pie_gravity_top">Oben</string>
+    <string name="pa_pie_gravity_bottom">Unten</string>
+    <string name="pa_pie_gravity_right">Rechts</string>
+    <string name="pa_pie_gravity_left">Links</string>
+    <string name="pa_pie_mode_title">Modus</string>
+    <string name="pa_pie_mode_bare">Einfach</string>
+    <string name="pa_pie_mode_quick">Schnell</string>
+    <string name="pa_pie_mode_default">Standard</string>
+    <string name="pa_pie_mode_slow">Langsam</string>
+    <string name="pa_pie_size_title">Größe</string>
+    <string name="pa_pie_size_small">Klein</string>
+    <string name="pa_pie_size_default">Normal</string>
+    <string name="pa_pie_size_large">Groß</string>
+    <string name="pa_pie_size_gigantic">Sehr Groß</string>
+    <string name="pa_pie_size_monster">Riesig</string>
+    <string name="pa_pie_color_title">Farbeinstellungen</string>
+    <string name="pa_pie_color_style_title">Benutzerdefinierte Farben</string>
+    <string name="pa_pie_background_title">Hintergrund</string>
+    <string name="pa_pie_select_title">Auswahl</string>
+    <string name="pa_pie_outlines_title">Konturen</string>
+    <string name="pa_pie_status_clock_title">Uhr</string>
+    <string name="pa_pie_status_title">Status</string>
+    <string name="pa_pie_chevron_left_title">Linke Hälfte</string>
+    <string name="pa_pie_chevron_right_tit0le">Rechte Hälfte</string>
+    <string name="pa_pie_juice_title">Akku</string>
+    <string name="pa_pie_button_color">Tasten</string>
+    <string name="pa_pie_button_color_title">Tastenfarbe</string>
+    <string name="pa_pie_gap_title">Tastenabstand</string>
+    <string name="pa_pie_angle_title">Breite</string>
+    <string name="pa_pie_angle_none">Komplett</string>
+    <string name="pa_pie_angle_small">Breit</string>
+    <string name="pa_pie_angle_big">Normal</string>
+    <string name="pa_pie_angle_huge">Klein</string>
+    <string name="pa_pie_angle_super">Sehr klein</string>
+    <string name="pa_pie_gap_none">Kein</string>
+    <string name="pa_pie_gap_small">Klein</string>
+    <string name="pa_pie_gap_big">Groß</string>
+    <string name="pa_pie_gap_huge">Sehr groß</string>
+    <string name="pa_pie_center_title">Pie zentrieren</string>
+    <string name="pa_pie_center_summary">Setzt den Pie in die Mitte</string>
+    <string name="pa_pie_stick_title">Rotation verhindern</string>
+    <string name="pa_pie_stick_summary">Pie bleibt bei Rotation an der selben Stelle</string>
+    <string name="pa_pie_search_title">Suche</string>
+    <string name="pa_pie_search_summary">Aktiviert die Suchoption im Pie</string>
+    <string name="pa_pie_trigger_title">Auslösebereich</string>
+    <string name="pa_pie_trigger_none">Kein</string>
+    <string name="pa_pie_trigger_small">Klein</string>
+    <string name="pa_pie_trigger_normal">Normal</string>
+    <string name="pa_pie_trigger_big">Groß</string>
+    <string name="pa_pie_trigger_huge">Sehr groß</string>
+    <string name="pa_pie_notifications_title">Wischsteuerung</string>
+    <string name="pa_pie_notifications_summary">Erlaubt das wischen vom Rand zur Mitte wodurch Benachrichtigungen und Schnelleinstellungen angezeigt werden</string>
+    <string name="pa_pie_menu_title">Menütaste immer anzeigen</string>
+    <string name="pa_pie_menu_summary">Menütaste wird immer angezeigt, selbst wenn diese nicht gebraucht wird</string>
+    <string name="pa_pie_restart_launcher_title">Launcher neustarten</string>
+    <string name="pa_pie_restart_launcher_summary">Das Ändern der Größe kann negative Effekte bewirken. Diese Option kann Probleme mit dem Launcher beheben (empfohlen)</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">Aktionen</string>
@@ -2271,4 +2344,22 @@ multiple font sizes in a limited amount of space. -->
     <string name="enable_adb_cm">Android-Debugging</string>
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">ADB (Android Debug Bridge) Schnittstelle aktivieren</string>
+
+     <!-- Spam notifications -->
+    <string name="spam_added_title">Hinzugefügt <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g></string>
+    <string name="spam_last_blocked_title">Zuletzt blockiert <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g> (total: <xliff:g id="count" example="2 times">%2$s</xliff:g>)</string>
+    <string name="block_notifications_title">Benachrichtigungen filtern</string>
+    <string name="block_notifications_summary">Benachrichtigungen verwalten und filtern</string>
+    <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
+    <string name="no_filters_title">Keine Filter gesetzt. Um Benachrichtigungen zu blockieren lange auf die Benachrichtigung drücken.</string>
+
+    <!-- NFC Polling-->
+    <string name="nfc_polling_mode_title">NFC-Abfrage</string>
+    <string name="nfc_polling_mode_screen_off">Bildschirm aus</string>
+    <string name="nfc_polling_mode_screen_locked">Bildschirm an, gesperrt</string>
+    <string name="nfc_polling_mode_screen_unlocked">Bildschirm an, entsperrt (Standart)</string>
+
+    <!-- Disable immersive mode navbar when ime is showing -->
+    <string name="disable_ime_navbar_title">Deaktiviere Navigationsleiste bei Eingabe</string>
+    <string name="disable_ime_navbar_summary">Deaktiviert die Navigationsleiste im erweiterten Modus wenn die Eingabe geöffnet ist</string>
 </resources>
