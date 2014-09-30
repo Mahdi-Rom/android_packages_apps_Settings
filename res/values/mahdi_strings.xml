@@ -663,7 +663,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- QuickSettings smaller tiles -->
     <string name="title_qs_small_icons">Show smaller tiles</string>
-    <string name="summary_qs_small_icons">Use smaller tiles to increase the number of colums</string>
+    <string name="summary_qs_small_icons">Use smaller tiles to increase the number of columns</string>
 
     <!-- QuickSettings add tile button -->
     <string name="qs_add_tiles_title">Show edit tiles button</string>
