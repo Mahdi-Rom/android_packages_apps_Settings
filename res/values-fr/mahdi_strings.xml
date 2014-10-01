@@ -1459,6 +1459,18 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="recent_panel_lefty_mode_title">Afficher sur le bord gauche</string>
     <string name="recent_panel_lefty_mode_summary">Affiche le panneau d\'applications récentes sur le coté gauche</string>
 
+    <!-- App circle sidebar -->
+    <string name="app_circle_bar_title">Application en cercle dans barre latérale</string>
+    <string name="app_circle_sidebar_summary">Lancer des applications plus rapidement à partir d\'une barre latérale et d\'ouvrir plusieurs applications sur un écran multitâche</string>
+    <string name="app_circle_bar_included_apps_title">Applications incluses</string>
+    <string name="app_circle_bar_included_apps_summary">Les applications s\'afficheront dans un cercle de la barre latérale</string>
+    <string name="trigger_width_title">Largeur de déclenchement</string>
+    <string name="trigger_width_summary">Ajuster la largeur de la zone de déclenchement</string>
+    <string name="trigger_top_title">Position de déclenchement</string>
+    <string name="trigger_top_summary">Ajuster la position de la zone de déclenchement</string>
+    <string name="trigger_bottom_title">Hauteur de déclenchement</string>
+    <string name="trigger_bottom_summary">Ajuster la hauteur de la zone de déclenchement</string>
+
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Attention</string>
     <string name="custom_runtime_warning_message">ART n\'est pas supporté par La ROM Mahdi. Ce paramètre est inclus pour des expérimentations seulement et peut causer des instabilités, des crashs, des pertes de données ou empêcher votre appareil de démarrer. Lire l\'&lt; \u003Ca href=\"http://source.android.com/devices/tech/dalvik/art.html\"\u003EIntroduction à ART\u003C/a\u003E pour plus d\'informations.\u003Cbr/\u003E\u003Cbr/\u003EWe Merci de na pas remplir de rapports de bugs si vous utilisez ART.\u003Cbr/\u003E\u003Cbr/\u003EAre Êtes-vous sûr de vouloir redémarrer pour changer le moteur d\'exécution de <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> à <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string> 
