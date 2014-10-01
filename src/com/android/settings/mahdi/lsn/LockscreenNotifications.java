@@ -142,11 +142,10 @@ public class LockscreenNotifications extends SettingsPreferenceFragment implemen
         mPocketMode = (SystemSettingCheckBoxPreference) prefs.findPreference(KEY_POCKET_MODE);
         mShowAlways = (SystemSettingCheckBoxPreference) prefs.findPreference(KEY_SHOW_ALWAYS);
         mWakeOnNotification = (SystemSettingCheckBoxPreference) prefs.findPreference(KEY_WAKE_ON_NOTIFICATION);
+        PreferenceCategory category_wake_up = (PreferenceCategory) findPreference(KEY_CATEGORY_WAKE_UP);
         boolean hasProximitySensor = getPackageManager().hasSystemFeature(PackageManager.FEATURE_SENSOR_PROXIMITY);
         if (!hasProximitySensor) {
-            prefs.removePreference(mPocketMode);
-            prefs.removePreference(mShowAlways);
-            prefs.removePreference(mWakeOnNotification);
+            prefs.removePreference(category_wake_up);
         }
 
         mPrivacyMode = (CheckBoxPreference) prefs.findPreference(KEY_PRIVACY_MODE);

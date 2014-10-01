@@ -42,8 +42,9 @@ import com.android.settings.Utils;
 public class StatusBar extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String TAG = "StatusBar";
-
     private static final String KEY_STATUS_BAR = "status_bar";
+
+    private static final String GENERAL_CATEGORY = "general_category";
     private static final String STATUSBAR_CARRIER = "status_bar_carrier";
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
     private static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
@@ -77,9 +78,10 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
+        PreferenceCategory general_category = (PreferenceCategory) findPreference(GENERAL_CATEGORY);
         mStatusbarCarrier = (SystemSettingCheckBoxPreference) findPreference(STATUSBAR_CARRIER);
         if (Utils.isWifiOnly(getActivity())) {
-            prefSet.removePreference(mStatusbarCarrier);
+            general_category.removePreference(mStatusbarCarrier);
         }
 
         // Start observing for changes on auto brightness
