@@ -1160,6 +1160,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="quiet_hours_haptic">Retour haptique</string>
     <string name="quiet_hours_haptic_summary">Désactiver le retour haptique</string>
     <string name="quiet_hours_active_period">Activé entre <xliff:g id="start">%1$s</xliff:g> et <xliff:g id="end">%2$s</xliff:g></string>
+
+    <!-- Ringer mute options -->
     <string name="quiet_hours_ringer_allow_all">Sonner pour tous les appelants</string>
     <string name="quiet_hours_ringer_allow_contacts">Sonner pour tous les contacts</string>
     <string name="quiet_hours_ringer_allow_starred">Sonner pour les contacts favoris</string>
@@ -1259,7 +1261,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="general">Général</string>
     <string name="layout">Disposition</string>
     <string name="privacy">Confidentialité</string>
-
+    <string name="wake_up">Réveil</string>
+	
     <string name="lockscreen_notifications">Notifications sur l\'écran de verrouillage</string>
     <string name="summary_lockscreen_notifications_enabled">Notifications sur l\'écran de verrouillage activés</string>
     <string name="summary_lockscreen_notifications_disabled">Notifications sur l\'écran de verrouillage désactivés</string>
@@ -1274,6 +1277,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="hide_non_clearable_summary">Masquer les notifications non effaçables</string>
     <string name="dismiss_all">Autoriser le rejet de toutes les notifications</string>
     <string name="dismiss_all_summary">Permettre le rejet des notifications même non effaçables. Bien sûr, ils sont juste masqués de l\'écran de verrouillage et non à partir du panneau de notification.</string>
+    <string name="wake_up">Réveil</string>
     <string name="expanded_view">Afficher les notifications étendues</string>
     <string name="expanded_view_summary">Afficher les notifications étendues si possible</string>
     <string name="force_expanded_view">Forcer les notifications étendues</string>
@@ -1287,6 +1291,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="privacy_mode_summary">Désactive les notifications d\'être représenté et rejeté. De cette façon, vous voyez seulement les icônes de vos notifications.</string>
     <string name="dynamic_width">Largeur dynamique</string>
     <string name="dynamic_width_summary">Les notifications utiliseront une largeur automatique, de sorte à utiliser le moins d\'espace possible</string>
+    <string name="included_apps_title">Applications incluses</string>
+    <string name="included_apps_summary">Les notifications de faible priorité des applications incluses seront affichés</string>
     <string name="excluded_apps_title">Applications exclues</string>
     <string name="excluded_apps_summary">Les notifications des applications exclues ne seront pas visibles sur l\'écran de verrouillage</string>
     <string name="notification_color">Couleur d\'arrière-plan des notifications</string>
@@ -1366,6 +1372,29 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!--Wakeup when plugged/unplugged -->
     <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
     <string name="wakeup_when_plugged_unplugged_summary">Réveille l\'appareil si le chargeur est branché/débranché.</string>
+
+    <!-- Gestures Options -->
+    <string name="screen_off_gesture_settings_title">Gestures</string>
+    <string name="screen_off_gesture_settings_summary">Gestion des gestes écran éteint</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Eviter le risque de réveil</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant de réveiller l\'écran</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Avancé</string>
+    <string name="touch_control_settings_summary">Gérer les options avancées de réveil incluant le double appui pour réveiller et plus </string>
+
+    <!-- Lid Settings -->
+    <string name="smart_cover_title">Utiliser une Smart Cover</string>
+    <string name="smart_cover_summary">Remplacer l\'écran de verrouillage avec une Smart Cover lorsque le capot est fermé</string>
+    <string name="smart_cover_wake_title">Réveil de l\'appareil</string>
+    <string name="smart_cover_wake_summary">Réveil de l\'appareil lorsque le capot est ouvert</string>
+    <string name="smart_cover_sleep_title">Mise en veille</string>
+    <string name="smart_cover_sleep_summary">Mettre l\'appareil en veille lorsque le capot est fermé</string>
+
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Double appui pour réveiller</string>
 
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">L\'APN a été supprimé.</string>
