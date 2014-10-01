@@ -966,6 +966,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shortcut_action_wake_device">Réveiller l\'appareil</string>
     <string name="shortcut_action_theme_switch">Sélecteur de thème</string>
     <string name="shortcut_action_torch">Torche</string>
+    <string name="shortcut_action_omniswitch">OmniSwitch</string>
     <string name="shortcut_action_longpress">Pression longue :</string>
     <string name="shortcut_action_select_action_longpress">Choisir l\'action associée à une pression longue :</string>
     <string name="shortcut_action_select_action">Choisir l\'action</string>
@@ -1080,6 +1081,10 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="notification_hide_labels_all">Masquer tous les libellés</string>
     <string name="notification_hide_labels_text">dans le panneau de notification</string>
 
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Forcer les notifications étendues</string>
+    <string name="notification_force_expand_summary">Forcer les notifications étendues dans toutes les applications qui les supportent</string>
+    
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Options de navigation</string>
     <string name="navigation_settings_category_title">Navigation</string>
