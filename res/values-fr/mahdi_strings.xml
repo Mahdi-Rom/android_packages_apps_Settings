@@ -665,6 +665,10 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="title_qs_small_icons">Monter des petites tuiles</string>
     <string name="summary_qs_small_icons">Pour avoir plus de tuiles utiliser des petites tailles</string>
 
+    <!-- QuickSettings add tile button -->
+    <string name="qs_add_tiles_title">Montrer le bouton d\'édition des tuiles</string>
+    <string name="qs_add_tiles_summary">Afficher le bouton d\'édition des tuiles dans la barre de statut pour un accès rapide au sélecteur de tuile</string>
+    
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
     <string name="pref_ring_mode_title">Modes du son</string>
@@ -754,7 +758,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="clock_date_style_uppercase">Majuscule</string>
     <string name="clock_date_format_custom">Format java custom</string>
     <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge?</string>
-
+    <string name="status_bar_show_clock_lockscreen_title">Afficher sur l\'écran de verrouillage</string>
+    
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Style du niveau de batterie</string>
     <string name="status_bar_style_icon_portrait">Icône portrait</string>
@@ -769,6 +774,10 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser sur la barre d\'état</string>
     <string name="status_bar_toggle_info">Non disponible lorsque la luminosité automatique est activée</string>
 
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">Opérateur dans la barre de statut</string>
+    <string name="statusbar_miui_carrier_summary">Afficher l\'opérateur en texte avec le style Miui dans la barre de statut</string>
+    
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Activer la protection des données</string>
     <string name="privacy_guard_dlg_title">Activer la protection des données\u00A0?</string>
@@ -787,6 +796,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="privacy_guard_manager_show_system_apps">Afficher les applications système</string>
     <string name="privacy_guard_manager_filter_permissions">Filtre de permissions</string>
     <string name="privacy_guard_advanced_settings_title">Avancé</string>
+    <string name="privacy_guard_notification_options">Options de notification</string>
+    <string name="privacy_guard_notification_options_summary">Voir ou changer les options de notification</string>
     <string name="privacy_guard_notification_title">Afficher la notification</string>
     <string name="privacy_guard_notification_icon_title">Afficher l\'icon du notification</string>
     <string name="privacy_guard_notification_dismiss_title">Notification Dismissable</string>
