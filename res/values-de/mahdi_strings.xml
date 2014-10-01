@@ -96,8 +96,8 @@ limitations under the License.
     <!-- Power menu enable disable -->
     <string name="power_menu_title">Ein/Aus-Taste</string>
     <string name="power_menu_summary">Konfiguration des Ein/Aus-Tastenmenüs</string>
-    <string name="lockscreen_enable_power_menu_title">Ein/Aus-Tastenmenü im Sperrbildschirm aktivieren</string>
-    <string name="lockscreen_enable_power_menu_summary">Diese Option deaktiviert das Ein/Aus-Tastenmenü nur bei sicherer Display-Sperre</string>
+    <string name="lockscreen_enable_power_menu_title">Ein/Aus-Tastenmenü</string>
+    <string name="lockscreen_enable_power_menu_summary">Diese Option deaktiviert das Ein/Aus-Tastenmenü nur bei sicherer Display-Sperre auf dem Sperrbildschirm</string>
     <string name="power_menu_reboot_title">Neustartmenü</string>
     <string name="power_menu_screenshot_title">Bildschirmfoto</string>
     <string name="power_menu_screenrecord_title">Bildschirmrekorder</string>
@@ -647,7 +647,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
 
     <!-- Quick access ribbon -->
     <string name="title_quick_access">Schnellzugriffsleiste</string>
-    <string name="title_quick_access_size">Größe der Benachrichtigungsschnelleinstellungen</string>
+    <string name="title_quick_access_size">Größe der Schnellzugriffsleiste</string>
     <string name="title_quick_access_linked">Anordnung koppeln</string>
     <string name="summary_quick_access_linked">Konfiguration der Schnelleinstellungen verwenden</string>
 
@@ -676,7 +676,7 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     
     <!-- QuickSettings add tile button -->
     <string name="qs_add_tiles_title">Bearbeitungskachel</string>
-    <string name="qs_add_tiles_summary">Zeigt eine Bearbeitungskachel in der Kopfzeile der Benachrichtigung um die Kacheln schnell anzuordnen</string>
+    <string name="qs_add_tiles_summary">Zeigt eine Bearbeitungskachel über den Schnelleinstellungen an um die Kacheln schnell anzuordnen</string>
 
     <!-- This exists as part of Power widget already, re-use them
 If Power widget is removed, re-enable these -->
@@ -776,7 +776,7 @@ If Power widget is removed, re-enable these -->
     <string name="status_bar_style_circle">Kreis</string>
     <string name="status_bar_style_text">Text</string>
     <string name="status_bar_style_hidden">Verborgen</string>
-    <string name="status_bar_battery_show_percent_title">Zusätzliche Prozentanzeige aktivieren</string>
+    <string name="status_bar_battery_show_percent_title">Zusätzliche Prozentanzeige</string>
 
     <!-- StatusBar Brightness Control -->
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung durch Wischen</string>
@@ -810,10 +810,10 @@ If Power widget is removed, re-enable these -->
     <string name="privacy_guard_notification_title">Zeige Benachrichtigungen</string>
     <string name="privacy_guard_notification_icon_title">Zeige Benachrichtigungssymbol</string>
     <string name="privacy_guard_notification_dismiss_title">Verwerfbare Benachrichtigungen</string>
-    <string name="privacy_guard_notification_dismiss_summary">Eine verwerfbare Benachrichtigung kann gelöscht werden</string>
+    <string name="privacy_guard_notification_dismiss_summary">Verwerfbare Benachrichtigungen können gelöscht werden</string>
 
     <!-- Battery status on lock ring -->
-    <string name="battery_around_lockscreen_ring">Akkustatus um Entsperrsymbol anzeigen</string>
+    <string name="battery_around_lockscreen_ring">Akkustatus um das Symbol anzeigen</string>
     <string name="battery_around_lockscreen_ring_summary">Zeigt den Ladezustand des Akkus um das Entsperrsymbol auf dem Sperrbildschirm an</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
@@ -927,7 +927,7 @@ If Power widget is removed, re-enable these -->
     <string name="shortcut_action_select_action_newbutton">Neuen Button auswählen:</string>
     <string name="shortcut_action_reset">Zurücksetzen</string>
     <string name="shortcut_action_add">Hinzufügen</string>
-    <string name="shortcut_action_reset_message">Standarteinstellungen laden?</string>
+    <string name="shortcut_action_reset_message">Standardeinstellungen laden?</string>
     <string name="shortcut_action_max">Maximale Anzahl der Einträge erreicht</string>
     <string name="shortcut_action_warning">Warnung</string>
     <string name="shortcut_action_warning_message">Der letzte Eintrag kann nicht gelöscht werden</string>
@@ -1040,6 +1040,10 @@ If Power widget is removed, re-enable these -->
     <string name="navigation_settings_category_title">Navigation</string>
     <string name="navigation_settings_summary">Konfiguration von Navigationsleiste, Pie und Hardware-Tasten</string>
     <string name="navigation_settings_title">Navigationsleiste</string>
+    
+        <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Erweiterte Benachrichtigungen</string>
+    <string name="notification_force_expand_summary">Versucht Benachrichtigungen erweitert darzustellen, falls dies von der App unterstüzt wird</string>
    
     <!-- Navigation bar -->
     <string name="navigation_bar_size_42_dp_default">42 DPI (Standard)</string>
@@ -1075,7 +1079,7 @@ If Power widget is removed, re-enable these -->
     <string name="navigation_bar_width_summary">Breite der Navigationsleiste wenn diese an der Seite dargestellt wird.</string>
     <string name="navbar_can_move">Position im Querformat</string>
     <string name="navigation_bar_ime_title">Deaktiviere Tastaturpfeile</string>
-    <string name="navigation_bar_ime_summary">Tastaturpfeile sind standartmäßig aktiviert. Zum deaktivieren auswählen.</string>
+    <string name="navigation_bar_ime_summary">Tastaturpfeile sind standardmäßig aktiviert. Zum deaktivieren auswählen.</string>
     <string name="navbar_can_move_summary">Anzeige der Navigationsleiste am unteren Rand des Bildschirms statt an der Seite</string>
     <string name="navbar_style_dimen_title">Abmessungen</string>
     <string name="navbar_style_dimen_summary">Konfiguration der Navigationsleistengröße</string>
@@ -1380,8 +1384,8 @@ If Power widget is removed, re-enable these -->
     <string name="recent_panel_show_topmost_title">Aktuellen Task anzeigen</string>
     <string name="recent_panel_show_topmost_summary">Aktuellen Task nicht aus Anwendungsverlauf ausschließen</string>
     <string name="recent_panel_bg_color_title">Hintergrundfarbe</string>
-    <string name="recent_card_bg_color_title">Anwendungskartenhintergrundfarbe</string>
-    <string name="recent_card_text_color_title">Anwendungskartentextfarbe</string>
+    <string name="recent_card_bg_color_title">Anwendungshintergrundfarbe</string>
+    <string name="recent_card_text_color_title">Anwendungstextfarbe</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Am linken Bildschirmrand anzeigen</string>
@@ -1847,7 +1851,7 @@ If Power widget is removed, re-enable these -->
 
     <!-- Notification Reminders -->
     <string name="noti_reminder_category">Benachrichtigungserinnerung</string>
-    <string name="noti_reminder_enable_title">Benachrichtigungserinnerung aktivieren</string>
+    <string name="noti_reminder_enable_title">Erinnerung aktivieren</string>
     <string name="noti_reminder_sound_title">Benachrichtigungston</string>
     <string name="noti_reminder_sound_looping">Bis zum Verwerfen</string>
     <string name="noti_reminder_ringtone">Benachrichtigungston</string>
@@ -1894,8 +1898,8 @@ If Power widget is removed, re-enable these -->
     <string name="immersive_mode_no_status_bar">Statusleiste verbergen</string>
 
     <!-- Lockscreen system bar visibility -->
-    <string name="system_bar_visibility">Deaktiviert bei aktivierter Display-Sperre</string>
-    <string name="system_bar_visibility_summary">Anzeige der Systemleisten bei aktivierter Display-Sperre im erweiterten Desktop-Modus</string>
+    <string name="system_bar_visibility">Display-Sperre</string>
+    <string name="system_bar_visibility_summary">Deaktiviert die Anzeige der Systemleisten bei aktivierter Display-Sperre im erweiterten Desktop-Modus</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go-Modus</string>
@@ -1968,7 +1972,7 @@ If Power widget is removed, re-enable these -->
     <string name="voice_tts_date_summary">Aktiviren/Deaktivieren der Sprache für das Datum nach dem Einschalten des Displays</string>
     <string name="voice_tts_notif_title">Benachrichtigungen</string>
     <string name="voice_tts_notif_summary">Aktiviren/Deaktivieren der Sprache für neue Benachrichtigungen</string>
-    <string name="voice_tts_notif_read_title">Lesen von neuen Benachrichtigungen</string>
+    <string name="voice_tts_notif_read_title">Lesen von neuer Benachrichtigung</string>
     <string name="voice_tts_notif_read_summary">Aktiviren/Deaktivieren der Sprache für das Lesen von neuen Benachrichtigungen</string>
     <string name="voice_tts_whitelist_title">Erlaubte Applikationen</string>
     <string name="voice_tts_whitelist_summary">Welche Apps dürfen neue Benachrichtigungen sprechen</string>
@@ -2097,7 +2101,7 @@ If Power widget is removed, re-enable these -->
     <string name="pa_pie_status_clock_title">Uhr</string>
     <string name="pa_pie_status_title">Status</string>
     <string name="pa_pie_chevron_left_title">Linke Hälfte</string>
-    <string name="pa_pie_chevron_right_tit0le">Rechte Hälfte</string>
+    <string name="pa_pie_chevron_right_title">Rechte Hälfte</string>
     <string name="pa_pie_juice_title">Akku</string>
     <string name="pa_pie_button_color">Tasten</string>
     <string name="pa_pie_button_color_title">Tastenfarbe</string>
@@ -2128,6 +2132,8 @@ If Power widget is removed, re-enable these -->
     <string name="pa_pie_notifications_summary">Erlaubt das wischen vom Rand zur Mitte wodurch Benachrichtigungen und Schnelleinstellungen angezeigt werden</string>
     <string name="pa_pie_menu_title">Menütaste immer anzeigen</string>
     <string name="pa_pie_menu_summary">Menütaste wird immer angezeigt, selbst wenn diese nicht gebraucht wird</string>
+    <string name="pa_pie_power_title">Bildschirm aus</string>
+    <string name="pa_pie_power_summary">Fügt eine Bildschirm aus Taste zur Pie-Steuerung hinzu</string>
     <string name="pa_pie_restart_launcher_title">Launcher neustarten</string>
     <string name="pa_pie_restart_launcher_summary">Das Ändern der Größe kann negative Effekte bewirken. Diese Option kann Probleme mit dem Launcher beheben (empfohlen)</string>
 
@@ -2390,9 +2396,9 @@ multiple font sizes in a limited amount of space. -->
     <string name="nfc_polling_mode_title">NFC-Abfrage</string>
     <string name="nfc_polling_mode_screen_off">Bildschirm aus</string>
     <string name="nfc_polling_mode_screen_locked">Bildschirm an, gesperrt</string>
-    <string name="nfc_polling_mode_screen_unlocked">Bildschirm an, entsperrt (Standart)</string>
+    <string name="nfc_polling_mode_screen_unlocked">Bildschirm an, entsperrt (Standard)</string>
 
     <!-- Disable immersive mode navbar when ime is showing -->
-    <string name="disable_ime_navbar_title">Deaktiviere Navigationsleiste bei Eingabe</string>
+    <string name="disable_ime_navbar_title">Navigationsleiste bei Eingabe</string>
     <string name="disable_ime_navbar_summary">Deaktiviert die Navigationsleiste im erweiterten Modus wenn die Eingabe geöffnet ist</string>
 </resources>
