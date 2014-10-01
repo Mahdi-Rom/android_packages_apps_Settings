@@ -1419,6 +1419,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="recents_panel_settings_title">Multi-tâches</string>
     <string name="recents_panel_settings_summary">Les options multi-tâches comprennent la version Slim recents  et plus</string>
 
+    <!-- OmniSwitch -->
+    <string name="omniswitch_title">OmniSwitch</string>
+
     <!-- Recents clear all -->
     <string name="aosp_recents_category">Version récents AOSP</string>
     <string name="show_recent_clear_all_button_title">Bouton tout effacer</string>
