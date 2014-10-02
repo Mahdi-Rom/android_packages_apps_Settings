@@ -2196,9 +2196,6 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Shortcuts -->
     <string name="shortcut_picker">Actions</string>
 
-    <!-- Custom lockscreen -->
-    <string name="lockscreen_enable_modlock_title">Écran de verrouillage personnalisée</string>
-
     <!-- Bluetooth accept all file types -->
     <string name="bluetooth_accept_all_files">Accepter tous les types de fichiers</string>
 
@@ -2365,8 +2362,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="adaptive_backlight_title">Rétroéclairage adaptatif</string>
     <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétroéclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
 
-    <!-- tap-to-wake -->
-    <string name="double_tap_to_wake_title">Taper deux fois pour réveiller</string>
+    <!-- Sunlight readability enhancement screen -->
+    <string name="sunlight_enhancement_title">Amélioration à lumière du soleil</string>
+    <string name="sunlight_enhancement_summary">Améliorer la luminosité de l\'affichage et la lisibilité en plein soleil</string>
 
     <!-- Screen color -->
     <string name="screencolor">Couleur de l\'écran</string>
@@ -2431,24 +2429,22 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">Activer l\'interface Android Debug Bridge (adb)</string>
 
-    <!-- Gestures Options -->
-    <string name="screen_off_gesture_settings_title">Gestures écran éteint</string>
-
-    <!-- Lid Settings -->
-    <string name="smart_cover">Smart cover</string>
-    <string name="smart_cover_wake_title">Réveil avec le Smart cover</string>
-    <string name="smart_cover_wake_summary">Réveiller l\'appareil lorsque le Smart cover est ouvert</string>
-    <string name="smart_cover_sleep_title">Veille avec le Smart cover</string>
-    <string name="smart_cover_sleep_summary">Mettre l\'appareil en veille lorsque le Smart cover est fermé</string>
-
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
-    <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
-
     <!-- Spam notifications -->
     <string name="spam_added_title">%1$s ajouté</string>
     <string name="spam_last_blocked_title">Dernier bloqué %1$s</string>
     <string name="block_notifications_title">Filtre des notifications</string>
     <string name="block_notifications_summary">Gérer les notifications ignorées et les filtres</string>
-    <string name="no_filters_title">Aucun filtre défini</string>
+    <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
+    <string name="no_filters_title">Pas de filtres définis. Pour filtrer une notification, appuyez longuement et choisissez  \'Ignorer les messages de ce genre\'.</string>
+
+    <!-- NFC Polling-->
+    <string name="nfc_polling_mode_title">NFC mode interrogation</string>
+    <string name="nfc_polling_mode_screen_off">Éteindre l\'écran</string>
+    <string name="nfc_polling_mode_screen_locked">Allumer l\'écran, verrouillé</string>
+    <string name="nfc_polling_mode_screen_unlocked">Allumer l\'écran, déverrouillé (par défaut)</string>
+
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Appareils connectés</string>
+    <string name="wifi_ap_client_ap_disabled">Point d'accès désactivé</string>
+    <string name="wifi_ap_client_none_connected">Pas d\'appareils connectés</string>
 </resources>
