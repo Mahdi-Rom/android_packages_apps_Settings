@@ -53,13 +53,19 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
 
+    private static final String KEY_NAVIGATION_BAR = "navbar_settings";
     private static final String KEY_HARDWARE_KEYS = "hardware_keys";
+    private static final String KEY_PIE_CONTROL = "pie_control";
+    private static final String KEY_PA_PIE_CONTROL = "pa_pie_control";
     private static final String KEY_POWER_END_CALL = "power_end_call";
     private static final String BUTTON_VOLUME_DEFAULT = "button_volume_default_screen";
     private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
     private static final String KEY_SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
 
-    private PreferenceScreen mHardwareKeys;
+    private Preference mNavigationBar;
+    private Preference mHardwareKeys;
+    private Preference mPieControl;
+    private Preference mPaPieControl;
     private CheckBoxPreference mPowerEndCall;
     private ListPreference mVolumeDefault;
     private ListPreference mVolumeKeyCursorControl;
@@ -82,6 +88,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_VOLUME);
 
         final boolean hasPowerKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_POWER);
+
+        mNavigationBar = findPreference(KEY_NAVIGATION_BAR);
+        mPieControl = findPreference(KEY_PIE_CONTROL);
+        mPaPieControl = findPreference(KEY_PA_PIE_CONTROL);
 
         // Only show the hardware keys config on a device that does not have a navbar
         mHardwareKeys = (PreferenceScreen) findPreference(KEY_HARDWARE_KEYS);
@@ -139,16 +149,41 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public void onResume() {
         super.onResume();
 
+        boolean navBarEnabled = Settings.System.getInt(
+                getContentResolver(), Settings.System.NAVIGATION_BAR_SHOW, 0) == 1;
+        mNavigationBar.setSummary(navBarEnabled
+                ? R.string.enabled : R.string.disabled);
+
+        boolean hwKeysEnabled = Settings.System.getInt(
+                getContentResolver(), Settings.System.DISABLE_HARDWARE_KEYS, 1) == 0;
+        mHardwareKeys.setSummary(hwKeysEnabled
+                ? R.string.enabled : R.string.disabled);
+
+        boolean slimPieEnabled = Settings.System.getInt(
+                getContentResolver(), Settings.System.PIE_CONTROLS, 0) == 1;
+        mPieControl.setSummary(slimPieEnabled
+                ? R.string.enabled : R.string.disabled);
+
+        boolean paPieEnabled = Settings.System.getInt(
+                getContentResolver(), Settings.System.PA_PIE_CONTROLS, 0) == 1;
+        mPaPieControl.setSummary(paPieEnabled
+                ? R.string.enabled : R.string.disabled);
+
         // Power button ends calls.
         if (mPowerEndCall != null) {
             final int incallPowerBehavior = Settings.Secure.getInt(getContentResolver(),
                     Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR,
                     Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_DEFAULT);
             final boolean powerButtonEndsCall =
-                    (incallPowerBehavior == Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_HANGUP);
+                      (incallPowerBehavior == Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_HANGUP);
             mPowerEndCall.setChecked(powerButtonEndsCall);
+
+            UpdateSettings();
+            updateVisiblePreferences();
         }
     }
+
+    public void UpdateSettings() {}
 
     private ListPreference initActionList(String key, int value) {
         ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
@@ -226,5 +261,25 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         list.setEntries(entries.toArray(new CharSequence[entries.size()]));
         list.setEntryValues(values.toArray(new CharSequence[values.size()]));
+    }
+
+    private void updateVisiblePreferences() {
+        int slimPie = Settings.System.getInt(getContentResolver(),
+                Settings.System.PIE_CONTROLS, 0);
+        int paPie = Settings.System.getInt(getContentResolver(),
+                Settings.System.PA_PIE_CONTROLS, 0);
+
+        if (slimPie == 1) {
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.PA_PIE_CONTROLS, 0);
+            mPaPieControl.setEnabled(false);
+        } else if (paPie == 1) {
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.PIE_CONTROLS, 0);
+            mPieControl.setEnabled(false);
+        } else {
+            mPieControl.setEnabled(true);
+            mPaPieControl.setEnabled(true);
+        }
     }
 }
