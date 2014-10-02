@@ -1277,7 +1277,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="hide_non_clearable_summary">Masquer les notifications non effaçables</string>
     <string name="dismiss_all">Autoriser le rejet de toutes les notifications</string>
     <string name="dismiss_all_summary">Permettre le rejet des notifications même non effaçables. Bien sûr, ils sont juste masqués de l\'écran de verrouillage et non à partir du panneau de notification.</string>
-    <string name="wake_up">Réveil</string>
+    <string name="dismiss_notification">rejeter la notification</string>
+    <string name="dismiss_notification_summary">Si oui ou non la notification est rejetée quand glissée depuis l'interface</string>
     <string name="expanded_view">Afficher les notifications étendues</string>
     <string name="expanded_view_summary">Afficher les notifications étendues si possible</string>
     <string name="force_expanded_view">Forcer les notifications étendues</string>
@@ -1296,7 +1297,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="excluded_apps_title">Applications exclues</string>
     <string name="excluded_apps_summary">Les notifications des applications exclues ne seront pas visibles sur l\'écran de verrouillage</string>
     <string name="notification_color">Couleur d\'arrière-plan des notifications</string>
-
+    
     <!-- Lock Screen -->
     <string name="title_shortcuts">Raccourcis</string>
     <!-- Lock Screen Targets -->
@@ -2385,6 +2386,11 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Amélioration des couleurs</string>
     <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
+   
+    <!-- SAR information -->
+    <string name="sar_info">SAR Maximum</string>
+    <string name="maximum_head_level">Haud: %1$s W/kg</string>
+    <string name="maximum_body_level">Corps: %1$s W/kg</string>
 
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Rétroéclairage</string>
