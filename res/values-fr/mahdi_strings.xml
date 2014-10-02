@@ -1747,102 +1747,102 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Animation Controls -->
     <string name="animation_settings_reset_message">Réinitialiser tous les paramètres d\'animations </string>
-    <string name="animation_controls_title">Animation controls</string>
-    <string name="activity_open_title">Open in-app activity animation</string>
-    <string name="activity_close_title">Close in-app activity animation</string>
-    <string name="task_open_title">Launch from in app animation</string>
-    <string name="task_close_title">Return to previous animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Return to homescreen animation</string>
-    <string name="wallpaper_close_title">Launch from homescreen animation</string>
-    <string name="wallpaper_intra_open_title">Recents page open animation</string>
-    <string name="wallpaper_intra_close_title">Recents page close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="animation_no_override_title">Prevent app overrides</string>
-    <string name="animation_no_override_summary_on">Prevent apps from overriding transitions.</string>
-    <string name="animation_no_override_summary_off">Apps can overriding transitions.</string>
+    <string name="animation_controls_title">Contrôles d\'animation</string>
+    <string name="activity_open_title">Animation d\'ouverture d\'activité</string>
+    <string name="activity_close_title">Animation de fermeture d\'activité</string>
+    <string name="task_open_title">Animation ouverture de tâche</string>
+    <string name="task_close_title">Animation fermeture de tâche</string>
+    <string name="task_move_to_front_title">Déplacer vers l\'avant</string>
+    <string name="task_move_to_back_title">Déplacer vers l\'arrière</string>
+    <string name="wallpaper_open_title">Animation de retour sur l\'écran d'\'accueil</string>
+    <string name="wallpaper_close_title">Animation à partir de l\'écran d'\'accueil</string>
+    <string name="wallpaper_intra_open_title">Animation d\'ouverture d\'une page récente</string>
+    <string name="wallpaper_intra_close_title">Animation de fermeture d\'une page récente</string>
+    <string name="animation_duration_title">Durée de l\'animation</string>
+    <string name="animation_no_override_title">Empêcher la priorité des applications</string>
+    <string name="animation_no_override_summary_on">Empêcher les applications de passer outre les transitions.</string>
+    <string name="animation_no_override_summary_off">Ne pas empêcher les applications de passer outre les transitions</string>
 
     <!-- Animation Strings -->
-    <string name="animation_default">Default</string>
-    <string name="animation_fade">Fade</string>
-    <string name="animation_slide_right">Slide in right</string>
-    <string name="animation_slide_left">Slide in left</string>
-    <string name="animation_slide_right_no_fade">Slide in right (No fade)</string>
-    <string name="animation_slide_left_no_fade">Slide in left (No fade)</string>
-    <string name="animation_slide_up">Slide in bottom</string>
-    <string name="animation_slide_down">Slide in top</string>
-    <string name="animation_translucent">Translucent</string>
-    <string name="animation_grow_shrink">Grow in (Top)</string>
-    <string name="animation_grow_shrink_center">Grow in (Center)</string>
-    <string name="animation_grow_shrink_bottom">Grow in (Bottom)</string>
-    <string name="animation_grow_shrink_left">Grow in (Left)</string>
-    <string name="animation_grow_shrink_right">Grow in (Right)</string>
-    <string name="animation_random">Random</string>
+    <string name="animation_default">Par défaut</string>
+    <string name="animation_fade">En fondu</string>
+    <string name="animation_slide_right">Glisser à droite</string>
+    <string name="animation_slide_left">Glisser à gauche</string>
+    <string name="animation_slide_right_no_fade">Glisser à droite (sans fondu)</string>
+    <string name="animation_slide_left_no_fade">Glisser à gauche (sans fondu)</string>
+    <string name="animation_slide_up">Glisser en bas</string>
+    <string name="animation_slide_down">Glisser en haut</string>
+    <string name="animation_translucent">Translucide</string>
+    <string name="animation_grow_shrink">Agrandir (haut)</string>
+    <string name="animation_grow_shrink_center">Agrandir (centre)</string>
+    <string name="animation_grow_shrink_bottom">Agrandir (bas)</string>
+    <string name="animation_grow_shrink_left">Agrandir (gauche)</string>
+    <string name="animation_grow_shrink_right">Agrandir (droite)</string>
+    <string name="animation_random">Aléatoire</string>
 
     <!-- Scrolling Animation Controls -->
-    <string name="scrolling_title">Scrolling</string>
-    <string name="scrolling_summary">View or change scrolling animations</string>
-    <string name="animation_fling_velocity_title">Fling velocity</string>
-    <string name="animation_scroll_friction_title">Scroll friction</string>
-    <string name="animation_overscroll_distance_title">Overscroll distance</string>
-    <string name="animation_overfling_distance_title">Overfling distance</string>
-    <string name="animation_duration_summary">Set duration</string>
-    <string name="animation_no_scroll_title">Customizing scroll</string>
-    <string name="animation_no_scroll_summary_on">Enabled</string>
-    <string name="animation_no_scroll_summary_off">Disabled</string>
+    <string name="scrolling_title">Défilement</string>
+    <string name="scrolling_summary">Voir ou changer les animations de défilement</string>
+    <string name="animation_fling_velocity_title">Vitesse de lancement</string>
+    <string name="animation_scroll_friction_title">Friction de défilement</string>
+    <string name="animation_overscroll_distance_title">Distance de défilement</string>
+    <string name="animation_overfling_distance_title">Distance de survole</string>
+    <string name="animation_duration_summary">Définir la durée</string>
+    <string name="animation_no_scroll_title">Personnalisation du défilement</string>
+    <string name="animation_no_scroll_summary_on">Activé</string>
+    <string name="animation_no_scroll_summary_off">Désactivé</string>
 
     <!-- Smooth ProgressBar -->
-    <string name="progressbar_title">Progress bars</string>
-    <string name="progressbar_summary">View or change progress bar animations and color</string>
-    <string name="progressbar_mirror_title">Mirror mode</string>
-    <string name="progressbar_reverse_title">Reversed</string>
-    <string name="progressbar_speed_title">Speed</string>
-    <string name="progressbar_width_title">Stroke width</string>
-    <string name="progressbar_length_title">Separator length</string>
-    <string name="progressbar_count_title">Sections Count</string>
-    <string name="progressbar_color_1_title">Color1</string>
-    <string name="progressbar_color_2_title">Color2</string>
-    <string name="progressbar_color_3_title">Color3</string>
-    <string name="progressbar_color_4_title">Color4</string>
-    <string name="sample_progressbar_text">ProgressBar : Preview</string>
-    <string name="progressbar_interpolator">Interpolator</string>
-    <string name="progressbar_none">None</string>
-    <string name="progressbar_acclerate">Accelerate</string>
-    <string name="progressbar_linear">Linear</string>
-    <string name="progressbar_acceleratedecelerate">AccelerateDecelerate</string>
-    <string name="progressbar_decelerate">Decelerate</string>
-    <string name="progressbar_reset_message">Reset progress bar style to default?</string>
-    <string name="ram_bar_button_reset">Reset colors</string>
-    <string name="ram_bar_reset">Reset</string>
+    <string name="progressbar_title">Barre de progression</string>
+    <string name="progressbar_summary">Voir ou changer les animations et la couleur de la barre de progression</string>
+    <string name="progressbar_mirror_title">Mode mirroir</string>
+    <string name="progressbar_reverse_title">Inversé</string>
+    <string name="progressbar_speed_title">Vitesse</string>
+    <string name="progressbar_width_title">Largeur du contour</string>
+    <string name="progressbar_length_title">Longueur du séparateur</string>
+    <string name="progressbar_count_title">Nombre de sections</string>
+    <string name="progressbar_color_1_title">Couleur 1</string>
+    <string name="progressbar_color_2_title">Couleur 2</string>
+    <string name="progressbar_color_3_title">Couleur 3</string>
+    <string name="progressbar_color_4_title">Couleur 4</string>
+    <string name="sample_progressbar_text">Barre de progression : Aperçu</string>
+    <string name="progressbar_interpolator">Interpolateur</string>
+    <string name="progressbar_none">Aucun</string>
+    <string name="progressbar_acclerate">Accélérer</string>
+    <string name="progressbar_linear">Linéaire</string>
+    <string name="progressbar_acceleratedecelerate">Accélérer / Décélérer</string>
+    <string name="progressbar_decelerate">Décélérer</string>
+    <string name="progressbar_reset_message">Réinitialiser la barre de progression par défaut ?</string>
+    <string name="ram_bar_button_reset">Réinitialiser les couleurs</string>
+    <string name="ram_bar_reset">Réinitialiser</string>
 
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Toast</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
-    <string name="toast_fade_animation">Fade</string>
-    <string name="toast_SlideRight_animation">SlideRight</string>
-    <string name="toast_SlideLeft_animation">SlideLeft</string>
+    <string name="toast_animation_title">Bulle d\'infos</string>
+    <string name="toast_none_animation">Aucun</string>
+    <string name="toast_default_animation">par défaut</string>
+    <string name="toast_fade_animation">En fondu</string>
+    <string name="toast_SlideRight_animation">Glisser à droite</string>
+    <string name="toast_SlideLeft_animation">Glisser à gauche</string>
     <string name="toast_Xylon_animation">Xylon</string>
     <string name="toast_Toko_animation">Toko</string>
     <string name="toast_Tn_animation">Tn</string>
     <string name="toast_Honami_animation">Honami</string>
-    <string name="toast_FastFade_animation">FastFade</string>
-    <string name="toast_GrowFade_animation">GrowFade</string>
-    <string name="toast_GrowFadeCenter_animation">GrowFadeCenter</string>
-    <string name="toast_GrowFadeBottom_animation">GrowFadeBottom</string>
-    <string name="toast_Translucent_animation">Translucent</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+    <string name="toast_FastFade_animation">Fondu rapide</string>
+    <string name="toast_GrowFade_animation">Fondu croissante</string>
+    <string name="toast_GrowFadeCenter_animation">Fondu centrale croissante</string>
+    <string name="toast_GrowFadeBottom_animation">Fondu basse croissante</string>
+    <string name="toast_Translucent_animation">Translucide</string>
+    <string name="toast_SlideLeftRight_animation">Glisser de gauche à droite</string>
+    <string name="toast_SlideRightLeft_animation">SGlisser de droite à gauche</string>
 
     <!-- Chamber of Secrets -->
     <string name="chamber_title">Chambre des secrets</string>
     <string name="chamber_toast">La chambre des secrets est ouverte</string>
 
     <!-- EdgeGesture service -->
-    <string name="edge_gesture_service_title">Block gesture touch events</string>
-    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
-
+    <string name="edge_gesture_service_title">Bloquer le gestuel des événements tactiles</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre d'état aux applications</string>
+    
     <!-- Battery saver mode -->
     <string name="unit_sec">sec</string>
     <string name="network_lte">LTE (recommandé)</string>
@@ -1952,8 +1952,12 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="system_bar_visibility">Désactivé sur l\'écran de verrouillage</string>
     <string name="system_bar_visibility_summary">Afficher les barres de statut et de navigation sur l\'écran de verrouillage pendant le mode immersif</string>
 
+    <!-- Disable immersive mode navbar when ime is showing -->
+    <string name="disable_ime_navbar_title">Désactivé le sélecteur de clavier dans la barre de navigation</string>
+    <string name="disable_ime_navbar_summary">Désactiver la barre de navigation lorsque le sélecteur s'affiche en mode immersif</string>
+
     <!-- On-The-Go -->
-    <string name="power_menu_onthego_title">On-The-Go mode</string>
+    <string name="power_menu_onthego_title">Mode On-The-Go</string>
     <string name="title_tile_onthego">On-The-Go</string>
 
     <!-- Recents Ram Bar -->
@@ -2072,8 +2076,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="time_five_to">jusqu\'à cinq</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Navigation Pie</string>
-    <string name="pie_control_summary">Active les Pie controls</string>
+    <string name="pie_control_title">Slim Pie</string>
+    <string name="pie_control_enable_title">Activer</string>
+    <string name="pie_control_summary">Activer le contrôle de tarte pour aider à naviguer en utilisant le mode immersif</string>
     <string name="pie_control_size">Taille du Pie</string>
     <string name="pie_control_trigger_positions">Options de déclenchement</string>
     <string name="pie_control_trigger_left">Déclenchement sur le bord gauche de l\'écran</string>
@@ -2115,10 +2120,78 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="pie_button_second_layer_summary">Permet de changer les boutons de la seconde couche</string>
     <string name="pie_button_style_summary">Permet de changer le style des boutons du Pie</string>
     <string name="pie_style_reset_message">Réinitialiser les valeurs de style?</string>
-    <string name="pie_warning_no_navigation_present">Aucun autre moyen de navigation n\'est actuellement activé. Désactiver le pie peut rendre votre appareil inutilisable. Voulez vous activer la barre de navigation à la place?</string>
-    <string name="pie_trigger_warning">Un des déclencheurs au minimum (bas, gauche ou droit) doit être activé.</string>
     <string name="pie_disable_ime_triggers_title">Réduction des déclencheurs avec le clavier</string>
     <string name="pie_disable_ime_triggers_summary">Réduit les déclencheurs droit et gauche si le clavier est actif</string>
+    <string name="pie_background_fadein_time_title">Fondu dans le temps</string>
+    <string name="pie_slice_gap_title">Tranche d\'intervalle</string>
+    <string name="pie_slice_gap_disabled">Désactivé</string>
+    <string name="pie_slice_gap_small">Petit (Par défaut)</string>
+    <string name="pie_slice_gap_medium">Moyen</string>
+    <string name="pie_slice_gap_large">Large</string>
+    <string name="pie_colors_title">Couleurs</string>
+
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PA Pie</string>
+    <string name="pa_pie_controls">Activé</string>
+    <string name="pa_pie_expanded_only_title">Seulement en bureau étendu</string>
+    <string name="pa_pie_expanded_only_summary">Autoriser Pie à s\'activer seulement quand le bureau est élargi</string>
+    <string name="pa_pie_gravity_title">Gravité</string>
+    <string name="pa_pie_gravity_top">Haut</string>
+    <string name="pa_pie_gravity_bottom">Bas</string>
+    <string name="pa_pie_gravity_right">Droite</string>
+    <string name="pa_pie_gravity_left">Gauche</string>
+    <string name="pa_pie_mode_title">Style</string>
+    <string name="pa_pie_mode_bare">Vide</string>
+    <string name="pa_pie_mode_quick">Rapide</string>
+    <string name="pa_pie_mode_default">Par défaut</string>
+    <string name="pa_pie_mode_slow">Lent</string>
+    <string name="pa_pie_size_title">Taille</string>
+    <string name="pa_pie_size_small">Petit</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Large</string>
+    <string name="pa_pie_size_gigantic">Gigantesque</string>
+    <string name="pa_pie_size_monster">Monstre</string>
+    <string name="pa_pie_color_title">Paramètres des couleurs</string>
+    <string name="pa_pie_color_style_title">Style de couleur</string>
+    <string name="pa_pie_background_title">Couleur d\'arrière-plan</string>
+    <string name="pa_pie_select_title">Couleur de sélection</string>
+    <string name="pa_pie_outlines_title">Couleur des contours</string>
+    <string name="pa_pie_status_clock_title">Couleur de l\'horloge</string>
+    <string name="pa_pie_status_title">Couleur de l\'état</string>
+    <string name="pa_pie_chevron_left_title">Couleur du chevron de gauche</string>
+    <string name="pa_pie_chevron_right_title">Couleur du chevron de droite</string>
+    <string name="pa_pie_juice_title">Couleur du niveau de batterie</string>
+    <string name="pa_pie_button_color">Couleur du bouton</string>
+    <string name="pa_pie_button_color_title">Couleur des boutons</string>
+    <string name="pa_pie_gap_title">Ecart de point</string>
+    <string name="pa_pie_angle_title">Angle</string>
+    <string name="pa_pie_angle_none">Aucun (ancien)</string>
+    <string name="pa_pie_angle_small">Petit</string>
+    <string name="pa_pie_angle_big">Normal (par défaut)</string>
+    <string name="pa_pie_angle_huge">Grand</string>
+    <string name="pa_pie_angle_super">Enorme</string>
+    <string name="pa_pie_gap_none">Aucun</string>
+    <string name="pa_pie_gap_small">Petit</string>
+    <string name="pa_pie_gap_big">Grand (par défaut)</string>
+    <string name="pa_pie_gap_huge">Enorme</string>
+    <string name="pa_pie_center_title">Alignement au milieu</string>
+    <string name="pa_pie_center_summary">Centrer Pie sur le bord</string>
+    <string name="pa_pie_stick_title">Empêcher la rotation</string>
+    <string name="pa_pie_stick_summary">Eviter les changements d\'orientation quand l\'écran pivote</string>
+    <string name="pa_pie_power_title">Bouton extinction d\'écran</string>
+    <string name="pa_pie_power_summary">Activé le bouton d\'extinction d\'extinction dans les contrôles Pie</string>
+    <string name="pa_pie_trigger_title">Zone de déclenchement</string>
+    <string name="pa_pie_trigger_none">Aucun (désactivé)</string>
+    <string name="pa_pie_trigger_small">@string/pa_pie_size_small</string>
+    <string name="pa_pie_trigger_normal">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_trigger_big">@string/pa_pie_gap_big</string>
+    <string name="pa_pie_trigger_huge">Enorme</string>
+    <string name="pa_pie_notifications_title">Activer les cibles du chevron</string>
+    <string name="pa_pie_notifications_summary">Activer ceci laissera le panneau de notification et les tuiles de Paramètres rapides disponibles avant de faire glisser</string>
+    <string name="pa_pie_menu_title">Toujours afficher le bouton de menu</string>
+    <string name="pa_pie_menu_summary">Le bouton menu sera toujours affiché, même quand ce n\'est pas nécessaire</string>
+    <string name="pa_pie_restart_launcher_title">Redémarrer le lanceur</string>
+    <string name="pa_pie_restart_launcher_summary">Changer la taille de l\'écran peut avoir des effets indésirables. Cette option permet à votre Lanceur de retrouver bon sens, le coût est une légère coupure (recommandé)</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">Actions</string>
