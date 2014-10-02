@@ -97,6 +97,7 @@
     <string name="power_menu_title">Menu marche/arrêt</string> 
     <string name="power_menu_summary">Changer la liste du Menu marche/arrêt</string>
     <string name="lockscreen_enable_power_menu_title">Activé le menu général sur l\'écran de verrouillage</string>
+    <string name="lockscreen_enable_power_menu_summary">Remarque, cette option ne désactive que le menu d\' alimentation sur l\' écrans de verrouillage sécurisé</string>
     <string name="power_menu_reboot_title">Redémarrer</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
     <string name="power_menu_screenrecord_title">Enregistreur d\'écran</string>
@@ -305,20 +306,20 @@
     <string name="processor_title">Processeur</string>
 
     <!-- Performance Settings : Processor settings sub items -->
-    <string name="cpu_cur_freq_title">Fréquence actuelle</string>
-    <string name="cpu_governors_title">Stratégie</string>
-    <string name="cpu_min_freq_title">Fréquence minimale</string>
-    <string name="cpu_max_freq_title">Fréquence maximale</string>
+    <string name="cpu_cur_freq_title">Fréquence actuelle du CPU</string>
+    <string name="cpu_governors_title">Stratégie du CPU</string>
+    <string name="cpu_min_freq_title">Fréquence minimale du CPU</string>
+    <string name="cpu_max_freq_title">Fréquence maximale du CPU</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Horloge E/S</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Horloge E/S</string>
-
+	
     <!-- Performance Settings : Performance profile settings -->
     <string name="perf_profile_title">Profil</string>
-
+	
     <!-- Memory Management -->
     <string name="memory_management_title">Gestion de la mémoire</string>
     <!-- zRam -->
@@ -411,7 +412,29 @@
     <string name="auto_brightness_preview">Aperçu</string>
     <string name="auto_brightness_preview_dialog_title">Aperçu de la courbe de luminosité</string>
     <string name="auto_brightness_help_dialog_title">Aide</string>
-    <string name="auto_brightness_help_text"><b>Comment est calculée la luminosité\u00A0?</b>\n\nLa courbe de luminosité est calculée en effectuant l\'<i>interpolation d\'une courbe cubique</i> sur un certain nombre de <i>points de contrôle</i>. C\'est un calcul précis dans lequel la luminosité de l\'écran ne reste pas constante pour une plage déterminée de luminosité ambiante. De cette manière, les légers changements de luminosité ambiante ne provoquent pas de grands sauts de luminosité de l\'écran, néanmoins il est plus difficile de prédire les conséquences exactes de l\'évolution des points de contrôle.\nPour vous aider, un aperçu de la courbe calculée peut être examiné. Noter que l\'aperçu montre une courbe avec une échelle <i>logarithmique</i>, de sorte que tous les points de contrôle peuvent être affichés distinctement. Lorsque vous utilisez une échelle linéaire, il n\'est pas possible de distinguer la tendance des points de contrôle les plus importants dans la fourchette basse de luminosité ambiante.\n\n<b>Comment éditer la courbe de luminosité\u00A0?</b>\n\nChaque ligne de la liste correspond à un <i>point de contrôle</i> de la courbe de luminosité. Pour modifier le niveau de luminosité d\'un point, vous pouvez utiliser le curseur présent sur chaque ligne. Lorsque vous toucherez le curseur, la luminosité de l\'écran sera modifiée en conséquence pour prévisualiser le niveau de lumière.\nDes options supplémentaires sont disponibles en appuyant longtemps sur une ligne. En sélectionnant \'Modifier\', vous pouvez modifier le niveau du point de contrôle de luminosité ambiante ou saisir manuellement la luminosité de l\'écran désirée. En sélectionnant \'Diviser\' vous pouvez séparer une ligne en deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprimer\' efface la ligne sélectionnée.</string>
+    <string name="auto_brightness_help_text"><b>Comment est calculée la luminosité\u00A0?</b>
+\n\n
+La courbe de luminosité est calculée en effectuant l\'<i>interpolation d\'une courbe cubique</i> 
+sur un certain nombre de <i>points de contrôle</i>. C\'est un calcul précis dans lequel la 
+luminosité de l\'écran ne reste pas constante pour une plage déterminée de luminosité ambiante. De cette manière, 
+les légers changements de luminosité ambiante ne provoquent pas de grands sauts de luminosité de l\'écran; néanmoins 
+il est plus difficile de prédire les conséquences exactes de l\'évolution des points de contrôle.\n
+Pour vous aider, un aperçu de la courbe calculée peut être examiné. Noter que 
+l\'aperçu montre une courbe avec une échelle <i>logarithmique</i>, de sorte que tous les points de contrôle peuvent 
+être affichés distinctement. Lorsque vous utilisez une échelle linéaire, il n\'est pas possible de distinguer la tendance 
+des points de contrôle les plus importants dans la fourchette basse de luminosité ambiante.
+\n\n
+<b>Comment éditer la courbe de luminosité\u00A0?</b>
+\n\n
+Chaque ligne de la liste correspond à un <i>point de contrôle</i> de la 
+courbe de luminosité. Pour modifier le niveau de luminosité d\'un point, vous pouvez utiliser le curseur 
+présent sur chaque ligne. Lorsque vous toucherez 
+le curseur, la luminosité de l\'écran sera modifiée en conséquence pour prévisualiser le niveau de lumière.\n
+Des options supplémentaires sont disponibles en appuyant longtemps sur une ligne. En sélectionnant \'Modifier\', vous pouvez 
+modifier le niveau du point de contrôle de luminosité ambiante ou saisir manuellement la luminosité de l\'écran 
+désirée. En sélectionnant \'Diviser\' vous pouvez séparer une ligne en 
+deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprimer\' efface la ligne sélectionnée.
+    </string>
 
     <string name="auto_brightness_sensitivity_title">Sensibilité</string>
     <string name="auto_brightness_sensitivity_verylow">Très faible</string>
@@ -636,6 +659,10 @@
     <string name="title_qs_small_icons">Monter des petites tuiles</string>
     <string name="summary_qs_small_icons">Pour avoir plus de tuiles utiliser des petites tailles</string>
 
+    <!-- QuickSettings add tile button -->
+    <string name="qs_add_tiles_title">Montrer le bouton d\'édition des tuiles</string>
+    <string name="qs_add_tiles_summary">Afficher le bouton d\'édition des tuiles dans la barre de statut pour un accès rapide au sélecteur de tuile</string>
+    
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
     <string name="pref_ring_mode_title">Modes du son</string>
@@ -725,7 +752,8 @@
     <string name="clock_date_style_uppercase">Majuscule</string>
     <string name="clock_date_format_custom">Format java custom</string>
     <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge?</string>
-
+    <string name="status_bar_show_clock_lockscreen_title">Afficher sur l\'écran de verrouillage</string>
+    
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Style du niveau de batterie</string>
     <string name="status_bar_style_icon_portrait">Icône portrait</string>
@@ -740,6 +768,10 @@
     <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser sur la barre d\'état</string>
     <string name="status_bar_toggle_info">Non disponible lorsque la luminosité automatique est activée</string>
 
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">Opérateur dans la barre de statut</string>
+    <string name="statusbar_miui_carrier_summary">Afficher l\'opérateur en texte avec le style Miui dans la barre de statut</string>
+    
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Activer la protection des données</string>
     <string name="privacy_guard_dlg_title">Activer la protection des données\u00A0?</string>
@@ -758,6 +790,8 @@
     <string name="privacy_guard_manager_show_system_apps">Afficher les applications système</string>
     <string name="privacy_guard_manager_filter_permissions">Filtre de permissions</string>
     <string name="privacy_guard_advanced_settings_title">Avancé</string>
+    <string name="privacy_guard_notification_options">Options de notification</string>
+    <string name="privacy_guard_notification_options_summary">Voir ou changer les options de notification</string>
     <string name="privacy_guard_notification_title">Afficher la notification</string>
     <string name="privacy_guard_notification_icon_title">Afficher l\'icon du notification</string>
     <string name="privacy_guard_notification_dismiss_title">Notification Dismissable</string>
@@ -926,6 +960,7 @@
     <string name="shortcut_action_wake_device">Réveiller l\'appareil</string>
     <string name="shortcut_action_theme_switch">Sélecteur de thème</string>
     <string name="shortcut_action_torch">Torche</string>
+    <string name="shortcut_action_omniswitch">OmniSwitch</string>
     <string name="shortcut_action_longpress">Pression longue :</string>
     <string name="shortcut_action_select_action_longpress">Choisir l\'action associée à une pression longue :</string>
     <string name="shortcut_action_select_action">Choisir l\'action</string>
@@ -1040,6 +1075,10 @@
     <string name="notification_hide_labels_all">Masquer tous les libellés</string>
     <string name="notification_hide_labels_text">dans le panneau de notification</string>
 
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Forcer les notifications étendues</string>
+    <string name="notification_force_expand_summary">Forcer les notifications étendues dans toutes les applications qui les supportent</string>
+    
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Options de navigation</string>
     <string name="navigation_settings_category_title">Navigation</string>
@@ -1115,6 +1154,8 @@
     <string name="quiet_hours_haptic">Retour haptique</string>
     <string name="quiet_hours_haptic_summary">Désactiver le retour haptique</string>
     <string name="quiet_hours_active_period">Activé entre <xliff:g id="start">%1$s</xliff:g> et <xliff:g id="end">%2$s</xliff:g></string>
+
+    <!-- Ringer mute options -->
     <string name="quiet_hours_ringer_allow_all">Sonner pour tous les appelants</string>
     <string name="quiet_hours_ringer_allow_contacts">Sonner pour tous les contacts</string>
     <string name="quiet_hours_ringer_allow_starred">Sonner pour les contacts favoris</string>
@@ -1214,7 +1255,8 @@
     <string name="general">Général</string>
     <string name="layout">Disposition</string>
     <string name="privacy">Confidentialité</string>
-
+    <string name="wake_up">Réveil</string>
+	
     <string name="lockscreen_notifications">Notifications sur l\'écran de verrouillage</string>
     <string name="summary_lockscreen_notifications_enabled">Notifications sur l\'écran de verrouillage activés</string>
     <string name="summary_lockscreen_notifications_disabled">Notifications sur l\'écran de verrouillage désactivés</string>
@@ -1229,6 +1271,8 @@
     <string name="hide_non_clearable_summary">Masquer les notifications non effaçables</string>
     <string name="dismiss_all">Autoriser le rejet de toutes les notifications</string>
     <string name="dismiss_all_summary">Permettre le rejet des notifications même non effaçables. Bien sûr, ils sont juste masqués de l\'écran de verrouillage et non à partir du panneau de notification.</string>
+    <string name="dismiss_notification">rejeter la notification</string>
+    <string name="dismiss_notification_summary">Si oui ou non la notification est rejetée quand glissée depuis l\'interface</string>
     <string name="expanded_view">Afficher les notifications étendues</string>
     <string name="expanded_view_summary">Afficher les notifications étendues si possible</string>
     <string name="force_expanded_view">Forcer les notifications étendues</string>
@@ -1242,10 +1286,12 @@
     <string name="privacy_mode_summary">Désactive les notifications d\'être représenté et rejeté. De cette façon, vous voyez seulement les icônes de vos notifications.</string>
     <string name="dynamic_width">Largeur dynamique</string>
     <string name="dynamic_width_summary">Les notifications utiliseront une largeur automatique, de sorte à utiliser le moins d\'espace possible</string>
+    <string name="included_apps_title">Applications incluses</string>
+    <string name="included_apps_summary">Les notifications de faible priorité des applications incluses seront affichés</string>
     <string name="excluded_apps_title">Applications exclues</string>
     <string name="excluded_apps_summary">Les notifications des applications exclues ne seront pas visibles sur l\'écran de verrouillage</string>
     <string name="notification_color">Couleur d\'arrière-plan des notifications</string>
-
+    
     <!-- Lock Screen -->
     <string name="title_shortcuts">Raccourcis</string>
     <!-- Lock Screen Targets -->
@@ -1322,6 +1368,29 @@
     <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
     <string name="wakeup_when_plugged_unplugged_summary">Réveille l\'appareil si le chargeur est branché/débranché.</string>
 
+    <!-- Gestures Options -->
+    <string name="screen_off_gesture_settings_title">Gestures</string>
+    <string name="screen_off_gesture_settings_summary">Gestion des gestes écran éteint</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Eviter le risque de réveil</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant de réveiller l\'écran</string>
+
+    <!-- Touch control -->
+    <string name="touch_control_settings_title">Avancé</string>
+    <string name="touch_control_settings_summary">Gérer les options avancées de réveil incluant le double appui pour réveiller et plus </string>
+
+    <!-- Lid Settings -->
+    <string name="smart_cover_title">Utiliser une Smart Cover</string>
+    <string name="smart_cover_summary">Remplacer l\'écran de verrouillage avec une Smart Cover lorsque le capot est fermé</string>
+    <string name="smart_cover_wake_title">Réveil de l\'appareil</string>
+    <string name="smart_cover_wake_summary">Réveil de l\'appareil lorsque le capot est ouvert</string>
+    <string name="smart_cover_sleep_title">Mise en veille</string>
+    <string name="smart_cover_sleep_summary">Mettre l\'appareil en veille lorsque le capot est fermé</string>
+
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">Double appui pour réveiller</string>
+
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">L\'APN a été supprimé.</string>
 
@@ -1344,6 +1413,9 @@
     <!-- Recents panel menu -->
     <string name="recents_panel_settings_title">Multi-tâches</string>
     <string name="recents_panel_settings_summary">Les options multi-tâches comprennent la version Slim recents  et plus</string>
+
+    <!-- OmniSwitch -->
+    <string name="omniswitch_title">OmniSwitch</string>
 
     <!-- Recents clear all -->
     <string name="aosp_recents_category">Version récents AOSP</string>
@@ -1381,6 +1453,18 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Afficher sur le bord gauche</string>
     <string name="recent_panel_lefty_mode_summary">Affiche le panneau d\'applications récentes sur le coté gauche</string>
+
+    <!-- App circle sidebar -->
+    <string name="app_circle_bar_title">Application en cercle dans barre latérale</string>
+    <string name="app_circle_sidebar_summary">Lancer des applications plus rapidement à partir d\'une barre latérale et d\'ouvrir plusieurs applications sur un écran multitâche</string>
+    <string name="app_circle_bar_included_apps_title">Applications incluses</string>
+    <string name="app_circle_bar_included_apps_summary">Les applications s\'afficheront dans un cercle de la barre latérale</string>
+    <string name="trigger_width_title">Largeur de déclenchement</string>
+    <string name="trigger_width_summary">Ajuster la largeur de la zone de déclenchement</string>
+    <string name="trigger_top_title">Position de déclenchement</string>
+    <string name="trigger_top_summary">Ajuster la position de la zone de déclenchement</string>
+    <string name="trigger_bottom_title">Hauteur de déclenchement</string>
+    <string name="trigger_bottom_summary">Ajuster la hauteur de la zone de déclenchement</string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Attention</string>
@@ -1658,102 +1742,102 @@
 
     <!-- Animation Controls -->
     <string name="animation_settings_reset_message">Réinitialiser tous les paramètres d\'animations </string>
-    <string name="animation_controls_title">Animation controls</string>
-    <string name="activity_open_title">Open in-app activity animation</string>
-    <string name="activity_close_title">Close in-app activity animation</string>
-    <string name="task_open_title">Launch from in app animation</string>
-    <string name="task_close_title">Return to previous animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Return to homescreen animation</string>
-    <string name="wallpaper_close_title">Launch from homescreen animation</string>
-    <string name="wallpaper_intra_open_title">Recents page open animation</string>
-    <string name="wallpaper_intra_close_title">Recents page close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="animation_no_override_title">Prevent app overrides</string>
-    <string name="animation_no_override_summary_on">Prevent apps from overriding transitions.</string>
-    <string name="animation_no_override_summary_off">Apps can overriding transitions.</string>
+    <string name="animation_controls_title">Contrôles d\'animation</string>
+    <string name="activity_open_title">Animation d\'ouverture d\'activité</string>
+    <string name="activity_close_title">Animation de fermeture d\'activité</string>
+    <string name="task_open_title">Animation ouverture de tâche</string>
+    <string name="task_close_title">Animation fermeture de tâche</string>
+    <string name="task_move_to_front_title">Déplacer vers l\'avant</string>
+    <string name="task_move_to_back_title">Déplacer vers l\'arrière</string>
+    <string name="wallpaper_open_title">Animation de retour sur l\'écran d\'accueil</string>
+    <string name="wallpaper_close_title">Animation à partir de l\'écran d\'accueil</string>
+    <string name="wallpaper_intra_open_title">Animation d\'ouverture d\'une page récente</string>
+    <string name="wallpaper_intra_close_title">Animation de fermeture d\'une page récente</string>
+    <string name="animation_duration_title">Durée de l\'animation</string>
+    <string name="animation_no_override_title">Empêcher la priorité des applications</string>
+    <string name="animation_no_override_summary_on">Empêcher les applications de passer outre les transitions.</string>
+    <string name="animation_no_override_summary_off">Ne pas empêcher les applications de passer outre les transitions</string>
 
     <!-- Animation Strings -->
-    <string name="animation_default">Default</string>
-    <string name="animation_fade">Fade</string>
-    <string name="animation_slide_right">Slide in right</string>
-    <string name="animation_slide_left">Slide in left</string>
-    <string name="animation_slide_right_no_fade">Slide in right (No fade)</string>
-    <string name="animation_slide_left_no_fade">Slide in left (No fade)</string>
-    <string name="animation_slide_up">Slide in bottom</string>
-    <string name="animation_slide_down">Slide in top</string>
-    <string name="animation_translucent">Translucent</string>
-    <string name="animation_grow_shrink">Grow in (Top)</string>
-    <string name="animation_grow_shrink_center">Grow in (Center)</string>
-    <string name="animation_grow_shrink_bottom">Grow in (Bottom)</string>
-    <string name="animation_grow_shrink_left">Grow in (Left)</string>
-    <string name="animation_grow_shrink_right">Grow in (Right)</string>
-    <string name="animation_random">Random</string>
+    <string name="animation_default">Par défaut</string>
+    <string name="animation_fade">En fondu</string>
+    <string name="animation_slide_right">Glisser à droite</string>
+    <string name="animation_slide_left">Glisser à gauche</string>
+    <string name="animation_slide_right_no_fade">Glisser à droite (sans fondu)</string>
+    <string name="animation_slide_left_no_fade">Glisser à gauche (sans fondu)</string>
+    <string name="animation_slide_up">Glisser en bas</string>
+    <string name="animation_slide_down">Glisser en haut</string>
+    <string name="animation_translucent">Translucide</string>
+    <string name="animation_grow_shrink">Agrandir (haut)</string>
+    <string name="animation_grow_shrink_center">Agrandir (centre)</string>
+    <string name="animation_grow_shrink_bottom">Agrandir (bas)</string>
+    <string name="animation_grow_shrink_left">Agrandir (gauche)</string>
+    <string name="animation_grow_shrink_right">Agrandir (droite)</string>
+    <string name="animation_random">Aléatoire</string>
 
     <!-- Scrolling Animation Controls -->
-    <string name="scrolling_title">Scrolling</string>
-    <string name="scrolling_summary">View or change scrolling animations</string>
-    <string name="animation_fling_velocity_title">Fling velocity</string>
-    <string name="animation_scroll_friction_title">Scroll friction</string>
-    <string name="animation_overscroll_distance_title">Overscroll distance</string>
-    <string name="animation_overfling_distance_title">Overfling distance</string>
-    <string name="animation_duration_summary">Set duration</string>
-    <string name="animation_no_scroll_title">Customizing scroll</string>
-    <string name="animation_no_scroll_summary_on">Enabled</string>
-    <string name="animation_no_scroll_summary_off">Disabled</string>
+    <string name="scrolling_title">Défilement</string>
+    <string name="scrolling_summary">Voir ou changer les animations de défilement</string>
+    <string name="animation_fling_velocity_title">Vitesse de lancement</string>
+    <string name="animation_scroll_friction_title">Friction de défilement</string>
+    <string name="animation_overscroll_distance_title">Distance de défilement</string>
+    <string name="animation_overfling_distance_title">Distance de survole</string>
+    <string name="animation_duration_summary">Définir la durée</string>
+    <string name="animation_no_scroll_title">Personnalisation du défilement</string>
+    <string name="animation_no_scroll_summary_on">Activé</string>
+    <string name="animation_no_scroll_summary_off">Désactivé</string>
 
     <!-- Smooth ProgressBar -->
-    <string name="progressbar_title">Progress bars</string>
-    <string name="progressbar_summary">View or change progress bar animations and color</string>
-    <string name="progressbar_mirror_title">Mirror mode</string>
-    <string name="progressbar_reverse_title">Reversed</string>
-    <string name="progressbar_speed_title">Speed</string>
-    <string name="progressbar_width_title">Stroke width</string>
-    <string name="progressbar_length_title">Separator length</string>
-    <string name="progressbar_count_title">Sections Count</string>
-    <string name="progressbar_color_1_title">Color1</string>
-    <string name="progressbar_color_2_title">Color2</string>
-    <string name="progressbar_color_3_title">Color3</string>
-    <string name="progressbar_color_4_title">Color4</string>
-    <string name="sample_progressbar_text">ProgressBar : Preview</string>
-    <string name="progressbar_interpolator">Interpolator</string>
-    <string name="progressbar_none">None</string>
-    <string name="progressbar_acclerate">Accelerate</string>
-    <string name="progressbar_linear">Linear</string>
-    <string name="progressbar_acceleratedecelerate">AccelerateDecelerate</string>
-    <string name="progressbar_decelerate">Decelerate</string>
-    <string name="progressbar_reset_message">Reset progress bar style to default?</string>
-    <string name="ram_bar_button_reset">Reset colors</string>
-    <string name="ram_bar_reset">Reset</string>
+    <string name="progressbar_title">Barre de progression</string>
+    <string name="progressbar_summary">Voir ou changer les animations et la couleur de la barre de progression</string>
+    <string name="progressbar_mirror_title">Mode mirroir</string>
+    <string name="progressbar_reverse_title">Inversé</string>
+    <string name="progressbar_speed_title">Vitesse</string>
+    <string name="progressbar_width_title">Largeur du contour</string>
+    <string name="progressbar_length_title">Longueur du séparateur</string>
+    <string name="progressbar_count_title">Nombre de sections</string>
+    <string name="progressbar_color_1_title">Couleur 1</string>
+    <string name="progressbar_color_2_title">Couleur 2</string>
+    <string name="progressbar_color_3_title">Couleur 3</string>
+    <string name="progressbar_color_4_title">Couleur 4</string>
+    <string name="sample_progressbar_text">Barre de progression : Aperçu</string>
+    <string name="progressbar_interpolator">Interpolateur</string>
+    <string name="progressbar_none">Aucun</string>
+    <string name="progressbar_acclerate">Accélérer</string>
+    <string name="progressbar_linear">Linéaire</string>
+    <string name="progressbar_acceleratedecelerate">Accélérer / Décélérer</string>
+    <string name="progressbar_decelerate">Décélérer</string>
+    <string name="progressbar_reset_message">Réinitialiser la barre de progression par défaut ?</string>
+    <string name="ram_bar_button_reset">Réinitialiser les couleurs</string>
+    <string name="ram_bar_reset">Réinitialiser</string>
 
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Toast</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
-    <string name="toast_fade_animation">Fade</string>
-    <string name="toast_SlideRight_animation">SlideRight</string>
-    <string name="toast_SlideLeft_animation">SlideLeft</string>
+    <string name="toast_animation_title">Bulle d\'infos</string>
+    <string name="toast_none_animation">Aucun</string>
+    <string name="toast_default_animation">par défaut</string>
+    <string name="toast_fade_animation">En fondu</string>
+    <string name="toast_SlideRight_animation">Glisser à droite</string>
+    <string name="toast_SlideLeft_animation">Glisser à gauche</string>
     <string name="toast_Xylon_animation">Xylon</string>
     <string name="toast_Toko_animation">Toko</string>
     <string name="toast_Tn_animation">Tn</string>
     <string name="toast_Honami_animation">Honami</string>
-    <string name="toast_FastFade_animation">FastFade</string>
-    <string name="toast_GrowFade_animation">GrowFade</string>
-    <string name="toast_GrowFadeCenter_animation">GrowFadeCenter</string>
-    <string name="toast_GrowFadeBottom_animation">GrowFadeBottom</string>
-    <string name="toast_Translucent_animation">Translucent</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+    <string name="toast_FastFade_animation">Fondu rapide</string>
+    <string name="toast_GrowFade_animation">Fondu croissante</string>
+    <string name="toast_GrowFadeCenter_animation">Fondu centrale croissante</string>
+    <string name="toast_GrowFadeBottom_animation">Fondu basse croissante</string>
+    <string name="toast_Translucent_animation">Translucide</string>
+    <string name="toast_SlideLeftRight_animation">Glisser de gauche à droite</string>
+    <string name="toast_SlideRightLeft_animation">SGlisser de droite à gauche</string>
 
     <!-- Chamber of Secrets -->
     <string name="chamber_title">Chambre des secrets</string>
     <string name="chamber_toast">La chambre des secrets est ouverte</string>
 
     <!-- EdgeGesture service -->
-    <string name="edge_gesture_service_title">Block gesture touch events</string>
-    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
-
+    <string name="edge_gesture_service_title">Bloquer le gestuel des événements tactiles</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre d\'état aux applications</string>
+    
     <!-- Battery saver mode -->
     <string name="unit_sec">sec</string>
     <string name="network_lte">LTE (recommandé)</string>
@@ -1863,8 +1947,12 @@
     <string name="system_bar_visibility">Désactivé sur l\'écran de verrouillage</string>
     <string name="system_bar_visibility_summary">Afficher les barres de statut et de navigation sur l\'écran de verrouillage pendant le mode immersif</string>
 
+    <!-- Disable immersive mode navbar when ime is showing -->
+    <string name="disable_ime_navbar_title">Désactivé le sélecteur de clavier dans la barre de navigation</string>
+    <string name="disable_ime_navbar_summary">Désactiver la barre de navigation lorsque le sélecteur s\'affiche en mode immersif</string>
+
     <!-- On-The-Go -->
-    <string name="power_menu_onthego_title">On-The-Go mode</string>
+    <string name="power_menu_onthego_title">Mode On-The-Go</string>
     <string name="title_tile_onthego">On-The-Go</string>
 
     <!-- Recents Ram Bar -->
@@ -1983,8 +2071,9 @@
     <string name="time_five_to">jusqu\'à cinq</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Navigation Pie</string>
-    <string name="pie_control_summary">Active les Pie controls</string>
+    <string name="pie_control_title">Slim Pie</string>
+    <string name="pie_control_enable_title">Activer</string>
+    <string name="pie_control_summary">Activer le contrôle de tarte pour aider à naviguer en utilisant le mode immersif</string>
     <string name="pie_control_size">Taille du Pie</string>
     <string name="pie_control_trigger_positions">Options de déclenchement</string>
     <string name="pie_control_trigger_left">Déclenchement sur le bord gauche de l\'écran</string>
@@ -2026,16 +2115,81 @@
     <string name="pie_button_second_layer_summary">Permet de changer les boutons de la seconde couche</string>
     <string name="pie_button_style_summary">Permet de changer le style des boutons du Pie</string>
     <string name="pie_style_reset_message">Réinitialiser les valeurs de style?</string>
-    <string name="pie_warning_no_navigation_present">Aucun autre moyen de navigation n\'est actuellement activé. Désactiver le pie peut rendre votre appareil inutilisable. Voulez vous activer la barre de navigation à la place?</string>
-    <string name="pie_trigger_warning">Un des déclencheurs au minimum (bas, gauche ou droit) doit être activé.</string>
     <string name="pie_disable_ime_triggers_title">Réduction des déclencheurs avec le clavier</string>
     <string name="pie_disable_ime_triggers_summary">Réduit les déclencheurs droit et gauche si le clavier est actif</string>
+    <string name="pie_background_fadein_time_title">Fondu dans le temps</string>
+    <string name="pie_slice_gap_title">Tranche d\'intervalle</string>
+    <string name="pie_slice_gap_disabled">Désactivé</string>
+    <string name="pie_slice_gap_small">Petit (Par défaut)</string>
+    <string name="pie_slice_gap_medium">Moyen</string>
+    <string name="pie_slice_gap_large">Large</string>
+    <string name="pie_colors_title">Couleurs</string>
+
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PA Pie</string>
+    <string name="pa_pie_controls">Activé</string>
+    <string name="pa_pie_expanded_only_title">Seulement en bureau étendu</string>
+    <string name="pa_pie_expanded_only_summary">Autoriser Pie à s\'activer seulement quand le bureau est élargi</string>
+    <string name="pa_pie_gravity_title">Gravité</string>
+    <string name="pa_pie_gravity_top">Haut</string>
+    <string name="pa_pie_gravity_bottom">Bas</string>
+    <string name="pa_pie_gravity_right">Droite</string>
+    <string name="pa_pie_gravity_left">Gauche</string>
+    <string name="pa_pie_mode_title">Style</string>
+    <string name="pa_pie_mode_bare">Vide</string>
+    <string name="pa_pie_mode_quick">Rapide</string>
+    <string name="pa_pie_mode_default">Par défaut</string>
+    <string name="pa_pie_mode_slow">Lent</string>
+    <string name="pa_pie_size_title">Taille</string>
+    <string name="pa_pie_size_small">Petit</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Large</string>
+    <string name="pa_pie_size_gigantic">Gigantesque</string>
+    <string name="pa_pie_size_monster">Monstre</string>
+    <string name="pa_pie_color_title">Paramètres des couleurs</string>
+    <string name="pa_pie_color_style_title">Style de couleur</string>
+    <string name="pa_pie_background_title">Couleur d\'arrière-plan</string>
+    <string name="pa_pie_select_title">Couleur de sélection</string>
+    <string name="pa_pie_outlines_title">Couleur des contours</string>
+    <string name="pa_pie_status_clock_title">Couleur de l\'horloge</string>
+    <string name="pa_pie_status_title">Couleur de l\'état</string>
+    <string name="pa_pie_chevron_left_title">Couleur du chevron de gauche</string>
+    <string name="pa_pie_chevron_right_title">Couleur du chevron de droite</string>
+    <string name="pa_pie_juice_title">Couleur du niveau de batterie</string>
+    <string name="pa_pie_button_color">Couleur du bouton</string>
+    <string name="pa_pie_button_color_title">Couleur des boutons</string>
+    <string name="pa_pie_gap_title">Ecart de point</string>
+    <string name="pa_pie_angle_title">Angle</string>
+    <string name="pa_pie_angle_none">Aucun (ancien)</string>
+    <string name="pa_pie_angle_small">Petit</string>
+    <string name="pa_pie_angle_big">Normal (par défaut)</string>
+    <string name="pa_pie_angle_huge">Grand</string>
+    <string name="pa_pie_angle_super">Enorme</string>
+    <string name="pa_pie_gap_none">Aucun</string>
+    <string name="pa_pie_gap_small">Petit</string>
+    <string name="pa_pie_gap_big">Grand (par défaut)</string>
+    <string name="pa_pie_gap_huge">Enorme</string>
+    <string name="pa_pie_center_title">Alignement au milieu</string>
+    <string name="pa_pie_center_summary">Centrer Pie sur le bord</string>
+    <string name="pa_pie_stick_title">Empêcher la rotation</string>
+    <string name="pa_pie_stick_summary">Eviter les changements d\'orientation quand l\'écran pivote</string>
+    <string name="pa_pie_power_title">Bouton extinction d\'écran</string>
+    <string name="pa_pie_power_summary">Activé le bouton d\'extinction d\'extinction dans les contrôles Pie</string>
+    <string name="pa_pie_trigger_title">Zone de déclenchement</string>
+    <string name="pa_pie_trigger_none">Aucun (désactivé)</string>
+    <string name="pa_pie_trigger_small">@string/pa_pie_size_small</string>
+    <string name="pa_pie_trigger_normal">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_trigger_big">@string/pa_pie_gap_big</string>
+    <string name="pa_pie_trigger_huge">Enorme</string>
+    <string name="pa_pie_notifications_title">Activer les cibles du chevron</string>
+    <string name="pa_pie_notifications_summary">Activer ceci laissera le panneau de notification et les tuiles de Paramètres rapides disponibles avant de faire glisser</string>
+    <string name="pa_pie_menu_title">Toujours afficher le bouton de menu</string>
+    <string name="pa_pie_menu_summary">Le bouton menu sera toujours affiché, même quand ce n\'est pas nécessaire</string>
+    <string name="pa_pie_restart_launcher_title">Redémarrer le lanceur</string>
+    <string name="pa_pie_restart_launcher_summary">Changer la taille de l\'écran peut avoir des effets indésirables. Cette option permet à votre Lanceur de retrouver bon sens, le coût est une légère coupure (recommandé)</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">Actions</string>
-
-    <!-- Custom lockscreen -->
-    <string name="lockscreen_enable_modlock_title">Écran de verrouillage personnalisée</string>
 
     <!-- Bluetooth accept all file types -->
     <string name="bluetooth_accept_all_files">Accepter tous les types de fichiers</string>
@@ -2203,8 +2357,9 @@
     <string name="adaptive_backlight_title">Rétroéclairage adaptatif</string>
     <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétroéclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
 
-    <!-- tap-to-wake -->
-    <string name="double_tap_to_wake_title">Taper deux fois pour réveiller</string>
+    <!-- Sunlight readability enhancement screen -->
+    <string name="sunlight_enhancement_title">Amélioration à lumière du soleil</string>
+    <string name="sunlight_enhancement_summary">Améliorer la luminosité de l\'affichage et la lisibilité en plein soleil</string>
 
     <!-- Screen color -->
     <string name="screencolor">Couleur de l\'écran</string>
@@ -2225,6 +2380,11 @@
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Amélioration des couleurs</string>
     <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
+   
+    <!-- SAR information -->
+    <string name="sar_info">SAR Maximum</string>
+    <string name="maximum_head_level">Haud: %1$s W/kg</string>
+    <string name="maximum_body_level">Corps: %1$s W/kg</string>
 
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Rétroéclairage</string>
@@ -2269,24 +2429,22 @@
     <!-- Setting checkbox summary for Whether to enable Android debugging support on the phone -->
     <string name="enable_adb_summary_cm">Activer l\'interface Android Debug Bridge (adb)</string>
 
-    <!-- Gestures Options -->
-    <string name="screen_off_gesture_settings_title">Gestures écran éteint</string>
-
-    <!-- Lid Settings -->
-    <string name="smart_cover">Smart cover</string>
-    <string name="smart_cover_wake_title">Réveil avec le Smart cover</string>
-    <string name="smart_cover_wake_summary">Réveiller l\'appareil lorsque le Smart cover est ouvert</string>
-    <string name="smart_cover_sleep_title">Veille avec le Smart cover</string>
-    <string name="smart_cover_sleep_summary">Mettre l\'appareil en veille lorsque le Smart cover est fermé</string>
-
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
-    <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
-
     <!-- Spam notifications -->
     <string name="spam_added_title">%1$s ajouté</string>
     <string name="spam_last_blocked_title">Dernier bloqué %1$s</string>
     <string name="block_notifications_title">Filtre des notifications</string>
     <string name="block_notifications_summary">Gérer les notifications ignorées et les filtres</string>
-    <string name="no_filters_title">Aucun filtre défini</string>
+    <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
+    <string name="no_filters_title">Pas de filtres définis. Pour filtrer une notification, appuyez longuement et choisissez  \'Ignorer les messages de ce genre\'.</string>
+
+    <!-- NFC Polling-->
+    <string name="nfc_polling_mode_title">NFC mode interrogation</string>
+    <string name="nfc_polling_mode_screen_off">Éteindre l\'écran</string>
+    <string name="nfc_polling_mode_screen_locked">Allumer l\'écran, verrouillé</string>
+    <string name="nfc_polling_mode_screen_unlocked">Allumer l\'écran, déverrouillé (par défaut)</string>
+
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Appareils connectés</string>
+    <string name="wifi_ap_client_ap_disabled">Point d\'accès désactivé</string>
+    <string name="wifi_ap_client_none_connected">Pas d\'appareils connectés</string>
 </resources>
