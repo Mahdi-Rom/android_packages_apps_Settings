@@ -756,6 +756,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="clock_date_style_uppercase">Mayúsculas</string>
     <string name="clock_date_format_custom">Formato java personalizado</string>
     <string name="status_bar_clock_style_reset_message">¿Resetear colores de reloj?</string>
+    <string name="status_bar_show_clock_lockscreen_title">Mostrar en lockscreen</string>
 
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Estilo estado de batería</string>
@@ -770,6 +771,10 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="status_bar_toggle_brightness">Control de brillo</string>
     <string name="status_bar_toggle_brightness_summary">Ajuste el brillo deslizando a través de la barra de estado</string>
     <string name="status_bar_toggle_info">Brillo automático está activado</string>
+
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">Operadora en barra de estado</string>
+    <string name="statusbar_miui_carrier_summary">Mostrar operadora con texto estilo miui en barra de estado</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Activar Privacy Guard</string>
@@ -2136,6 +2141,69 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="pie_slice_gap_large">Largo</string>
     <string name="pie_colors_title">Colores</string>
 
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PA pie</string>
+    <string name="pa_pie_controls">Activar</string>
+    <string name="pa_pie_expanded_only_title">Sólo en escritorio expandido</string>
+    <string name="pa_pie_expanded_only_summary">Pie sólo funciona en modo escritorio expandido</string>
+    <string name="pa_pie_gravity_title">Gravedad</string>
+    <string name="pa_pie_gravity_top">Arriba</string>
+    <string name="pa_pie_gravity_bottom">Abajo</string>
+    <string name="pa_pie_gravity_right">Derecha</string>
+    <string name="pa_pie_gravity_left">Izquierda</string>
+    <string name="pa_pie_mode_title">Estilo</string>
+    <string name="pa_pie_mode_bare">Simple</string>
+    <string name="pa_pie_mode_quick">Rápido</string>
+    <string name="pa_pie_mode_default">Por defectp</string>
+    <string name="pa_pie_mode_slow">Lento</string>
+    <string name="pa_pie_size_title">Tamaño</string>
+    <string name="pa_pie_size_small">Pequeño</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Largo</string>
+    <string name="pa_pie_size_gigantic">Gigante</string>
+    <string name="pa_pie_size_monster">Monstruoso</string>
+    <string name="pa_pie_color_title">Ajustes de color</string>
+    <string name="pa_pie_color_style_title">Estilo de color</string>
+    <string name="pa_pie_background_title">Color de fondo</string>
+    <string name="pa_pie_select_title">Color de selección</string>
+    <string name="pa_pie_outlines_title">Color contorno</string>
+    <string name="pa_pie_status_clock_title">Color de reloj</string>
+    <string name="pa_pie_status_title">Color de estado</string>
+    <string name="pa_pie_chevron_left_title">Izquierda chevron color</string>
+    <string name="pa_pie_chevron_right_title">Derecha chevron color</string>
+    <string name="pa_pie_juice_title">Color batería</string>
+    <string name="pa_pie_button_color">Color de boton</string>
+    <string name="pa_pie_button_color_title">Color de botones</string>
+    <string name="pa_pie_gap_title">Item</string>
+    <string name="pa_pie_angle_title">Ángulo</string>
+    <string name="pa_pie_angle_none">Ninguno (viejo)</string>
+    <string name="pa_pie_angle_small">Pequeño</string>
+    <string name="pa_pie_angle_big">Normal (por defecto)</string>
+    <string name="pa_pie_angle_huge">Grande</string>
+    <string name="pa_pie_angle_super">Enorme</string>
+    <string name="pa_pie_gap_none">Ninguno</string>
+    <string name="pa_pie_gap_small">Pequeño</string>
+    <string name="pa_pie_gap_big">Grande (por defecto)</string>
+    <string name="pa_pie_gap_huge">Enorme</string>
+    <string name="pa_pie_center_title">Alineación media</string>
+    <string name="pa_pie_center_summary">Centrar pie en área de activación</string>
+    <string name="pa_pie_stick_title">Evitar rotación</string>
+    <string name="pa_pie_stick_summary"> Evita orientación cambie cuando gira la pantalla </string>
+    <string name="pa_pie_power_title">Botón de apagado de la pantalla</string>
+    <string name="pa_pie_power_summary">Habilitar botón apagado de pantalla en los controles pie</string>
+    <string name="pa_pie_trigger_title">Área de activación</string>
+    <string name="pa_pie_trigger_none">Ninguna (desactivado)</string>
+    <string name="pa_pie_trigger_small">@string/pa_pie_size_small</string>
+    <string name="pa_pie_trigger_normal">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_trigger_big">@string/pa_pie_gap_big</string>
+    <string name="pa_pie_trigger_huge">Enorme</string>
+    <string name="pa_pie_notifications_title">Activar Chevron Targets</string>
+    <string name="pa_pie_notifications_summary">Permitir que el panel de notificaciones y ajustes rápidos estén disponibles al deslizar</string>
+    <string name="pa_pie_menu_title">Mostrar siempre el botón de menú</string>
+    <string name="pa_pie_menu_summary">El botón de menú siempre se debe mostrar, incluso cuando no es necesario </string>
+    <string name="pa_pie_restart_launcher_title">Reiniciar Launcher</string>
+    <string name="pa_pie_restart_launcher_summary">Cambiar tamaño de pantalla puede tener efectos adversos. Esta opción permite que su lanzador se estabilice, el costo es un ligero apagón (recomendado)</string>
+
     <!-- Shortcuts -->
     <string name="shortcut_picker">Acciones</string>
 
@@ -2330,6 +2398,11 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="color_enhancement_title">Mejora de color</string>
     <string name="color_enhancement_summary">Dinámicamente mejorar el color de la pantalla</string>
 
+    <!-- SAR information -->
+    <string name="sar_info">Máximo SAR</string>
+    <string name="maximum_head_level">Cabeza: %1$s W/kg</string>
+    <string name="maximum_body_level">Cuerpo: %1$s W/kg</string>
+
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Luz de fondo</string>
     <string name="button_backlight_enabled">Ilumiar botones</string>
@@ -2386,4 +2459,9 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="nfc_polling_mode_screen_off">Pantalla apagada</string>
     <string name="nfc_polling_mode_screen_locked">Pantalla encendida, bloqueada</string>
     <string name="nfc_polling_mode_screen_unlocked">Pantalla encendida, desbloqueada (por defecto)</string>
+
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Dispositivos conectados</string>
+    <string name="wifi_ap_client_ap_disabled">Hotspot desactivada</string>
+    <string name="wifi_ap_client_none_connected">No hay dispositivos conectados</string>
 </resources>
