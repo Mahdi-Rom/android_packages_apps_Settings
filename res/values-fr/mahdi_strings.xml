@@ -2006,7 +2006,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="voice_tts_notification_summary_off">Désactiver</string>
     <string name="voice_tts_volume_title">Volume</string>
     <string name="voice_tts_volume_summary">Régler le volume pour parler</string>
-    <string name="voice_tts_call_title">Appel entran</string>
+    <string name="voice_tts_call_title">Appel entrant</string>
     <string name="voice_tts_call_summary">Activer/désactiver l\'énoncé des appels entrants</string>
     <string name="voice_tts_sms_title">Nouveau message</string>
     <string name="voice_tts_sms_summary">Activer/désactiver l\'énoncé des nouveaux messages</string>
@@ -2023,7 +2023,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="voice_tts_date_title">Date</string>
     <string name="voice_tts_date_summary">Activer/désactiver l\'énoncé de la date après la mise sous tension de l\'écran</string>
     <string name="voice_tts_notif_title">Notification</string>
-    <string name="voice_tts_notif_summary">Activer/désactiver l\'énoncé de la nouvelle notificatio</string>
+    <string name="voice_tts_notif_summary">Activer/désactiver l\'énoncé de la nouvelle notification</string>
     <string name="voice_tts_notif_read_title">Lire les nouvelles notifications</string>
     <string name="voice_tts_notif_read_summary">Activer/désactiver l\'énoncé de nouveaux messages depuis les notifications</string>
     <string name="voice_tts_whitelist_title">Applications incluses</string>
@@ -2248,7 +2248,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="volume_steps_music_title">Musique</string>
     <string name="volume_steps_notification_title">Notifications</string>
     <string name="volume_steps_ring_title">Sonneur</string>
-    <string name="volume_steps_system_title">System</string>
+    <string name="volume_steps_system_title">Système</string>
     <string name="volume_steps_voice_call_title">Appel vocal</string>
 
     <!-- Shake Events -->
@@ -2290,7 +2290,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="menu_hidden_apps_delete">Réinitialiser</string>
     <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
     <string name="protected_apps">Applications protégées</string>
-    <string name="saving_protected_components">SEnregistrement de l\'état du composant\u2026</string>
+    <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
@@ -2303,16 +2303,16 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Heads Up -->
     <string name="category_heads_up">Notifications flottantes</string>
-    <string name="summary_heads_up_enabled">Les notifications Heads-up sont activées</string>
-    <string name="summary_heads_up_disabled">Les notifications Heads-up sont désctivées</string>
+    <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
+    <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>
     <string name="heads_up_floating_window">Lancer en fenêtre flottante</string>
     <string name="heads_up_floating_window_summary">En tapant sur la notification, l\'application s\'ouvre en mode flottant.</string>
     <string name="heads_up_expanded_title">Toujours étendu</string>
-    <string name="heads_up_expanded_summary">Affiche les notifications Heads up toujours en mode étendu</string>
+    <string name="heads_up_expanded_summary">Affiche les notifications flottantes toujours en mode étendu</string>
     <string name="heads_up_show_updates_title">Affichage des mises à jour</string>
     <string name="heads_up_show_updates_summary">Affiche les mises à jour des notifications en attente en arrière plan comme heads up</string>
     <string name="heads_up_snooze_title">Minuterie de répétition</string>
-    <string name="heads_up_snooze_summary">Un appui sur le bouton snooze désactive les heads up pour <xliff:g id="number">%d</xliff:g> minutes.</string>
+    <string name="heads_up_snooze_summary">Un appui sur le bouton sommeil désactive les notifications flottantes pour <xliff:g id="number">%d</xliff:g> minutes.</string>
     <string name="heads_up_snooze_disabled_summary">La minuterie de répétition est désactivée.</string>
     <string name="heads_up_snooze_3min">3 minutes</string>
     <string name="heads_up_snooze_5min">5 minutes</string>
@@ -2320,8 +2320,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <string name="heads_up_time_out_title">Durée</string>
-    <string name="heads_up_time_out_summary">Les notifications Heads up seront affichées pendant <xliff:g id="number">%d</xliff:g> secondes.</string>
-    <string name="heads_up_time_out_never_summary">Les notifications Heads up seront affichées jusqu\'à annulation.</string>
+    <string name="heads_up_time_out_summary">Les notifications flottantes seront affichées pendant <xliff:g id="number">%d</xliff:g> secondes.</string>
+    <string name="heads_up_time_out_never_summary">Les notifications flottantes seront affichées jusqu\'à annulation.</string>
     <string name="heads_up_time_out_4sec">4 secondes</string>
     <string name="heads_up_time_out_6sec">6 secondes</string>
     <string name="heads_up_time_out_8sec">8 secondes</string>
@@ -2334,11 +2334,11 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="heads_up_blacklist_title">Liste noire</string>
     <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre pop-up sur votre écran, activez les notifications flottantes.</string>
     <string name="heads_up_gravity_title">Affichage en bas</string>
-    <string name="heads_up_gravity_summary">Affiche les notifications Heads up en bas de l\'écran</string>
+    <string name="heads_up_gravity_summary">Affiche les notifications flottantes en bas de l\'écran</string>
 
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifications</string>
-    <string name="notification_settings_summary">Personnaliser les options du notifications comme heads-up et peek.</string>
+    <string name="notification_settings_summary">Personnaliser les options des notifications flottantes et Peek.</string>
 
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Intensité du vibreur</string>
