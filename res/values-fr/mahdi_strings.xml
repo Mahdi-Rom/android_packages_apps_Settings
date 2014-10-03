@@ -645,7 +645,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- QuickSettings style options -->
     <string name="quick_settings_title">Paramètres rapides</string>
     <string name="summary_quicksettings_tiles_style">Voir ou changer les options de style des paramètres rapides</string>
-    <string name="quick_tiles_color_title">Activer les coleurs personnalisée</string>
+    <string name="quick_tiles_color_title">Activer les couleurs personnalisées</string>
     <string name="quick_tiles_color_summary">Activation des couleurs personnalisées remplace les thèmes</string>
     <string name="quick_tiles_bg_color_title">Couleur de fond des tuiles</string>
     <string name="quick_tiles_bg_pressed_color_title">Couleur de fond des tuiles appuyées</string>
