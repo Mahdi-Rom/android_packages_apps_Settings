@@ -74,8 +74,8 @@
   <string-array name="battery_bar_entries">
     <item>Nascosta</item>
     <item>Barra di stato</item>
-    <item>Sopra la navigation bar</item>
-    <item>Sotto la navigation bar</item>
+    <item>Sopra la barra di navigazione</item>
+    <item>Sotto la barra di navigazione</item>
   </string-array>
   <string-array name="battery_bar_style_entries">
     <item>Normale</item>
