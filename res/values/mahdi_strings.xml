@@ -1957,6 +1957,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="disable_ime_navbar_title">Disable IME navigation bar</string>
     <string name="disable_ime_navbar_summary">Disable navigation bar when ime shows in immersive mode</string>
 
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">System gestures</string>
+    <string name="disable_system_gestures_off">Enabled (default)</string>
+    <string name="disable_system_gestures_navbar">Disable navigation bar gesture</string>
+    <string name="disable_system_gestures_statusbar">Disable statusbar gesture</string>
+
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go mode</string>
     <string name="title_tile_onthego">On-The-Go</string>

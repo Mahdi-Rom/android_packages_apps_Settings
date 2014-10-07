@@ -2172,4 +2172,17 @@
        <item>2</item>
        <item>3</item>
     </string-array>
+
+    <!-- Disable system gestures -->
+    <string-array name="disable_system_gestures_entries">
+       <item>@string/disable_system_gestures_off</item>
+       <item>@string/disable_system_gestures_navbar</item>
+       <item>@string/disable_system_gestures_statusbar</item>
+    </string-array>
+
+    <string-array name="disable_system_gestures_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
