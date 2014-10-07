@@ -1953,9 +1953,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="system_bar_visibility">Disable in lock screen</string>
     <string name="system_bar_visibility_summary">Show status and navigation bars in lock screen during immersive mode</string>
 
-    <!-- Disable immersive mode navbar when ime is showing -->
-    <string name="disable_ime_navbar_title">Disable IME navigation bar</string>
-    <string name="disable_ime_navbar_summary">Disable navigation bar when ime shows in immersive mode</string>
+    <!-- Disable forced navbar when keyboard is showing during immersive mode -->
+    <string name="disable_forced_navbar_title">Disable forced navigation bar</string>
+    <string name="disable_forced_navbar_summary">Disable navigation bar when keyboard shows during immersive mode</string>
 
     <!-- Immersive mode gestures -->
     <string name="disable_system_gestures_title">System gestures</string>

@@ -93,15 +93,21 @@
             android:defaultValue="0" />
 
         <com.android.settings.mahdi.SystemSettingCheckBoxPreference
+            android:key="edge_service_for_gestures"
+            android:title="@string/edge_gesture_service_title"
+            android:summary="@string/edge_gesture_service_summary"
+            android:defaultValue="0"/>
+
+        <com.android.settings.mahdi.SystemSettingCheckBoxPreference
             android:key="global_immersive_mode_system_bars_visibility"
             android:title="@string/system_bar_visibility"
             android:summary="@string/system_bar_visibility_summary"
             android:defaultValue="false" />
 
         <com.android.settings.mahdi.SystemSettingCheckBoxPreference
-            android:key="disable_ime_navbar"
-            android:title="@string/disable_ime_navbar_title"
-            android:summary="@string/disable_ime_navbar_summary"
+            android:key="disable_forced_navbar"
+            android:title="@string/disable_forced_navbar_title"
+            android:summary="@string/disable_forced_navbar_summary"
             android:defaultValue="false" />
 
     </PreferenceCategory>
