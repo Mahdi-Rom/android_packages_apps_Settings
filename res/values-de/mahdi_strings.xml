@@ -918,6 +918,11 @@ If Power widget is removed, re-enable these -->
     <string name="shortcut_action_ring_vib">Ton/Vibration</string>
     <string name="shortcut_action_ring_silent">Ton/Stumm</string>
     <string name="shortcut_action_ring_vib_silent">Ton/Vibration/Stumm</string>
+    <string name="shortcut_action_camera">Kamera</string>
+    <string name="shortcut_action_media_next">Musik - nächster Titel</string>
+    <string name="shortcut_action_media_play_pause">Musik - Abspielen/Pause</string>
+    <string name="shortcut_action_media_previous">Musik - vorheriger Titel</string>
+    <string name="shortcut_action_wake_device">Gerät aufwecken</string>
     <string name="shortcut_action_torch">Taschenlampe</string>
     <string name="shortcut_action_theme_switch">Design-Umschalter</string>
     <string name="shortcut_action_omniswitch">OmniSwitch</string>
@@ -1315,6 +1320,10 @@ If Power widget is removed, re-enable these -->
 
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Einschaltoptionen</string>
+
+    <!-- Gestures Options -->
+    <string name="screen_off_gesture_settings_title">Gesten</string>
+    <string name="screen_off_gesture_settings_summary">Bearbeite Bildschirm-aus Gesten</string>
     
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Verhindere versehentliches Einschalten</string>
@@ -2319,8 +2328,9 @@ multiple font sizes in a limited amount of space. -->
     <string name="adaptive_backlight_title">Adaptive-Hintergrundbeleuchtung</string>
     <string name="adaptive_backlight_summary">Intelligente Verwaltung der Displayhelligkeit um die Akkulaufzeit zu verlängern</string>
 
-    <!-- tap-to-wake -->
-    <string name="double_tap_to_wake_title">Double-Tab-Weckmodus</string>
+    <!-- Sunlight readability enhancement screen -->
+    <string name="sunlight_enhancement_title">Sonnenlichtverbesserung</string>
+    <string name="sunlight_enhancement_summary">Erhöhrt die Helligkeit und Lesbarkeit unter hellem Sonnenlicht</string>
 
     <!-- Screen color -->
     <string name="screencolor">Bildschrimfarben</string>
