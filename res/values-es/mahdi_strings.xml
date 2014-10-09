@@ -2330,6 +2330,11 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="color_enhancement_title">Mejora de color</string>
     <string name="color_enhancement_summary">Dinámicamente mejorar el color de la pantalla</string>
 
+    <!-- SAR information -->
+    <string name="sar_info">Maximo SAR</string>
+    <string name="maximum_head_level">Cabeza: %1$s W/kg</string>
+    <string name="maximum_body_level">Cuerpo: %1$s W/kg</string>
+
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Luz de fondo</string>
     <string name="button_backlight_enabled">Ilumiar botones</string>
@@ -2386,4 +2391,9 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="nfc_polling_mode_screen_off">Pantalla apagada</string>
     <string name="nfc_polling_mode_screen_locked">Pantalla encendida, bloqueada</string>
     <string name="nfc_polling_mode_screen_unlocked">Pantalla encendida, desbloqueada (por defecto)</string>
+    
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Dispositivos conectados</string>
+    <string name="wifi_ap_client_ap_disabled">Punto de acceso desactivado</string>
+    <string name="wifi_ap_client_none_connected">No hay dispositivos conectados</string>
 </resources>
