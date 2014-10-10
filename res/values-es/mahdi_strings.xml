@@ -14,7 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Custom settings  -->
     <string name="custom_settings_category">Personalización</string>
     <!-- Customization Interface settings  -->
@@ -33,7 +32,7 @@
     <!-- About phone screen, status item label -->
 
     <!-- Updater --> 
-    <string name="updater_title">Actualizaciones</string>
+    <string name="updater_title">Actualizaciónes</string>
     <string name="updater_summary">Compruebe si hay actualizaciones y más</string>
 
     <!-- General strings -->
@@ -1950,8 +1949,8 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="notification_count_summary">Mostrar los recuentos de notificación pendientes como superposiciones en la barra de estado</string>
 
     <!-- Immersive mode -->
-    <string name="immersive_mode_category">Immersivo</string>
-    <string name="immersive_mode_title">Modo Immersivo</string>
+    <string name="immersive_mode_category">Inmersivo</string>
+    <string name="immersive_mode_title">Modo Inmersivo</string>
     <string name="summary_immersive_mode">%1$s</string>
     <string name="immersive_mode_summary_status_bar">Barra de estado visible</string>
     <string name="immersive_mode_summary_no_status_bar">Barra de estado oculta</string>
@@ -1966,6 +1965,16 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <!-- Disable immersive mode navbar when ime is showing -->
     <string name="disable_ime_navbar_title">Desactivar barra de navegación de teclado</string>
     <string name="disable_ime_navbar_summary">Desactivar barra de navegación cuando teclado se muestra en modo inmersivo</string>
+    
+    <!-- Disable forced navbar when keyboard is showing during immersive mode -->
+    <string name="disable_forced_navbar_title">Desactivar barra de navegación forzada</string>
+    <string name="disable_forced_navbar_summary">Desactiva la barra de navegación cuando se muestra el teclado en modo inmersivo</string>
+ 
+     <!-- Immersive mode gestures -->
+     <string name="disable_system_gestures_title">Gestos del sistema</string>
+     <string name="disable_system_gestures_off">Activado (por defecto)</string>
+     <string name="disable_system_gestures_navbar">Desactivar gesto en barra de navegación</string>
+     <string name="disable_system_gestures_statusbar">Desactivar gesto en barra de estado</string>
 	
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Modo On-The-Go</string>
