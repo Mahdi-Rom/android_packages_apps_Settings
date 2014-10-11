@@ -308,17 +308,22 @@
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Fréquence actuelle du CPU</string>
     <string name="cpu_governors_title">Stratégie du CPU</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
     <string name="cpu_min_freq_title">Fréquence minimale du CPU</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
     <string name="cpu_max_freq_title">Fréquence maximale du CPU</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Horloge E/S</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Horloge E/S</string>
-	
+    <string name="io_sched_summary" translatable="false">%S</string>
+
     <!-- Performance Settings : Performance profile settings -->
     <string name="perf_profile_title">Profil</string>
+    <string name="perf_profile_summary" translatable="false">%s</string>
 	
     <!-- Memory Management -->
     <string name="memory_management_title">Gestion de la mémoire</string>
@@ -395,6 +400,7 @@
     <string name="auto_brightness_dialog_title">Niveaux d\'éclairage automatique</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
+    <string name="auto_brightness_brightness_format" translatable="false"><xliff:g id="percent">%s</xliff:g>%%</string>
     <string name="auto_brightness_adjust_button">Ajuster</string>
     <string name="auto_brightness_close_button">Quitter</string>
     <string name="auto_brightness_reset_button">Réinitialiser</string>
@@ -1950,6 +1956,12 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Disable immersive mode navbar when ime is showing -->
     <string name="disable_ime_navbar_title">Désactivé le sélecteur de clavier dans la barre de navigation</string>
     <string name="disable_ime_navbar_summary">Désactiver la barre de navigation lorsque le sélecteur s\'affiche en mode immersif</string>
+
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">Système gestuel</string>
+    <string name="disable_system_gestures_off">Activé (par défaut)</string>
+    <string name="disable_system_gestures_navbar">Désactivé la barre de navigation par les gestes</string>
+    <string name="disable_system_gestures_statusbar">Désactivé la barre de statut par les gestes</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Mode On-The-Go</string>
