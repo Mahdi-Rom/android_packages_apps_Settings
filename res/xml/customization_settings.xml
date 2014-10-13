@@ -20,25 +20,26 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceScreen
-        settings:includeXmlForSearch="@xml/quick_settings_panel"
         android:key="quick_settings_panel"        
         android:title="@string/quick_settings_panel_title"
         android:fragment="com.android.settings.mahdi.quicksettings.QuickSettings" />
 
     <PreferenceScreen
-        settings:includeXmlForSearch="@xml/notification_drawer_settings"
         android:key="notification_drawer_settings"
         android:title="@string/notification_drawer_title"
         android:fragment="com.android.settings.mahdi.NotificationDrawerSettings" />
 
     <PreferenceScreen
-        settings:includeXmlForSearch="@xml/notification_bg_pref"
         android:key="notification_bg_pref"
         android:title="@string/notification_background_title"
         android:fragment="com.android.settings.mahdi.NotificationDrawerStyle" />
 
     <PreferenceScreen
-        settings:includeXmlForSearch="@xml/recents_panel_settings"
+        android:key="tinted_systembar_settings"
+        android:title="@string/tinted_systembar_title"
+        android:fragment="com.android.settings.mahdi.TintedSystemBarSettings" />
+
+    <PreferenceScreen
         android:key="recents_panel_settings"
         android:title="@string/recents_panel_settings_title"
         android:fragment="com.android.settings.mahdi.RecentsPanelSettings" />
