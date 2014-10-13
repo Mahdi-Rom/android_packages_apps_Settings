@@ -1951,6 +1951,12 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="disable_forced_navbar_title">Désactivé le sélecteur de clavier dans la barre de navigation</string>
     <string name="disable_forced_navbar_summary">Désactiver la barre de navigation lorsque le sélecteur s\'affiche en mode immersif</string>
 
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">Système gestuel</string>
+    <string name="disable_system_gestures_off">Activé (par défaut)</string>
+    <string name="disable_system_gestures_navbar">Désactiver les gestes de la barre de navigation</string>
+    <string name="disable_system_gestures_statusbar">Désactiver les gestes de la barre de statut</string>
+
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Mode On-The-Go</string>
     <string name="title_tile_onthego">On-The-Go</string>
