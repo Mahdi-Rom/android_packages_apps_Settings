@@ -216,7 +216,7 @@
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="possibleButtons">有効なボタン</string>
     <string name="toggleWifi">Wi-Fi</string>
-    <string name="toggleWifiAp">ポータブルWi-Fiホットスポット</string>
+    <string name="toggleWifiAp">Wi-Fiテザリング</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">モバイルデータ</string>
@@ -1809,8 +1809,8 @@
     <string name="chamber_toast">秘密の部屋がオープンしました</string>
 
     <!-- EdgeGesture service -->
-    <string name="edge_gesture_service_title">ジェスチャータッチイベント をブロック</string>
-    <string name="edge_gesture_service_summary">アプリにナビゲーションバーやステータスバーのジェスチャーのためのタッチイベントを送信しない</string>
+    <string name="edge_gesture_service_title">ジェスチャータッチイベントをブロック</string>
+    <string name="edge_gesture_service_summary">ナビゲーションバーやステータスバーのジェスチャータッチイベントをアプリに送信しない</string>
 
     <!-- Battery saver mode -->
     <string name="unit_sec">sec</string>
@@ -1922,8 +1922,14 @@
     <string name="system_bar_visibility_summary">ロック画面ではステータスバーとナビゲーションバーを表示する</string>
 
     <!-- Disable immersive mode navbar when ime is showing -->
-    <string name="disable_ime_navbar_title">ナビゲーションバーを非表示</string>
-    <string name="disable_ime_navbar_summary">デスクトップの拡張モード時にキーボード表示中はナビゲーションバーを無効にする</string>
+    <string name="disable_forced_navbar_title">ナビゲーションバーを非表示</string>
+    <string name="disable_forced_navbar_summary">デスクトップの拡張モード時にキーボード表示中はナビゲーションバーを無効にする</string>
+    
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">システムジェスチャー</string>
+    <string name="disable_system_gestures_off">有効(デフォルト)</string>
+    <string name="disable_system_gestures_navbar">ナビゲーションバージェスチャーを無効</string>
+    <string name="disable_system_gestures_statusbar">ステータスバージェスチャーを無効</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">歩きスマホモード</string>
@@ -2432,6 +2438,6 @@
     
     <!-- Wifi AP: connected devices -->
     <string name="wifi_ap_clients_title">接続中のデバイス</string>
-    <string name="wifi_ap_client_ap_disabled">ホットスポットが無効です</string>
+    <string name="wifi_ap_client_ap_disabled">テザリングが無効です</string>
     <string name="wifi_ap_client_none_connected">接続中のデバイスはありません</string>
 </resources>
