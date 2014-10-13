@@ -1948,8 +1948,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="system_bar_visibility_summary">Afficher les barres de statut et de navigation sur l\'écran de verrouillage pendant le mode immersif</string>
 
     <!-- Disable immersive mode navbar when ime is showing -->
-    <string name="disable_ime_navbar_title">Désactivé le sélecteur de clavier dans la barre de navigation</string>
-    <string name="disable_ime_navbar_summary">Désactiver la barre de navigation lorsque le sélecteur s\'affiche en mode immersif</string>
+    <string name="disable_forced_navbar_title">Désactivé le sélecteur de clavier dans la barre de navigation</string>
+    <string name="disable_forced_navbar_summary">Désactiver la barre de navigation lorsque le sélecteur s\'affiche en mode immersif</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Mode On-The-Go</string>

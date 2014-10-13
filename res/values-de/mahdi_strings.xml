@@ -2409,6 +2409,6 @@ multiple font sizes in a limited amount of space. -->
     <string name="nfc_polling_mode_screen_unlocked">Bildschirm an, entsperrt (Standard)</string>
 
     <!-- Disable immersive mode navbar when ime is showing -->
-    <string name="disable_ime_navbar_title">Navigationsleiste bei Eingabe</string>
-    <string name="disable_ime_navbar_summary">Deaktiviert die Navigationsleiste im erweiterten Modus wenn die Eingabe geöffnet ist</string>
+    <string name="disable_forced_navbar_title">Navigationsleiste bei Eingabe</string>
+    <string name="disable_forced_navbar_summary">Deaktiviert die Navigationsleiste im erweiterten Modus wenn die Eingabe geöffnet ist</string>
 </resources>
