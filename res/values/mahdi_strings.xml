@@ -355,19 +355,24 @@
     <string name="link_volume_ringtones">Link ringtone \u0026 notifications volumes</string>
     <string name="volume_ring_only_description">Ringtone</string>
     <string name="volume_overlay_title">Volume panel style</string>
+
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Volume adjust sound</string>
     <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
+
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
     <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
     <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
+    <string name="safe_headset_volume_restore_title">Reduce headset volume on connection</string>
+
     <!-- Volume button default -->
     <string name="button_volume_default_none">None</string>
     <string name="button_volume_default_ringer">Ringer</string>
     <string name="button_volume_default_media">Media</string>
     <string name="button_volume_default_title">Volume default</string>
     <string name="button_volume_default_summary">Choose which volume gets changed by default</string>
+
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Timeout</string>
     <string name="volume_panel_timeout_summary">Time until the panel will be hidden</string>

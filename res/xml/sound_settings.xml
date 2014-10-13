@@ -148,6 +148,11 @@
             android:summary="@string/safe_headset_volume_summary"
             android:defaultValue="true" />
 
+        <com.android.settings.mahdi.SystemSettingCheckBoxPreference
+            android:key="safe_headset_volume_restore"
+            android:title="@string/safe_headset_volume_restore_title"
+            android:defaultValue="false" />
+
         <PreferenceScreen
             android:key="headset_plug_settings"
             android:fragment="com.android.settings.mahdi.HeadsetPlugSettings"
