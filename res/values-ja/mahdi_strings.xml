@@ -351,19 +351,24 @@
     <string name="link_volume_ringtones">着信音量と通知音量をリンク</string>
     <string name="volume_ring_only_description">着信音</string>
     <string name="volume_overlay_title">音量パネルスタイル</string>
+
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">ボリューム調節音</string>
     <string name="volume_adjust_sounds_enable_summary">ハードキーで音量を調節する際に音を鳴らす</string>
+
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">安全なヘッドセット音量</string>
     <string name="safe_headset_volume_summary">ヘッドセットが接続された際に大音量のになることを防止する</string>
     <string name="safe_headset_volume_warning_dialog_text">長時間大音量で聴くと聴覚を損傷する恐れがあります。</string>
+    <string name="safe_headset_volume_restore_title">ヘッドセット接続時に音量を下げる</string>
+
     <!-- Volume button default -->
     <string name="button_volume_default_none">なし</string>
     <string name="button_volume_default_ringer">着信音量</string>
     <string name="button_volume_default_media">メディア音量</string>
     <string name="button_volume_default_title">デフォルトの音量</string>
     <string name="button_volume_default_summary">デフォルトの音量を選択して変更する</string>
+
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">タイムアウト</string>
     <string name="volume_panel_timeout_summary">音量パネルを非表示にするまでの時間</string>
