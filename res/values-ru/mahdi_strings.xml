@@ -349,19 +349,24 @@
     <string name="link_volume_ringtones">Связать громкость и звуки уведомления</string>
     <string name="volume_ring_only_description">Рингтон</string>
     <string name="volume_overlay_title">Панель громкости</string>
+
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Звук при регулировке громкости</string>
     <string name="volume_adjust_sounds_enable_summary">Воспроизводить звук при изменении громкости кнопками «+» или «-»</string>
+
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Безопасная громкость при подключении гарнитуры</string>
     <string name="safe_headset_volume_summary">Предотвращать чрезмерную громкость при первом подключении гарнитуры</string>
     <string name="safe_headset_volume_warning_dialog_text">Длительное прослушивание на болшой громкости может повредить слух. Пользуйтесь с осторожностью.</string>
+    <string name="safe_headset_volume_restore_title">Уменьшать громкость при подключении гарнитуры</string>
+
     <!-- Volume button default -->
     <string name="button_volume_default_none">Не изменять</string>
     <string name="button_volume_default_ringer">Звонка</string>
     <string name="button_volume_default_media">Мультимедиа</string>
     <string name="button_volume_default_title">По умолчанию</string>
     <string name="button_volume_default_summary">Выберите, громкость чего изменяется по умолчанию</string>
+
     <!-- Launch music app on connect -->
     <string name="volume_panel_timeout_title">Таймаут</string>
     <string name="volume_panel_timeout_summary">Время до скрытия панели</string>
@@ -728,6 +733,7 @@
     <string name="clock_date_style_uppercase">ПРОПИСНЫЕ</string>
     <string name="clock_date_format_custom">Свой формат Java</string>
     <string name="status_bar_clock_style_reset_message">Сбросить цвета часов?</string>
+    <string name="status_bar_show_clock_lockscreen_title">Показывать на экране блокировки</string>
 
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Стиль индикатора батареи</string>
@@ -742,6 +748,10 @@
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Изменять яркость, проводя по строке состояния</string>
     <string name="status_bar_toggle_info">Включена автоматическая регулировка яркости</string>
+    
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">Значок оператора в строке состояния</string>
+    <string name="statusbar_miui_carrier_summary">Использовать miui-стиль отображения оператора в строке состояния</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Включить защищённый режим</string>
@@ -1048,6 +1058,10 @@
     <string name="notification_hide_labels_wifi">Скрывать имя WiFi-сети</string>
     <string name="notification_hide_labels_all">Скрывать все метки</string>
     <string name="notification_hide_labels_text">в панели уведомлений</string>
+    
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Раширенные вид уведомлений(Всегда)</string>
+    <string name="notification_force_expand_summary">Всегда использовать расширенный вид уведомлений для всех приложений, поддерживающих это</string>
 
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Настройки навигации</string>
@@ -1908,10 +1922,20 @@
     <string name="immersive_mode_disabled">Обычный</string>
     <string name="immersive_mode_status_bar">Отображать строку состояния</string>
     <string name="immersive_mode_no_status_bar">Скрыть строку состояния</string>
-    
+
     <!-- Lockscreen system bar visibility -->
     <string name="system_bar_visibility">Отключен на экране блокировки</string>
     <string name="system_bar_visibility_summary">Показывать строку состояния и панель навигации на экране блокировки</string>
+
+    <!-- Disable forced navbar when keyboard is showing during immersive mode -->
+    <string name="disable_forced_navbar_title">Отключить \"Панель навигации\" при вводе</string>
+    <string name="disable_forced_navbar_summary">Отключить \"Панель навигации\" при вводе в режиме \"Расширенного рабочего стола\"</string>
+
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">Системные жесты</string>
+    <string name="disable_system_gestures_off">Включено (по умолчанию)</string>
+    <string name="disable_system_gestures_navbar">Жест отключения \"Панели навигации\"</string>
+    <string name="disable_system_gestures_statusbar">Жест отключения \"Строки состояния\"</string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Режим \"На ходу\"</string>
@@ -2009,7 +2033,7 @@
     <string name="unknown_number_tts">Неизвестный номер</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Pie навигация</string>
+    <string name="pie_control_title">Slim Pie</string>
     <string name="pie_control_summary">Включить \"Pie навигацию\" для облегчения использования \"Расширенного рабочего стола\"</string>
     <string name="pie_control_size">Размер pie</string>
     <string name="pie_control_trigger_positions">Параметры переключения</string>
@@ -2054,6 +2078,76 @@
     <string name="pie_style_reset_message">Сбросить стили к значениям по умолчанию?</string>
     <string name="pie_disable_ime_triggers_title">Уменьшить размер переключателей клавиатуры</string>
     <string name="pie_disable_ime_triggers_summary">Уменьшает левый и правый переключатели, если клавиатура запущена</string>
+    <string name="pie_background_fadein_time_title">Время появления</string>
+    <string name="pie_slice_gap_title">Зазоры между кнопками</string>
+    <string name="pie_slice_gap_disabled">Отключено</string>
+    <string name="pie_slice_gap_small">Маленький (по умолчанию)</string>
+    <string name="pie_slice_gap_medium">Средний</string>
+    <string name="pie_slice_gap_large">Большой</string>
+    <string name="pie_colors_title">Цвета</string>
+
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PA pie</string>
+    <string name="pa_pie_controls">Включить</string>
+    <string name="pa_pie_expanded_only_title">Только при расширенном рабочем столе</string>
+    <string name="pa_pie_expanded_only_summary">Разрешать работу pie, когда режим \"Расширенного рабочего стола\" включён</string>
+    <string name="pa_pie_gravity_title">Положение pie</string>
+    <string name="pa_pie_gravity_top">Сверху</string>
+    <string name="pa_pie_gravity_bottom">Снизу</string>
+    <string name="pa_pie_gravity_right">Справа</string>
+    <string name="pa_pie_gravity_left">Слева</string>
+    <string name="pa_pie_mode_title">Стиль</string>
+    <string name="pa_pie_mode_bare">Скудный</string>
+    <string name="pa_pie_mode_quick">Быстрый</string>
+    <string name="pa_pie_mode_default">По умолчанию</string>
+    <string name="pa_pie_mode_slow">Медленный</string>
+    <string name="pa_pie_size_title">Размер</string>
+    <string name="pa_pie_size_small">Маленький</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Крупный</string>
+    <string name="pa_pie_size_gigantic">Гигантский</string>
+    <string name="pa_pie_size_monster">Монстр</string>
+    <string name="pa_pie_color_title">Настройки цвета</string>
+    <string name="pa_pie_color_style_title">Стиль цвета</string>
+    <string name="pa_pie_background_title">Цвет фона</string>
+    <string name="pa_pie_select_title">Цвет выделения</string>
+    <string name="pa_pie_outlines_title">Цвет контуров</string>
+    <string name="pa_pie_status_clock_title">Цвет часов</string>
+    <string name="pa_pie_status_title">Цвет состояния</string>
+    <string name="pa_pie_chevron_left_title">Left chevron color</string>
+    <string name="pa_pie_chevron_right_title">Right chevron color</string>
+    <string name="pa_pie_juice_title">Battery juice color</string>
+    <string name="pa_pie_button_color">Цвет кнопок</string>
+    <string name="pa_pie_button_color_title">Buttons color</string>
+    <string name="pa_pie_gap_title">Зазор между элементами</string>
+    <string name="pa_pie_angle_title">Нижний угол</string>
+    <string name="pa_pie_angle_none">Отсутствуе</string>
+    <string name="pa_pie_angle_small">Маленький</string>
+    <string name="pa_pie_angle_big">Обычный (по умолчанию)</string>
+    <string name="pa_pie_angle_huge">Большой</string>
+    <string name="pa_pie_angle_super">Громадный</string>
+    <string name="pa_pie_gap_none">Отсутствует</string>
+    <string name="pa_pie_gap_small">Маленький</string>
+    <string name="pa_pie_gap_big">Большой (по умолчанию)</string>
+    <string name="pa_pie_gap_huge">Громадный</string>
+    <string name="pa_pie_center_title">Выравнивание по центру</string>
+    <string name="pa_pie_center_summary">Центризовать Pie на площади кромки</string>
+    <string name="pa_pie_stick_title">Предотвращать поворот</string>
+    <string name="pa_pie_stick_summary">Избегать смены ориентации при повороте экрана</string>
+    <string name="pa_pie_power_title">Кнопка Выключения экрана</string>
+    <string name="pa_pie_power_summary">Включить кнопку Выключения экрана в Pie-навигации</string>
+    <string name="pa_pie_trigger_title">Зона взаимодействия</string>
+    <string name="pa_pie_trigger_none">Отсутствует (выкл)</string>
+    <string name="pa_pie_trigger_small">@string/pa_pie_size_small</string>
+    <string name="pa_pie_trigger_normal">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_trigger_big">@string/pa_pie_gap_big</string>
+    <string name="pa_pie_trigger_huge">Громадный</string>
+    <string name="pa_pie_notifications_title">Включить Chevron Targets</string>
+    <string name="pa_pie_notifications_summary">Включение этого пункта делает доступной Панель уведомлений и Быстрые настройки при свайпе</string>
+    <string name="pa_pie_menu_title">Всегда отображать кнопку МЕНЮ</string>
+    <string name="pa_pie_menu_summary">Всегда отображать кнопку меню, даже если это не требуется</string>
+    <string name="pa_pie_restart_launcher_title">Перезагрузить Launcher</string>
+    <string name="pa_pie_restart_launcher_summary">Изменение размеров экрана может приводить к неблагоприятным последствиям. Эта опция позволяет вернуть прежний вид вашему Luncher-у, при нажатии произойдёт незначительное затемнение (рекомендуется)</string>
 
     <!-- Shortcuts -->
     <string name="shortcut_picker">Действия</string>
@@ -2297,4 +2391,9 @@
     <string name="block_notifications_summary">Настройка игнорируемых уведомлений и фильтров</string>
     <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
     <string name="no_filters_title">Фильтр не настроен. Чтобы запретить показ какого-либо уведомления, нажмите и удерживайте его, а затем выберите «Скрыть подобные сообщения».</string>
+
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Подключенные устройства</string>
+    <string name="wifi_ap_client_ap_disabled">Точка доступа отключена</string>
+    <string name="wifi_ap_client_none_connected">Нет подключенных устройств</string>
 </resources>
