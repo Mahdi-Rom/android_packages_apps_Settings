@@ -2464,4 +2464,20 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="wifi_ap_clients_title">Connected devices</string>
     <string name="wifi_ap_client_ap_disabled">Hotspot is disabled</string>
     <string name="wifi_ap_client_none_connected">No devices connected</string>
+
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">Tinted system bars</string>
+    <string name="tinted_statusbar_title">Colors</string>
+    <string name="title_tinted_statusbar">Dynamic color change</string>
+    <string name="title_tinted_statusbar_option">Apply color to</string>
+    <string name="tinted_statusbar_off">Disabled</string>
+    <string name="tinted_statusbar_actionbar">Action bar color</string>
+    <string name="tinted_statusbar_system">Screen color</string>
+    <string name="tinted_statusbar_statusbar">Status bar</string>
+    <string name="tinted_statusbar_navbar">Navigation bar</string>
+    <string name="tinted_statusbar_all">Both</string>
+    <string name="tinted_statusbar_filter_title">Reverse color</string>
+    <string name="tinted_statusbar_filter_summary">Enable using reverse color</string>
+    <string name="tinted_statusbar_transparent_title">Status bar opacity</string>
+    <string name="tinted_navbar_transparent_title">Navigation bar opacity</string>
 </resources>

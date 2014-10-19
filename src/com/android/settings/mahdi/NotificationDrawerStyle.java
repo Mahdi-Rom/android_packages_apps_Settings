@@ -48,6 +48,8 @@ import com.android.internal.util.mahdi.QSUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.mahdi.SystemSettingCheckBoxPreference;
+import com.android.settings.mahdi.chameleonos.SeekBarPreference;
 
 import java.io.File;
 
@@ -60,24 +62,20 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
 
     private static final String TAG = "NotificationDrawerStyle";
 
-    private static final String PREF_NOTIFICATION_WALLPAPER =
-            "notification_wallpaper";
-    private static final String PREF_NOTIFICATION_WALLPAPER_LANDSCAPE =
-            "notification_wallpaper_landscape";
-    private static final String PREF_NOTIFICATION_WALLPAPER_ALPHA =
-            "notification_wallpaper_alpha";
-    private static final String PREF_NOTIFICATION_ALPHA =
-            "notification_alpha";
-    private static final String PREF_QUICK_TILES_BG_COLOR =
-            "quick_tiles_bg_color";
-    private static final String PREF_QUICK_TILES_BG_PRESSED_COLOR =
-            "quick_tiles_bg_pressed_color";
-    private static final String PREF_QUICK_TILES_ALPHA =
-            "quick_tiles_alpha";
-    private static final String PREF_QUICK_TILES_TEXT_COLOR =
-            "quick_tiles_text_color";
-    private static final String PREF_ADDITIONAL_OPTIONS =
-            "quicksettings_tiles_style_additional_options";
+    private static final String TINTED_STATUSBAR = "tinted_statusbar";
+    private static final String TINTED_STATUSBAR_OPTION = "tinted_statusbar_option";
+    private static final String TINTED_STATUSBAR_FILTER = "status_bar_tinted_filter";
+    private static final String TINTED_STATUSBAR_TRANSPARENT = "tinted_statusbar_transparent";
+    private static final String TINTED_NAVBAR_TRANSPARENT = "tinted_navbar_transparent";
+    private static final String QUICK_TILES_BG_COLOR = "quick_tiles_bg_color";
+    private static final String QUICK_TILES_BG_PRESSED_COLOR = "quick_tiles_bg_pressed_color";
+    private static final String QUICK_TILES_ALPHA = "quick_tiles_alpha";
+    private static final String QUICK_TILES_TEXT_COLOR = "quick_tiles_text_color";
+    private static final String ADDITIONAL_OPTIONS = "quicksettings_tiles_style_additional_options";
+    private static final String NOTIFICATION_WALLPAPER = "notification_wallpaper";
+    private static final String NOTIFICATION_WALLPAPER_LANDSCAPE = "notification_wallpaper_landscape";
+    private static final String NOTIFICATION_WALLPAPER_ALPHA = "notification_wallpaper_alpha";
+    private static final String NOTIFICATION_ALPHA = "notification_alpha";
 
     private static final int DEFAULT_QUICK_TILES_TEXT_COLOR = 0xffcccccc;
 
@@ -86,14 +84,19 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
     private static final int DLG_RESET = 0;
     private static final int DLG_PICK_COLOR = 1;
 
-    private ListPreference mNotificationWallpaper;
-    private ListPreference mNotificationWallpaperLandscape;
-    SlimSeekBarPreference mWallpaperAlpha;
-    SlimSeekBarPreference mNotificationAlpha;
+    private ListPreference mTintedStatusbar;
+    private ListPreference mTintedStatusbarOption;
+    private SystemSettingCheckBoxPreference mTintedStatusbarFilter;
+    private SeekBarPreference mTintedStatusbarTransparency;
+    private SeekBarPreference mTintedNavbarTransparency;
     private ColorPickerPreference mQuickTilesBgColor;
     private ColorPickerPreference mQuickTilesBgPressedColor;
     private ColorPickerPreference mQuickTilesTextColor;
     private SlimSeekBarPreference mQsTileAlpha;
+    private ListPreference mNotificationWallpaper;
+    private ListPreference mNotificationWallpaperLandscape;
+    SlimSeekBarPreference mWallpaperAlpha;
+    SlimSeekBarPreference mNotificationAlpha;
 
     private File mImageTmp;
 
@@ -134,48 +137,41 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
 
         mImageTmp = new File(getActivity().getFilesDir() + "/notifi_bg.tmp");
 
-        mNotificationWallpaper =
-                (ListPreference) findPreference(PREF_NOTIFICATION_WALLPAPER);
-        mNotificationWallpaper.setOnPreferenceChangeListener(this);
-
-        mNotificationWallpaperLandscape =
-                (ListPreference) findPreference(PREF_NOTIFICATION_WALLPAPER_LANDSCAPE);
-        mNotificationWallpaperLandscape.setOnPreferenceChangeListener(this);
-
-        if (!DeviceUtils.isPhone(mActivity)) {
-            prefSet.removePreference(mNotificationWallpaperLandscape);
-        }
-
-        float transparency;
-
-        try{
-            transparency = Settings.System.getFloat(getContentResolver(),
-                    Settings.System.NOTIFICATION_BACKGROUND_ALPHA);
-        } catch (Exception e) {
-            transparency = 0;
-            Settings.System.putFloat(getContentResolver(),
-                    Settings.System.NOTIFICATION_BACKGROUND_ALPHA, 0.1f);
-        }
-        mWallpaperAlpha = (SlimSeekBarPreference) findPreference(PREF_NOTIFICATION_WALLPAPER_ALPHA);
-        mWallpaperAlpha.setInitValue((int) (transparency * 100));
-        mWallpaperAlpha.setOnPreferenceChangeListener(this);
-
-        try{
-            transparency = Settings.System.getFloat(getContentResolver(),
-                    Settings.System.NOTIFICATION_ALPHA);
-        } catch (Exception e) {
-            transparency = 0;
-            Settings.System.putFloat(getContentResolver(),
-                    Settings.System.NOTIFICATION_ALPHA, 0.0f);
-        }
-        mNotificationAlpha = (SlimSeekBarPreference) findPreference(PREF_NOTIFICATION_ALPHA);
-        mNotificationAlpha.setInitValue((int) (transparency * 100));
-        mNotificationAlpha.setOnPreferenceChangeListener(this);
-
         int intColor;
         String hexColor;
+        float transparency;
 
-        mQuickTilesBgColor = (ColorPickerPreference) findPreference(PREF_QUICK_TILES_BG_COLOR);
+        mTintedStatusbar = (ListPreference) findPreference(TINTED_STATUSBAR);
+        int tintedStatusbar = Settings.System.getInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_TINTED_COLOR, 0);
+        mTintedStatusbar.setValue(String.valueOf(tintedStatusbar));
+        mTintedStatusbar.setSummary(mTintedStatusbar.getEntry());
+        mTintedStatusbar.setOnPreferenceChangeListener(this);
+
+        mTintedStatusbarOption = (ListPreference) findPreference(TINTED_STATUSBAR_OPTION);
+        int tintedStatusbarOption = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_TINTED_OPTION, 0);
+        mTintedStatusbarOption.setValue(String.valueOf(tintedStatusbarOption));
+        mTintedStatusbarOption.setSummary(mTintedStatusbarOption.getEntry());
+        mTintedStatusbarOption.setEnabled(tintedStatusbar != 0);
+        mTintedStatusbarOption.setOnPreferenceChangeListener(this);
+
+        mTintedStatusbarFilter = (SystemSettingCheckBoxPreference) findPreference(TINTED_STATUSBAR_FILTER);
+        mTintedStatusbarFilter.setEnabled(tintedStatusbar != 0);
+
+        mTintedStatusbarTransparency = (SeekBarPreference) findPreference(TINTED_STATUSBAR_TRANSPARENT);
+        mTintedStatusbarTransparency.setValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_TINTED_STATBAR_TRANSPARENT, 100));
+        mTintedStatusbarTransparency.setEnabled(tintedStatusbar != 0);
+        mTintedStatusbarTransparency.setOnPreferenceChangeListener(this);
+
+        mTintedNavbarTransparency = (SeekBarPreference) findPreference(TINTED_NAVBAR_TRANSPARENT);
+        mTintedNavbarTransparency.setValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_TINTED_NAVBAR_TRANSPARENT, 100));
+        mTintedNavbarTransparency.setEnabled(tintedStatusbar != 0);
+        mTintedNavbarTransparency.setOnPreferenceChangeListener(this);
+
+        mQuickTilesBgColor = (ColorPickerPreference) findPreference(QUICK_TILES_BG_COLOR);
         mQuickTilesBgColor.setOnPreferenceChangeListener(this);
         intColor = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.QUICK_TILES_BG_COLOR, -2);
@@ -189,9 +185,8 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
         }
         mQuickTilesBgColor.setNewPreviewColor(intColor);
 
-
         mQuickTilesBgPressedColor =
-                (ColorPickerPreference) findPreference(PREF_QUICK_TILES_BG_PRESSED_COLOR);
+                (ColorPickerPreference) findPreference(QUICK_TILES_BG_PRESSED_COLOR);
         mQuickTilesBgPressedColor.setOnPreferenceChangeListener(this);
         intColor = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.QUICK_TILES_BG_PRESSED_COLOR, -2);
@@ -205,7 +200,7 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
         }
         mQuickTilesBgPressedColor.setNewPreviewColor(intColor);
 
-        mQuickTilesTextColor = (ColorPickerPreference) findPreference(PREF_QUICK_TILES_TEXT_COLOR);
+        mQuickTilesTextColor = (ColorPickerPreference) findPreference(QUICK_TILES_TEXT_COLOR);
         mQuickTilesTextColor.setOnPreferenceChangeListener(this);
         intColor = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.QUICK_TILES_TEXT_COLOR, -2);
@@ -226,9 +221,45 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
             Settings.System.putFloat(getContentResolver(),
                     Settings.System.QUICK_TILES_BG_ALPHA, 0.0f);
         }
-        mQsTileAlpha = (SlimSeekBarPreference) findPreference(PREF_QUICK_TILES_ALPHA);
+        mQsTileAlpha = (SlimSeekBarPreference) findPreference(QUICK_TILES_ALPHA);
         mQsTileAlpha.setInitValue((int) (transparency * 100));
         mQsTileAlpha.setOnPreferenceChangeListener(this);
+
+        mNotificationWallpaper =
+                (ListPreference) findPreference(NOTIFICATION_WALLPAPER);
+        mNotificationWallpaper.setOnPreferenceChangeListener(this);
+
+        mNotificationWallpaperLandscape =
+                (ListPreference) findPreference(NOTIFICATION_WALLPAPER_LANDSCAPE);
+        mNotificationWallpaperLandscape.setOnPreferenceChangeListener(this);
+
+        if (!DeviceUtils.isPhone(mActivity)) {
+            prefSet.removePreference(mNotificationWallpaperLandscape);
+        }
+
+        try{
+            transparency = Settings.System.getFloat(getContentResolver(),
+                    Settings.System.NOTIFICATION_BACKGROUND_ALPHA);
+        } catch (Exception e) {
+            transparency = 0;
+            Settings.System.putFloat(getContentResolver(),
+                    Settings.System.NOTIFICATION_BACKGROUND_ALPHA, 0.1f);
+        }
+        mWallpaperAlpha = (SlimSeekBarPreference) findPreference(NOTIFICATION_WALLPAPER_ALPHA);
+        mWallpaperAlpha.setInitValue((int) (transparency * 100));
+        mWallpaperAlpha.setOnPreferenceChangeListener(this);
+
+        try{
+            transparency = Settings.System.getFloat(getContentResolver(),
+                    Settings.System.NOTIFICATION_ALPHA);
+        } catch (Exception e) {
+            transparency = 0;
+            Settings.System.putFloat(getContentResolver(),
+                    Settings.System.NOTIFICATION_ALPHA, 0.0f);
+        }
+        mNotificationAlpha = (SlimSeekBarPreference) findPreference(NOTIFICATION_ALPHA);
+        mNotificationAlpha.setInitValue((int) (transparency * 100));
+        mNotificationAlpha.setOnPreferenceChangeListener(this);
 
         setHasOptionsMenu(true);
         mCheckPreferences = true;
@@ -368,7 +399,37 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mWallpaperAlpha) {
+        if (preference == mTintedStatusbar) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mTintedStatusbar.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.STATUS_BAR_TINTED_COLOR, val);
+            mTintedStatusbar.setSummary(mTintedStatusbar.getEntries()[index]);
+            if (mTintedStatusbarOption != null) {
+                mTintedStatusbarOption.setEnabled(val != 0);
+            }
+            mTintedStatusbarFilter.setEnabled(val != 0);
+            mTintedStatusbarTransparency.setEnabled(val != 0);
+            if (mTintedNavbarTransparency != null) {
+                mTintedNavbarTransparency.setEnabled(val != 0);
+            }
+        } else if (preference == mTintedStatusbarOption) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mTintedStatusbarOption.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.STATUS_BAR_TINTED_OPTION, val);
+            mTintedStatusbarOption.setSummary(mTintedStatusbarOption.getEntries()[index]);
+        } else if (preference == mTintedStatusbarTransparency) {
+            int val = ((Integer)newValue).intValue();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_TINTED_STATBAR_TRANSPARENT, val);
+            return true;
+        } else if (preference == mTintedNavbarTransparency) {
+            int val = ((Integer)newValue).intValue();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_TINTED_NAVBAR_TRANSPARENT, val);
+            return true;
+        } else if (preference == mWallpaperAlpha) {
             float valNav = Float.parseFloat((String) newValue);
             Settings.System.putFloat(getContentResolver(),
                     Settings.System.NOTIFICATION_BACKGROUND_ALPHA, valNav / 100);
