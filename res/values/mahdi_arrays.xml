@@ -397,6 +397,7 @@
     <!-- Status bar battery -->
     <string-array name="entries_status_bar_battery" translatable="false">
         <item>@string/status_bar_style_icon_portrait</item>
+        <item>@string/status_bar_style_icon_portrait_slim</item>
         <item>@string/status_bar_style_icon_landscape</item>
         <item>@string/status_bar_style_circle</item>
         <item>@string/status_bar_style_text</item>
@@ -405,6 +406,7 @@
 
     <string-array name="values_status_bar_battery" translatable="false">
         <item>0</item>
+        <item>7</item>
         <item>5</item>
         <item>2</item>
         <item>6</item>
