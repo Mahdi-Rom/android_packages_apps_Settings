@@ -254,7 +254,7 @@
     <string name="ring_mode_mute">Silencieux</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Afficher les infos du CPU</string>
+    <string name="show_cpu_info">Afficher les informations du CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Ecran superposé montrant les informations CPU actuelle</string>
 
@@ -350,19 +350,24 @@
     <string name="link_volume_ringtones">Lier le volume des alertes à la sonnerie</string>
     <string name="volume_ring_only_description">Sonnerie</string>
     <string name="volume_overlay_title">Contrôle du volume</string>
+
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Son au réglage du volume</string>
     <string name="volume_adjust_sounds_enable_summary">Jouer un son lors du réglage de la sonnerie avec les boutons de volume</string>
+
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Volume sécurisé du casque</string>
     <string name="safe_headset_volume_summary">Empêche un volume trop haut du son lorsque le casque vient d\'être branché</string>
     <string name="safe_headset_volume_warning_dialog_text">L\'écoute prolongée à haut volume peut endommager votre audition. Désactiver avec précaution.</string>
+    <string name="safe_headset_volume_restore_title">Réduire le volume du casque lors de la connexion</string>
+	
     <!-- Volume button default -->
     <string name="button_volume_default_none">Aucun</string>
     <string name="button_volume_default_ringer">Sonnerie</string>
     <string name="button_volume_default_media">Média</string>
     <string name="button_volume_default_title">Volume par défaut</string>
     <string name="button_volume_default_summary">Choisissez le volume qui est changé par défaut</string>
+
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Veille</string>
     <string name="volume_panel_timeout_summary">Temps jusqu\'à ce que le panneau soit caché</string>
@@ -386,7 +391,7 @@
     <string name="headset_plug_actions_front">Déplacer au premier plan</string>
     <string name="headset_plug_actions_kill">Tuer l\'application</string>
     <string name="headset_plug_force_actions_title">Forcer l\'action de suppression</string>
-    <string name="headset_plug_force_actions_summary">Executer l\'action de suppression même si le raccourci est déjà en cours d\'exécution</string>
+    <string name="headset_plug_force_actions_summary">Exécuter l\'action de suppression même si le raccourci est déjà en cours d\'exécution</string>
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Luminosité automatique</string>
@@ -454,7 +459,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="lock_before_unlock_summary">Afficher le glisser de verrouillage avant de dispositif de déverrouillage sécurisé</string>
 
     <!-- Shake to secure -->
-    <string name="shake_to_secure_title">Secouer le lockscreen pour activer la sécurité</string>
+    <string name="shake_to_secure_title">Secouer l\'écran de verrouillage pour activer la sécurité</string>
     <string name="shake_to_secure_summary">La sécurité sera désactivée après chaque déverrouillage réussi</string>
     <string name="shake_to_secure_dlg_title">Attention:</string>
     <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
@@ -529,7 +534,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Volet des raccourcis</string>
-    <string name="quick_settings_summary">View or change options for quick settings and notification drawer</string>
+    <string name="quick_settings_summary">Afficher ou modifier les options de réglages rapides et du tiroir de notification</string>
     <string name="title_static_tiles">Raccourcis statiques</string>
     <string name="tile_picker_title">Raccourcis et disposition</string>
     <string name="tile_picker_summary">Afficher, sélectionner ou changer la disposition des raccourcis</string>
@@ -570,9 +575,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="title_tile_contact">Contact</string>
     <string name="title_tile_custom">Personnalisation</string>
     <string name="custom_tile_dialog_text">Chaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utilisée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.</string>
-    <string name="custom_tile_dialog_title">Actions de tuile custom</string>
+    <string name="custom_tile_dialog_title">Actions de la tuile personnalisée</string>
     <string name="custom_tile_dialog_extra_text">Tuile avancée détectée. Votre tuile changera maintenant d\'état depuis n\'importe où. Vous pouvez éventuellement ajouter une icône et un libellé pour la tuile à activer si elle ne reconnait pas son état.</string>
-    <string name="custom_toggle_extras">Extras pour la tuile custom</string>
+    <string name="custom_toggle_extras">Extras pour la tuile personnalisée</string>
     <string name="custom_toggle_collapse_check">Réduire l\'ombre de la notification</string>
     <string name="custom_toggle_match_state_check">L\'action du clic correspond à l\'icône</string>
     <string name="custom_toggle_double_click_check">Double-taper pour revenir à l\'action précédente</string>
@@ -611,13 +616,13 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="smart_pulldown_summary">Ouvre les paramètres rapides lorsqu\'il y a %1$s notifications</string>
     <string name="smart_pulldown_off">Désactivé</string>
     <string name="smart_pullDésactivédown_dismissable">Aucune annulable</string>
-    <string name="smart_pulldown_persistent">Aucune persistente</string>
-    <string name="smart_pulldown_all">Aucune annulable ou persistente</string>
+    <string name="smart_pulldown_persistent">Aucune persistante</string>
+    <string name="smart_pulldown_all">Aucune annulable ou persistante</string>
 
     <!-- QuickSettings: Custom Tile -->
     <string name="custom_tile_dialog_text">Chaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utiliChaque action ajoutera un nouvel état à la tuile. Chaque clic change pour l\'état suivant. Faire un appui long pour ajouter une action appui long. Si aucune action simple existe, l\'action appui long sera utilisée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.sée par défaut. Cela vous permet de changer l\'état par un clic et d\'effectuer une action par un appui long.</string>
-     <string name="custom_tile_dialog_title">Actions de tuile custom</string>
-     <string name="custom_toggle_extras">Extras pour la tuile custom</string>
+     <string name="custom_tile_dialog_title">Actions de la tuile personnalisée</string>
+     <string name="custom_toggle_extras">Extras pour la tuile personnalisée</string>
      <string name="custom_toggle_collapse_check">Réduire l\'ombre de la notification</string>
      <string name="custom_toggle_match_state_check">L\'action du clic correspond à l\'icône</string>
      <string name="custom_tile_long_press">Pression longue:</string>
@@ -639,7 +644,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- QuickSettings style options -->
     <string name="quick_settings_title">Paramètres rapides</string>
     <string name="summary_quicksettings_tiles_style">Voir ou changer les options de style des paramètres rapides</string>
-    <string name="quick_tiles_color_title">Activer les coleurs personnalisée</string>
+    <string name="quick_tiles_color_title">Activer les couleurs personnalisées</string>
     <string name="quick_tiles_color_summary">Activation des couleurs personnalisées remplace les thèmes</string>
     <string name="quick_tiles_bg_color_title">Couleur de fond des tuiles</string>
     <string name="quick_tiles_bg_pressed_color_title">Couleur de fond des tuiles appuyées</string>
@@ -648,16 +653,16 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="qs_style_reset_message">Réinitialiser toutes les couleurs?</string>
 
     <!-- QuickSettings fliptiles -->
-    <string name="flip_qs_tiles_title">Flip tiles</string>
-    <string name="flip_qs_tiles_summary">Flips the tiles on touch</string>
+    <string name="flip_qs_tiles_title">Tuiles basculantes</string>
+    <string name="flip_qs_tiles_summary">Fait pivoter les tuiles au toucher</string>
 
     <!-- QuickSettings haptic feedback -->
-    <string name="haptic_qs_tiles_title">Vibrer en touche</string>
+    <string name="haptic_qs_tiles_title">Vibrer en touchant</string>
     <string name="haptic_qs_tiles_summary">Vibrer quand on touche la tuile</string>
 
     <!-- QuickSettings smaller tiles -->
-    <string name="title_qs_small_icons">Monter des petites tuiles</string>
-    <string name="summary_qs_small_icons">Pour avoir plus de tuiles utiliser des petites tailles</string>
+    <string name="title_qs_small_icons">Activer les petites tuiles</string>
+    <string name="summary_qs_small_icons">Pour avoir plus utiliser les tuiles de petites tailles</string>
 
     <!-- QuickSettings add tile button -->
     <string name="qs_add_tiles_title">Montrer le bouton d\'édition des tuiles</string>
@@ -679,8 +684,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- USB Mass Storage -->
     <string name="usb_mass_storage_title">Stockage de masse</string>
     <string name="usb_mass_storage_summary">Activer le stockage de masse USB</string>
-    <string name="storage_rescan_media">Réanalyser le stockage</string>
-    <string name="storage_rescan_media_complete">Scan terminé</string>
+    <string name="storage_rescan_media">analyser une nouvelle fois le stockage</string>
+    <string name="storage_rescan_media_complete">Analyse terminé</string>
 
     <!-- Category title for power sound notification specific Settings -->
     <string name="power_notifications_category_title">Alerte de branchement ou débranchement</string>
@@ -736,7 +741,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="center_clock">Horloge au centre</string>
     <string name="dont_show">Ne pas afficher</string>
     <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Afficher la date custom avant l\'horloge</string>
+    <string name="clock_date_display_summary">Afficher la date personnalisée avant l\'horloge</string>
     <string name="clock_date_style">Style de la date</string>
     <string name="clock_date_format">Format de la date</string>
     <string name="clock_date_string_edittext_title">Doit être au format de date ex: jj/mm/aa</string>
@@ -750,7 +755,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="clock_date_style_normal">Normal</string>
     <string name="clock_date_style_lowercase">Minuscule</string>
     <string name="clock_date_style_uppercase">Majuscule</string>
-    <string name="clock_date_format_custom">Format java custom</string>
+    <string name="clock_date_format_custom">Format java personnalisée</string>
     <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge?</string>
     <string name="status_bar_show_clock_lockscreen_title">Afficher sur l\'écran de verrouillage</string>
     
@@ -1071,7 +1076,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="notification_hide_labels_title">Masquer les libellés de notification</string>
     <string name="notification_hide_labels_disable">Montrer tous les libellés</string>
     <string name="notification_hide_labels_carrier">Masquer le nom d\'opérateur</string>
-    <string name="notification_hide_labels_wifi">Masquer le nom du réseau Wi-fi</string>
+    <string name="notification_hide_labels_wifi">Masquer le nom du réseau Wifi</string>
     <string name="notification_hide_labels_all">Masquer tous les libellés</string>
     <string name="notification_hide_labels_text">dans le panneau de notification</string>
 
@@ -1340,7 +1345,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="icon_picker_email">Email</string>
     <string name="icon_picker_email2">Email Holo</string>
     <string name="icon_picker_facebook">Facebook</string>
-    <string name="icon_picker_gallery">Gallery</string>
+    <string name="icon_picker_gallery">Galerie</string>
     <string name="icon_picker_google_small">Google (Petit)</string>
     <string name="icon_picker_googleplus">Google Plus</string>
     <string name="icon_picker_googletalk">Hangouts</string>
@@ -1369,7 +1374,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="wakeup_when_plugged_unplugged_summary">Réveille l\'appareil si le chargeur est branché/débranché.</string>
 
     <!-- Gestures Options -->
-    <string name="screen_off_gesture_settings_title">Gestures</string>
+    <string name="screen_off_gesture_settings_title">Les gestes</string>
     <string name="screen_off_gesture_settings_summary">Gestion des gestes écran éteint</string>
 
     <!-- Proximity wake -->
@@ -1528,11 +1533,11 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     
     <!-- Notification drawer background -->   
     <string name="notification_background_title">Style du fond</string>
-    <string name="notification_background_summary">Change your notification drawer background and more</string>
+    <string name="notification_background_summary">Modifier l\'arrière plan du tiroir de notification et plus</string>
     <string name="notification_wallpaper_title">Fond</string>
     <string name="notification_wallpaper_landscape_title">Fond différent en mode paysage</string>
     <string name="notification_background_color_fill">Remplissage par couleur</string>
-    <string name="notification_background_custom_image">Image custom</string>
+    <string name="notification_background_custom_image">Image personnalisée</string>
     <string name="notification_background_default_wallpaper">Fond par défaut</string>
     <string name="notification_drawer_custom_background_dialog_title">Choisir la couleur</string>
     <string name="notif_wallpaper_alpha_title">Transparence du fond</string>
@@ -1790,7 +1795,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Smooth ProgressBar -->
     <string name="progressbar_title">Barre de progression</string>
     <string name="progressbar_summary">Voir ou changer les animations et la couleur de la barre de progression</string>
-    <string name="progressbar_mirror_title">Mode mirroir</string>
+    <string name="progressbar_mirror_title">Mode miroir</string>
     <string name="progressbar_reverse_title">Inversé</string>
     <string name="progressbar_speed_title">Vitesse</string>
     <string name="progressbar_width_title">Largeur du contour</string>
@@ -1812,7 +1817,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="ram_bar_reset">Réinitialiser</string>
 
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Bulle d\'infos</string>
+    <string name="toast_animation_title">Bulle d\'information</string>
     <string name="toast_none_animation">Aucun</string>
     <string name="toast_default_animation">par défaut</string>
     <string name="toast_fade_animation">En fondu</string>
@@ -1850,7 +1855,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="network_global">Global</string>
     <string name="battery_saver_action_undefined">Indéfini</string>
     <string name="battery_saver_title">Economiseur de batterie</string>
-    <string name="battery_saver_summary">Choose power saving modes for mobile data and WiFi connections</string>
+    <string name="battery_saver_summary">Choisissez les modes d\'économie d\'énergie pour les données mobiles et les connexions WiFi</string>
     <string name="pref_battery_saver_enable_title">Economiseur de batterie</string>
     <string name="pref_battery_saver_enable_summary">Bascule automatiquement votre réseau en mode d\'économie d\'énergie définie par l\'utilisateur ou en mode normal, selon les données mobiles et les états de connexion WiFi</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">Ceci gèrera automatiquement l\'usage de la batterie défini par l\'utilisateur</string>
@@ -1878,8 +1883,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="pref_battery_saver_network_summary">Permettre de passer le réseau en mode normal lorsque le mode économique est activé et après extinction de l\'écran</string>
     <string name="pref_battery_saver_nosignal_title">Signal réseau intelligent</string>
     <string name="pref_battery_saver_nosignal_summary">Active le mode économique lorsque il n\'y a pas de signal réseau pendant 5 minutes</string>
-    <string name="pref_battery_saver_toast_title">Afficher les bulles d\'infos</string>
-    <string name="pref_battery_saver_toast_summary">Permettre d\'afficher les bulles d\'infos lorsque le mode économique modifie la configuration de l\'appareil</string>
+    <string name="pref_battery_saver_toast_title">Afficher les bulles d\'informations</string>
+    <string name="pref_battery_saver_toast_summary">Permettre d\'afficher les bulles d\'informations lorsque le mode économique modifie la configuration de l\'appareil</string>
     <string name="battery_saver_battery_title">Options batterie</string>
     <string name="battery_saver_radio_title">Options radio</string>
     <string name="battery_saver_network_title">Les autres options de réseaux</string>
@@ -1984,8 +1989,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="ram_bar_reset_message">Réinitialiser le style du barre de RAM?</string>
 
     <!-- Disable FC Notifications -->
-    <string name="disable_fc_notifications_title">Disable FC Notifications</string>
-    <string name="disable_fc_notifications_summary">This will hide all force close notifications</string>
+    <string name="disable_fc_notifications_title">Désactivé les notifications FC</string>
+    <string name="disable_fc_notifications_summary">Cela permet de masquer toutes les notifications des fermetures forcées</string>
 
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">Curseur de luminosité</string>
@@ -2006,7 +2011,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="voice_tts_notification_summary_off">Désactiver</string>
     <string name="voice_tts_volume_title">Volume</string>
     <string name="voice_tts_volume_summary">Régler le volume pour parler</string>
-    <string name="voice_tts_call_title">Appel entran</string>
+    <string name="voice_tts_call_title">Appel entrant</string>
     <string name="voice_tts_call_summary">Activer/désactiver l\'énoncé des appels entrants</string>
     <string name="voice_tts_sms_title">Nouveau message</string>
     <string name="voice_tts_sms_summary">Activer/désactiver l\'énoncé des nouveaux messages</string>
@@ -2023,7 +2028,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="voice_tts_date_title">Date</string>
     <string name="voice_tts_date_summary">Activer/désactiver l\'énoncé de la date après la mise sous tension de l\'écran</string>
     <string name="voice_tts_notif_title">Notification</string>
-    <string name="voice_tts_notif_summary">Activer/désactiver l\'énoncé de la nouvelle notificatio</string>
+    <string name="voice_tts_notif_summary">Activer/désactiver l\'énoncé de la nouvelle notification</string>
     <string name="voice_tts_notif_read_title">Lire les nouvelles notifications</string>
     <string name="voice_tts_notif_read_summary">Activer/désactiver l\'énoncé de nouveaux messages depuis les notifications</string>
     <string name="voice_tts_whitelist_title">Applications incluses</string>
@@ -2207,17 +2212,17 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!--Notification category-->
     <string name="notification_category">Notifications</string>
     <!--Notification peek-->
-    <string name="notification_peek_title">Notification peek</string>
+    <string name="notification_peek_title">Notification Peek</string>
     <string name="notification_peek_summary">Voir la dernière notification après avoir ramassé votre appareil</string>
-    <string name="peek_pickup_timeout_title">Peek pickup timeout</string>
-    <string name="peek_wake_timeout_title">Peek wake timeout</string>
-    <string name="peek_pickup_15seconds">15 secondes (défault)</string>
+    <string name="peek_pickup_timeout_title">Délai de ramassage de Peek</string>
+    <string name="peek_wake_timeout_title">Délai de réveil de Peek</string>
+    <string name="peek_pickup_15seconds">15 secondes (défaut)</string>
     <string name="peek_pickup_30seconds">30 secondes</string>
     <string name="peek_pickup_45seconds">45 secondes</string>
     <string name="peek_pickup_60seconds">1 minute</string>
     <string name="peek_pickup_120seconds">2 minutes</string>
     <string name="peek_wake_4seconds">4 secondes</string>
-    <string name="peek_wake_7seconds">7 secondes (par défault)</string>
+    <string name="peek_wake_7seconds">7 secondes (par défaut)</string>
     <string name="peek_wake_10seconds">10 secondes</string>
     <string name="peek_wake_20seconds">20 secondes</string>
     <string name="peek_wake_30seconds">30 secondes</string>
@@ -2248,7 +2253,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="volume_steps_music_title">Musique</string>
     <string name="volume_steps_notification_title">Notifications</string>
     <string name="volume_steps_ring_title">Sonneur</string>
-    <string name="volume_steps_system_title">System</string>
+    <string name="volume_steps_system_title">Système</string>
     <string name="volume_steps_voice_call_title">Appel vocal</string>
 
     <!-- Shake Events -->
@@ -2303,16 +2308,16 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Heads Up -->
     <string name="category_heads_up">Notifications flottantes</string>
-    <string name="summary_heads_up_enabled">Les notifications Heads-up sont activées</string>
-    <string name="summary_heads_up_disabled">Les notifications Heads-up sont désctivées</string>
+    <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
+    <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>
     <string name="heads_up_floating_window">Lancer en fenêtre flottante</string>
     <string name="heads_up_floating_window_summary">En tapant sur la notification, l\'application s\'ouvre en mode flottant.</string>
     <string name="heads_up_expanded_title">Toujours étendu</string>
-    <string name="heads_up_expanded_summary">Affiche les notifications Heads up toujours en mode étendu</string>
+    <string name="heads_up_expanded_summary">Affiche les notifications flottantes toujours en mode étendu</string>
     <string name="heads_up_show_updates_title">Affichage des mises à jour</string>
-    <string name="heads_up_show_updates_summary">Affiche les mises à jour des notifications en attente en arrière plan comme heads up</string>
+    <string name="heads_up_show_updates_summary">Affiche les mises à jour des notifications en attente en arrière plan comme notifications flottantes</string>
     <string name="heads_up_snooze_title">Minuterie de répétition</string>
-    <string name="heads_up_snooze_summary">Un appui sur le bouton snooze désactive les heads up pour <xliff:g id="number">%d</xliff:g> minutes.</string>
+    <string name="heads_up_snooze_summary">Un appui sur le bouton répétition désactive les notifications flottantes pour <xliff:g id="number">%d</xliff:g> minutes.</string>
     <string name="heads_up_snooze_disabled_summary">La minuterie de répétition est désactivée.</string>
     <string name="heads_up_snooze_3min">3 minutes</string>
     <string name="heads_up_snooze_5min">5 minutes</string>
@@ -2320,8 +2325,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <string name="heads_up_time_out_title">Durée</string>
-    <string name="heads_up_time_out_summary">Les notifications Heads up seront affichées pendant <xliff:g id="number">%d</xliff:g> secondes.</string>
-    <string name="heads_up_time_out_never_summary">Les notifications Heads up seront affichées jusqu\'à annulation.</string>
+    <string name="heads_up_time_out_summary">Les notifications flottantes seront affichées pendant <xliff:g id="number">%d</xliff:g> secondes.</string>
+    <string name="heads_up_time_out_never_summary">Les notifications flottantes seront affichées jusqu\'à annulation.</string>
     <string name="heads_up_time_out_4sec">4 secondes</string>
     <string name="heads_up_time_out_6sec">6 secondes</string>
     <string name="heads_up_time_out_8sec">8 secondes</string>
@@ -2334,11 +2339,11 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="heads_up_blacklist_title">Liste noire</string>
     <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre pop-up sur votre écran, activez les notifications flottantes.</string>
     <string name="heads_up_gravity_title">Affichage en bas</string>
-    <string name="heads_up_gravity_summary">Affiche les notifications Heads up en bas de l\'écran</string>
+    <string name="heads_up_gravity_summary">Affiche les notifications flottantes en bas de l\'écran</string>
 
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifications</string>
-    <string name="notification_settings_summary">Personnaliser les options du notifications comme heads-up et peek.</string>
+    <string name="notification_settings_summary">Personnaliser la façon dont vous recevez des notifications avec des options comme Heads up, Peek et plus</string>
 
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Intensité du vibreur</string>
@@ -2360,8 +2365,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="gamma_tuning_saturation">Saturation</string>
 
     <!-- Backlight brightness settings screen -->
-    <string name="adaptive_backlight_title">Rétroéclairage adaptatif</string>
-    <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétroéclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
+    <string name="adaptive_backlight_title">Rétro éclairage adaptatif</string>
+    <string name="adaptive_backlight_summary">Ajuster dynamiquement la luminosité du rétro éclairage de l\'écran pour maximiser l\'autonomie tout en conservant une bonne lisibilité</string>
 
     <!-- Sunlight readability enhancement screen -->
     <string name="sunlight_enhancement_title">Amélioration à lumière du soleil</string>
@@ -2389,13 +2394,13 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
    
     <!-- SAR information -->
     <string name="sar_info">SAR Maximum</string>
-    <string name="maximum_head_level">Haud: %1$s W/kg</string>
+    <string name="maximum_head_level">Haut: %1$s W/kg</string>
     <string name="maximum_body_level">Corps: %1$s W/kg</string>
 
     <!-- Hardware tunables - Key backlight -->
-    <string name="button_backlight_title">Rétroéclairage</string>
-    <string name="button_backlight_enabled">Rétroéclairage des boutons</string>
-    <string name="keyboard_backlight_enabled">Rétroéclairage du clavier</string>
+    <string name="button_backlight_title">Rétro éclairage</string>
+    <string name="button_backlight_enabled">Rétro éclairage des boutons</string>
+    <string name="keyboard_backlight_enabled">Rétro éclairage du clavier</string>
     <string name="button_backlight_seekbar_title">Luminosité du bouton</string>
     <string name="keyboard_backlight_seekbar_title">Luminosité du clavier</string>
     <string name="backlight_timeout_title">Temps d\'éclairage</string>
