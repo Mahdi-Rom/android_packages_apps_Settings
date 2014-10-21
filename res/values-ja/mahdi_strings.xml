@@ -759,6 +759,7 @@
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">バッテリー残量表示</string>
     <string name="status_bar_style_icon_portrait">アイコン(垂直)</string>
+    <string name="status_bar_style_icon_portrait_slim">アイコン(垂直+スリム)</string>
     <string name="status_bar_style_icon_landscape">アイコン(水平)</string>
     <string name="status_bar_style_circle">サークル</string>
     <string name="status_bar_style_text">テキスト</string>
@@ -2362,6 +2363,11 @@
     <string name="color_enhancement_title">色の改良</string>
     <string name="color_enhancement_summary">動的ディスプレイの色を改良する</string>
 
+    <!-- SAR information -->
+    <string name="sar_info">最大SAR</string>
+    <string name="maximum_head_level">頭: %1$s W/kg</string>
+    <string name="maximum_body_level">体: %1$s W/kg</string>
+
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">バックライト</string>
     <string name="button_backlight_enabled">ボタンを発光させる</string>
@@ -2445,4 +2451,20 @@
     <string name="wifi_ap_clients_title">接続中のデバイス</string>
     <string name="wifi_ap_client_ap_disabled">テザリングが無効です</string>
     <string name="wifi_ap_client_none_connected">接続中のデバイスはありません</string>
+
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">システムバーを着色する</string>
+    <string name="tinted_statusbar_title">色</string>
+    <string name="title_tinted_statusbar">動的な色の変更</string>
+    <string name="title_tinted_statusbar_option">色を適用する場所</string>
+    <string name="tinted_statusbar_off">無効</string>
+    <string name="tinted_statusbar_actionbar">アクションバーの色</string>
+    <string name="tinted_statusbar_system">画面の色</string>
+    <string name="tinted_statusbar_statusbar">ステータスバー</string>
+    <string name="tinted_statusbar_navbar">ナビゲーションバー</string>
+    <string name="tinted_statusbar_all">両方</string>
+    <string name="tinted_statusbar_filter_title">色相の反転</string>
+    <string name="tinted_statusbar_filter_summary">色相の反転を有効にする</string>
+    <string name="tinted_statusbar_transparent_title">ステータスバーの不透明度</string>
+    <string name="tinted_navbar_transparent_title">ナビゲーションバーの不透明度</string>
 </resources>
