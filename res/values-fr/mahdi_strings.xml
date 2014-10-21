@@ -383,10 +383,10 @@
     <string name="headset_plug_neutral_summary">Application de musique du système par défaut</string>
     <string name="headset_plug_music_active_title">Désactiver pendant la lecture audio</string>
     <string name="headset_plug_music_active_summary">Ne pas faire fonctionner le raccourcis pendant la lecture audio</string>
-    <string name="headset_plug_app_running_title">Action du raccourcis en cours d\'execution</string>
+    <string name="headset_plug_app_running_title">Action du raccourcis en cours d\'exécution</string>
     <string name="headset_plug_app_running_nothing">Aucune</string>
     <string name="headset_plug_app_running_front">Déplacer au premier plan</string>
-    <string name="headset_plug_actions_title">Action de la suppressionr</string>
+    <string name="headset_plug_actions_title">Action de la suppression</string>
     <string name="headset_plug_actions_disabled">Aucune</string>
     <string name="headset_plug_actions_front">Déplacer au premier plan</string>
     <string name="headset_plug_actions_kill">Tuer l\'application</string>
@@ -462,7 +462,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shake_to_secure_title">Secouer l\'écran de verrouillage pour activer la sécurité</string>
     <string name="shake_to_secure_summary">La sécurité sera désactivée après chaque déverrouillage réussi</string>
     <string name="shake_to_secure_dlg_title">Attention:</string>
-    <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
+    <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverrouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
     <string name="shake_secure_timeout_title">Re-sécuriser automatiquement</string>
     <string name="shake_all">Secouer dans n\'importe quelle direction</string>
     <string name="shake_horizontal">Secouer horizontalement</string>
@@ -494,7 +494,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
-    <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
 
     <!-- Lock Gesture settings -->
     <string name="lockgesture_change_lock_pattern_label">Changement du geste de déblocage</string>
@@ -585,7 +585,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="custom_tile_null_warning">Une action doit d\'abord être définie</string>
     <string name="custom_tile_resolve_name">Inconnu</string>
     <string name="title_tile_theme">Sélecteur de thème</string>
-    <string name="title_tile_batterysaver">BatterySaver mode</string>
+    <string name="title_tile_batterysaver">Mode économiseur de batterie</string>
     <string name="title_tile_heads_up">Notifications flottantes</string>
     <string name="title_tile_performance_profile">Profil de performance</string>
 
@@ -762,6 +762,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Style du niveau de batterie</string>
     <string name="status_bar_style_icon_portrait">Icône portrait</string>
+    <string name="status_bar_style_icon_portrait_slim">Icône portrait slim</string>
     <string name="status_bar_style_icon_landscape">Icône paysage</string>
     <string name="status_bar_style_circle">Cercle</string>
     <string name="status_bar_style_text">Texte</string>
@@ -798,13 +799,13 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="privacy_guard_notification_options">Options de notification</string>
     <string name="privacy_guard_notification_options_summary">Voir ou changer les options de notification</string>
     <string name="privacy_guard_notification_title">Afficher la notification</string>
-    <string name="privacy_guard_notification_icon_title">Afficher l\'icon du notification</string>
-    <string name="privacy_guard_notification_dismiss_title">Notification Dismissable</string>
-    <string name="privacy_guard_notification_dismiss_summary">Une notification dismissable peut être effacé</string>
+    <string name="privacy_guard_notification_icon_title">Afficher l\'icône de notification</string>
+    <string name="privacy_guard_notification_dismiss_title">Notification révocable</string>
+    <string name="privacy_guard_notification_dismiss_summary">Une notification révocable peut être effacé</string>
 
     <!-- Battery status on lock ring -->
     <string name="battery_around_lockscreen_ring">Batterie autour de l\'anneau</string>
-    <string name="battery_around_lockscreen_ring_summary">Afficher le niveau de la batterie autour de l\'anneau de déverrouilage</string>
+    <string name="battery_around_lockscreen_ring_summary">Afficher le niveau de la batterie autour de l\'anneau de déverrouillage</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notification débogage USB</string>
@@ -932,7 +933,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez vous vraiment activer cette fonction ?</string>
 
     <!-- Button shorcut actions -->
-    <string name="shortcut_action_keyguard_camera">Keyguard camera</string>
+    <string name="shortcut_action_keyguard_camera">Verrouillage clavier sur l\'appareil photo</string>
     <string name="shortcut_action_navbar">Barre de navigation</string>
     <string name="shortcut_action_pie">Contrôles Pie</string>
     <string name="shortcut_action_app">Application personnalisée</string>
@@ -1028,7 +1029,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shortcuts_icon_picker_package">Paquet</string>
     <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
     <string name="shortcuts_icon_picker_play">Play</string>
-    <string name="shortcuts_icon_picker_pocket">Pocket</string>
+    <string name="shortcuts_icon_picker_pocket">Poche</string>
     <string name="shortcuts_icon_picker_quicksettings">Paramètres rapides</string>
     <string name="shortcuts_icon_picker_rss">Flux Rss</string>
     <string name="shortcuts_icon_picker_sdcard">Carte SD</string>
@@ -1461,7 +1462,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- App circle sidebar -->
     <string name="app_circle_bar_title">Application en cercle dans barre latérale</string>
-    <string name="app_circle_sidebar_summary">Lancer des applications plus rapidement à partir d\'une barre latérale et d\'ouvrir plusieurs applications sur un écran multitâche</string>
+    <string name="app_circle_sidebar_summary">Lancer des applications plus rapidement à partir d\'une barre latérale et d\'ouvrir plusieurs applications sur un écran multi-tâches</string>
     <string name="app_circle_bar_included_apps_title">Applications incluses</string>
     <string name="app_circle_bar_included_apps_summary">Les applications s\'afficheront dans un cercle de la barre latérale</string>
     <string name="trigger_width_title">Largeur de déclenchement</string>
@@ -1701,7 +1702,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Animation Control -->
     <string name="interface_animation_title">Options avancées</string>
-    <string name="interface_animation_summary">Personnaliser les animations du system , listes et d\'autres.</string>
+    <string name="interface_animation_summary">Personnaliser les animations du système , listes et d\'autres.</string>
 
     <!-- ListView animation -->
     <string name="system_animation_title">Système</string>
@@ -1994,7 +1995,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">Curseur de luminosité</string>
-    <string name="brightness_slider_summary">Ajoute un curseur de luminosité au paneau de notification.</string>
+    <string name="brightness_slider_summary">Ajoute un curseur de luminosité au panneau de notification.</string>
 
     <!-- Driving mode -->
     <!-- require add space in the end of string -->
@@ -2267,8 +2268,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shake_event_x_title">Activité à lancer quand secoué horizontalement</string>
     <string name="shake_event_y_title">Activité à lancer quand secoué verticalement</string>
     <string name="shake_event_z_title">Activité à lancer quand secoué d\'avant en arrière</string>
-    <string name="keyguard_shake_events_cat">Keyguard</string>
-    <string name="keyguard_shake_events_title">Keyguard shake events</string>
+    <string name="keyguard_shake_events_cat">Verrouillage clavier</string>
+    <string name="keyguard_shake_events_title">Verrouillage clavier à la secousse</string>
 
     <!-- Shake sensitivity -->
     <string name="shake_sensitivity_title">Sensibilité de la secousse</string>
@@ -2391,10 +2392,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Amélioration des couleurs</string>
     <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
-   
+
     <!-- SAR information -->
-    <string name="sar_info">SAR Maximum</string>
-    <string name="maximum_head_level">Haut: %1$s W/kg</string>
+    <string name="maximum_head_level">Tête: %1$s W/kg</string>
     <string name="maximum_body_level">Corps: %1$s W/kg</string>
 
     <!-- Hardware tunables - Key backlight -->
@@ -2441,8 +2441,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="enable_adb_summary_cm">Activer l\'interface Android Debug Bridge (adb)</string>
 
     <!-- Spam notifications -->
-    <string name="spam_added_title">%1$s ajouté</string>
-    <string name="spam_last_blocked_title">Dernier bloqué %1$s</string>
+    <string name="spam_added_title">Ajouté <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g></string>
+    <string name="spam_last_blocked_title">Dernier bloqué <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g> (total: <xliff:g id="count" example="2 times">%2$s</xliff:g>)</string>
     <string name="block_notifications_title">Filtre des notifications</string>
     <string name="block_notifications_summary">Gérer les notifications ignorées et les filtres</string>
     <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
@@ -2458,4 +2458,20 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="wifi_ap_clients_title">Appareils connectés</string>
     <string name="wifi_ap_client_ap_disabled">Point d\'accès désactivé</string>
     <string name="wifi_ap_client_none_connected">Pas d\'appareils connectés</string>
+
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">Barres systèmes teintées</string>
+    <string name="tinted_statusbar_title">Couleurs</string>
+    <string name="title_tinted_statusbar">Changement dynamique de couleur</string>
+    <string name="title_tinted_statusbar_option">Appliquer la couleur pour</string>
+    <string name="tinted_statusbar_off">Désactivé</string>
+    <string name="tinted_statusbar_actionbar">Couleur de la barre d\'action</string>
+    <string name="tinted_statusbar_system">Couleur de l\'écran</string>
+    <string name="tinted_statusbar_statusbar">Barre de statut</string>
+    <string name="tinted_statusbar_navbar">Barre de navigation</string>
+    <string name="tinted_statusbar_all">Les deux</string>
+    <string name="tinted_statusbar_filter_title">Couleur inversée</string>
+    <string name="tinted_statusbar_filter_summary">Activer en utilisant la couleur inverse</string>
+    <string name="tinted_statusbar_transparent_title">Opacité de la barre d\'état</string>
+    <string name="tinted_navbar_transparent_title">Opacité de la barre de navigation</string>
 </resources>
