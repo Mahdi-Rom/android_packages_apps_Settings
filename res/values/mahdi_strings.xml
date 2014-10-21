@@ -2484,4 +2484,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="tinted_statusbar_filter_summary">Enable using reverse color</string>
     <string name="tinted_statusbar_transparent_title">Status bar opacity</string>
     <string name="tinted_navbar_transparent_title">Navigation bar opacity</string>
+
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Disable notification ticker</string>
+    <string name="ticker_disabled_summary">Don\'t scroll text from incoming notifications in the status bar</string>
 </resources>
