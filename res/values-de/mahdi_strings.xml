@@ -1910,6 +1910,12 @@ If Power widget is removed, re-enable these -->
     <string name="system_bar_visibility">Display-Sperre</string>
     <string name="system_bar_visibility_summary">Deaktiviert die Anzeige der Systemleisten bei aktivierter Display-Sperre im erweiterten Desktop-Modus</string>
 
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">Systemgesten</string>
+    <string name="disable_system_gestures_off">Aktiviert</string>
+    <string name="disable_system_gestures_navbar">Deaktiviere Navigationsleistengesten</string>
+    <string name="disable_system_gestures_statusbar">Deaktiviere Statusleistengesten</string>
+    
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go-Modus</string>
     <string name="title_tile_onthego">On-The-Go</string>
@@ -2080,6 +2086,13 @@ If Power widget is removed, re-enable these -->
     <string name="pie_style_reset_message">Alle Designeinstellungen zürücksetzen?</string>
     <string name="pie_disable_ime_triggers_title">Reduziere Schaltflächengröße auf der Tastaur</string>
     <string name="pie_disable_ime_triggers_summary">Reduziert linke und rechte Schaltflächengröße wenn die Tastatur aktiviert ist</string>
+    <string name="pie_background_fadein_time_title">Ausblendezeit</string>
+    <string name="pie_slice_gap_title">Schaltflächenabstand</string>
+    <string name="pie_slice_gap_disabled">Deaktiviert</string>
+    <string name="pie_slice_gap_small">Klein (Standard)</string>
+    <string name="pie_slice_gap_medium">Mittel</string>
+    <string name="pie_slice_gap_large">Groß</string>
+    <string name="pie_colors_title">Farben</string>
 
      <!-- PA Pie -->
     <string name="pa_pie_title">PA-Pie Steuerung</string>
@@ -2411,4 +2424,21 @@ multiple font sizes in a limited amount of space. -->
     <!-- Disable immersive mode navbar when ime is showing -->
     <string name="disable_forced_navbar_title">Navigationsleiste bei Eingabe</string>
     <string name="disable_forced_navbar_summary">Deaktiviert die Navigationsleiste im erweiterten Modus wenn die Eingabe geöffnet ist</string>
+
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">Gefärbte Systemleisten</string>
+    <string name="tinted_statusbar_title">Farben</string>
+    <string name="title_tinted_statusbar">Dynamische Farbänderung</string>
+    <string name="title_tinted_statusbar_option">Farbe anwenden an</string>
+    <string name="tinted_statusbar_off">Deaktiviert</string>
+    <string name="tinted_statusbar_actionbar">Aktionsleistenfarbe</string>
+    <string name="tinted_statusbar_system">Bildschirmfarbe</string>
+    <string name="tinted_statusbar_statusbar">Statusleiste</string>
+    <string name="tinted_statusbar_navbar">Navigationsleiste</string>
+    <string name="tinted_statusbar_all">Beide</string>
+    <string name="tinted_statusbar_filter_title">Invertierte Farben</string>
+    <string name="tinted_statusbar_filter_summary">Invertierte Farben aktivieren</string>
+    <string name="tinted_statusbar_transparent_title">Statusleistendeckkraft</string>
+    <string name="tinted_navbar_transparent_title">Navigationsleistendeckkraft</string>
+	
 </resources>
