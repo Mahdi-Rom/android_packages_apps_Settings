@@ -738,6 +738,7 @@
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Стиль индикатора батареи</string>
     <string name="status_bar_style_icon_portrait">Вертикальная иконка</string>
+    <string name="status_bar_style_icon_portrait_slim">Вертикальная иконка slim</string>
     <string name="status_bar_style_icon_landscape">Горизонтальная иконка</string>
     <string name="status_bar_style_circle">Круг</string>
     <string name="status_bar_style_text">Текст</string>
@@ -2245,6 +2246,7 @@
     <string name="menu_hidden_apps_reset_lock">Сбросить шаблон блокировки</string>
     <string name="protected_apps">Защищенные приложения</string>
     <string name="saving_protected_components">Сохранение состояния компонентов</string>
+    <string name="launch_app">Запустить приложение</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Сбросить граф. ключ</string>
@@ -2340,6 +2342,10 @@
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Улучшение цвета</string>
     <string name="color_enhancement_summary">Динамическое улучшение цветопередачи экрана</string>
+    
+    <!-- SAR information -->
+    <string name="maximum_head_level">Head: %1$s W/kg</string>
+    <string name="maximum_body_level">Body: %1$s W/kg</string>
 
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Подсветка</string>
@@ -2396,4 +2402,24 @@
     <string name="wifi_ap_clients_title">Подключенные устройства</string>
     <string name="wifi_ap_client_ap_disabled">Точка доступа отключена</string>
     <string name="wifi_ap_client_none_connected">Нет подключенных устройств</string>
+    
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">Тонирование системных панелей</string>
+    <string name="tinted_statusbar_title">Цвета</string>
+    <string name="title_tinted_statusbar">Динамическое изменение цвета</string>
+    <string name="title_tinted_statusbar_option">Применить цвет</string>
+    <string name="tinted_statusbar_off">Отключено</string>
+    <string name="tinted_statusbar_actionbar">Цвете \"Action bar\"</string>
+    <string name="tinted_statusbar_system">Цвет экрана</string>
+    <string name="tinted_statusbar_statusbar">Строка состояния</string>
+    <string name="tinted_statusbar_navbar">Панель навигации</string>
+    <string name="tinted_statusbar_all">Обе</string>
+    <string name="tinted_statusbar_filter_title">Инверсия цвета</string>
+    <string name="tinted_statusbar_filter_summary">Включить использование инверсии цвета</string>
+    <string name="tinted_statusbar_transparent_title">Непрозрачность строки состояния</string>
+    <string name="tinted_navbar_transparent_title">Непрозрачность панели навигации</string>
+    
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Отключить прокрутку уведомлений</string>
+    <string name="ticker_disabled_summary">Отключить прокрутку текста входящих уведомлений в строке состояния</string>
 </resources>
