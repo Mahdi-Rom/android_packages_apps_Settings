@@ -2411,4 +2411,10 @@ multiple font sizes in a limited amount of space. -->
     <!-- Disable immersive mode navbar when ime is showing -->
     <string name="disable_forced_navbar_title">Navigationsleiste bei Eingabe</string>
     <string name="disable_forced_navbar_summary">Deaktiviert die Navigationsleiste im erweiterten Modus wenn die Eingabe geöffnet ist</string>
+
+    <string name="enable_quickboot_title">Schnellstartmodus aktivieren</string>
+    <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
+    <string name="enable_quickboot_summary">Versetzt das Gerät in einen Schnellstartmodus anstatt es komplett auszuschalten</string>
+	
 </resources>
+
