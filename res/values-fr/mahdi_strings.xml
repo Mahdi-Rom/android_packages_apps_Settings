@@ -308,17 +308,22 @@
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Fréquence actuelle du CPU</string>
     <string name="cpu_governors_title">Stratégie du CPU</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
     <string name="cpu_min_freq_title">Fréquence minimale du CPU</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
     <string name="cpu_max_freq_title">Fréquence maximale du CPU</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Horloge E/S</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Horloge E/S</string>
+    <string name="io_sched_summary" translatable="false">%S</string>
 	
     <!-- Performance Settings : Performance profile settings -->
     <string name="perf_profile_title">Profil</string>
+    <string name="perf_profile_summary" translatable="false">%s</string>
 	
     <!-- Memory Management -->
     <string name="memory_management_title">Gestion de la mémoire</string>
@@ -400,6 +405,7 @@
     <string name="auto_brightness_dialog_title">Niveaux d\'éclairage automatique</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
+    <string name="auto_brightness_brightness_format" translatable="false"><xliff:g id="percent">%s</xliff:g>%%</string>
     <string name="auto_brightness_adjust_button">Ajuster</string>
     <string name="auto_brightness_close_button">Quitter</string>
     <string name="auto_brightness_reset_button">Réinitialiser</string>
@@ -1029,7 +1035,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shortcuts_icon_picker_package">Paquet</string>
     <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
     <string name="shortcuts_icon_picker_play">Play</string>
-    <string name="shortcuts_icon_picker_pocket">Poche</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
     <string name="shortcuts_icon_picker_quicksettings">Paramètres rapides</string>
     <string name="shortcuts_icon_picker_rss">Flux Rss</string>
     <string name="shortcuts_icon_picker_sdcard">Carte SD</string>
@@ -2296,7 +2302,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="menu_hidden_apps_delete">Réinitialiser</string>
     <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
     <string name="protected_apps">Applications protégées</string>
-    <string name="saving_protected_components">SEnregistrement de l\'état du composant\u2026</string>
+    <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
+    <string name="launch_app">Lancer l\'application</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
@@ -2393,6 +2400,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="color_enhancement_title">Amélioration des couleurs</string>
     <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
 
+    <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
+    <string name="regulatory_information_dialog_title" translatable="false">@string/regulatory_information</string>
+	
     <!-- SAR information -->
     <string name="maximum_head_level">Tête: %1$s W/kg</string>
     <string name="maximum_body_level">Corps: %1$s W/kg</string>
@@ -2474,4 +2484,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="tinted_statusbar_filter_summary">Activer en utilisant la couleur inverse</string>
     <string name="tinted_statusbar_transparent_title">Opacité de la barre d\'état</string>
     <string name="tinted_navbar_transparent_title">Opacité de la barre de navigation</string>
+    
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Désactiver le sympbole de notification</string>
+    <string name="ticker_disabled_summary">Ne pas faire défiler le texte des notifications reçues dans la barre de statut</string>
 </resources>
