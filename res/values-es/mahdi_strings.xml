@@ -2469,4 +2469,24 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="wifi_ap_clients_title">Dispositivos conectados</string>
     <string name="wifi_ap_client_ap_disabled">Hotspot desactivada</string>
     <string name="wifi_ap_client_none_connected">No hay dispositivos conectados</string>
+    
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">Barra del sistema polarizada</string>
+    <string name="tinted_statusbar_title">Colores</string>
+    <string name="title_tinted_statusbar">Cambio de color dinámico</string>
+    <string name="title_tinted_statusbar_option">Aplicar color a</string>
+    <string name="tinted_statusbar_off">Desactivado</string>
+    <string name="tinted_statusbar_actionbar">Color de barra de acción</string>
+    <string name="tinted_statusbar_system">Color de pantalla</string>
+    <string name="tinted_statusbar_statusbar">Barra de estado</string>
+    <string name="tinted_statusbar_navbar">Barra de navegación</string>
+    <string name="tinted_statusbar_all">Ambos</string>
+    <string name="tinted_statusbar_filter_title">Color inverso</string>
+    <string name="tinted_statusbar_filter_summary">Habilitar usando color inverso</string>
+    <string name="tinted_statusbar_transparent_title">Opacidad de barra de estado</string>
+    <string name="tinted_navbar_transparent_title">Opacidad de barra de navegación</string>
+
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Desactivar notification ticker</string>
+    <string name="ticker_disabled_summary">No desplazar el texto de las notificaciones recibidas en la barra de estado</string>
 </resources>
