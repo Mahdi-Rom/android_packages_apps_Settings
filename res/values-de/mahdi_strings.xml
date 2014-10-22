@@ -258,8 +258,13 @@ limitations under the License.
     <!-- button settings -->
     <string name="button_settings">Tasten</string>
     <string name="button_volume_keys_title">Lautstärke-Taste</string>
-    <string name="button_volume_wake_title">Aufwecken mit der Lautstärke-Taste</string>
+    <string name="button_volume_wake_title">Aufwecken</string>
     <string name="button_volume_wake_summary">Drücken der Lautstärke-Taste aktiviert den Bildschirm</string>
+    <string name="home_wake_summary">Drücken der Hometaste aktiviert den Bildschirm</string>
+    
+    <!-- Home key end call -->
+    <string name="home_answer_call_title">Anruf beantworten</string>
+    <string name="home_answer_call_summary">Drücken der Hometaste nimmt einkommende Anrufe an</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">CPU-Info anzeigen</string>
@@ -823,6 +828,8 @@ If Power widget is removed, re-enable these -->
     <!-- Hardware keys -->
     <string name="button_keys_title">Tasten</string>
     <string name="button_keys_summary">Konfiguration der Tasten</string>
+    <string name="disable_hw_title">Hardwaretasten deaktivieren</string>
+    <string name="disable_hw_summary">Das Deaktvieren der Hardwaretasten aktiviert die Navigationsleiste</string>
     <string name="keys_bindings_title">Tastenbelegung</string>
     <string name="keys_enable_custom_title">Benutzerdefinierte Tastenbelegung</string>
     <string name="keys_enable_custom_summary">Aktivieren der benutzerdefinierten Tastenbelegung</string>
