@@ -308,17 +308,22 @@
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Fréquence actuelle du CPU</string>
     <string name="cpu_governors_title">Stratégie du CPU</string>
+
     <string name="cpu_min_freq_title">Fréquence minimale du CPU</string>
+
     <string name="cpu_max_freq_title">Fréquence maximale du CPU</string>
+
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Horloge E/S</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Horloge E/S</string>
+
 	
     <!-- Performance Settings : Performance profile settings -->
     <string name="perf_profile_title">Profil</string>
+
 	
     <!-- Memory Management -->
     <string name="memory_management_title">Gestion de la mémoire</string>
@@ -400,6 +405,7 @@
     <string name="auto_brightness_dialog_title">Niveaux d\'éclairage automatique</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
     <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
+
     <string name="auto_brightness_adjust_button">Ajuster</string>
     <string name="auto_brightness_close_button">Quitter</string>
     <string name="auto_brightness_reset_button">Réinitialiser</string>
@@ -463,7 +469,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shake_to_secure_summary">La sécurité sera désactivée après chaque déverrouillage réussi</string>
     <string name="shake_to_secure_dlg_title">Attention:</string>
     <string name="shake_to_secure_dlg_message">Votre appareil ne sera pas sécurisé tant que vous ne l\'aurez pas secoué pour activer la sécurité temporaire. Une fois sécurisé: si votre appareil est déverrouillé, il ne sera plus sécurisé jusqu\'à ce que vous le secouiez à nouveau.</string>
-    <string name="shake_secure_timeout_title">Re-sécuriser automatiquement</string>
+    <string name="shake_secure_timeout_title">Sécuriser automatiquement</string>
     <string name="shake_all">Secouer dans n\'importe quelle direction</string>
     <string name="shake_horizontal">Secouer horizontalement</string>
     <string name="shake_vertical">Secouer verticalement</string>
@@ -762,7 +768,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Style du niveau de batterie</string>
     <string name="status_bar_style_icon_portrait">Icône portrait</string>
-    <string name="status_bar_style_icon_portrait_slim">Icône portrait slim</string>
+    <string name="status_bar_style_icon_portrait_slim">Icône portrait version Slim</string>
     <string name="status_bar_style_icon_landscape">Icône paysage</string>
     <string name="status_bar_style_circle">Cercle</string>
     <string name="status_bar_style_text">Texte</string>
@@ -984,7 +990,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shortcut_action_help_button">Bouton</string>
     <string name="shortcut_action_help_app">Application</string>
     <string name="shortcut_action_help_icon">, tandis que sélectionner l’icône affichera les options de personnalisation</string>
-    <string name="shortcut_action_help_main">Pour ajouter un %1$s, sélectionnez l\'icône Ajouter.  Une fois ajouté le %1$s, sélectionner la ligne changera la cible %2$s\n\nPour retirer un %1$s, faites glisser la ligne horizontalement à droite ou à gauche.  Re-ordonnez un %1$s dans la liste en faisant glisser verticalement l\'ancre vers la gauche.\n\nPour nettoyer ou réinitialiser aux valeurs par défaut, sélectionnez l\'icône de réinitialisation.</string>
+    <string name="shortcut_action_help_main">Pour ajouter un %1$s, sélectionnez l\'icône Ajouter.  Une fois ajouté le %1$s, sélectionner la ligne changera la cible %2$s\n\nPour retirer un %1$s, faites glisser la ligne horizontalement à droite ou à gauche.  réordonner un %1$s dans la liste en faisant glisser verticalement l\'ancre vers la gauche.\n\nPour nettoyer ou réinitialiser aux valeurs par défaut, sélectionnez l\'icône de réinitialisation.</string>
     <string name="shortcut_action_help_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la fonctionnalité.</string>
     <string name="shortcut_action_help">Aide</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera entièrement la deuxième couche du pie.</string>
@@ -1007,12 +1013,12 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shortcuts_icon_picker_facebook">Facebook</string>
     <string name="shortcuts_icon_picker_favorite">Favori</string>
     <string name="shortcuts_icon_picker_file_browser">Explorateur de fichier</string>
-    <string name="shortcuts_icon_picker_file_browser2">Explorateur de fichiers alternatif</string>
+    <string name="shortcuts_icon_picker_file_browser2">Explorateur de fichier alternatif</string>
     <string name="shortcuts_icon_picker_fitness">Fitness</string>
     <string name="shortcuts_icon_picker_gallery">Galerie</string>
     <string name="shortcuts_icon_picker_gears">Gears</string>
     <string name="shortcuts_icon_picker_google_small">Google</string>
-    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gplus">Google +</string>
     <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
     <string name="shortcuts_icon_picker_help">Aide</string>
     <string name="shortcuts_icon_picker_joystick">Manette</string>
@@ -1029,7 +1035,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="shortcuts_icon_picker_package">Paquet</string>
     <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
     <string name="shortcuts_icon_picker_play">Play</string>
-    <string name="shortcuts_icon_picker_pocket">Poche</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
     <string name="shortcuts_icon_picker_quicksettings">Paramètres rapides</string>
     <string name="shortcuts_icon_picker_rss">Flux Rss</string>
     <string name="shortcuts_icon_picker_sdcard">Carte SD</string>
@@ -1107,7 +1113,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="navigation_menu_default_jb_behavior">Afficher si besoin (Par défaut)</string>
     <string name="navigation_menu_never_show">Ne jamais afficher</string>
     <string name="navigation_menu_always_show">Toujours afficher</string>
-    <string name="navigation_bar">Barre de navigatio</string>
+    <string name="navigation_bar">Barre de navigation</string>
     <string name="navbar_button_cat">Boutons de la barre de navigation</string>
     <string name="title_pref_menu_location">Position du bouton Menu</string>
     <string name="summary_pref_menu_location">Choisir le côté où le bouton Menu doit être affiché.</string>
@@ -1180,8 +1186,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="show_network_traffic_up">Sortant</string>
     <string name="show_network_traffic_down">Entrant</string>
     <string name="show_network_traffic_all">Sortant et Entrant</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes par seconde</string>
+    <string name="show_network_traffic_bit">Bits par seconde</string>
+    <string name="show_network_traffic_byte">Octets par seconde</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
@@ -1284,7 +1290,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="force_expanded_view">Forcer les notifications étendues</string>
     <string name="force_expanded_view_summary">Afficher des notifications étendues par défaut. Vous serez toujours en mesure de basculer entre la vue étendue et normale.</string>
     <string name="wake_on_notification">Réveil lors d\'une notification</string>
-    <string name="wake_on_notification_summary">Réveiller lors de la reception d\'une nouvelle notification</string>
+    <string name="wake_on_notification_summary">Réveiller lors de la réception d\'une nouvelle notification</string>
     <string name="notifications_height">Compteur de notifications</string>
     <string name="notifications_height_summary">Nombre de notifications affichées à la fois</string>
     <string name="offset_top">Valeur de décalage en haut de l\'écran :</string>
@@ -1348,7 +1354,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="icon_picker_facebook">Facebook</string>
     <string name="icon_picker_gallery">Galerie</string>
     <string name="icon_picker_google_small">Google (Petit)</string>
-    <string name="icon_picker_googleplus">Google Plus</string>
+    <string name="icon_picker_googleplus">Google +</string>
     <string name="icon_picker_googletalk">Hangouts</string>
     <string name="icon_picker_maps">Maps</string>
     <string name="icon_picker_sms">Messagerie</string>
@@ -1607,7 +1613,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="app_ops_summaries_read_clipboard">voir le presse-papiers</string>
     <string name="app_ops_summaries_modify_clipboard">modifier le presse-papiers</string>
     <string name="app_ops_summaries_media_buttons">boutons de médias</string>
-    <string name="app_ops_summaries_audio_focus">focus audio</string>
+    <string name="app_ops_summaries_audio_focus">Mise au point audio</string>
     <string name="app_ops_summaries_master_volume">volume principal</string>
     <string name="app_ops_summaries_voice_volume">volume de la voix</string>
     <string name="app_ops_summaries_ring_volume">volume de la sonnerie</string>
@@ -1651,7 +1657,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="app_ops_labels_read_clipboard">Voir le presse-papiers</string>
     <string name="app_ops_labels_modify_clipboard">Modifier le presse-papiers</string>
     <string name="app_ops_labels_media_buttons">Boutons des médias</string>
-    <string name="app_ops_labels_audio_focus">Focus audio</string>
+    <string name="app_ops_labels_audio_focus">Mise au point audio</string>
     <string name="app_ops_labels_master_volume">Volume haut parleur</string>
     <string name="app_ops_labels_voice_volume">Volume de la voix</string>
     <string name="app_ops_labels_ring_volume">Volume de la sonnerie</string>
@@ -1732,7 +1738,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="listview_test">Tester les listes déroulantes</string>
     <string name="listview_test_summary">Ouvrir la boîte de dialogue d\'essai avec une liste déroulante</string>
     <string name="listview_test_instructions">Faire défiler pour voir les changements</string>
-    <string name="listview_test_item">Elements de liste</string>
+    <string name="listview_test_item">Eléments de liste</string>
 
     <!-- ListView interpolator -->
     <string name="listview_interpolator_title">Interpolateur des listes</string>
@@ -1834,7 +1840,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="toast_GrowFadeBottom_animation">Fondu basse croissante</string>
     <string name="toast_Translucent_animation">Translucide</string>
     <string name="toast_SlideLeftRight_animation">Glisser de gauche à droite</string>
-    <string name="toast_SlideRightLeft_animation">SGlisser de droite à gauche</string>
+    <string name="toast_SlideRightLeft_animation">Glisser de droite à gauche</string>
 
     <!-- Chamber of Secrets -->
     <string name="chamber_title">Chambre des secrets</string>
@@ -2296,7 +2302,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="menu_hidden_apps_delete">Réinitialiser</string>
     <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
     <string name="protected_apps">Applications protégées</string>
-    <string name="saving_protected_components">SEnregistrement de l\'état du composant\u2026</string>
+    <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
+    <string name="launch_app">Lancer l\'application</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
@@ -2338,13 +2345,13 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="add_heads_up_blacklist_summary">Ne pas afficher les notifications flottantes de ces applications</string>
     <string name="heads_up_dnd_title">Ne pas déranger</string>
     <string name="heads_up_blacklist_title">Liste noire</string>
-    <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre pop-up sur votre écran, activez les notifications flottantes.</string>
+    <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre contextuelle sur votre écran, activez les notifications flottantes.</string>
     <string name="heads_up_gravity_title">Affichage en bas</string>
     <string name="heads_up_gravity_summary">Affiche les notifications flottantes en bas de l\'écran</string>
 
     <!-- Notification settings -->
     <string name="notification_settings_title">Notifications</string>
-    <string name="notification_settings_summary">Personnaliser la façon dont vous recevez des notifications avec des options comme Heads up, Peek et plus</string>
+    <string name="notification_settings_summary">Personnaliser la façon dont vous recevez des notifications avec des options comme les notifications flottantes, Peek et plus</string>
 
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">Intensité du vibreur</string>
@@ -2393,6 +2400,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="color_enhancement_title">Amélioration des couleurs</string>
     <string name="color_enhancement_summary">Améliorer dynamiquement la couleur d\'affichage</string>
 
+
+
+	
     <!-- SAR information -->
     <string name="maximum_head_level">Tête: %1$s W/kg</string>
     <string name="maximum_body_level">Corps: %1$s W/kg</string>
@@ -2474,4 +2484,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="tinted_statusbar_filter_summary">Activer en utilisant la couleur inverse</string>
     <string name="tinted_statusbar_transparent_title">Opacité de la barre d\'état</string>
     <string name="tinted_navbar_transparent_title">Opacité de la barre de navigation</string>
+    
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Désactiver le symbole de notification</string>
+    <string name="ticker_disabled_summary">Ne pas faire défiler le texte des notifications reçues dans la barre de statut</string>
 </resources>
