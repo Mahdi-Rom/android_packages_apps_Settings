@@ -2467,4 +2467,8 @@
     <string name="tinted_statusbar_filter_summary">色相の反転を有効にする</string>
     <string name="tinted_statusbar_transparent_title">ステータスバーの不透明度</string>
     <string name="tinted_navbar_transparent_title">ナビゲーションバーの不透明度</string>
+
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">通知ティッカーを無効</string>
+    <string name="ticker_disabled_summary">通知のテキストをステータスバーでスクロールさせない</string>
 </resources>
