@@ -71,8 +71,8 @@
 
     <string-array name="qs_quick_access_size_entries">
         <item>Automatisch</item>
-        <item>Automatisch (schmal)</item>
+        <item>Automatisch (verkleinert)</item>
         <item>Groß</item>
-        <item>Schmal</item>
+        <item>Verkleinert</item>
     </string-array>
 </resources>
