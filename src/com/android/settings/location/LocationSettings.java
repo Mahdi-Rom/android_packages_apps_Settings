@@ -251,10 +251,7 @@ public class LocationSettings extends LocationSettingsBase
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         if (isChecked) {
-            final int lastMode = Settings.Secure.getInt(getContentResolver(),
-                    Settings.Secure.LOCATION_LAST_MODE,
-                    Settings.Secure.LOCATION_MODE_HIGH_ACCURACY);
-            setLocationMode(lastMode);
+            setLocationMode(Settings.Secure.LOCATION_MODE_HIGH_ACCURACY);
         } else {
             setLocationMode(Settings.Secure.LOCATION_MODE_OFF);
         }
