@@ -350,22 +350,29 @@
     <string name="link_volume_ringtones">Unir volúmenes de tono y notificación</string>
     <string name="volume_ring_only_description">Tono</string>
     <string name="volume_overlay_title">Estilo de panel de volumen</string>
+
     <!-- Volume button music control -->
     <string name="volbtn_music_controls_title">Control de música volume rocker</string>
     <string name="volbtn_music_controls_summary">Con pantalla apagada, pulsacion larga de volume rockers buscara pistas de musica</string>
+
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Volumen de ajuste de sonido</string>
     <string name="volume_adjust_sounds_enable_summary">Reproducir sonido al ajustar el volumen con teclas físicas</string>
+
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Volumen de seguridad de los auriculares</string>
     <string name="safe_headset_volume_summary">Evitar niveles de volumen altos al conectar los auriculares por primera vez</string>
     <string name="safe_headset_volume_warning_dialog_text">Escuchar el volumen alto durante períodos prolongados puede dañar su audición. Desactivar con precaución.</string>
+    <string name="safe_headset_volume_restore_title">Reducir volumen auricular al conectar</string>
+
     <!-- Volume button default -->
     <string name="button_volume_default_none">Ninguno</string>
     <string name="button_volume_default_ringer">Tono</string>
     <string name="button_volume_default_media">Media</string>
     <string name="button_volume_default_title">Volumen por defecto</string>
     <string name="button_volume_default_summary">Elija qué volumen se cambia de forma predeterminada</string>
+
+    <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Tiempo en espera</string>
     <string name="volume_panel_timeout_summary">Tiempo hasta que el panel se ocultará</string>
 
@@ -636,6 +643,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <!-- Quick access ribbon -->
     <string name="category_quick_access">Cinta de accesos rápidos</string>
     <string name="title_quick_access">Mostrar en el panel de notificaciones</string>
+    <string name="title_quick_access_size">Tamaño de cinta de accesos</string>
     <string name="title_quick_access_linked">Vincular disposición</string>
     <string name="summary_quick_access_linked">Usar los mismos toggles y disposición del panel de configuración rápida</string>
 
@@ -760,6 +768,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Estilo estado de batería</string>
     <string name="status_bar_style_icon_portrait">Icono en vertical</string>
+    <string name="status_bar_style_icon_portrait_slim">Icono fino en vertical</string>
     <string name="status_bar_style_icon_landscape">Icono en horizontal</string>
     <string name="status_bar_style_circle">Círculo</string>
     <string name="status_bar_style_text">Texto</string>
@@ -808,6 +817,9 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notificar depuración de USB</string>
     <string name="adb_notify_summary">Mostrar una notificación cuando se conecta la depuración USB</string>
+
+    <!-- Advanced, Device specific (DeviceParts) settings  -->
+    <string name="advanced_settings_title">Avanzado</string>
 
     <!-- button settings -->
     <string name="button_settings">Botones</string>
@@ -2092,7 +2104,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="time_five_to">Menos cinco</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Pie de navegación</string>
+    <string name="pie_control_title">Slim Pie</string>
     <string name="pie_control_enable_title">Activar</string>
     <string name="pie_control_summary">Habilitar controles pie para ayudar a navegar mientras se utiliza el modo de inmersión</string>
     <string name="pie_control_size">Tamaño de Navegación </string>
@@ -2307,6 +2319,7 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="menu_hidden_apps_reset_lock">Restablecer patrón de bloqueo</string>
     <string name="protected_apps">Aplicaciones protegidas</string>
     <string name="saving_protected_components">Guardando el estado del componente</string>
+    <string name="launch_app">Lanzar app</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Resetear patrón</string>
@@ -2404,7 +2417,6 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
     <string name="color_enhancement_summary">Dinámicamente mejorar el color de la pantalla</string>
 
     <!-- SAR information -->
-    <string name="sar_info">Máximo SAR</string>
     <string name="maximum_head_level">Cabeza: %1$s W/kg</string>
     <string name="maximum_body_level">Cuerpo: %1$s W/kg</string>
 
@@ -2442,9 +2454,9 @@ dos con el fin de insertar puntos de control adicionales. \'Borrar\' elimina lin
         <item quantity="other">Estás a <xliff:g id="step_count">%1$d</xliff:g> pasos para activar ajustes de desarrollo.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">¡Ahora están activadas las opciones de desarrollo!</string>
+    <string name="show_dev_on_cm">¡Ahora están activadas las opciones de desarrollo!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">No es necesario, están activadas las opciones de desarrollo.</string>
+    <string name="show_dev_already_cm">No es necesario, están activadas las opciones de desarrollo.</string>
 
     <!-- Setting checkbox title for Whether to enable Android debugging support on the phone. -->
     <string name="enable_adb_cm">Android debugging</string>
