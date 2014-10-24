@@ -31,10 +31,6 @@ limitations under the License.
     <string name="mem_info">Speicher</string>
     <!-- About phone screen, status item label -->
 
-    <!-- Updater -->
-    <string name="updater_title">Systemupdates</string>
-    <string name="updater_summary">Nach Updates suchen</string>
-
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Zurücksetzen</string>

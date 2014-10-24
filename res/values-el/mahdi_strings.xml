@@ -31,10 +31,6 @@
   <string name="mem_info">Mνήμη</string>
   <!-- About phone screen, status item label -->
 
-  <!-- Updater --> 
-  <string name="updater_title">Ενημερώσεις</string>
-  <string name="updater_summary">Έλεγχος ενημερώσεων και πληροφορίες</string>
-
   <!-- General strings -->
   <string name="ok">OK</string>
   <string name="reset">Επαναφορά</string>

@@ -31,10 +31,6 @@
     <string name="mem_info">Memoria</string>
     <!-- About phone screen, status item label -->
 
-    <!-- Updater --> 
-    <string name="updater_title">Actualizaciónes</string>
-    <string name="updater_summary">Compruebe si hay actualizaciones y más</string>
-
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Resetear</string>

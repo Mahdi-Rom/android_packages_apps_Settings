@@ -29,11 +29,7 @@
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Memoria</string>
-    <!-- About phone screen, status item label --> 
-
-    <!-- Updater --> 
-    <string name="updater_title">Aggiornamenti</string>
-    <string name="updater_summary">Controlla per aggiornamenti e altro</string>
+    <!-- About phone screen, status item label -->
     
     <!-- General strings -->
     <string name="ok">OK</string>
