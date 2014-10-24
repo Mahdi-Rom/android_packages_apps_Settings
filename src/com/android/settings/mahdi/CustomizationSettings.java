@@ -44,11 +44,19 @@ public class CustomizationSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_STYLE_HIDDEN = "4";
     private static final String STATUS_BAR_STYLE_TEXT = "6";
     private static final String KEY_IMMERSIVE_MODE = "immersive_mode";
+    private static final String KEY_DISABLE_SYSTEM_GESTURES = "disable_system_gestures";
+    private static final String KEY_EDGE_SERVICE_FOR_GESTURES = "edge_service_for_gestures";
+    private static final String KEY_DISABLE_IN_LOCKSCREEN = "global_immersive_mode_system_bars_visibility";
+    private static final String KEY_DISABLE_FORCED_NAVBAR = "disable_forced_navbar";
 
     private PreferenceScreen mClockStyle;
     private ListPreference mStatusBarBattery;
     private SystemSettingCheckBoxPreference mStatusBarBatteryShowPercent;
     private ListPreference mImmersiveModePref;
+    private SystemSettingListPreference mDisableSystemGestures;
+    private SystemSettingCheckBoxPreference mEdgeServiceForGestures;
+    private SystemSettingCheckBoxPreference mDisableInLockscreen;
+    private SystemSettingCheckBoxPreference mDisableForcedNavbar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,8 +75,6 @@ public class CustomizationSettings extends SettingsPreferenceFragment implements
         mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY);
         mStatusBarBatteryShowPercent =
                 (SystemSettingCheckBoxPreference) findPreference(STATUS_BAR_BATTERY_SHOW_PERCENT);
-
-        mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY);
 
         int batteryStyle = Settings.System.getInt(resolver, Settings.System.STATUS_BAR_BATTERY, 0);
         mStatusBarBattery.setValue(String.valueOf(batteryStyle));
@@ -90,6 +96,7 @@ public class CustomizationSettings extends SettingsPreferenceFragment implements
             int index = mStatusBarBattery.findIndexOfValue((String) objValue);
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_BATTERY, batteryStyle);
             mStatusBarBattery.setSummary(mStatusBarBattery.getEntries()[index]);
+            enableStatusBarBatteryDependents((String) objValue);
         } else if (preference == mImmersiveModePref) {
             int immersiveModeValue = Integer.valueOf((String) objValue);
             Settings.System.putInt(getContentResolver(),
@@ -140,6 +147,27 @@ public class CustomizationSettings extends SettingsPreferenceFragment implements
                     Settings.System.POWER_MENU_GLOBAL_IMMERSIVE_MODE_ENABLED, 1);
             String statusBarPresent = res.getString(R.string.immersive_mode_summary_no_status_bar);
             mImmersiveModePref.setSummary(res.getString(R.string.summary_immersive_mode, statusBarPresent));
+        }
+
+        mDisableSystemGestures =
+                (SystemSettingListPreference) findPreference(KEY_DISABLE_SYSTEM_GESTURES);
+        mEdgeServiceForGestures =
+                (SystemSettingCheckBoxPreference) findPreference(KEY_EDGE_SERVICE_FOR_GESTURES);
+        mDisableInLockscreen =
+                (SystemSettingCheckBoxPreference) findPreference(KEY_DISABLE_IN_LOCKSCREEN);
+        mDisableForcedNavbar =
+                (SystemSettingCheckBoxPreference) findPreference(KEY_DISABLE_FORCED_NAVBAR);
+
+        if (value == 0) {
+            mDisableSystemGestures.setEnabled(false);
+            mEdgeServiceForGestures.setEnabled(false);
+            mDisableInLockscreen.setEnabled(false);
+            mDisableForcedNavbar.setEnabled(false);
+        } else {
+            mDisableSystemGestures.setEnabled(true);
+            mEdgeServiceForGestures.setEnabled(true);
+            mDisableInLockscreen.setEnabled(true);
+            mDisableForcedNavbar.setEnabled(true);
         }
     }
 

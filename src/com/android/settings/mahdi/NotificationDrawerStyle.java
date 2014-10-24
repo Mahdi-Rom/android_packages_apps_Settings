@@ -413,12 +413,14 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
             if (mTintedNavbarTransparency != null) {
                 mTintedNavbarTransparency.setEnabled(val != 0);
             }
+            return true;
         } else if (preference == mTintedStatusbarOption) {
             int val = Integer.parseInt((String) newValue);
             int index = mTintedStatusbarOption.findIndexOfValue((String) newValue);
             Settings.System.putInt(getContentResolver(),
                 Settings.System.STATUS_BAR_TINTED_OPTION, val);
             mTintedStatusbarOption.setSummary(mTintedStatusbarOption.getEntries()[index]);
+            return true;
         } else if (preference == mTintedStatusbarTransparency) {
             int val = ((Integer)newValue).intValue();
             Settings.System.putInt(getContentResolver(),
