@@ -2267,9 +2267,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="shake_events_normal_title">Active shake events</string>
     <string name="shake_events_disabled_title">Disabled apps</string>
     <string name="shake_events_disabled_summary">Shake will be disabled while in these apps</string>
-    <string name="shake_event_x_title">Activity to launch when shaken horizontally</string>
-    <string name="shake_event_y_title">Activity to launch when shaken vertically</string>
-    <string name="shake_event_z_title">Activity to launch when shaken back-and-forth</string>
+    <string name="shake_event_x_title">Horizontal shake</string>
+    <string name="shake_event_y_title">Vertical shake</string>
+    <string name="shake_event_z_title">Back-and-forth shake</string>
     <string name="keyguard_shake_events_cat">Keyguard</string>
     <string name="keyguard_shake_events_title">Keyguard shake events</string>
 
@@ -2484,4 +2484,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Notification ticker preference -->
     <string name="ticker_disabled_title">Disable notification ticker</string>
     <string name="ticker_disabled_summary">Don\'t scroll text from incoming notifications in the status bar</string>
+
+    <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
+    <string name="enable_quickboot_title">Enable QuickBoot mode</string>
+    <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
+    <string name="enable_quickboot_summary">Put device into QuickBoot mode instead of normal power off.</string>
 </resources>

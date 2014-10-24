@@ -1516,16 +1516,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="Display" android:label="@string/display_label"
-                android:configChanges="fontScale"
-                android:taskAffinity="com.android.settings"
-                android:parentActivityName="Settings">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE" />
-            </intent-filter>
-        </activity>
-
         <activity android:name="RadioInfo" android:label="@string/phone_info_label"
             android:process="com.android.phone">
             <intent-filter>
@@ -2166,19 +2156,6 @@
 
         <!-- Spam notifications -->
         <activity android:name=".cyanogenmod.SpamList" />
-
-        <!-- PA Pie -->
-        <activity android:name="Settings$PieActivity"
-                android:label="@string/pa_pie_title"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.mahdi.pa.Pie" />
-        </activity>
 
         <!-- Mahdi-Rom activities End -->
 

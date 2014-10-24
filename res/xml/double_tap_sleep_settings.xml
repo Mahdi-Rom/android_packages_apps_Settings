@@ -2,16 +2,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/double_tap_sleep_title">
 
-    <PreferenceCategory
-        android:key="double_tap_sleep_general_category"
-        android:title="@string/title_general">
-
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="double_tap_sleep_status_bar"
-            android:title="@string/status_bar_double_tap_sleep_status_bar_title"
-            android:summary="@string/status_bar_double_tap_sleep_status_bar_summary" />
-    </PreferenceCategory>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="double_tap_sleep_status_bar"
+        android:title="@string/status_bar_double_tap_sleep_status_bar_title"
+        android:summary="@string/status_bar_double_tap_sleep_status_bar_summary" />
 
     <PreferenceCategory
         android:key="double_tap_sleep_secure_lockscreen_category"
