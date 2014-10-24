@@ -215,12 +215,12 @@
 
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="possibleButtons">Possible Buttons</string>
-    <string name="toggleWifi">Wi-Fi</string>
-    <string name="toggleWifiAp">Portable Wi-Fi hotspot</string>
+    <string name="toggleWifi">Wi\u2011Fi</string>
+    <string name="toggleWifiAp">Portable Wi\u2011Fi hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
-    <string name="toggleData">Mobile Data</string>
-    <string name="toggleSync">Data Sync</string>
+    <string name="toggleData">Mobile data</string>
+    <string name="toggleSync">Auto-sync data</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleSound">Ring Mode</string>
     <string name="toggleNotificationSound">Notification Sound</string>
@@ -236,7 +236,7 @@
     <string name="profile_trigger_configure">Configure trigger</string>
     <string name="profile_triggers">Triggers</string>
     <string name="profile_trigger_filter_all">All triggers</string>
-    <string name="profile_trigger_filter_wifi">Wi-Fi triggers</string>
+    <string name="profile_trigger_filter_wifi">Wi\u2011Fi triggers</string>
     <string name="profile_trigger_filter_bluetooth">Bluetooth triggers</string>
     <string name="profile_write_nfc_tag">Write to NFC tag</string>
     <string name="profile_write_touch_tag">Touch tag to write</string>
@@ -331,7 +331,7 @@
     <string name="pref_zram_title">zRam</string>
     <string name="pref_zram_summary">Compress memory for increased virtual capacity (requires reboot)</string>
     <!-- KSM -->
-    <string name="pref_ksm_title">Kernel samepage merging</string>
+    <string name="pref_ksm_title">Kernel Samepage Merging</string>
     <string name="pref_ksm_summary">KSM reduces physical memory requirements and improves performance</string>
     <!-- Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Allow purging of assets</string>
@@ -547,7 +547,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="tile_choose_title">Choose a tile</string>
 
     <string name="title_tile_airplane">Airplane mode</string>
-    <string name="title_tile_battery">Battery stats</string>
+    <string name="title_tile_battery">Battery</string>
     <string name="title_tile_bluetooth">Bluetooth</string>
     <string name="title_tile_brightness">Brightness</string>
     <string name="title_tile_camera">Camera</string>
@@ -564,8 +564,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="title_tile_shake">Shake events</string>
     <string name="title_tile_sound">Sound</string>
     <string name="title_tile_sync">Sync</string>
-    <string name="title_tile_wifiap">Wi-Fi AP</string>
-    <string name="title_tile_wifi">Wi-Fi</string>
+    <string name="title_tile_wifiap">Wi\u2011Fi hotspot</string>
+    <string name="title_tile_wifi">Wi\u2011Fi</string>
     <string name="title_tile_user">User switcher</string>
     <string name="title_tile_networkmode">Network mode</string>
     <string name="title_tile_nfc">NFC</string>
@@ -597,14 +597,14 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <string name="title_dynamic_tiles">Dynamic tiles</string>
     <string name="dynamic_tiles_note_title">Note</string>
-    <string name="dynamic_tiles_note_summary">Dynamic tiles are not always visible and will only show up if triggered by a system event</string>
+    <string name="dynamic_tiles_note_summary">Dynamic tiles will only appear if triggered by a system event</string>
     <string name="title_dynamic_alarm">Alarm clock</string>
     <string name="title_dynamic_bugreport">Bug report</string>
     <string name="title_dynamic_dock_battery">Dock battery</string>
     <string name="title_dynamic_equalizer">Equalizer</string>
-    <string name="title_dynamic_ime">IME changer</string>
-    <string name="title_dynamic_usbtether">USB Tether</string>
-    <string name="title_dynamic_wifi">Wi-Fi display</string>
+    <string name="title_dynamic_ime">Input method selector</string>
+    <string name="title_dynamic_usbtether">USB tethering</string>
+    <string name="title_dynamic_wifi">Cast screen</string>
 
     <string name="title_general">General</string>
     <string name="title_quick_pulldown">Quick pulldown</string>
@@ -705,17 +705,17 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="power_notifications_ringtone_silent">Silent</string>
 
     <!-- Wi-Fi region code settings-->
-    <string name="wifi_setting_countrycode_title">Wi-Fi region code</string>
+    <string name="wifi_setting_countrycode_title">Wi\u2011Fi region code</string>
     <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]. -->
-    <string name="wifi_setting_countrycode_summary">Specify the region code for Wi-Fi</string>
+    <string name="wifi_setting_countrycode_summary">Specify the region code for Wi\u2011Fi</string>
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
     <!-- Wi-Fi settings diables message if Wifi is off-->
-    <string name="wifi_setting_countrycode_disabled">Enable Wi-Fi to change this option.</string>
+    <string name="wifi_setting_countrycode_disabled">Enable Wi\u2011Fi to change this option.</string>
     <!-- Wi-Fi settings screen, advanced, title of the item to set the Wi-Fi priority. -->
-    <string name="wifi_setting_priority_title">Wi-Fi priority</string>
+    <string name="wifi_setting_priority_title">Wi\u2011Fi priority</string>
     <!-- Wi-Fi settings screen, setting summary for setting the Wi-Fi priority-->
-    <string name="wifi_setting_priority_summary">Specify the priority of the Wi-Fi networks</string>
+    <string name="wifi_setting_priority_summary">Specify the priority of the Wi\u2011Fi networks</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -934,7 +934,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB over network</string>
-    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
+    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi\u2011Fi, USB networks). This setting is reset on reboot</string>
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
 
@@ -1083,7 +1083,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="notification_hide_labels_title">Hide notification labels</string>
     <string name="notification_hide_labels_disable">Show all labels</string>
     <string name="notification_hide_labels_carrier">Hide Carrier label</string>
-    <string name="notification_hide_labels_wifi">Hide WiFi label</string>
+    <string name="notification_hide_labels_wifi">Hide Wi\u2011Fi label</string>
     <string name="notification_hide_labels_all">Hide all labels</string>
     <string name="notification_hide_labels_text">in the notification panel</string>
 
@@ -1591,7 +1591,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="app_ops_summaries_modify_call_log">modify call log</string>
     <string name="app_ops_summaries_read_calendar">read calendar</string>
     <string name="app_ops_summaries_modify_calendar">modify calendar</string>
-    <string name="app_ops_summaries_wifi_scan">wi-fi scan</string>
+    <string name="app_ops_summaries_wifi_scan">Wi\u2011Fi scan</string>
     <string name="app_ops_summaries_notification">notification</string>
     <string name="app_ops_summaries_cell_scan">cell scan</string>
     <string name="app_ops_summaries_call_phone">call phone</string>
@@ -1620,12 +1620,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="app_ops_summaries_media_volume">media volume</string>
     <string name="app_ops_summaries_alarm_volume">alarm volume</string>
     <string name="app_ops_summaries_notification_volume">notification volume</string>
-    <string name="app_ops_summaries_bluetooth_volume">bluetooth volume</string>
+    <string name="app_ops_summaries_bluetooth_volume">Bluetooth volume</string>
     <string name="app_ops_summaries_keep_awake">keep awake</string>
     <string name="app_ops_summaries_monitor_location">monitor location</string>
     <string name="app_ops_summaries_monitor_high_power_location">monitor high power location</string>
-    <string name="app_ops_summaries_wifi_change">wifi change</string>
-    <string name="app_ops_summaries_bluetooth_change">bluetooth change</string>
+    <string name="app_ops_summaries_wifi_change">Wi\u2011Fi change</string>
+    <string name="app_ops_summaries_bluetooth_change">Bluetooth change</string>
     <string name="app_ops_summaries_data_change">data change</string>
     <string name="app_ops_summaries_alarm_wakeup">wake up</string>
     <string name="app_ops_summaries_send_mms">send MMS</string>
@@ -1666,7 +1666,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="app_ops_labels_notification_volume">Notification volume</string>
     <string name="app_ops_labels_bluetooth_volume">Bluetooth volume</string>
     <string name="app_ops_labels_keep_awake">Keep awake</string>
-    <string name="app_ops_labels_wifi_change">Wi-Fi change</string>
+    <string name="app_ops_labels_wifi_change">Wi\u2011Fi change</string>
     <string name="app_ops_labels_bluetooth_change">Bluetooth change</string>
     <string name="app_ops_labels_data_change">Data change</string>
     <string name="app_ops_labels_alarm_wakeup">Wake up</string>
@@ -1862,7 +1862,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="network_global">Global</string>
     <string name="battery_saver_action_undefined">Undefined</string>
     <string name="battery_saver_title">Battery saver mode</string>
-    <string name="battery_saver_summary">Choose power saving modes for mobile data and WiFi connections</string>
+    <string name="battery_saver_summary">Choose power saving modes for mobile data and Wi\u2011Fi connections</string>
     <string name="pref_battery_saver_enable_title">Enable</string>
     <string name="pref_battery_saver_enable_summary">Battery saver will manage your device network to user-defined power saving mode or normal mode depending on your connection states</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">This will automatically manage your device battery usage to user-defined</string>
@@ -1880,8 +1880,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="pref_battery_saver_mode_battery_level_summary">Activate power saving mode or changing screen brightness by specified battery level</string>
     <string name="pref_battery_saver_data_title">Disable mobile data</string>
     <string name="pref_battery_saver_data_summary">Disable mobile data connection when power saving activated</string>
-    <string name="pref_battery_saver_wifi_title">Disable Wi-Fi</string>
-    <string name="pref_battery_saver_wifi_summary">Disable Wi-Fi connection when power saving activated</string>
+    <string name="pref_battery_saver_wifi_title">Disable Wi\u2011Fi</string>
+    <string name="pref_battery_saver_wifi_summary">Disable Wi\u2011Fi connection when power saving activated</string>
     <string name="pref_battery_saver_brightness_title">Brightness mode</string>
     <string name="pref_battery_saver_brightness_summary">Activates brightness level change when battery low</string>
     <string name="pref_battery_saver_mode_brightness_level_title">Brightness level</string>
