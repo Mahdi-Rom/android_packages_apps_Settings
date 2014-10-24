@@ -31,10 +31,6 @@
     <string name="mem_info">メモリ</string>
     <!-- About phone screen, status item label -->
 
-    <!-- Updater --> 
-    <string name="updater_title">更新</string>
-    <string name="updater_summary">更新をチェックする</string>
-
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">リセット</string>
