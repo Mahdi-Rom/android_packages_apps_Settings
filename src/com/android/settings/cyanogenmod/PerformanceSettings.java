@@ -17,6 +17,7 @@
 package com.android.settings.cyanogenmod;
 
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -57,11 +58,15 @@ public class PerformanceSettings extends SettingsPreferenceFragment implements
 
     private static final String USE_16BPP_ALPHA_PROP = "persist.sys.use_16bpp_alpha";
 
+    private static final String FORCE_HIGHEND_GFX_PREF = "pref_force_highend_gfx";
+    private static final String FORCE_HIGHEND_GFX_PERSIST_PROP = "persist.sys.force_highendgfx";
+
     private Activity mActivity;
     private SharedPreferences mPreferences;
 
     private ListPreference mPerfProfilePref;
     private CheckBoxPreference mUse16bppAlphaPref;
+    private CheckBoxPreference mForceHighEndGfx;
 
     private String[] mPerfProfileEntries;
     private String[] mPerfProfileValues;
@@ -121,6 +126,14 @@ public class PerformanceSettings extends SettingsPreferenceFragment implements
         String use16bppAlpha = SystemProperties.get(USE_16BPP_ALPHA_PROP, "0");
         mUse16bppAlphaPref.setChecked("1".equals(use16bppAlpha));
 
+        if (ActivityManager.isLowRamDeviceStatic()) {
+            mForceHighEndGfx = (CheckBoxPreference) prefSet.findPreference(FORCE_HIGHEND_GFX_PREF);
+            String forceHighendGfx = SystemProperties.get(FORCE_HIGHEND_GFX_PERSIST_PROP, "false");
+            mForceHighEndGfx.setChecked("true".equals(forceHighendGfx));
+        } else {
+            category.removePreference(findPreference(FORCE_HIGHEND_GFX_PREF));
+        }
+
         /* Display the warning dialog on first run */
         mPreferences = getActivity().getSharedPreferences(
                 PERFORMANCE_SETTINGS, Activity.MODE_PRIVATE);
@@ -169,6 +182,9 @@ public class PerformanceSettings extends SettingsPreferenceFragment implements
         if (preference == mUse16bppAlphaPref) {
             SystemProperties.set(USE_16BPP_ALPHA_PROP,
                     mUse16bppAlphaPref.isChecked() ? "1" : "0");
+        } else if (preference == mForceHighEndGfx) {
+            SystemProperties.set(FORCE_HIGHEND_GFX_PERSIST_PROP,
+                    mForceHighEndGfx.isChecked() ? "true" : "false");
         } else {
             // If we didn't handle it, let preferences handle it.
             return super.onPreferenceTreeClick(preferenceScreen, preference);
