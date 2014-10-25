@@ -211,8 +211,8 @@
 
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="possibleButtons">Boutons possibles</string>
-    <string name="toggleWifi">Wi-Fi</string>
-    <string name="toggleWifiAp">Partage Wi-Fi</string>
+    <string name="toggleWifi">Wi\u2011Fi</string>
+    <string name="toggleWifiAp">Partage Wi\u2011Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Données mobile</string>
@@ -232,8 +232,8 @@
     <string name="profile_trigger_configure">Configurer l\'activation</string>
     <string name="profile_triggers">Activation</string>
     <string name="profile_trigger_filter_all">Toutes les activations</string>
-    <string name="profile_trigger_filter_wifi">Activation par Wi-Fi</string>
-    <string name="profile_trigger_filter_bluetooth">Activation par Bluetooth</string>
+    <string name="profile_trigger_filter_wifi">Activation par Wi\u2011Fi</string>
+    <string name="profile_trigger_filter_bluetooth">Activation par bluetooth</string>
     <string name="profile_write_nfc_tag">Écrire sur le tag NFC</string>
     <string name="profile_write_touch_tag">Toucher le tag pour écrire</string>
     <string name="profile_write_success">Tag écrit avec succès</string>
@@ -557,11 +557,11 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="title_tile_profile">Profil</string>
     <string name="title_tile_autorotate">Rotation automatique</string>
     <string name="title_tile_settings">Paramètres</string>
-    <string name="title_tile_shake">Shake events</string>
+    <string name="title_tile_shake">Secousses</string>
     <string name="title_tile_sound">Son</string>
     <string name="title_tile_sync">Synchronisation</string>
-    <string name="title_tile_wifiap">Partage Wi-Fi</string>
-    <string name="title_tile_wifi">Wi-Fi</string>
+    <string name="title_tile_wifiap">Point d\'accès Wi\u2011Fi</string>
+    <string name="title_tile_wifi">Wi\u2011Fi</string>
     <string name="title_tile_user">Utilisateur</string>
     <string name="title_tile_networkmode">Mode réseau</string>
     <string name="title_tile_nfc">NFC</string>
@@ -591,16 +591,16 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="title_tile_heads_up">Notifications flottantes</string>
     <string name="title_tile_performance_profile">Profil de performance</string>
 
-    <string name="title_dynamic_tiles">Raccourcis dynamiques</string>
+    <string name="title_dynamic_tiles">Tuiles dynamiques</string>
     <string name="dynamic_tiles_note_title">Note</string>
-    <string name="dynamic_tiles_note_summary">Les raccourcis dynamiques ne sont pas toujours visibles et ils ne peuvent s\'afficher que s\'ils sont déclenchés par un événement système</string>
+    <string name="dynamic_tiles_note_summary">Les tuiles dynamiques apparaissent uniquement si elle sont déclenchées par un événement système</string>
     <string name="title_dynamic_alarm">Réveil</string>
     <string name="title_dynamic_bugreport">Rapport de bug</string>
     <string name="title_dynamic_dock_battery">Batterie du dock</string>
     <string name="title_dynamic_equalizer">Égaliseur</string>
-    <string name="title_dynamic_ime">Changement IME</string>
+    <string name="title_dynamic_ime">Sélecteur de clavier</string>
     <string name="title_dynamic_usbtether">Modem USB</string>
-    <string name="title_dynamic_wifi">Diffusion sans fil</string>
+    <string name="title_dynamic_wifi">Affichage externe</string>
 
     <string name="title_general">Général</string>
     <string name="title_quick_pulldown">Ouverture rapide</string>
@@ -701,17 +701,17 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="power_notifications_ringtone_silent">Silencieux</string>
 
     <!-- Wi-Fi region code settings-->
-    <string name="wifi_setting_countrycode_title">Code de région Wi-Fi</string>
+    <string name="wifi_setting_countrycode_title">Code de région Wi\u2011Fi</string>
     <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]. -->
-    <string name="wifi_setting_countrycode_summary">Définir le code de région Wi-Fi</string>
+    <string name="wifi_setting_countrycode_summary">Définir le code de région Wi\u2011Fi</string>
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">Il y a eu un problème de réglage du code de région.</string>
     <!-- Wi-Fi settings diables message if Wifi is off-->
-    <string name="wifi_setting_countrycode_disabled">Activer le Wi-Fi pour changer cette option.</string>
+    <string name="wifi_setting_countrycode_disabled">Activer le Wi\u2011Fi pour changer cette option.</string>
     <!-- Wi-Fi settings screen, advanced, title of the item to set the Wi-Fi priority. -->
-    <string name="wifi_setting_priority_title">Priorité Wi-Fi</string>
+    <string name="wifi_setting_priority_title">Priorité Wi\u2011Fi</string>
     <!-- Wi-Fi settings screen, setting summary for setting the Wi-Fi priority-->
-    <string name="wifi_setting_priority_summary">Définir la priorité des réseaux Wi-Fi</string>
+    <string name="wifi_setting_priority_summary">Définir la priorité des réseaux Wi\u2011Fi</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Sélecteur de couleur</string>
@@ -930,7 +930,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
 
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB par le réseau</string>
-    <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi-Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
+    <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi\u2011Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez vous vraiment activer cette fonction ?</string>
 
@@ -1079,7 +1079,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="notification_hide_labels_title">Masquer les libellés de notification</string>
     <string name="notification_hide_labels_disable">Montrer tous les libellés</string>
     <string name="notification_hide_labels_carrier">Masquer le nom d\'opérateur</string>
-    <string name="notification_hide_labels_wifi">Masquer le nom du réseau Wifi</string>
+    <string name="notification_hide_labels_wifi">Masquer le nom du réseau Wi\u2011Fi</string>
     <string name="notification_hide_labels_all">Masquer tous les libellés</string>
     <string name="notification_hide_labels_text">dans le panneau de notification</string>
 
@@ -1587,7 +1587,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="app_ops_summaries_modify_call_log">modifier le journal des appels</string>
     <string name="app_ops_summaries_read_calendar">voir le calendrier</string>
     <string name="app_ops_summaries_modify_calendar">modifier le calendrier</string>
-    <string name="app_ops_summaries_wifi_scan">scanner les réseaux WiFi</string>
+    <string name="app_ops_summaries_wifi_scan">scanner les réseaux Wi\u2011Fi</string>
     <string name="app_ops_summaries_notification">notification</string>
     <string name="app_ops_summaries_cell_scan">scanner le réseau cellulaire</string>
     <string name="app_ops_summaries_call_phone">appel téléphonique</string>
@@ -1620,7 +1620,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="app_ops_summaries_keep_awake">maintenir activé</string>
     <string name="app_ops_summaries_monitor_location">emplacement du moniteur</string>
     <string name="app_ops_summaries_monitor_high_power_location">surveiller les emplacements de forte puissance</string>
-    <string name="app_ops_summaries_wifi_change">changement de WiFi</string>
+    <string name="app_ops_summaries_wifi_change">changement de Wi\u2011Fi</string>
     <string name="app_ops_summaries_bluetooth_change">changement de Bluetooth</string>
     <string name="app_ops_summaries_data_change">modification de données</string>
     <string name="app_ops_summaries_alarm_wakeup">réveil</string>
@@ -1662,7 +1662,7 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="app_ops_labels_notification_volume">Volume des notifications</string>
     <string name="app_ops_labels_bluetooth_volume">Volume du Bluetooth</string>
     <string name="app_ops_labels_keep_awake">Maintenir activé</string>
-    <string name="app_ops_labels_wifi_change">Changement de Wi-Fi</string>
+    <string name="app_ops_labels_wifi_change">Changement de Wi\u2011Fi</string>
     <string name="app_ops_labels_bluetooth_change">Changement de Bluetooth</string>
     <string name="app_ops_labels_data_change">Modification de données</string>
     <string name="app_ops_labels_alarm_wakeup">Réveil</string>
@@ -1858,9 +1858,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="network_global">Global</string>
     <string name="battery_saver_action_undefined">Indéfini</string>
     <string name="battery_saver_title">Economiseur de batterie</string>
-    <string name="battery_saver_summary">Choisissez les modes d\'économie d\'énergie pour les données mobiles et les connexions WiFi</string>
+    <string name="battery_saver_summary">Choisissez les modes d\'économie d\'énergie pour les données mobiles et les connexions Wi\u2011Fi</string>
     <string name="pref_battery_saver_enable_title">Economiseur de batterie</string>
-    <string name="pref_battery_saver_enable_summary">Bascule automatiquement votre réseau en mode d\'économie d\'énergie définie par l\'utilisateur ou en mode normal, selon les données mobiles et les états de connexion WiFi</string>
+    <string name="pref_battery_saver_enable_summary">Bascule automatiquement votre réseau en mode d\'économie d\'énergie définie par l\'utilisateur ou en mode normal, selon les données mobiles et les états de connexion Wi\u2011Fi</string>
     <string name="pref_battery_saver_enable_no_mobiledata_summary">Ceci gèrera automatiquement l\'usage de la batterie défini par l\'utilisateur</string>
     <string name="pref_battery_saver_normal_mode_title">Mode réseau normal</string>
     <string name="pref_battery_saver_power_saving_mode_title">Mode réseau économique</string>
@@ -1876,8 +1876,8 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="pref_battery_saver_mode_battery_level_summary">Activer le mode économique ou changer la luminosité selon le niveau de batterie</string>
     <string name="pref_battery_saver_data_title">Désactiver les données mobiles</string>
     <string name="pref_battery_saver_data_summary">Désactive les données mobiles lorsque le mode économique est activé</string>
-    <string name="pref_battery_saver_wifi_title">Désactiver le Wi-Fi</string>
-    <string name="pref_battery_saver_wifi_summary">Désactive le Wi-Fi lorsque le mode économique est activé</string>
+    <string name="pref_battery_saver_wifi_title">Désactiver le Wi\u2011Fi</string>
+    <string name="pref_battery_saver_wifi_summary">Désactive le Wi\u2011Fi lorsque le mode économique est activé</string>
     <string name="pref_battery_saver_brightness_title">Mode de luminosité</string>
     <string name="pref_battery_saver_brightness_summary">Active l\'ajustement de la luminosité lorsque le mode économique est activé</string>
     <string name="pref_battery_saver_mode_brightness_level_title">Niveau de luminosité</string>
@@ -2260,16 +2260,16 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <string name="volume_steps_voice_call_title">Appel vocal</string>
 
     <!-- Shake Events -->
-    <string name="shake_events_title">Shake events</string>
-    <string name="keyguard_shake_events_title">Shake events</string>
+    <string name="shake_events_title">Evènements de secousses</string>
+    <string name="keyguard_shake_events_title">Evènements de secousses</string>
     <string name="shake_events_summary">utiliser le secouage pour des actions personnalisées</string>
-    <string name="shake_events_enabled_title">Activer la surveillance des shake events</string>
-    <string name="shake_events_normal_title">Shake events actifs</string>
+    <string name="shake_events_enabled_title">Activer la surveillance des secousses</string>
+    <string name="shake_events_normal_title">Evènement actifs</string>
     <string name="shake_events_disabled_title">Applications désactivées</string>
-    <string name="shake_events_disabled_summary">Les shake events seront désactivés dans ces applications</string>
-    <string name="shake_event_x_title">Activité à lancer quand secoué horizontalement</string>
-    <string name="shake_event_y_title">Activité à lancer quand secoué verticalement</string>
-    <string name="shake_event_z_title">Activité à lancer quand secoué d\'avant en arrière</string>
+    <string name="shake_events_disabled_summary">Les évènements de secousses seront désactivés dans ces applications</string>
+    <string name="shake_event_x_title">Secousse horizontale</string>
+    <string name="shake_event_y_title">secousse verticale</string>
+    <string name="shake_event_z_title">Secousse d\'avant en arrière</string>
     <string name="keyguard_shake_events_cat">Verrouillage clavier</string>
     <string name="keyguard_shake_events_title">Verrouillage clavier à la secousse</string>
 
@@ -2484,4 +2484,9 @@ deux afin d\'insérer des points de contrôle supplémentaires. Enfin, \'Supprim
     <!-- Notification ticker preference -->
     <string name="ticker_disabled_title">Désactiver le symbole de notification</string>
     <string name="ticker_disabled_summary">Ne pas faire défiler le texte des notifications reçues dans la barre de statut</string>
+
+    <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
+    <string name="enable_quickboot_title">Activer le mode de démarrage rapide</string>
+    <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
+    <string name="enable_quickboot_summary">Mettre l\'appareil en mode démarrage rapide au lieu de la mise hors tension actuelle.</string>
 </resources>
