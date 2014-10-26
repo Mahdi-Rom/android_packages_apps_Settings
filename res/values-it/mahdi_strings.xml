@@ -93,6 +93,7 @@
     <string name="power_menu_title">Pulsante spegnimento</string> 
     <string name="power_menu_summary">Vedi o cambia le azioni del pulsante spegnimento</string>
     <string name="lockscreen_enable_power_menu_title">Attiva menu nella lockscreen</string>
+    <string name="lockscreen_enable_power_menu_summary">Nota che questa opzione disabiliterà il menu di spegnimento solo nelle lockscreen sicure</string>
     <string name="power_menu_reboot_title">Menu riavvio</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
@@ -331,6 +332,10 @@
     <string name="pref_use_16bpp_alpha_title">Trasparenza 16 bit</string>
     <string name="pref_use_16bpp_alpha_summary">Migliori performance grafiche, ma qualità minore e possibili bug grafici (riavvio richiesto)</string>
  
+    <!-- Performance : Force high-end graphics -->
+    <string name="pref_force_highend_gfx_title">Grafica alte prestazioni</string>
+    <string name="pref_force_highend_gfx_summary">Forza effetti grafici ad alte prestazioni come le barre trasparenticts (riavvio richiesto)</string>
+    
     <!-- Automatic performance profiles -->
     <string name="autoperf_title">Attiva profili per-app</string>
     <string name="autoperf_summary">Scegli automaticamente un profilo per le prestazioni appropriato per varie app</string>
@@ -345,19 +350,24 @@
     <string name="link_volume_ringtones">Unisci volume suoneria e notifica</string>
     <string name="volume_ring_only_description">Suoneria</string>
     <string name="volume_overlay_title">Stile pannello volume</string>
+    
     <!-- Volume adjust sound -->
     <string name="volume_adjust_sounds_enable_title">Suono regolazione volume</string>
     <string name="volume_adjust_sounds_enable_summary">Suono quando si alza/abbassa il volume con i tasti del volume</string>
+    
     <!-- Safe headset volume -->
     <string name="safe_headset_volume_title">Volume di sicurezza cuffie</string>
     <string name="safe_headset_volume_summary">Evita un volume alto appena vengono messe le cuffie</string>
     <string name="safe_headset_volume_warning_dialog_text">Sentire ad alto volume per molto tempo può danneggiare il tuo udito.</string>
+    <string name="safe_headset_volume_restore_title">Riduci volume cuffie alla connessione</string>
+    
     <!-- Volume button default -->
     <string name="button_volume_default_none">Nessuno</string>
     <string name="button_volume_default_ringer">Suoneria</string>
     <string name="button_volume_default_media">Applicazioni multimediali</string>
     <string name="button_volume_default_title">Volume di default</string>
     <string name="button_volume_default_summary">Quale volume viene cambiato di default</string>
+    
     <!-- Volume panel timeout -->
     <string name="volume_panel_timeout_title">Timeout</string>
     <string name="volume_panel_timeout_summary">Tempo prima che il pannello venga nascosto</string>
@@ -653,6 +663,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- QuickSettings smaller tiles -->
     <string name="title_qs_small_icons">Mostra tile più piccoli</string>
     <string name="summary_qs_small_icons">Usa tile più piccoli per aumentare il numero di colonne</string>
+    
+    <!-- QuickSettings add tile button -->
+    <string name="qs_add_tiles_title">Mostra pulsante modifica</string>
+    <string name="qs_add_tiles_summary">Mostra un pulsante per modificare i quick settings</string>
 
     <!-- This exists as part of Power widget already, re-use them
          If Power widget is removed, re-enable these -->
@@ -720,7 +734,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="clock_disabled">Disattivato</string>
     <string name="status_bar_show_clock_title">Mostra data e ora</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">L\'ora a 24 ore è attivata</string>
+    <string name="status_bar_am_pm_info">L\'orologio a 24 ore è attivato</string>
     <string name="enable_clock_weekday">Giorno della settimana</string>
     <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'ora</string>
     <string name="right_clock">Orologio a destra</string>
@@ -743,10 +757,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="clock_date_style_uppercase">Maiuscolo</string>
     <string name="clock_date_format_custom">Formattazione personalizzata java</string>
     <string name="status_bar_clock_style_reset_message">Ripristinare colore orologio?</string>
+    <string name="status_bar_show_clock_lockscreen_title">Mostra nella lockscreen</string>
 
     <!-- StatusBar Battery Settings -->    
     <string name="status_bar_battery_title">Stile batteria</string>
     <string name="status_bar_style_icon_portrait">Icona verticale</string>
+    <string name="status_bar_style_icon_portrait_slim">Icona verticale fina</string>
     <string name="status_bar_style_icon_landscape">Icona orizzontale</string>
     <string name="status_bar_style_circle">Cerchio</string>
     <string name="status_bar_style_text">Testo</string>
@@ -757,6 +773,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="status_bar_toggle_brightness">Controllo luminosità</string>
     <string name="status_bar_toggle_brightness_summary">Regola luminosità con uno slider nel centro notifiche</string>
     <string name="status_bar_toggle_info">La luminosità automatica è attiva</string>
+    
+    <!-- Statusbar miui carrier -->
+    <string name="statusbar_miui_carrier_title">Operatore nella barra di stato</string>
+    <string name="statusbar_miui_carrier_summary">Mostra l\'operatore nella barra di stato come nella miui</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Attiva privacy guard</string>
@@ -776,6 +796,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="privacy_guard_manager_show_system_apps">Mostra app di sistema</string>
     <string name="privacy_guard_manager_filter_permissions">Filtro permessi</string>
     <string name="privacy_guard_advanced_settings_title">Avanzato</string>
+    <string name="privacy_guard_notification_options">Opzioni notifiche</string>
+    <string name="privacy_guard_notification_options_summary">Vedi o cambia opzioni mnotifica</string>
     <string name="privacy_guard_notification_title">Mostra notifica</string>
     <string name="privacy_guard_notification_icon_title">Mostra icona di notifica</string>
     <string name="privacy_guard_notification_dismiss_title">Notifica rimovibile</string>
@@ -1058,6 +1080,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="notification_hide_labels_wifi">Nascondi Wi-Fi </string>
     <string name="notification_hide_labels_all">Nascondi tutto </string>
     <string name="notification_hide_labels_text">nel menu notifiche </string>
+    
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Notifiche estese</string>
+    <string name="notification_force_expand_summary">Forza le notifiche estese per tutte le app che le supportano</string>
 
     <!-- Navigation settings -->
     <string name="navigation_settings_options_title">Opzioni di navigazione</string>
@@ -1134,14 +1160,16 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="quiet_hours_haptic">Feedback tattile</string>
     <string name="quiet_hours_haptic_summary">Disattiva il feedback tattile</string>
     <string name="quiet_hours_active_period">Attivo da <xliff:g id="start">%1$s</xliff:g> a <xliff:g id="end">%2$s</xliff:g></string>
-    <string name="quiet_hours_ringer_allow_all">Squilla per tutti i chiamanti</string>
-    <string name="quiet_hours_ringer_allow_contacts">Squilla per tutti i contatti</string>
-    <string name="quiet_hours_ringer_allow_starred">Squilla per i contatti preferiti</string>
-    <string name="quiet_hours_ringer_mute_all">Silenzioso per tutti i chiamanti</string>
+    
+    <!-- Ringer mute options -->
+    <string name="quiet_hours_ringer_allow_all">Suoneria attiva</string>
+    <string name="quiet_hours_ringer_allow_contacts">Suoneria attiva per i contatti</string>
+    <string name="quiet_hours_ringer_allow_starred">Suoneria attiva per i preferiti</string>
+    <string name="quiet_hours_ringer_mute_all">Silenzioso</string>
 
     <!-- time range preference -->
-    <string name="start_time_title">Inizio </string>
-    <string name="end_time_title">Fine </string>
+    <string name="start_time_title">Inizio</string>
+    <string name="end_time_title">Fine</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Traffico rete</string>
@@ -1233,6 +1261,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="general">Generale</string>
     <string name="layout">Disposizione</string>
     <string name="privacy">Privacy</string>
+    <string name="wake_up">Risveglio</string>
 
     <string name="lockscreen_notifications">Notifiche in lockscreen</string>
     <string name="summary_lockscreen_notifications_enabled">Le notifiche in lockscreen sono attivate</string>
@@ -1248,6 +1277,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="hide_non_clearable_summary">Nascondi le notifiche che non si possono rimuovere </string>
     <string name="dismiss_all">Permetti di rimuovere tutto</string>
     <string name="dismiss_all_summary">Permetti di rimuovere anche le notifiche non rimovibili. Naturalmente rimarranno nel pannello di notifica</string>
+    <string name="dismiss_notification">Elimina notifica</string>
+    <string name="dismiss_notification_summary">Se una notifica è chiusa o meno quando strisciata via</string>
     <string name="expanded_view">Notifiche estese </string>
     <string name="expanded_view_summary">Mostra notifiche estese quando possibile </string>
     <string name="force_expanded_view">Forza la vista estesa </string>
@@ -1255,12 +1286,14 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="wake_on_notification">Risveglio alla notifica </string>
     <string name="wake_on_notification_summary">Lo schemo si accende quando arriva una notifica </string>
     <string name="notifications_height">Contatore notifiche </string>
-    <string name="notifications_height_summary">Viene mostrato il numero delle notifiche in sospeso </string>
+    <string name="notifications_height_summary">Mostra il numero delle notifiche in sospeso</string>
     <string name="offset_top">Distanza dalla barra di stato:</string>
     <string name="privacy_mode">Modalità privacy </string>
-    <string name="privacy_mode_summary">Disattiva la visione delle notifiche. Si vedranno soltanto le icone. </string>
+    <string name="privacy_mode_summary">Disattiva la visione delle notifiche. Si vedranno soltanto le icone.</string>
     <string name="dynamic_width">Spessore dinamico </string>
     <string name="dynamic_width_summary">Imposta i valori delle notifiche dinamiche, così che usino solo lo spazio necessario </string>
+    <string name="included_apps_title">Applicazioni incluse</string>
+    <string name="included_apps_summary">Le notifiche di bassa priorità delle app incluse saranno mostrate</string>
     <string name="excluded_apps_title">Applicazioni escluse </string>
     <string name="excluded_apps_summary">Le applicazioni escluse non saranno mostrate nella lockscreen </string>
     <string name="notification_color">Colore di sfondo delle notifiche </string>
@@ -1355,6 +1388,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- Lid Settings -->
     <string name="smart_cover">Smart cover</string>
+    <string name="smart_cover_summary">Rimpiazza la lockscreen con una smart cover quando la cover è chiusa</string>
     <string name="smart_cover_wake_title">Risveglio smart cover</string>
     <string name="smart_cover_wake_summary">Risveglia dispositivo all\'apertura della smart cover</string>
     <string name="smart_cover_sleep_title">Spegnimento smart cover</string>
@@ -1425,6 +1459,18 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mostra a sinistra </string>
     <string name="recent_panel_lefty_mode_summary">Mostra il pannello applicazioni recenti a sinistra </string>
+    
+    <!-- App circle sidebar -->
+    <string name="app_circle_bar_title">App barra laterale</string>
+    <string name="app_circle_sidebar_summary">Pri le app più velocemente da una barra laterale e apri più app nella schermata per il multitasking</string>
+    <string name="app_circle_bar_included_apps_title">Included apps</string>
+    <string name="app_circle_bar_included_apps_summary">Apps that show in app circle sidebar</string>
+    <string name="trigger_width_title">Trigger width</string>
+    <string name="trigger_width_summary">Adjust the width of trigger area</string>
+    <string name="trigger_top_title">Trigger position</string>
+    <string name="trigger_top_summary">Adjust the position of trigger area</string>
+    <string name="trigger_bottom_title">Trigger height</string>
+    <string name="trigger_bottom_summary">Adjust the height of trigger area</string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Attenzione!</string>
@@ -1907,6 +1953,16 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="system_bar_visibility">Disattiva in locksceen</string>
     <string name="system_bar_visibility_summary">Mostra la navigation bar e la barra di stato nella lockscreen durante l\'immersive mode</string>
  
+    <!-- Disable forced navbar when keyboard is showing during immersive mode -->
+    <string name="disable_forced_navbar_title"Disattiva navigation bar</string>
+    <string name="disable_forced_navbar_summary">Disattiva la navigation bar quando c\'è la tastiera in modalità immersiva</string>
+
+    <!-- Immersive mode gestures -->
+    <string name="disable_system_gestures_title">Gesture di sistema</string>
+    <string name="disable_system_gestures_off">Attive (predefinito)</string>
+    <string name="disable_system_gestures_navbar">Disattiva gesture navigation bar</string>
+    <string name="disable_system_gestures_statusbar">Disattiva gesture barra di sato</string>
+    
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Modalità On-The-Go</string>
     <string name="title_tile_onthego">On-The-Go</string>
@@ -1934,8 +1990,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="ram_bar_reset_message">Ripristinare lo stile della RAM bar? </string>
 
     <!-- Disable FC Notifications -->
-    <string name="disable_fc_notifications_title">Disattiva notifiche FC</string>
-    <string name="disable_fc_notifications_summary">Questo nasconderà tutte le notifiche forzate </string>
+    <string name="disable_fc_notifications_title">Disattiva notifiche crash</string>
+    <string name="disable_fc_notifications_summary">Questo nasconderà tutte le notifiche dei crash</string>
 
     <!-- Notification drawer brightness slider -->
     <string name="brightness_slider_title">Slider luminosità </string>
@@ -2027,7 +2083,8 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="time_five_to">Cinque alle</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">Pie control</string>
+    <string name="pie_control_title">Slim pie</string>
+    <string name="pie_control_enable_title">Attiva</string>
     <string name="pie_control_summary">Attiva controlli pie per aiutarti durante l\'immersive mode </string>
     <string name="pie_control_size">Grandezza </string>
     <string name="pie_control_trigger_positions">Opzioni inneschi </string>
@@ -2055,12 +2112,12 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="pie_text_color_title">Colore testo </string>
     <string name="pie_background_alpha_title">Trasparenza sfondo </string>
     <string name="pie_mirror_right_title">Pie destro a specchio </string>
-    <string name="pie_mirror_right_summary">Pie a specchio sul lato destro </string>
+    <string name="pie_mirror_right_summary">Pie con pulsanti invertiti sul lato destro </string>
     <string name="pie_style">Stile e dimensioni </string>
     <string name="pie_style_title">Stile </string>
     <string name="pie_dimens_title">Dimensioni </string>
-    <string name="pie_show_snap_title">Mostra punti di aggancio </string>
-    <string name="pie_show_snap_summary">Mostra punti di aggancio per cambiare innesco dinamicamente</string>
+    <string name="pie_show_snap_title">Mostra punti di aggancio</string>
+    <string name="pie_show_snap_summary">Mostra punti di aggancio pe cambiare in modo dinamico il lato di innesco</string>
     <string name="pie_show_text_title">Mostra lo stato e l\'ora </string>
     <string name="pie_show_text_summary">Mostra informazioni sulla data e il gestore </string>
     <string name="pie_show_background_title">Mostra sfondo </string>
@@ -2071,8 +2128,78 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="pie_button_style_summary">Cambia stile pulsanti pie </string>
     <string name="pie_style_reset_message">Ripristinare i valori di default? </string>
     <string name="pie_disable_ime_triggers_title">Riduci grandezza con la tastiera</string>
-    <string name="pie_disable_ime_triggers_summary">Riduci gli inneschi da destra e sinistra se c\'è la tastiera </string>    
-   
+    <string name="pie_disable_ime_triggers_summary">Riduci gli inneschi da destra e sinistra se c\'è la tastiera</string>
+    <string name="pie_background_fadein_time_title">Timer dissolenza</string>
+    <string name="pie_slice_gap_title">Distanza pulsanti</string>
+    <string name="pie_slice_gap_disabled">Disattivata</string>
+    <string name="pie_slice_gap_small">Piccola (predefinito)</string>
+    <string name="pie_slice_gap_medium">Media</string>
+    <string name="pie_slice_gap_large">Grande</string>
+    <string name="pie_colors_title">Colori</string>
+    
+    <!-- PA Pie -->
+    <string name="pa_pie_title">PA pie</string>
+    <string name="pa_pie_controls">Attiva</string>
+    <string name="pa_pie_expanded_only_title">Solo in modalità estesa</string>
+    <string name="pa_pie_expanded_only_summary">Attiva i pie solo in modalità estesa</string>
+    <string name="pa_pie_gravity_title">Posizione</string>
+    <string name="pa_pie_gravity_top">In alto</string>
+    <string name="pa_pie_gravity_bottom">In basso</string>
+    <string name="pa_pie_gravity_right">A destra</string>
+    <string name="pa_pie_gravity_left">A sinistra</string>
+    <string name="pa_pie_mode_title">Stile</string>
+    <string name="pa_pie_mode_bare">Spoglio</string>
+    <string name="pa_pie_mode_quick">Veloce</string>
+    <string name="pa_pie_mode_default">Predefinito</string>
+    <string name="pa_pie_mode_slow">Lento</string>
+    <string name="pa_pie_size_title">Grandezza</string>
+    <string name="pa_pie_size_small">Piccola</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Grande</string>
+    <string name="pa_pie_size_gigantic">Gigante</string>
+    <string name="pa_pie_size_monster">Enorme</string>
+    <string name="pa_pie_color_title">Impstazioni colore</string>
+    <string name="pa_pie_color_style_title">Stile colore</string>
+    <string name="pa_pie_background_title">Colore di sfondo</string>
+    <string name="pa_pie_select_title">Colore selezione</string>
+    <string name="pa_pie_outlines_title">Colore linea esterna</string>
+    <string name="pa_pie_status_clock_title">Colore orologio</string>
+    <string name="pa_pie_status_title">Colore info</string>
+    <string name="pa_pie_chevron_left_title">Colore aggancio sinistro</string>
+    <string name="pa_pie_chevron_right_title">Colore aggancio destro</string>
+    <string name="pa_pie_juice_title">Colore batteria</string>
+    <string name="pa_pie_button_color">Colore pulsante</string>
+    <string name="pa_pie_button_color_title">Colore pulsanti</string>
+    <string name="pa_pie_gap_title">Distanza</string>
+    <string name="pa_pie_angle_title">Angolo</string>
+    <string name="pa_pie_angle_none">Nessuno (vecchio)</string>
+    <string name="pa_pie_angle_small">Piccolo</string>
+    <string name="pa_pie_angle_big">Normale (predefinito)</string>
+    <string name="pa_pie_angle_huge">Grande</string>
+    <string name="pa_pie_angle_super">Enorme</string>
+    <string name="pa_pie_gap_none">Nessuna</string>
+    <string name="pa_pie_gap_small">Piccolo</string>
+    <string name="pa_pie_gap_big">Grande (predefinito)</string>
+    <string name="pa_pie_gap_huge">Enorme</string>
+    <string name="pa_pie_center_title">Allineamento centrale</string>
+    <string name="pa_pie_center_summary">Centro dei pie sul lato di innesco</string>
+    <string name="pa_pie_stick_title">Previeni rotazione</string>
+    <string name="pa_pie_stick_summary">Previene il cambio del lato di innesco quando lo schermo gira</string>
+    <string name="pa_pie_power_title">Pulsante spegni schermo</string>
+    <string name="pa_pie_power_summary">Attiva pulsante spegni schermo sui pie</string>
+    <string name="pa_pie_trigger_title">Area di innesco</string>
+    <string name="pa_pie_trigger_none">Nessuna (disattivato)</string>
+    <string name="pa_pie_trigger_small">@string/pa_pie_size_small</string>
+    <string name="pa_pie_trigger_normal">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_trigger_big">@string/pa_pie_gap_big</string>
+    <string name="pa_pie_trigger_huge">Enorme</string>
+    <string name="pa_pie_notifications_title">Attiva inneschi barra di stato</string>
+    <string name="pa_pie_notifications_summary">Attivando questa opzione si renderanno disponibili due pulsanti per le notifiche e i quick settings</string>
+    <string name="pa_pie_menu_title">Mostra sempre pulsante menu</string>
+    <string name="pa_pie_menu_summary">Mostra sempre il pulsante menu, anche quando non è necessario</string>
+    <string name="pa_pie_restart_launcher_title">Riavvia launcher</string>
+    <string name="pa_pie_restart_launcher_summary">Cambiare la grandezza dello schermo può causare effetti indesiderati. Questa opzione riporta il launcher alla normalità, al costo di un piccolo blackout (consigliato)</string>
+
     <!-- Shortcuts -->
     <string name="shortcut_picker">Azioni</string>
 
@@ -2170,6 +2297,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="menu_hidden_apps_reset_lock">Ripristina modello di sblocco</string>
     <string name="protected_apps">Applicazioni protette</string>
     <string name="saving_protected_components">Salvataggio stato dei componenti</string>
+    <string name="launch_app">Apri app</string>
     
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Ripristina</string>
@@ -2266,6 +2394,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="color_enhancement_title">Colori dinamici</string>
     <string name="color_enhancement_summary">Aumento dinamico dei colori dello schermo</string>
     
+    <!-- SAR information -->
+    <string name="maximum_head_level">Testa: %1$s W/kg</string>
+    <string name="maximum_body_level">Corpo: %1$s W/kg</string>
+    
     <!-- Hardware tunables - Key backlight -->
     <string name="button_backlight_title">Retroilluminazione</string>
     <string name="button_backlight_enabled">Illumina pulsanti</string>
@@ -2316,4 +2448,40 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="block_notifications_summary">Gestisci notifiche ignorate e filtri</string>
     <!-- Keep the referenced menu string consistent with status_bar_notification_spam_item_title in frameworks/base/packages/SystemUI -->
     <string name="no_filters_title">Nessun filtro impostato. Per filtrare una notifica, tieni premuto su di essa e scegli\'Ignora messaggi come questo\'</string>
+    
+    <!-- NFC Polling-->
+    <string name="nfc_polling_mode_title">Modalità NFC polling</string>
+    <string name="nfc_polling_mode_screen_off">Schermo spento</string>
+    <string name="nfc_polling_mode_screen_locked">Schermo acceso, bloccato</string>
+    <string name="nfc_polling_mode_screen_unlocked">Schermo acceso, sbloccato (predefinito)</string>
+
+    <!-- Wifi AP: connected devices -->
+    <string name="wifi_ap_clients_title">Dispositivi connessi</string>
+    <string name="wifi_ap_client_ap_disabled">L\'hotspot è disattivato</string>
+    <string name="wifi_ap_client_none_connected">Nessun dispositivo connesso</string>
+
+    <!-- Tinted statusbar -->
+    <string name="tinted_systembar_title">Barre di sistema colorate</string>
+    <string name="tinted_statusbar_title">Colori</string>
+    <string name="title_tinted_statusbar">Cambio dinamico del colore</string>
+    <string name="title_tinted_statusbar_option">Applica a:</string>
+    <string name="tinted_statusbar_off">Disattivato</string>
+    <string name="tinted_statusbar_actionbar">Barra d'azione</string>
+    <string name="tinted_statusbar_system">Colore schermo</string>
+    <string name="tinted_statusbar_statusbar">Barra di stato</string>
+    <string name="tinted_statusbar_navbar">Navigation bar</string>
+    <string name="tinted_statusbar_all">Entrambe</string>
+    <string name="tinted_statusbar_filter_title">Riversa colore</string>
+    <string name="tinted_statusbar_filter_summary">Attiva usando riversa colore</string>
+    <string name="tinted_statusbar_transparent_title">Trasparenza barra di stato</string>
+    <string name="tinted_navbar_transparent_title">Trasparenza navigation bar</string>
+
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Disativa scorrimento notifiche</string>
+    <string name="ticker_disabled_summary">Disattiva lo scroll delle notifiche nella barra di stato</string>
+
+    <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
+    <string name="enable_quickboot_title">Attiva modalità QuickBoot</string>
+    <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
+    <string name="enable_quickboot_summary">Imposta il dispositivo in modalità QuickBoot invece del normale spegnimento.</string>
 </resources>
