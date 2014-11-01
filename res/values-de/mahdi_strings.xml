@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2013-2014 The Mahdi-Rom Project
-
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
-
 http://www.apache.org/licenses/LICENSE-2.0
-
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -773,6 +770,7 @@ If Power widget is removed, re-enable these -->
     <!-- StatusBar Battery Settings -->
     <string name="status_bar_battery_title">Akkustandanzeige</string>
     <string name="status_bar_style_icon_portrait">Symbol (stehend)</string>
+    <string name="status_bar_style_icon_portrait_slim">Symbol (stehend, verkleinert)</string>
     <string name="status_bar_style_icon_landscape">Symbol (liegend)</string>
     <string name="status_bar_style_circle">Kreis</string>
     <string name="status_bar_style_text">Text</string>
@@ -2303,6 +2301,7 @@ multiple font sizes in a limited amount of space. -->
     <string name="heads_up_time_out_title">Anzeigedauer</string>
     <string name="heads_up_time_out_summary">Heads-Up Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
     <string name="heads_up_time_out_never_summary">Heads-Up Benachrichtigungen werden bis zum löschen angezeigt</string>
+    <string name="heads_up_time_out_2sec">2 Sekunden</string>
     <string name="heads_up_time_out_4sec">4 Sekunden</string>
     <string name="heads_up_time_out_6sec">6 Sekunden</string>
     <string name="heads_up_time_out_8sec">8 Sekunden</string>
@@ -2443,6 +2442,11 @@ multiple font sizes in a limited amount of space. -->
     <string name="tinted_statusbar_filter_summary">Invertierte Farben aktivieren</string>
     <string name="tinted_statusbar_transparent_title">Statusleistendeckkraft</string>
     <string name="tinted_navbar_transparent_title">Navigationsleistendeckkraft</string>
+    
+    
+    <!-- Notification ticker preference -->
+    <string name="ticker_disabled_title">Deaktiviere Benachrichtigungsticker</string>
+    <string name="ticker_disabled_summary">Benachrichtigungstexte scrollen nicht mehr in der Statusleiste</string>
 
     <!-- Quick boot -->
     <string name="enable_quickboot_title">Schnellstartmodus aktivieren</string>
