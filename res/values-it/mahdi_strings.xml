@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2013-2014 The Mahdi-Rom Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -376,7 +373,7 @@
     <string name="headset_category_title">Cuffie</string>
     
     <!-- Headset plug -->
-    <string name="headset_settings">Cuffie</string>
+    <string name="headset_plug_title">Opzioni cuffie</string>
     <string name="headset_plug_enable_title">Inserisci scorciatoia</string>
     <string name="headset_plug_positive_title">Disattivato</string>
     <string name="headset_plug_neutral_title">Predefinito</string>
@@ -1462,7 +1459,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     
     <!-- App circle sidebar -->
     <string name="app_circle_bar_title">App barra laterale</string>
-    <string name="app_circle_sidebar_summary">Pri le app più velocemente da una barra laterale e apri più app nella schermata per il multitasking</string>
+    <string name="app_circle_sidebar_summary">Apri le app più velocemente da una barra laterale e apri più app nella schermata per il multitasking</string>
     <string name="app_circle_bar_included_apps_title">Included apps</string>
     <string name="app_circle_bar_included_apps_summary">Apps that show in app circle sidebar</string>
     <string name="trigger_width_title">Trigger width</string>
@@ -1533,7 +1530,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="theme_auto_switch_mode_error">Lo switch automatico con la luminosità è attivo. Non puoi attivare il tema dark in modo manuale </string>
 
     <!-- Notification drawer background -->    
-    <string name="notification_background_title">Stile sfondo </string>
+    <string name="notification_background_title">Aspetto</string>
     <string name="notification_background_summary">Cambia lo sfondo del menu notifiche</string>
     <string name="notification_wallpaper_title">Sfondo </string>
     <string name="notification_wallpaper_landscape_title">Sfondo in modalità orizzontale differente </string>
@@ -1961,7 +1958,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="disable_system_gestures_title">Gesture di sistema</string>
     <string name="disable_system_gestures_off">Attive (predefinito)</string>
     <string name="disable_system_gestures_navbar">Disattiva gesture navigation bar</string>
-    <string name="disable_system_gestures_statusbar">Disattiva gesture barra di sato</string>
+    <string name="disable_system_gestures_statusbar">Disattiva gesture barra di stato</string>
     
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Modalità On-The-Go</string>
@@ -2329,6 +2326,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' elimina la riga selezionata.
     <string name="heads_up_time_out_title">Timeout</string>
     <string name="heads_up_time_out_summary">Le notifiche di heads up saranno mostrate per <xliff:g id="number">%d</xliff:g> secondi</string>
     <string name="heads_up_time_out_never_summary">Le notifiche di heads up saranno mostrate fino alla loro rimozione.</string>
+    <string name="heads_up_time_out_2sec">2 secondi</string>
     <string name="heads_up_time_out_4sec">4 secondi</string>
     <string name="heads_up_time_out_6sec">6 secondi</string>
     <string name="heads_up_time_out_8sec">8 secondi</string>
