@@ -336,7 +336,11 @@
     <!-- Performance Settings : 16bpp Alpha -->
     <string name="pref_use_16bpp_alpha_title">Transparence 16 bits</string>
     <string name="pref_use_16bpp_alpha_summary">Utiliser le mode 16 bits améliore la vitesse de défilement et des animations, mais peut affecter l\'affichage des éléments transparents (nécessite un redémarrage)</string>
-
+    
+    <!-- Performance : Force high-end graphics -->
+    <string name="pref_force_highend_gfx_title">Forcer les graphiques de haute qualité</string>
+    <string name="pref_force_highend_gfx_summary">Active les effets visuels haute qualité de la transparence de la barre de statut et la barre de navigation (nécessite un redémarrage)</string>
+    
     <!-- Automatic performance profiles -->
     <string name="autoperf_title">Activer les profils par application</string>
     <string name="autoperf_summary">Choisir automatiquement le profil de performance le plus approprié pour les différentes applications</string>
